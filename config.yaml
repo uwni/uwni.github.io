@@ -1,0 +1,135 @@
+baseurl: https://blog.ling.moe
+languageCode: zh-hant
+theme: hugo-theme-stack
+paginate: 5
+timeout: 300000
+title: 鳴鈴
+
+# # Change it to your Disqus shortname before using
+# disqusShortname: hugo-theme-stack
+
+# GA Tracking ID
+googleAnalytics: G-EHQRC06KY5
+
+# Theme i18n support
+# Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl
+DefaultContentLanguage: zh-cn
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
+
+params:
+    mainSections:
+        - posts
+    featuredImageField: image
+    rssFullContent: true
+    favicon: https://blog.ling.moe/files/public/ico/favicon.ico
+
+    footer:
+        since: 2021
+
+    dateFormat:
+        published: Jan 02, 2006
+        lastUpdated: Jan 02, 2006 15:04 MST
+
+    sidebar:
+        emoji: 🍥
+        subtitle: 是穩定裕度很差的非典型人類 (◍•ᴗ•◍)✧*
+        avatar:
+            enabled: true
+            local: true
+            src: img/avatar.jpg
+
+    article:
+        math: false
+        toc: true
+        readingTime: true 
+        license:
+            enabled: true
+            default: Licensed under CC BY-NC-SA 4.0
+
+    comments:
+        enabled: true
+        provider: utterances
+
+        utterances:
+            repo: narisuzu-blog/comments
+            issueTerm: pathname
+            label: ✨💬✨
+
+    widgets:
+        enabled:
+            - search
+            - archives
+            - tag-cloud
+
+        archives:
+            limit: 5
+
+        tagCloud:
+            limit: 10
+
+    opengraph:
+        twitter:
+            # Your Twitter username
+            site:
+
+            # Available values: summary, summary_large_image
+            card: summary_large_image
+
+    defaultImage:
+        opengraph:
+            enabled: false
+            local: false
+            src:
+
+    colorScheme:
+        # Display toggle
+        toggle: true
+
+        # Available values: auto, light, dark
+        default: auto
+
+    imageProcessing:
+        cover:
+            enabled: true
+        content:
+            enabled: true
+
+    imgBase: "https://blog.ling.moe/files/public/tikz/"
+
+### Custom menu
+### See https://docs.stack.jimmycai.com/configuration/custom-menu
+### To remove about, archive and search page menu item, remove `menu` field from their FrontMatter
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: -100
+          pre: home
+        - identifier: feed
+          name: Feed
+          url: /index.xml
+          weight: 0
+          pre: rss
+
+related:
+    includeNewer: true
+    threshold: 60
+    toLower: false
+    indices:
+        - name: tags
+          weight: 100
+
+        - name: categories
+          weight: 200
+
+markup:
+    tableOfContents:
+        endLevel: 4
+        ordered: true
+        startLevel: 2
+    highlight:
+        noClasses: false

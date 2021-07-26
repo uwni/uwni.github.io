@@ -1,0 +1,17 @@
+<article>
+    <a href="{{ .url }}">
+        <div class="article-details">
+            <h2 class="article-title">
+                {{- .title -}}
+            </h2>
+            <footer class="article-time">
+                {{- .subtitle -}}
+            </footer>
+        </div>
+
+
+        <div class="article-image">
+            <img src="{{ .img }}" width="120" height="120" loading="lazy">
+        </div>
+    </a>
+</article>

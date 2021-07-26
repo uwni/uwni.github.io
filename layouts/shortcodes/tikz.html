@@ -1,0 +1,60 @@
+{{ $title := .Get 0 }}
+{{ $desktopWidth := .Get 1 }}
+{{ $mobileWidth := .Get 2 }}
+    <img class="tikz-img" id="tikz-{{$title}}" loading="lazy">
+    {{ with .Inner }}
+    <div class="tikz-capt">{{ safeHTML . }}</div>
+    {{ end }}
+
+<script>
+    (() => {
+        const scheme = document.documentElement.dataset.scheme;
+        const img = document.getElementById("tikz-{{$title}}");
+        const url = '{{.Site.Params.imgBase}}' +
+            (scheme ? scheme : 'light') +
+            '/{{$title}}.svg';
+        img.setAttribute('src', url);
+    })();
+</script>
+
+<style>
+    .tikz-wrapper {
+        padding: 0 20px;
+    }
+
+    .tikz-img {
+        display: block;
+        margin: auto;
+    }
+
+    .tikz-capt {
+        box-sizing: border-box;
+        margin-top: 10px;
+        line-height: 25.9px;
+        text-align: center;
+        font-size: 14px;
+        color: rgb(116, 116, 116)
+    }
+</style>
+
+<!-- 桌面設備寬度 -->
+{{ with $desktopWidth }}
+<style>
+    @media screen and (min-width: 680px) {
+        .tikz-img {
+            width: {{.}};
+        }
+    }
+</style>
+{{ end }}
+
+<!-- 移動設備寬度 -->
+{{ with $mobileWidth }}
+<style>
+    @media screen and (max-width: 680px) {
+        .tikz-img {
+            width: {{.}};
+        }
+    }
+</style>
+{{ end }}
