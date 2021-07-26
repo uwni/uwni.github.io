@@ -1,0 +1,305 @@
+<!doctype html><html lang=zh-hant>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+序 傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.
+在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應. 其電路的模型都是集總參數電路. 集總參數電路是由集總元件連接成的電路, 其中的詳細定義鳴鈴也不怎麼會背, 引用 一下集總電路中的內容：
+ 集總元件是指元件大小遠小於電路工作頻率相對之電磁波波長時, 對所有元件之統稱. 對於信號而言, 不論任何時刻, 元件特性始終保持固定, 與頻率無關. 相反地, 若元件大小與電路工作頻率相對之波長差不多或更大的時候, 則當信號通過元件之時, 元件本身各點之特性將因信號之變化而有所不同, 則此時不能將元件整體視為一特性固定之單一體, 而應稱為分布元件 （Distributed element）, 例如微波電路就是其中一個例子. 在此種電路中傳統之導線很可能會成為具有電感及電容串並聯特性之複雜組合.
+ 總的來說, 不论集總还是分布, 都是在某些條件下, 電路元件的一種抽象化模型. 和質點、點電荷等概念類似, 集總參數是和空間分佈無關的. 而分佈參數就類似於密度的定義, 其分布是和空間相關的. 不如說在傳輸線的場景中, 分佈參數本身就是密度.
+建模型 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
+對於空間中某個變量連續分佈的模型. 其實我們有現成的模型來解決, 那就是密度（廣義上的）. 如果我們沿着這個思想, 就可以構建沿着綫均勻分佈着無窮多無窮小的集總參數二端口網絡的模型. 如下圖所示
+傳輸線模型   (() = { const scheme = document."><title>傳輸線模型（未完稿）</title>
+<link rel=canonical href=https://blog.ling.moe/posts/all-about-transmission-line/>
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="傳輸線模型（未完稿）">
+<meta property="og:description" content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+序 傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.
+在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應. 其電路的模型都是集總參數電路. 集總參數電路是由集總元件連接成的電路, 其中的詳細定義鳴鈴也不怎麼會背, 引用 一下集總電路中的內容：
+ 集總元件是指元件大小遠小於電路工作頻率相對之電磁波波長時, 對所有元件之統稱. 對於信號而言, 不論任何時刻, 元件特性始終保持固定, 與頻率無關. 相反地, 若元件大小與電路工作頻率相對之波長差不多或更大的時候, 則當信號通過元件之時, 元件本身各點之特性將因信號之變化而有所不同, 則此時不能將元件整體視為一特性固定之單一體, 而應稱為分布元件 （Distributed element）, 例如微波電路就是其中一個例子. 在此種電路中傳統之導線很可能會成為具有電感及電容串並聯特性之複雜組合.
+ 總的來說, 不论集總还是分布, 都是在某些條件下, 電路元件的一種抽象化模型. 和質點、點電荷等概念類似, 集總參數是和空間分佈無關的. 而分佈參數就類似於密度的定義, 其分布是和空間相關的. 不如說在傳輸線的場景中, 分佈參數本身就是密度.
+建模型 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
+對於空間中某個變量連續分佈的模型. 其實我們有現成的模型來解決, 那就是密度（廣義上的）. 如果我們沿着這個思想, 就可以構建沿着綫均勻分佈着無窮多無窮小的集總參數二端口網絡的模型. 如下圖所示
+傳輸線模型   (() = { const scheme = document.">
+<meta property="og:url" content="https://blog.ling.moe/posts/all-about-transmission-line/">
+<meta property="og:site_name" content="鳴鈴">
+<meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:tag" content="電路"><meta property="article:published_time" content="2021-07-03T20:54:56+08:00"><meta property="article:modified_time" content="2021-07-03T20:54:56+08:00"><meta property="og:image" content="https://blog.ling.moe/posts/all-about-transmission-line/cover.jpg">
+<meta name=twitter:title content="傳輸線模型（未完稿）">
+<meta name=twitter:description content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+序 傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.
+在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應. 其電路的模型都是集總參數電路. 集總參數電路是由集總元件連接成的電路, 其中的詳細定義鳴鈴也不怎麼會背, 引用 一下集總電路中的內容：
+ 集總元件是指元件大小遠小於電路工作頻率相對之電磁波波長時, 對所有元件之統稱. 對於信號而言, 不論任何時刻, 元件特性始終保持固定, 與頻率無關. 相反地, 若元件大小與電路工作頻率相對之波長差不多或更大的時候, 則當信號通過元件之時, 元件本身各點之特性將因信號之變化而有所不同, 則此時不能將元件整體視為一特性固定之單一體, 而應稱為分布元件 （Distributed element）, 例如微波電路就是其中一個例子. 在此種電路中傳統之導線很可能會成為具有電感及電容串並聯特性之複雜組合.
+ 總的來說, 不论集總还是分布, 都是在某些條件下, 電路元件的一種抽象化模型. 和質點、點電荷等概念類似, 集總參數是和空間分佈無關的. 而分佈參數就類似於密度的定義, 其分布是和空間相關的. 不如說在傳輸線的場景中, 分佈參數本身就是密度.
+建模型 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
+對於空間中某個變量連續分佈的模型. 其實我們有現成的模型來解決, 那就是密度（廣義上的）. 如果我們沿着這個思想, 就可以構建沿着綫均勻分佈着無窮多無窮小的集總參數二端口網絡的模型. 如下圖所示
+傳輸線模型   (() = { const scheme = document."><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.ling.moe/posts/all-about-transmission-line/cover.jpg">
+<link rel="shortcut icon" href=https://blog.ling.moe/files/public/ico/favicon.ico>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
+<style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}.katex-display::-webkit-scrollbar{display:none}.katex-display{overflow:auto hidden;-ms-overflow-style:none;scrollbar-width:none}</style>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+<link rel=stylesheet href=https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css>
+<link rel=stylesheet href=https://pro.fontawesome.com/releases/v5.10.0/css/all.css integrity=sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p crossorigin=anonymous>
+</head>
+<body class="article-page has-toc">
+<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
+<div class="container main-container flex
+extended">
+<div id=article-toolbar>
+<a href=https://blog.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
+<span>返回</span>
+</a>
+</div>
+<main class="main full-width">
+<article class="has-image main-article">
+<header class=article-header>
+<div class=article-image>
+<a href=/posts/all-about-transmission-line/>
+<img src=/posts/all-about-transmission-line/cover_hu04f9cff6700a6865503e4f85d309dd17_642308_800x0_resize_q75_box.jpg srcset="/posts/all-about-transmission-line/cover_hu04f9cff6700a6865503e4f85d309dd17_642308_800x0_resize_q75_box.jpg 800w, /posts/all-about-transmission-line/cover_hu04f9cff6700a6865503e4f85d309dd17_642308_1600x0_resize_q75_box.jpg 1600w" width=800 height=533 loading=lazy alt="Featured image of post 傳輸線模型（未完稿）">
+</a>
+</div>
+<div class=article-details>
+<header class=article-category>
+<a href=/categories/circuit-analysis/>
+電路分析
+</a>
+</header>
+<h2 class=article-title>
+<a href=/posts/all-about-transmission-line/>傳輸線模型（未完稿）</a>
+</h2>
+<footer class=article-time>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Jul 03, 2021</time>
+</div>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>
+3 min read
+</time>
+</div>
+</footer>
+</div>
+</header>
+<section class=article-content>
+<p>$$
+\gdef\dif{\mathop{}\!\mathrm{d}}
+$$</p>
+<h2 id=序>序</h2>
+<p>傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.</p>
+<p>在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應.
+其電路的模型都是集總參數電路. 集總參數電路是由集總元件連接成的電路, 其中的詳細定義鳴鈴也不怎麼會背, 引用
+一下<a class=link href=https://zh.wikipedia.org/wiki/%E9%9B%86%E7%B8%BD%E9%9B%BB%E8%B7%AF target=_blank rel=noopener>
+<i class="inline-icon fab fa-wikipedia-w"></i>集總電路</a>中的內容：</p>
+<blockquote>
+<p>集總元件是指元件大小遠小於電路工作頻率相對之電磁波波長時, 對所有元件之統稱. 對於信號而言, 不論任何時刻, 元件特性始終保持固定, 與頻率無關. 相反地, 若元件大小與電路工作頻率相對之波長差不多或更大的時候, 則當信號通過元件之時, 元件本身各點之特性將因信號之變化而有所不同, 則此時不能將元件整體視為一特性固定之單一體, 而應稱為分布元件 （Distributed element）, 例如微波電路就是其中一個例子. 在此種電路中傳統之導線很可能會成為具有電感及電容串並聯特性之複雜組合.</p>
+</blockquote>
+<p>總的來說, 不论集總还是分布, 都是在某些條件下, 電路元件的一種抽象化模型.
+和質點、點電荷等概念類似, 集總參數是和空間分佈無關的.
+而分佈參數就類似於密度的定義, 其分布是和空間相關的. 不如說在傳輸線的場景中, 分佈參數本身就是密度.</p>
+<h2 id=建模型>建模型</h2>
+<p>Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.</p>
+<p>對於空間中某個變量連續分佈的模型. 其實我們有現成的模型來解決, 那就是密度（廣義上的）. 如果我們沿着這個思想, 就可以構建沿着綫均勻分佈着無窮多無窮小的集總參數二端口網絡的模型. 如下圖所示</p>
+<img class=tikz-img id=tikz-distributed loading=lazy>
+<div class=tikz-capt>
+傳輸線模型
+</div>
+<script>(()=>{const a=document.documentElement.dataset.scheme,b=document.getElementById("tikz-distributed"),c='https://blog.ling.moe/files/public/tikz/'+(a||'light')+'/distributed.svg';b.setAttribute('src',c)})()</script>
+<style>.tikz-wrapper{padding:0 20px}.tikz-img{display:block;margin:auto}.tikz-capt{box-sizing:border-box;margin-top:10px;line-height:25.9px;text-align:center;font-size:14px;color:#747474}</style>
+<style>@media screen and (min-width:680px){.tikz-img{width:70%}}</style>
+<p>如同大多數「密度」的定義, 我們需要求的是傳輸線的參數分佈服從怎樣的規律. 而這些規律又能得出怎樣的結論.
+不難看出, 對於傳輸線而言, 其參數應當是一種綫密度, 即其分佈的空間爲 $\R$. 對於鳴鈴這種數學弱弱的人來說其實是很方便的.</p>
+<h2 id=列方程>列方程</h2>
+<p>因爲要考慮時變信號, 在 $t$ 時, 取傳輸線上 $x$ 處的某點處的傳輸線元素（鳴鈴仿照「線元」的說法稱之爲「傳輸線元」）. 稱上方的綫叫「來綫」下方的線叫「回線」. 左端來綫電流爲 $i(x, t)$, 線電壓爲 $u(x, t)$. 線電阻爲 $R$, 電感爲 $L$, 寄生電容爲 $C$, 電導爲 $G$，線元的長度爲 $\Delta x$. 則右端的綫電流爲 $i(x+\Delta x, t)$, 綫電壓爲 $u(x+\Delta x, t)$.</p>
+<img class=tikz-img id=tikz-dis-element loading=lazy>
+<div class=tikz-capt>
+傳輸線元
+</div>
+<script>(()=>{const a=document.documentElement.dataset.scheme,b=document.getElementById("tikz-dis-element"),c='https://blog.ling.moe/files/public/tikz/'+(a||'light')+'/dis-element.svg';b.setAttribute('src',c)})()</script>
+<style>.tikz-wrapper{padding:0 20px}.tikz-img{display:block;margin:auto}.tikz-capt{box-sizing:border-box;margin-top:10px;line-height:25.9px;text-align:center;font-size:14px;color:#747474}</style>
+<style>@media screen and (min-width:680px){.tikz-img{width:55%}}</style>
+<p><del>宣告</del>了這麼一堆變量，是要幹什麼呢？不妨先列一下 KVL 和 KCL 吧:</p>
+<p>$$
+i(x, t) = i(x+\Delta x, t) + Gu(x+\Delta x, t) + C\frac{\partial u}{\partial t} (x+\Delta x, t)
+$$
+$$
+u(x, t) = u(x+\Delta x,t) + Ri(x, t) + L\frac{\partial i}{\partial t}(x, t)
+$$</p>
+<p>然後, 稍作變形, 成如下形式</p>
+<p>$$
+\frac{i(x+\Delta x, t) - i(x, t)}{\Delta x} = -\frac{G}{\Delta x}u(x+\Delta x, t) - \frac{C}{\Delta x}\frac{\partial u}{\partial t}(x+\Delta x, t) \tag{1}
+$$
+$$
+\frac{u(x+\Delta x, t) - u(x, t)}{\Delta x} = -\frac{R}{\Delta x}i(x,t) - \frac{L}{\Delta x}\frac{\partial i}{\partial t}(x,t) \tag{2}
+$$</p>
+<p>看着這個形式，總感覺想到了什麼。是什麼呢？是(偏)導數的定義式哦！我們對 (1), (2) 式兩邊同時取極限: $\Delta x \to 0$. 首先, 對等號左邊:</p>
+<p>$$
+\lim_{\Delta x \to 0} \frac{i(x+\Delta x, t) - i(x, t)}{\Delta x} = \frac{\partial i}{\partial x} \tag{3}
+$$
+$$
+\lim_{\Delta x \to 0} \frac{u(x+\Delta x, t) - u(x, t)}{\Delta x} = \frac{\partial u}{\partial x} \tag{4}
+$$
+其次，等號右邊，類比密度的定義 $\displaystyle\lim_{\Delta V \to 0} \frac{m}{\Delta V} = \rho$, 定義<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></p>
+<p>$$
+\lim_{\Delta x \to 0} \frac{R}{\Delta x} \coloneqq \lambda_R \tag{5}
+$$
+$$
+\lim_{\Delta x \to 0} \frac{L}{\Delta x} \coloneqq \lambda_L \tag{6}
+$$
+$$
+\lim_{\Delta x \to 0} \frac{G}{\Delta x} \coloneqq \lambda_G \tag{7}
+$$
+$$
+\lim_{\Delta x \to 0} \frac{C}{\Delta x} \coloneqq \lambda_C \tag{8}
+$$</p>
+<p>另外，設 $u$ 和 $\displaystyle\frac{\partial u}{\partial t}$在 $x$ 上連續<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup>則.</p>
+<p>$$
+\lim_{\Delta x \to 0} u(x+\Delta x, t) = u(x,t) \tag{9}
+$$
+$$
+\lim_{\Delta x \to 0} \frac{\partial u}{\partial t}(x+\Delta x, t) = \frac{\partial u}{\partial t}(x, t) \tag{10}
+$$</p>
+<p>根據極限運算規則，將 (3) ~ (10) 代入 (1) 和 (2) 式中, 得到</p>
+<p>$$
+\begin{cases}
+\begin{aligned}
+&\frac{\partial i}{\partial x} = -\lambda_G u - \lambda_C \frac{\partial u}{\partial t} \\
+&\frac{\partial u}{\partial x} = -\lambda_R i - \lambda_L \frac{\partial i}{\partial t}
+\end{aligned}
+\end{cases}
+$$</p>
+<p>這便是電報方程<sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup> (省略自變量).</p>
+<h2 id=解>解</h2>
+<p>下面來討論幾種邊界條件（主要是輸入電壓/電流）下的情況，從簡單到複雜來看:</p>
+<h3 id=直流>直流</h3>
+<p>直流時，設 $i(x,t) = I(x)$ ,$u(x,t) = U(x)$, 從而 $\displaystyle\frac{\partial u}{\partial t} = 0$, $\displaystyle\frac{\partial i}{\partial t} = 0$. 代入電報方程得</p>
+<p>$$
+\begin{cases}
+\begin{aligned}
+&\frac{\dif I}{\dif x} = -\lambda_G U \\
+&\frac{\dif U}{\dif x} = -\lambda_R I
+\end{aligned}
+\end{cases}
+$$</p>
+<p>誒&mldr; 微分方程怎麼解來着？</p>
+<h3 id=正弦穩態>正弦穩態</h3>
+<p>這裏給出正弦穩態信號的解的過程. d</p>
+<h3 id=暫態響應>暫態響應</h3>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p>分別爲電阻、電感、電導、電容的線密度.&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+<li id=fn:2 role=doc-endnote>
+<p>古典物理學中有一句格言：「自然界中，一切都是連續的。」&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+<li id=fn:3 role=doc-endnote>
+<p>《電路》: ISBN 978-7-04-019671-9 中稱其爲「均勻傳輸線方程」，但是不一定本文中只有 $\lambda$ 與 $x$ 無關，才可稱爲「均勻」. 若 $\lambda_R$ 和 $\lambda_G$ 爲 $0$ 則稱爲無損耗傳輸線.&#160;<a href=#fnref:3 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</section>
+<footer class=article-footer>
+<section class=article-tags>
+<a href=/tags/%E9%9B%BB%E8%B7%AF/>電路</a>
+</section>
+<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
+<span>Licensed under CC BY-NC-SA 4.0</span>
+</section>
+</footer>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css integrity=sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js integrity=sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js integrity=sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script>
+</article>
+<aside class=related-contents--wrapper>
+<h2 class=section-title>相关文章</h2>
+<div class=related-contents>
+<div class="flex article-list--tile">
+<article class=has-image>
+<a href=/posts/all-about-multivibrator/>
+<div class=article-image>
+<img src=/posts/all-about-multivibrator/cover.b8e89446d9b85a3fd17b01966d92eec6_hu3d03a01dcc18bc5be0e67db3d8d209a6_1812389_250x150_fill_q75_box_smart1.jpg width=250 height=150 loading=lazy data-key data-hash="md5-uOiURtm4Wj/RewGWbZLuxg==">
+</div>
+<div class=article-details>
+<h2 class=article-title>多諧振蕩器</h2>
+</div>
+</a>
+</article>
+</div>
+</div>
+</aside>
+<script src=https://utteranc.es/client.js repo=narisuzu-blog/comments issue-term=pathname label=✨💬✨ crossorigin=anonymous async></script>
+<style>.utterances{max-width:unset}</style>
+<script>function setUtterancesTheme(b){let a=document.querySelector('.utterances iframe');a&&a.contentWindow.postMessage({type:'set-theme',theme:`github-${b}`},'https://utteranc.es')}addEventListener('message',a=>{if(a.origin!=='https://utteranc.es')return;setUtterancesTheme(document.documentElement.dataset.scheme)}),window.addEventListener('onColorSchemeChange',a=>{setUtterancesTheme(a.detail)})</script>
+<footer class=site-footer>
+<section class=copyright>
+&copy;
+2021 鳴鈴
+</section>
+<section class=powerby>
+Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=2.5.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+</section>
+</footer>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
+</main>
+<aside class="sidebar right-sidebar sticky">
+<section class="widget archives">
+<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+</div>
+<h2 class="widget-title section-title">目录</h2>
+<div class=widget--toc>
+<nav id=TableOfContents>
+<ol>
+<li><a href=#序>序</a></li>
+<li><a href=#建模型>建模型</a></li>
+<li><a href=#列方程>列方程</a></li>
+<li><a href=#解>解</a>
+<ol>
+<li><a href=#直流>直流</a></li>
+<li><a href=#正弦穩態>正弦穩態</a></li>
+<li><a href=#暫態響應>暫態響應</a></li>
+</ol>
+</li>
+</ol>
+</nav>
+</div>
+</section>
+</aside>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+<script type=text/javascript src=/ts/pageViews.js defer></script>
+<script type=text/javascript src=/ts/totalViews.js defer></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+(()=>{var o="production.total",r="G-EHQRC06KY5";async function p(t,a){let s="https://api.countapi.xyz/hit/"+t+"/"+a;return(await fetch(s)).json()}async function i(t,a){let s=document.getElementsByClassName("powerby")[0],n=await p(t,a),c=createElement("span",null,"Total ",createElement("span",null,n.value)," Views",createElement("br",null));s.prepend(c)}i(r,o);})();

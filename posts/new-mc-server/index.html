@@ -1,0 +1,378 @@
+<!doctype html><html lang=zh-hant>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！
+綱要 該伺服器名稱未定，但其應有以下特徵：
+ 私有：不向陌生人開發 在線：Online Mode 香草：保留 Vanilla 風格地 Modded 沉浸：Mod 以增強遊戲PE與機能爲要 求新：在已有 Mod 兼容的前提下，使用最新版本的 Minecraft.  爲什麼要私有呢，因爲大家都有自己的正業，所以希望儘量降低管理成本。 因此若汝想一起來玩的話，需要接受適應性審查。或者由一名或以上的本服玩家擔保，邀請汝加入我們。
+爲了避免任何潛在的政治 .omitted-text { background-color: var(--card-text-color-main); color: transparent; } .omitted-text:hover { transition: color .1s linear; color: var(--card-background); } 風險，Online Mode 是必要的，因爲 Online Mode 下的聊天信息（包括其他的數據包）是經加密的1。 如此可以增加對話被監聽的難度。同時所有的聊天記錄將不會被保留。 在今後，或許會自己開發 Mod 將文字聊天與語音聊天功能轉移至獨立伺服器上，並增強加密算法。
+Mod 列表 以上列諸項爲綱，選取以下 Mod。
+   Name Tags 功能 問題     Adorn BS DE Add lots of furniture    AppleSkin CO UI 飽食度    Better Biome Blend CO UI 生態域邊界優化    Better Third Person CO UI 第三人稱視角優化    bits and chisels DE 方塊雕刻    Canvas CO UI PE 光影依賴模組    Charm BS DE 更多風格的物品    Charmonium BS UI 添加 BGM    Dark Paintings DE 增加一些畫作    Entity Culling CO PE 實體渲染優化    ExtraSounds CO DE 增加 UI 操作的音效    Farmer&amp;rsquo;s Delight BS DE 增加農業和食品機能 Server-side is NA yet   FerriteCore BS PE better memory performance    First-person Model CO DE 添加第一人稱視角優化    Grim&amp;rsquo;s Transportables BS DE 中世紀馬車    Immersive Portals DE 好看的傳送門 Conflicting with Canvas   Lithium SO PE 優化 game physics, mob AI, block ticking, etc    Mod Menu CO UI 遊戲內管理 Mod    Not Enough Animations CO DE 增加動作動畫    Not Enough Crashes CO DB 打印錯誤信息    Phosphor SO PE 光照優化 Outdated   Simple Voice Chat BS UI 語音聊天 瓶頸時考慮替換 mumblelink   Smooth Boot CO PE CPU 優化    Spark BS PE RAM 優化    Physics Mod UI 添加物理效果    Presence Footsteps DE 腳步聲優化    Dropz UI 落體物理 Outdated   Fluid Physics SO FN 流體物理 Will Crash   Fabric Seasons DE FN 加入季節變化     上述 Tags 中"><title>MC:JE 鯖策劃案（更新中...）</title>
+<link rel=canonical href=https://blog.ling.moe/posts/new-mc-server/>
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="MC:JE 鯖策劃案（更新中...）">
+<meta property="og:description" content="列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！
+綱要 該伺服器名稱未定，但其應有以下特徵：
+ 私有：不向陌生人開發 在線：Online Mode 香草：保留 Vanilla 風格地 Modded 沉浸：Mod 以增強遊戲PE與機能爲要 求新：在已有 Mod 兼容的前提下，使用最新版本的 Minecraft.  爲什麼要私有呢，因爲大家都有自己的正業，所以希望儘量降低管理成本。 因此若汝想一起來玩的話，需要接受適應性審查。或者由一名或以上的本服玩家擔保，邀請汝加入我們。
+爲了避免任何潛在的政治 .omitted-text { background-color: var(--card-text-color-main); color: transparent; } .omitted-text:hover { transition: color .1s linear; color: var(--card-background); } 風險，Online Mode 是必要的，因爲 Online Mode 下的聊天信息（包括其他的數據包）是經加密的1。 如此可以增加對話被監聽的難度。同時所有的聊天記錄將不會被保留。 在今後，或許會自己開發 Mod 將文字聊天與語音聊天功能轉移至獨立伺服器上，並增強加密算法。
+Mod 列表 以上列諸項爲綱，選取以下 Mod。
+   Name Tags 功能 問題     Adorn BS DE Add lots of furniture    AppleSkin CO UI 飽食度    Better Biome Blend CO UI 生態域邊界優化    Better Third Person CO UI 第三人稱視角優化    bits and chisels DE 方塊雕刻    Canvas CO UI PE 光影依賴模組    Charm BS DE 更多風格的物品    Charmonium BS UI 添加 BGM    Dark Paintings DE 增加一些畫作    Entity Culling CO PE 實體渲染優化    ExtraSounds CO DE 增加 UI 操作的音效    Farmer&amp;rsquo;s Delight BS DE 增加農業和食品機能 Server-side is NA yet   FerriteCore BS PE better memory performance    First-person Model CO DE 添加第一人稱視角優化    Grim&amp;rsquo;s Transportables BS DE 中世紀馬車    Immersive Portals DE 好看的傳送門 Conflicting with Canvas   Lithium SO PE 優化 game physics, mob AI, block ticking, etc    Mod Menu CO UI 遊戲內管理 Mod    Not Enough Animations CO DE 增加動作動畫    Not Enough Crashes CO DB 打印錯誤信息    Phosphor SO PE 光照優化 Outdated   Simple Voice Chat BS UI 語音聊天 瓶頸時考慮替換 mumblelink   Smooth Boot CO PE CPU 優化    Spark BS PE RAM 優化    Physics Mod UI 添加物理效果    Presence Footsteps DE 腳步聲優化    Dropz UI 落體物理 Outdated   Fluid Physics SO FN 流體物理 Will Crash   Fabric Seasons DE FN 加入季節變化     上述 Tags 中">
+<meta property="og:url" content="https://blog.ling.moe/posts/new-mc-server/">
+<meta property="og:site_name" content="鳴鈴">
+<meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:tag" content="Minecraft"><meta property="article:published_time" content="2021-07-01T16:59:16+08:00"><meta property="article:modified_time" content="2021-07-03T13:56:00+08:00"><meta property="og:image" content="https://blog.ling.moe/posts/new-mc-server/cover.png">
+<meta name=twitter:title content="MC:JE 鯖策劃案（更新中...）">
+<meta name=twitter:description content="列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！
+綱要 該伺服器名稱未定，但其應有以下特徵：
+ 私有：不向陌生人開發 在線：Online Mode 香草：保留 Vanilla 風格地 Modded 沉浸：Mod 以增強遊戲PE與機能爲要 求新：在已有 Mod 兼容的前提下，使用最新版本的 Minecraft.  爲什麼要私有呢，因爲大家都有自己的正業，所以希望儘量降低管理成本。 因此若汝想一起來玩的話，需要接受適應性審查。或者由一名或以上的本服玩家擔保，邀請汝加入我們。
+爲了避免任何潛在的政治 .omitted-text { background-color: var(--card-text-color-main); color: transparent; } .omitted-text:hover { transition: color .1s linear; color: var(--card-background); } 風險，Online Mode 是必要的，因爲 Online Mode 下的聊天信息（包括其他的數據包）是經加密的1。 如此可以增加對話被監聽的難度。同時所有的聊天記錄將不會被保留。 在今後，或許會自己開發 Mod 將文字聊天與語音聊天功能轉移至獨立伺服器上，並增強加密算法。
+Mod 列表 以上列諸項爲綱，選取以下 Mod。
+   Name Tags 功能 問題     Adorn BS DE Add lots of furniture    AppleSkin CO UI 飽食度    Better Biome Blend CO UI 生態域邊界優化    Better Third Person CO UI 第三人稱視角優化    bits and chisels DE 方塊雕刻    Canvas CO UI PE 光影依賴模組    Charm BS DE 更多風格的物品    Charmonium BS UI 添加 BGM    Dark Paintings DE 增加一些畫作    Entity Culling CO PE 實體渲染優化    ExtraSounds CO DE 增加 UI 操作的音效    Farmer&amp;rsquo;s Delight BS DE 增加農業和食品機能 Server-side is NA yet   FerriteCore BS PE better memory performance    First-person Model CO DE 添加第一人稱視角優化    Grim&amp;rsquo;s Transportables BS DE 中世紀馬車    Immersive Portals DE 好看的傳送門 Conflicting with Canvas   Lithium SO PE 優化 game physics, mob AI, block ticking, etc    Mod Menu CO UI 遊戲內管理 Mod    Not Enough Animations CO DE 增加動作動畫    Not Enough Crashes CO DB 打印錯誤信息    Phosphor SO PE 光照優化 Outdated   Simple Voice Chat BS UI 語音聊天 瓶頸時考慮替換 mumblelink   Smooth Boot CO PE CPU 優化    Spark BS PE RAM 優化    Physics Mod UI 添加物理效果    Presence Footsteps DE 腳步聲優化    Dropz UI 落體物理 Outdated   Fluid Physics SO FN 流體物理 Will Crash   Fabric Seasons DE FN 加入季節變化     上述 Tags 中"><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.ling.moe/posts/new-mc-server/cover.png">
+<link rel="shortcut icon" href=https://blog.ling.moe/files/public/ico/favicon.ico>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
+<style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}.katex-display::-webkit-scrollbar{display:none}.katex-display{overflow:auto hidden;-ms-overflow-style:none;scrollbar-width:none}</style>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+</head>
+<body class="article-page has-toc">
+<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
+<div class="container main-container flex
+extended">
+<div id=article-toolbar>
+<a href=https://blog.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
+<span>返回</span>
+</a>
+</div>
+<main class="main full-width">
+<article class="has-image main-article">
+<header class=article-header>
+<div class=article-image>
+<a href=/posts/new-mc-server/>
+<img src=/posts/new-mc-server/cover_hudb8a155cf57091deb506ad941274249d_926158_800x0_resize_box_3.png srcset="/posts/new-mc-server/cover_hudb8a155cf57091deb506ad941274249d_926158_800x0_resize_box_3.png 800w, /posts/new-mc-server/cover_hudb8a155cf57091deb506ad941274249d_926158_1600x0_resize_box_3.png 1600w" width=800 height=450 loading=lazy alt="Featured image of post MC:JE 鯖策劃案（更新中...）">
+</a>
+</div>
+<div class=article-details>
+<h2 class=article-title>
+<a href=/posts/new-mc-server/>MC:JE 鯖策劃案（更新中...）</a>
+</h2>
+<footer class=article-time>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Jul 01, 2021</time>
+</div>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>
+2 min read
+</time>
+</div>
+</footer>
+</div>
+</header>
+<section class=article-content>
+<p>列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！</p>
+<h2 id=綱要>綱要</h2>
+<p>該伺服器名稱未定，但其應有以下特徵：</p>
+<ul>
+<li>私有：不向陌生人開發</li>
+<li>在線：Online Mode</li>
+<li>香草：保留 Vanilla 風格地 Modded</li>
+<li>沉浸：Mod 以增強遊戲PE與機能爲要</li>
+<li>求新：在已有 Mod 兼容的前提下，使用最新版本的 Minecraft.</li>
+</ul>
+<p>爲什麼要私有呢，因爲大家都有自己的正業，所以希望儘量降低管理成本。
+因此若汝想一起來玩的話，需要接受適應性審查。或者由一名或以上的本服玩家擔保，邀請汝加入我們。</p>
+<p>爲了避免任何潛在的<span class=omitted-text title=(*/ω＼*)>政治</span><style>.omitted-text{background-color:var(--card-text-color-main);color:transparent}.omitted-text:hover{transition:color .1s linear;color:var(--card-background)}</style>風險，Online Mode 是必要的，因爲 Online Mode 下的聊天信息（包括其他的數據包）是經加密的<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup>。
+如此可以增加對話被監聽的難度。同時所有的聊天記錄將不會被保留。
+在今後，或許會自己開發 Mod 將文字聊天與語音聊天功能轉移至獨立伺服器上，並增強加密算法。</p>
+<h2 id=mod-列表>Mod 列表</h2>
+<p>以上列諸項爲綱，選取以下 Mod。</p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Tags</th>
+<th>功能</th>
+<th>問題</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/adorn target=_blank rel=noopener>Adorn</a></td>
+<td><code>BS</code> <code>DE</code></td>
+<td>Add lots of furniture</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/appleskin target=_blank rel=noopener>AppleSkin</a></td>
+<td><code>CO</code> <code>UI</code></td>
+<td>飽食度</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/better-biome-blend target=_blank rel=noopener>Better Biome Blend</a></td>
+<td><code>CO</code> <code>UI</code></td>
+<td>生態域邊界優化</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/better-third-person target=_blank rel=noopener>Better Third Person</a></td>
+<td><code>CO</code> <code>UI</code></td>
+<td>第三人稱視角優化</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/bits-and-chisels target=_blank rel=noopener>bits and chisels</a></td>
+<td><code>DE</code></td>
+<td>方塊雕刻</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/canvas-renderer target=_blank rel=noopener>Canvas</a></td>
+<td><code>CO</code> <code>UI</code> <code>PE</code></td>
+<td>光影依賴模組</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/charm target=_blank rel=noopener>Charm</a></td>
+<td><code>BS</code> <code>DE</code></td>
+<td>更多風格的物品</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/charmonium target=_blank rel=noopener>Charmonium</a></td>
+<td><code>BS</code> <code>UI</code></td>
+<td>添加 BGM</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/dark-paintings target=_blank rel=noopener>Dark Paintings</a></td>
+<td><code>DE</code></td>
+<td>增加一些畫作</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/entityculling target=_blank rel=noopener>Entity Culling</a></td>
+<td><code>CO</code> <code>PE</code></td>
+<td>實體渲染優化</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/extrasounds target=_blank rel=noopener>ExtraSounds</a></td>
+<td><code>CO</code> <code>DE</code></td>
+<td>增加 UI 操作的音效</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric target=_blank rel=noopener><del>Farmer&rsquo;s Delight</del></a></td>
+<td><code>BS</code> <code>DE</code></td>
+<td>增加農業和食品機能</td>
+<td><strong>Server-side is NA yet</strong></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/ferritecore-fabric target=_blank rel=noopener>FerriteCore</a></td>
+<td><code>BS</code> <code>PE</code></td>
+<td>better memory performance</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/first-person-model target=_blank rel=noopener>First-person Model</a></td>
+<td><code>CO</code> <code>DE</code></td>
+<td>添加第一人稱視角優化</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/grims-transportables target=_blank rel=noopener>Grim&rsquo;s Transportables</a></td>
+<td><code>BS</code> <code>DE</code></td>
+<td>中世紀馬車</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/immersive-portals-mod target=_blank rel=noopener><del>Immersive Portals</del></a></td>
+<td><code>DE</code></td>
+<td>好看的傳送門</td>
+<td><strong>Conflicting with Canvas</strong></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/lithium target=_blank rel=noopener>Lithium</a></td>
+<td><code>SO</code> <code>PE</code></td>
+<td>優化 game physics, mob AI, block ticking, etc</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/modmenu target=_blank rel=noopener>Mod Menu</a></td>
+<td><code>CO</code> <code>UI</code></td>
+<td>遊戲內管理 Mod</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/not-enough-animations target=_blank rel=noopener>Not Enough Animations</a></td>
+<td><code>CO</code> <code>DE</code></td>
+<td>增加動作動畫</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/not-enough-crashes target=_blank rel=noopener>Not Enough Crashes</a></td>
+<td><code>CO</code> <code>DB</code></td>
+<td>打印錯誤信息</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/phosphor target=_blank rel=noopener><del>Phosphor</del></a></td>
+<td><code>SO</code> <code>PE</code></td>
+<td>光照優化</td>
+<td><strong>Outdated</strong></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat target=_blank rel=noopener>Simple Voice Chat</a></td>
+<td><code>BS</code> <code>UI</code></td>
+<td>語音聊天</td>
+<td>瓶頸時考慮替換 mumblelink</td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/smooth-boot target=_blank rel=noopener>Smooth Boot</a></td>
+<td><code>CO</code> <code>PE</code></td>
+<td>CPU 優化</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/spark target=_blank rel=noopener>Spark</a></td>
+<td><code>BS</code> <code>PE</code></td>
+<td>RAM 優化</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/physics-mod target=_blank rel=noopener>Physics Mod</a></td>
+<td><code>UI</code></td>
+<td>添加物理效果</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/presence-footsteps target=_blank rel=noopener>Presence Footsteps</a></td>
+<td><code>DE</code></td>
+<td>腳步聲優化</td>
+<td></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/dropz target=_blank rel=noopener><del>Dropz</del></a></td>
+<td><code>UI</code></td>
+<td>落體物理</td>
+<td><strong>Outdated</strong></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/fluid-physics target=_blank rel=noopener><del>Fluid Physics</del></a></td>
+<td><code>SO</code> <code>FN</code></td>
+<td>流體物理</td>
+<td><strong>Will Crash</strong></td>
+</tr>
+<tr>
+<td><a class=link href=https://www.curseforge.com/minecraft/mc-mods/fabric-seasons target=_blank rel=noopener>Fabric Seasons</a></td>
+<td><code>DE</code> <code>FN</code></td>
+<td>加入季節變化</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>上述 Tags 中</p>
+<ul>
+<li><code>BS</code> (Both Side): 需要同時在客戶端和伺服端安裝</li>
+<li><code>CO</code> (Client Only): 惟需於客戶端安裝</li>
+<li><code>SO</code> (Server Only): 惟需於伺服端安裝</li>
+<li><code>DE</code> (Decoration): 裝飾性 Mod</li>
+<li><code>FN</code> (Function): 更改遊戲機能的 Mod</li>
+<li><code>UI</code> (User Interface): 優化遊戲 UI 顯示</li>
+<li><code>PE</code> (Performance): 效能增強</li>
+<li><code>DB</code> (Debug): 排錯調試</li>
+</ul>
+<p>爲方便今後開發私有 Mod 以增添附屬功能，選取 Fabric 作爲 Mod Loadder。目前還在調試之中，如果調試完成本文會繼續更新。</p>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p><a class=link href=https://wiki.vg/Protocol_Encryption target=_blank rel=noopener>https://wiki.vg/Protocol_Encryption</a>&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</section>
+<footer class=article-footer>
+<section class=article-tags>
+<a href=/tags/minecraft/>Minecraft</a>
+</section>
+<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
+<span>Licensed under CC BY-NC-SA 4.0</span>
+</section>
+<section class=article-time><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<span class=article-time--modified>
+最后更新于 Jul 03, 2021 13:56 +0800
+</span>
+</section></footer>
+</article>
+<aside class=related-contents--wrapper>
+</aside>
+<script src=https://utteranc.es/client.js repo=narisuzu-blog/comments issue-term=pathname label=✨💬✨ crossorigin=anonymous async></script>
+<style>.utterances{max-width:unset}</style>
+<script>function setUtterancesTheme(b){let a=document.querySelector('.utterances iframe');a&&a.contentWindow.postMessage({type:'set-theme',theme:`github-${b}`},'https://utteranc.es')}addEventListener('message',a=>{if(a.origin!=='https://utteranc.es')return;setUtterancesTheme(document.documentElement.dataset.scheme)}),window.addEventListener('onColorSchemeChange',a=>{setUtterancesTheme(a.detail)})</script>
+<footer class=site-footer>
+<section class=copyright>
+&copy;
+2021 鳴鈴
+</section>
+<section class=powerby>
+Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=2.5.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+</section>
+</footer>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
+</main>
+<aside class="sidebar right-sidebar sticky">
+<section class="widget archives">
+<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+</div>
+<h2 class="widget-title section-title">目录</h2>
+<div class=widget--toc>
+<nav id=TableOfContents>
+<ol>
+<li><a href=#綱要>綱要</a></li>
+<li><a href=#mod-列表>Mod 列表</a></li>
+</ol>
+</nav>
+</div>
+</section>
+</aside>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+<script type=text/javascript src=/ts/pageViews.js defer></script>
+<script type=text/javascript src=/ts/totalViews.js defer></script>
+</body>
+</html>

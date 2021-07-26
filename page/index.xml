@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pages on 鳴鈴</title><link>https://blog.ling.moe/page/</link><description>Recent content in Pages on 鳴鈴</description><generator>Hugo -- gohugo.io</generator><language>zh-hant</language><lastBuildDate>Mon, 28 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.ling.moe/page/index.xml" rel="self" type="application/rss+xml"/><item><title>雜記</title><link>https://blog.ling.moe/diary/</link><pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/diary/</guid><description>這裏面是鳴鈴不成文的小日記，留言時請留意引用某一日的雜記（可以在留言區使用 完整URL#anchor 的語法來引用），歡迎來留言哦~
+爲了方便閱讀，本頁會預設展開最近一週的日記。如果發現有的標題下沒有內容的話，可以點擊日記的標題試試。（當然也可能是鳴鈴忘記寫了）
+📌 置頂 「 正直、戦争なんて大嫌いだ。人間同士の殺し合いなど、人類史上最悪の営みだとすら思う。資源と人的資本の浪費に他ならない。 だが、相手はコミーだ。個人の自由を侵害する全体主義者だ。コミーと共には天を仰げない。安全な後方で順風満帆な人生を送るためにも、銃を取らねばなるまい 」
+&amp;ndash; Tanya von Degurechaff
+拙譯：
+實話說，戰爭什麼的最討厭了。我覺得人類互相屠戮之類的，甚至是人類歷史上最差的行爲。簡直是對資源和人力資本的浪費。 但是，對方是共匪。是侵害個人自由的集體主義者。我無法與共匪共戴天。即便是爲了在安全的後方過一帆風順的人生也應該拿起槍來。
+辛丑年六月初十 「在那種指手畫腳的衝動之上，理智顯得尤其重要」 &amp;mdash;&amp;mdash; 劉大可
+vscode 要求更新本地化的語言包了. 爲什麼中文化之後，很多功能反而不知道什麼意思了.
+detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年六月初九 かわいくなりたい&amp;hellip; 有什麼策略可以在 blog 站裏合理地插入表情呢. 不能使用 inline 風格, 因爲這樣就很難看清表情是什麼內容. 似乎也不好和圖片一樣佔用很大的縱向空間. 唔&amp;hellip;
+detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年六月初六 梦弘浏览器，很難不支持</description></item><item><title>About</title><link>https://blog.ling.moe/about/</link><pubDate>Sun, 07 Jun 2020 20:25:49 +0800</pubDate><guid>https://blog.ling.moe/about/</guid><description>關於敝站
+敝站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog。 驅動自 Hugo, 左列所有功能完全基於 Github 部署, 不使用任何第三方伺服器与資料庫.
+blog 程式 Hugo 持續整合 Github Actions 靜態頁面 Github Pages 留言 utterances 🔮 關於敝站的構建流程，可見於此。
+格式 敝站使用十分高效的 $\KaTeX$ 作爲 $\LaTeX$ 公式渲染器. 中文排版基本按照中文文案排版指北的規範進行.
+關於敝站的格式標準化，可見於：
+留言 在每個有內容的頁面底部，您可以登入 Github 賬戶以發佈留言，留言支援 Markdown 語法.
+著作權 鳴鈴尊重創作者與著作權，敝站所有第三方資源均在共有領域內、或以著作權許可的方式使用。
+敝站除額外標註版權信息外，含下列內容之一者，許可協議均爲姓名標示-非商業性-相同方式分享 4.0 國際 (CC BY-NC-SA 4.0)：
+引用內容（引號與引用塊的內容）之外的文本內容（包含公式的 $\LaTeX$ 源碼） 使用 $\text{Ti}k\text{Z}$ 生成的圖示及其源碼 使用 mermaid 生成的圖示及其源碼 敝站的標準化方案 代碼塊中的代碼 當然，縱使你沒有盡責遵守協議，鳴鈴也不會說什麼。當然如果能提到鳴鈴一句，鳴鈴會十分開心的。
+關於本人 自號「鳴鈴」，想成爲厲害的 Rustacan 與 Gopher，目前啃老中係無業遊民，無知且無能。
+❓爲何號「鳴鈴」：自古人們鳴鐘以警醒，但我無能爲鐘，只求爲鈴。</description></item><item><title>Archives</title><link>https://blog.ling.moe/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/archives/</guid><description/></item><item><title>朋友</title><link>https://blog.ling.moe/links/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/links/</guid><description/></item><item><title>Search</title><link>https://blog.ling.moe/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/search/</guid><description/></item></channel></rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>日本語の勉強 on 鳴鈴</title><link>https://blog.ling.moe/categories/nihongo/</link><description>Recent content in 日本語の勉強 on 鳴鈴</description><generator>Hugo -- gohugo.io</generator><language>zh-hant</language><lastBuildDate>Mon, 05 Jul 2021 12:59:56 +0800</lastBuildDate><atom:link href="https://blog.ling.moe/categories/nihongo/index.xml" rel="self" type="application/rss+xml"/><item><title>以OOP的視角看が和の</title><link>https://blog.ling.moe/posts/no-and-ga-under-oop-views/</link><pubDate>Mon, 05 Jul 2021 12:59:56 +0800</pubDate><guid>https://blog.ling.moe/posts/no-and-ga-under-oop-views/</guid><description>封裝是典型的 OOP 的特徵之一（另外兩個是繼承和多肽多態）
+封裝 拿以下 Java Class 举例 (省略方法實現)
+class Human { double name; // 名前 double weight; // 体重 double height; // 身長 //挨拶 Human helloTo( Human target ) { // do something return this; }; //寝ること Human sleep( Time time ) { // do something return this; }; }; 其中返回 this 是爲了方便鏈式調用。使用成員變量和方法如下
+Human me, you; // omit some codes here ... // use member variables me.</description></item><item><title>動詞接續授受動詞的行爲</title><link>https://blog.ling.moe/posts/jyu-jyu-dou-si/</link><pubDate>Sat, 12 Jun 2021 13:23:10 +0800</pubDate><guid>https://blog.ling.moe/posts/jyu-jyu-dou-si/</guid><description>衆所周知的，日語中的主語常常隱藏因此會產生一系列難解的問題。本文所描述的就是授受動詞動詞接續授受動詞的行爲。 爲什麼會有這個問題呢，最初學習「 V て下さい」的時候，被生硬的翻譯成了「請」。之後又學習了：
+てくれない てくる てあげる てやる てくださる てくださいませんか てくれないでしょうか ていただけませんか ていただけないでしょうか ぁせていただけませんか ぁせていただけないでしょうか ぁせてもらえないでしょうか 等等動詞或使役動詞接續授受動詞的用法。「能不能&amp;hellip;」「請&amp;hellip;」「請允許我&amp;hellip;」這種翻譯學習方法實在過於難受，沒有很好的復用性，於是某一天在看新聞時看到了店鋪的「&amp;hellip;休ませていただきます」就考慮了，一瞬間魚認爲其動詞是「いただく」那麼主語應該是店家吧，而且按照想表達的意思，「休む」也應該是店家的行爲。但再一想，「休む」使用的是使役型呀，那麼主語不應該是顧客嗎？但「いただく」又是拿來的意思，主語應該是纔店家對吧。
+然後花五分鐘仔細思考回想對比了幾個授受動詞的例句後，就有了這篇文章的內容。事實上，考慮非從句的一般授受句型，授受動詞的主語和雙賓（其實不準確，に修飾的不是賓語，但這裏借用英文的雙賓語的概念）分別是物品的接受或發送者(或者相反)，那麼這就是一種約束。現在考慮的是在從句情況下，這種約束關係會帶來怎樣的效果。對於授受動詞而言上述的從句都是雙賓語的「賓語從句」，不難理解，從句的動作便是主句主語傳遞的對象，和非從句情況的授受動詞一樣。
+下面來分類討論一下。
+分類討論 やる &amp;amp; 上げる &amp;amp; 申し上げる 這三個動詞且不論尊敬禮貌與否，其接續名詞方向都是從主語向雙賓的。即被傳遞的物品是主語發出，而雙賓接受的。
+例：本を上げる
+graph LR 主語--本--雙賓 書是由主語發出的。再考慮從句的情形，假設以下從句
+例：遊んであげる
+按照上圖的約束類比得知，「遊んで」也應該由主語發出由雙賓接受（即作用於雙賓語）. P.s. 這句話來自動畫《蜘蛛ですが、なにか？》22 話，魔王所說.
+くれる &amp;amp; 下さる 例：牛丼をください graph LR 主語--牛丼--雙賓
+再考慮從句情況，典型例句爲「座ってください」。 和上面的例子類比分析一下，「座って」這個動作作爲被授受的主體，其應該受「下さる」的方向約束。即必須是由 主句動詞的主語發出，而雙賓語接受的。和前例正好相反。
+從圖可知，くれる和上げる的模式是完全相同的，其方向都是從主語到雙賓語的。二者唯一的區別是句子成分的身份（不是本文討論的內容，但一個「上」一個「下」也應該能管中窺豹）。
+もらう &amp;amp; 頂く 例：プレセントをもらう graph RL 雙賓--プレセント--主語
+典型例句爲「教えてもらった」，其中もらう約束了主句雙賓語必然是物品的提供者或者動作的主語，在例句中 即從句「教えて」的主語是主句的雙賓語。而在前兩種動詞，從句和主句的主賓都是一致的，而「もらう」和「いただく」卻是相反的，這一點也是第一時間難以反應的原因。
+纏め 由以上三例可以看出，主句和從句的主句是沒有什麼關係的。文法上，主句的主語只由主句動詞決定，從句的主語只由從句動詞決定。但是在主語隱藏的情況下，是可以通過授受動詞的方向約束和從句動詞的形式與含義來推斷出主語是誰的。比如開始的「&amp;hellip;休ませていただきます」，顯然從主句可以推斷出這句話的主語接受到了某人的許可可以休假，然後從句是休假的使役型，因爲自己讓自己休假顯然沒有什麼意義，那麼從句省略的主語就是看到看板的顧客們。</description></item></channel></rss>

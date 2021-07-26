@@ -1,0 +1,300 @@
+<!doctype html><html lang=zh-hant>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+序 解微分方程，甚至於說解方程，是方法大於意義的一種過程。從高斯消元法開始，我們都發現，解方程的學習就是在尋求符合某種特定模式（Pattern）的方程的具體解法. 因此對於之前的各種方程的分類，其一方面表現了一定現實意義的象徵，同時對我們而言，也是選取何種方法去解它的一種信號。這種同類的方程是共用某種「模型」的抽象，用 CS 的話說，就是方程這種數學抽象，允許我們在各種不同的場景中復用(Reuse)這些前人總結的結論。
+很顯然的就是在古典控制理論中，一階電路、彈簧阻尼器系統這兩個完全不同的情境都可以抽象成模式相同的一階微分方程，而如果我們學會了一階微分方程，就能同時解決這兩種情境下的問題。而這種解決方程的方法，應該是不含有任何現實意義的，即方程中的任何參量於變量，都是沒有任何含義的。只有在具體的環境下，量才能有具體的意義。這就是鳴鈴之前說的解方程，是方法大於意義的一種過程。在方程約束的數學模型中，解決問題的流程大概可以分爲兩步，列方程（建模）和解方程。而在進入後一個步驟後，我們的焦點就不應該停留在現實意義上了。直到得到解（解集、通解或特解），變量才又重新有了直觀的意義。
+在理工科中，抽象化的概念總是讓人難以理解。但抽象帶來最大的好處，就是增加了過程或結構的通用性. 就像我們能把電路、交通、人物關係都能抽象成圖，從而可以在不同的領域中復用圖論中的結論. 因此不僅是方程, 我們可以將結論也抽象一下, 對於任何事物: 抽象程度愈高, 具體意義愈少.
+對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多。記憶方法性的知識在於練習（做題）。
+而本文之目的，並非在於教條化的記憶或背誦這些方法. 如果不能知其因何可行, 總是令人覺得不安. 單純的將解法和知識當作教條, 這纔是我所認爲的「做題家」, 而我想要的知識是沒有教條的, 除了基本公理是不證自明之外.
+一階微分方程 一階微分方程可以寫成兩種等價的形式 $$\frac{\dif y}{\dif x} = f(x, y)$$ 或 $$P(x,y)\dif x + Q(x,y)\dif y = 0$$ 只要令 $f(x,y) = -\displaystyle\frac{P(x,y)}{Q(x,y)}$, 就可證明二者等價.
+下面一階微分方程的解法, 都是基於這兩種形式之一的.
+一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 對於這樣的微分方程，其解法應遵從以下兩個步驟
+ 變量分離 積分  可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$
+  分離變量 $$\dif y = f(x) \dif x$$"><title>關於常微分方程的一切（更新中）</title>
+<link rel=canonical href=https://blog.ling.moe/posts/all-about-ode/>
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="關於常微分方程的一切（更新中）">
+<meta property="og:description" content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+序 解微分方程，甚至於說解方程，是方法大於意義的一種過程。從高斯消元法開始，我們都發現，解方程的學習就是在尋求符合某種特定模式（Pattern）的方程的具體解法. 因此對於之前的各種方程的分類，其一方面表現了一定現實意義的象徵，同時對我們而言，也是選取何種方法去解它的一種信號。這種同類的方程是共用某種「模型」的抽象，用 CS 的話說，就是方程這種數學抽象，允許我們在各種不同的場景中復用(Reuse)這些前人總結的結論。
+很顯然的就是在古典控制理論中，一階電路、彈簧阻尼器系統這兩個完全不同的情境都可以抽象成模式相同的一階微分方程，而如果我們學會了一階微分方程，就能同時解決這兩種情境下的問題。而這種解決方程的方法，應該是不含有任何現實意義的，即方程中的任何參量於變量，都是沒有任何含義的。只有在具體的環境下，量才能有具體的意義。這就是鳴鈴之前說的解方程，是方法大於意義的一種過程。在方程約束的數學模型中，解決問題的流程大概可以分爲兩步，列方程（建模）和解方程。而在進入後一個步驟後，我們的焦點就不應該停留在現實意義上了。直到得到解（解集、通解或特解），變量才又重新有了直觀的意義。
+在理工科中，抽象化的概念總是讓人難以理解。但抽象帶來最大的好處，就是增加了過程或結構的通用性. 就像我們能把電路、交通、人物關係都能抽象成圖，從而可以在不同的領域中復用圖論中的結論. 因此不僅是方程, 我們可以將結論也抽象一下, 對於任何事物: 抽象程度愈高, 具體意義愈少.
+對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多。記憶方法性的知識在於練習（做題）。
+而本文之目的，並非在於教條化的記憶或背誦這些方法. 如果不能知其因何可行, 總是令人覺得不安. 單純的將解法和知識當作教條, 這纔是我所認爲的「做題家」, 而我想要的知識是沒有教條的, 除了基本公理是不證自明之外.
+一階微分方程 一階微分方程可以寫成兩種等價的形式 $$\frac{\dif y}{\dif x} = f(x, y)$$ 或 $$P(x,y)\dif x + Q(x,y)\dif y = 0$$ 只要令 $f(x,y) = -\displaystyle\frac{P(x,y)}{Q(x,y)}$, 就可證明二者等價.
+下面一階微分方程的解法, 都是基於這兩種形式之一的.
+一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 對於這樣的微分方程，其解法應遵從以下兩個步驟
+ 變量分離 積分  可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$
+  分離變量 $$\dif y = f(x) \dif x$$">
+<meta property="og:url" content="https://blog.ling.moe/posts/all-about-ode/">
+<meta property="og:site_name" content="鳴鈴">
+<meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:tag" content="數學"><meta property="article:tag" content="微積分"><meta property="article:tag" content="微分方程"><meta property="article:published_time" content="2021-07-07T22:07:12+08:00"><meta property="article:modified_time" content="2021-07-07T22:07:12+08:00"><meta property="og:image" content="https://blog.ling.moe/posts/all-about-ode/cover.jpg">
+<meta name=twitter:title content="關於常微分方程的一切（更新中）">
+<meta name=twitter:description content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+序 解微分方程，甚至於說解方程，是方法大於意義的一種過程。從高斯消元法開始，我們都發現，解方程的學習就是在尋求符合某種特定模式（Pattern）的方程的具體解法. 因此對於之前的各種方程的分類，其一方面表現了一定現實意義的象徵，同時對我們而言，也是選取何種方法去解它的一種信號。這種同類的方程是共用某種「模型」的抽象，用 CS 的話說，就是方程這種數學抽象，允許我們在各種不同的場景中復用(Reuse)這些前人總結的結論。
+很顯然的就是在古典控制理論中，一階電路、彈簧阻尼器系統這兩個完全不同的情境都可以抽象成模式相同的一階微分方程，而如果我們學會了一階微分方程，就能同時解決這兩種情境下的問題。而這種解決方程的方法，應該是不含有任何現實意義的，即方程中的任何參量於變量，都是沒有任何含義的。只有在具體的環境下，量才能有具體的意義。這就是鳴鈴之前說的解方程，是方法大於意義的一種過程。在方程約束的數學模型中，解決問題的流程大概可以分爲兩步，列方程（建模）和解方程。而在進入後一個步驟後，我們的焦點就不應該停留在現實意義上了。直到得到解（解集、通解或特解），變量才又重新有了直觀的意義。
+在理工科中，抽象化的概念總是讓人難以理解。但抽象帶來最大的好處，就是增加了過程或結構的通用性. 就像我們能把電路、交通、人物關係都能抽象成圖，從而可以在不同的領域中復用圖論中的結論. 因此不僅是方程, 我們可以將結論也抽象一下, 對於任何事物: 抽象程度愈高, 具體意義愈少.
+對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多。記憶方法性的知識在於練習（做題）。
+而本文之目的，並非在於教條化的記憶或背誦這些方法. 如果不能知其因何可行, 總是令人覺得不安. 單純的將解法和知識當作教條, 這纔是我所認爲的「做題家」, 而我想要的知識是沒有教條的, 除了基本公理是不證自明之外.
+一階微分方程 一階微分方程可以寫成兩種等價的形式 $$\frac{\dif y}{\dif x} = f(x, y)$$ 或 $$P(x,y)\dif x + Q(x,y)\dif y = 0$$ 只要令 $f(x,y) = -\displaystyle\frac{P(x,y)}{Q(x,y)}$, 就可證明二者等價.
+下面一階微分方程的解法, 都是基於這兩種形式之一的.
+一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 對於這樣的微分方程，其解法應遵從以下兩個步驟
+ 變量分離 積分  可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$
+  分離變量 $$\dif y = f(x) \dif x$$"><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.ling.moe/posts/all-about-ode/cover.jpg">
+<link rel="shortcut icon" href=https://blog.ling.moe/files/public/ico/favicon.ico>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
+<style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}.katex-display::-webkit-scrollbar{display:none}.katex-display{overflow:auto hidden;-ms-overflow-style:none;scrollbar-width:none}</style>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+</head>
+<body class="article-page has-toc">
+<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
+<div class="container main-container flex
+extended">
+<div id=article-toolbar>
+<a href=https://blog.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
+<span>返回</span>
+</a>
+</div>
+<main class="main full-width">
+<article class="has-image main-article">
+<header class=article-header>
+<div class=article-image>
+<a href=/posts/all-about-ode/>
+<img src=/posts/all-about-ode/cover_hu40187953f5b88c41521b0a24ee9dc606_226635_800x0_resize_q75_box.jpg srcset="/posts/all-about-ode/cover_hu40187953f5b88c41521b0a24ee9dc606_226635_800x0_resize_q75_box.jpg 800w, /posts/all-about-ode/cover_hu40187953f5b88c41521b0a24ee9dc606_226635_1600x0_resize_q75_box.jpg 1600w" width=800 height=408 loading=lazy alt="Featured image of post 關於常微分方程的一切（更新中）">
+</a>
+</div>
+<div class=article-details>
+<header class=article-category>
+<a href=/categories/calculus/>
+微積分難點
+</a>
+</header>
+<h2 class=article-title>
+<a href=/posts/all-about-ode/>關於常微分方程的一切（更新中）</a>
+</h2>
+<footer class=article-time>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Jul 07, 2021</time>
+</div>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>
+2 min read
+</time>
+</div>
+</footer>
+</div>
+</header>
+<section class=article-content>
+<p>$$
+\gdef\dif{\mathop{}\!\mathrm{d}}
+$$</p>
+<h2 id=序>序</h2>
+<p>解微分方程，甚至於說解方程，是方法大於意義的一種過程。從高斯消元法開始，我們都發現，解方程的學習就是在尋求符合某種特定模式（Pattern）的方程的具體解法. 因此對於之前的各種方程的分類，其一方面表現了一定現實意義的象徵，同時對我們而言，也是選取何種方法去解它的一種信號。這種同類的方程是共用某種「模型」的抽象，用 CS 的話說，就是方程這種數學抽象，允許我們在各種不同的場景中復用(Reuse)這些前人總結的結論。</p>
+<p>很顯然的就是在古典控制理論中，一階電路、彈簧阻尼器系統這兩個完全不同的情境都可以抽象成模式相同的一階微分方程，而如果我們學會了一階微分方程，就能同時解決這兩種情境下的問題。而這種解決方程的方法，應該是不含有任何現實意義的，即方程中的任何參量於變量，都是沒有任何含義的。只有在具體的環境下，量才能有具體的意義。這就是鳴鈴之前說的解方程，是方法大於意義的一種過程。在方程約束的數學模型中，解決問題的流程大概可以分爲兩步，列方程（建模）和解方程。而在進入後一個步驟後，我們的焦點就不應該停留在現實意義上了。直到得到解（解集、通解或特解），變量才又重新有了直觀的意義。</p>
+<p>在理工科中，抽象化的概念總是讓人難以理解。但抽象帶來最大的好處，就是增加了過程或結構的通用性. 就像我們能把電路、交通、人物關係都能抽象成圖，從而可以在不同的領域中復用圖論中的結論. 因此不僅是方程, 我們可以將結論也抽象一下, 對於任何事物: 抽象程度愈高, 具體意義愈少.</p>
+<p>對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多。記憶方法性的知識在於練習（做題）。</p>
+<p>而本文之目的，並非在於教條化的記憶或背誦這些方法. 如果不能知其因何可行, 總是令人覺得不安. 單純的將解法和知識當作教條, 這纔是我所認爲的「做題家」, 而我想要的知識是沒有教條的, 除了基本公理是不證自明之外.</p>
+<h2 id=一階微分方程>一階微分方程</h2>
+<p>一階微分方程可以寫成兩種等價的形式
+$$\frac{\dif y}{\dif x} = f(x, y)$$
+或
+$$P(x,y)\dif x + Q(x,y)\dif y = 0$$
+只要令 $f(x,y) = -\displaystyle\frac{P(x,y)}{Q(x,y)}$, 就可證明二者等價.</p>
+<p>下面一階微分方程的解法, 都是基於這兩種形式之一的.</p>
+<h2 id=一階可分離變量>一階可分離變量</h2>
+<p>有些微分方程，他們的變量是可以分離至等號兩邊的. 對於這樣的微分方程，其解法應遵從以下兩個步驟</p>
+<ol>
+<li>變量分離</li>
+<li>積分</li>
+</ol>
+<h3 id=可分離-𝑥>可分離 𝑥</h3>
+<p>形如:
+$$\frac{\dif y}{\dif x} = f(x)$$</p>
+<ol>
+<li>
+<p>分離變量
+$$\dif y = f(x) \dif x$$</p>
+</li>
+<li>
+<p>積分
+$$y = \int \dif y = \int f(x) \dif x + C$$</p>
+</li>
+</ol>
+<p>對於高階情況, 形如
+$$\frac{\dif^n y}{\dif x^n} = f(x)$$
+其變量依舊是可分離的, 上式可化爲:
+$$\dif\frac{\dif^{n-1} y}{\dif x^{n-1}} = f(x)\dif x$$
+從而
+$$\frac{\dif^{n-1} y}{\dif x^{n-1}} = \int f(x) \dif x + C_1$$
+如此以來也就有:
+$$\frac{\dif^{n-2} y}{\dif x^{n-2}} = \int\left[\int f(x) \dif x\right]\dif x+ C_1x + C_2$$
+如此往復最終可以將等號左邊的 $\dif x$ 全部移到右邊. 從而可以看出，對於高階情況也是變量可分離的.</p>
+<h3 id=可分離-𝑦>可分離 𝑦</h3>
+<p>形如:
+$$\frac{\dif y}{\dif x} = f(y)$$
+這種方程因爲可以描述自治系統，因此稱爲自治方程.</p>
+<ol>
+<li>
+<p>分離變量
+$$\dif x = \frac{1}{f(y)} \dif y$$</p>
+</li>
+<li>
+<p>積分
+$$x = \int \dif x = \int \frac{1}{f(y)} \dif y$$</p>
+</li>
+</ol>
+<p>和可分離 $x$ 不同, 於此種模式下, 若等式左邊是高階導數, 則不可分離變量. 爲什麼不行呢？自己試試不就知道了嗎.</p>
+<h3 id=可分離-𝑥-同-𝑦>可分離 𝑥 同 𝑦</h3>
+<p>形如:
+$$P_1(x)Q_1(y)\dif y + P_2(x)Q_2(y)\dif x = 0$$</p>
+<ol>
+<li>
+<p>分離變量: 等式兩邊同時除以 $P_1(x)Q_2(y)$.
+$$\frac{Q_1(y)}{Q_2(y)} \dif y = -\frac{P_2(x)}{P_1(x)} \dif x$$</p>
+</li>
+<li>
+<p>積分
+$$\int\frac{Q_1(y)}{Q_2(y)} \dif y = -\int\frac{P_2(x)}{P_1(x)} \dif x$$</p>
+</li>
+</ol>
+<h2 id=一階不可分離變量>一階不可分離變量</h2>
+<p>對於另一些微分方程，我們不能直接把他們的變量分離開（比如兩個變量相乘除）. 但也不是沒有辦法, 偉大的數學家先人們已經爲我們照亮迷途啦! 還不快感恩戴德的記下來?!</p>
+<h3 id=一階齊次微分方程>一階齊次微分方程</h3>
+<p>形如:
+$$M(x,y)\dif x + N(x,y)\dif y = 0$$
+其中 $M$ 和 $N$ 是同次的二元齊次函數, 這類微分方程是可以化爲可分離變量的微分方程的, 怎麼分離呢, 是需要一點魔法來先處理一下原方程.
+$$\frac{\dif y}{\dif x} = - \frac{M(x,y)}{N(x,y)}$$
+然後有
+$$
+\frac{\dif y}{\dif x} = - \frac{M\left(1,\displaystyle\frac{y}{x}\right)}{N\left(1,\displaystyle\frac{y}{x}\right)}
+$$
+啊這&mldr; 不對吧, 爲什麼自變量能這麼變啊? 如果沒有忘記 $M$, $N$ 皆爲<strong>齊次函數</strong>的話, 那麼二元齊次函數的定義爲:
+$$f(ax, ay) = a^kf(x,y)$$
+其中, $k$ 爲整數. 按此定義, 就有
+$$\frac{M(x,y)}{N(x,y)} = \frac{\displaystyle x^{-k}M\left(\frac{x}{x},\frac{y}{x}\right)}{\displaystyle x^{-k}N\left(\frac{x}{x},\frac{y}{x}\right)} = \frac{M\left(1,\displaystyle\frac{y}{x}\right)}{N\left(1,\displaystyle\frac{y}{x}\right)}$$
+嗯, 好吧, 但是等號右邊依舊有 $y$ 呀. 怎樣才能分離呢? 使用換元法, 令 $y=u(x)x$
+$$\frac{\dif y}{\dif x} = -\frac{M(1, u)}{N(1, u)} \tag{1}$$
+而 $\displaystyle\frac{\dif y}{\dif x} = \frac{\dif u}{\dif x}x + u(x)$ 代入有
+$$\frac{\dif u}{\dif x} x + u = - \frac{M(1,u)}{N(1,u)}$$
+然後稍作變換, 便可分離變量了.
+$$\frac{1}{\displaystyle\frac{M(1,u)}{N(1,u)} + u} \dif u = -\frac{1}{x}\dif x$$</p>
+<p>好啦, 看起來好複雜的說. 那麼核心思路是什麼呢? 事實上, 我們並沒有分離 $x$ 和 $y$, 我們分離的其實是 $x$ 和 $\displaystyle\frac{y}{x}$. 而我們之所以可以透過換元實現這一點, 是得益於 $M$ 和 $N$ 是同次的齊次函數.</p>
+<p>在教科書上, 對於一階齊次微分方程的描述是這樣的<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></p>
+<blockquote>
+<p>如果一階微分方程可化成
+$$\frac{\dif y}{\dif x} = \varphi\left(\frac{y}{x}\right) \tag{2}$$
+的形式, 那麼就稱這方程爲其次方程.</p>
+</blockquote>
+<p>首先來說明一下這兩種定義的等價性, 而後再來說說兩種定義的優缺點.
+對於式 (1) , 我們令
+$$\varphi(u) \coloneqq -\frac{M(1,u)}{N(1,u)}$$
+而前面我們已經知道 $\displaystyle u=\frac{y}{x}$, 因此式 (1) 等價於式 (2).</p>
+<p>那麼鳴鈴爲什麼不採用教科書上的定義呢？但從式 (2) 的形式, 我們是無法得知這類方程爲什麼叫「齊次」的. 而最致命的, 在後面還會學到「線性齊次微分方程」但這兩個「齊次」所指並不相同. 本節的齊次指的是「齊次函數」而後文的齊次指的是「齊次方程」.所以搞明白「齊次函數」在解方程中作用爲何就尤爲重要.</p>
+<p>那麼教科書上的定義方式有什麼優點呢? 優點就是簡單, 方便學生在稀裏糊塗的情況下把這種方法當作教條一樣背下來解題. 不用去記憶多餘的「齊次函數」什麼的定義. 因爲在解題過程中真正的關鍵是換元, 而理解齊次函數的性質是沒有任何意義的. 所以爲了保護做題家們珍貴的神經元和膠質細胞. 沒有必要記憶這些對於做題沒有意義的知識 )</p>
+<section class=footnotes role=doc-endnotes>
+<hr>
+<ol>
+<li id=fn:1 role=doc-endnote>
+<p>《高等数学第七版上册》同济大学数学系编 ISBN 978-7-04-039663-8&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+</section>
+<footer class=article-footer>
+<section class=article-tags>
+<a href=/tags/%E6%95%B8%E5%AD%B8/>數學</a>
+<a href=/tags/%E5%BE%AE%E7%A9%8D%E5%88%86/>微積分</a>
+<a href=/tags/%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/>微分方程</a>
+</section>
+<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
+<span>Licensed under CC BY-NC-SA 4.0</span>
+</section>
+</footer>
+<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css integrity=sha384-AfEj0r4/OFrOo5t7NnNe46zW/tFgW6x/bCJG8FqQCEo3+Aro6EYUG4+cU+KJWu/X crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js integrity=sha384-g7c+Jr9ZivxKLnZTDUhnkOnsh30B4H0rpLUpJ4jAIKs4fnJI+sEnkvrMWph2EDg4 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/contrib/auto-render.min.js integrity=sha384-mll67QQFJfxn0IYznZYonOWZ644AWYC+Pt2cHqMaRhXVrursRwvLnLaebdGIlYNa crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script>
+</article>
+<aside class=related-contents--wrapper>
+</aside>
+<script src=https://utteranc.es/client.js repo=narisuzu-blog/comments issue-term=pathname label=✨💬✨ crossorigin=anonymous async></script>
+<style>.utterances{max-width:unset}</style>
+<script>function setUtterancesTheme(b){let a=document.querySelector('.utterances iframe');a&&a.contentWindow.postMessage({type:'set-theme',theme:`github-${b}`},'https://utteranc.es')}addEventListener('message',a=>{if(a.origin!=='https://utteranc.es')return;setUtterancesTheme(document.documentElement.dataset.scheme)}),window.addEventListener('onColorSchemeChange',a=>{setUtterancesTheme(a.detail)})</script>
+<footer class=site-footer>
+<section class=copyright>
+&copy;
+2021 鳴鈴
+</section>
+<section class=powerby>
+Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=2.5.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+</section>
+</footer>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
+</main>
+<aside class="sidebar right-sidebar sticky">
+<section class="widget archives">
+<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+</div>
+<h2 class="widget-title section-title">目录</h2>
+<div class=widget--toc>
+<nav id=TableOfContents>
+<ol>
+<li><a href=#序>序</a></li>
+<li><a href=#一階微分方程>一階微分方程</a></li>
+<li><a href=#一階可分離變量>一階可分離變量</a>
+<ol>
+<li><a href=#可分離-𝑥>可分離 𝑥</a></li>
+<li><a href=#可分離-𝑦>可分離 𝑦</a></li>
+<li><a href=#可分離-𝑥-同-𝑦>可分離 𝑥 同 𝑦</a></li>
+</ol>
+</li>
+<li><a href=#一階不可分離變量>一階不可分離變量</a>
+<ol>
+<li><a href=#一階齊次微分方程>一階齊次微分方程</a></li>
+</ol>
+</li>
+</ol>
+</nav>
+</div>
+</section>
+</aside>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+<script type=text/javascript src=/ts/pageViews.js defer></script>
+<script type=text/javascript src=/ts/totalViews.js defer></script>
+</body>
+</html>

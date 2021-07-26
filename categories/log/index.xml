@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>站務 on 鳴鈴</title><link>https://blog.ling.moe/categories/log/</link><description>Recent content in 站務 on 鳴鈴</description><generator>Hugo -- gohugo.io</generator><language>zh-hant</language><lastBuildDate>Sat, 26 Jun 2021 18:50:11 +0800</lastBuildDate><atom:link href="https://blog.ling.moe/categories/log/index.xml" rel="self" type="application/rss+xml"/><item><title>Hugo ❤ Github</title><link>https://blog.ling.moe/posts/hugo-with-all-github/</link><pubDate>Sat, 26 Jun 2021 18:50:11 +0800</pubDate><guid>https://blog.ling.moe/posts/hugo-with-all-github/</guid><description>序 鳴鈴曾經建過的 blog 也不少，用過 WordPress, Typecho 等基於 PHP 的 blog 軟體，最近也用過 Hexo 這種靜態頁面的 blog 軟體，最終因爲一些鳴鈴不願意透露的原因選擇了當前的 Hugo. 爲了省錢，敝站完全使用 Github 來構建，因此對於落魄的鳴鈴來講十分合適 (
+如果你想將本文作爲教程使用，至少需要以下知識儲備：
+git 和 Github Hugo 靜態網頁開發 Blog 程式 Hugo 類似於 $\LaTeX$ 將 .tex 檔案編譯爲 .dvi 或者 .pdf，其可以將十分利於人類讀寫的 Markdown 檔案編譯爲 blog 所需的靜態網頁.
+具體的使用方法可見於此
+部署 在編輯完成 Blog 後，使用 hugo server 以編譯，hugo 會將網站輸出在 \public 目錄下。如果你有虛擬主機或者雲伺服器的話，便可以使用 Nginx 或者 Apache 之類的網頁伺服器來部署你的網頁了。
+但鳴鈴使用 Github Pages 來承載網站，並使用 Github Actions 來實現自動化部署到 Github Pages 上.
+首先我們需要兩個 repositories, 一個用來放 Hugo 的 blog 源碼，另一個用來放編譯生成的網站(用作 Github Pages).</description></item></channel></rss>

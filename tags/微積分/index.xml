@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>微積分 on 鳴鈴</title><link>https://blog.ling.moe/tags/%E5%BE%AE%E7%A9%8D%E5%88%86/</link><description>Recent content in 微積分 on 鳴鈴</description><generator>Hugo -- gohugo.io</generator><language>zh-hant</language><lastBuildDate>Wed, 07 Jul 2021 22:07:12 +0800</lastBuildDate><atom:link href="https://blog.ling.moe/tags/%E5%BE%AE%E7%A9%8D%E5%88%86/index.xml" rel="self" type="application/rss+xml"/><item><title>關於常微分方程的一切（更新中）</title><link>https://blog.ling.moe/posts/all-about-ode/</link><pubDate>Wed, 07 Jul 2021 22:07:12 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-ode/</guid><description>$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+序 解微分方程，甚至於說解方程，是方法大於意義的一種過程。從高斯消元法開始，我們都發現，解方程的學習就是在尋求符合某種特定模式（Pattern）的方程的具體解法. 因此對於之前的各種方程的分類，其一方面表現了一定現實意義的象徵，同時對我們而言，也是選取何種方法去解它的一種信號。這種同類的方程是共用某種「模型」的抽象，用 CS 的話說，就是方程這種數學抽象，允許我們在各種不同的場景中復用(Reuse)這些前人總結的結論。
+很顯然的就是在古典控制理論中，一階電路、彈簧阻尼器系統這兩個完全不同的情境都可以抽象成模式相同的一階微分方程，而如果我們學會了一階微分方程，就能同時解決這兩種情境下的問題。而這種解決方程的方法，應該是不含有任何現實意義的，即方程中的任何參量於變量，都是沒有任何含義的。只有在具體的環境下，量才能有具體的意義。這就是鳴鈴之前說的解方程，是方法大於意義的一種過程。在方程約束的數學模型中，解決問題的流程大概可以分爲兩步，列方程（建模）和解方程。而在進入後一個步驟後，我們的焦點就不應該停留在現實意義上了。直到得到解（解集、通解或特解），變量才又重新有了直觀的意義。
+在理工科中，抽象化的概念總是讓人難以理解。但抽象帶來最大的好處，就是增加了過程或結構的通用性. 就像我們能把電路、交通、人物關係都能抽象成圖，從而可以在不同的領域中復用圖論中的結論. 因此不僅是方程, 我們可以將結論也抽象一下, 對於任何事物: 抽象程度愈高, 具體意義愈少.
+對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多。記憶方法性的知識在於練習（做題）。
+而本文之目的，並非在於教條化的記憶或背誦這些方法. 如果不能知其因何可行, 總是令人覺得不安. 單純的將解法和知識當作教條, 這纔是我所認爲的「做題家」, 而我想要的知識是沒有教條的, 除了基本公理是不證自明之外.
+一階微分方程 一階微分方程可以寫成兩種等價的形式 $$\frac{\dif y}{\dif x} = f(x, y)$$ 或 $$P(x,y)\dif x + Q(x,y)\dif y = 0$$ 只要令 $f(x,y) = -\displaystyle\frac{P(x,y)}{Q(x,y)}$, 就可證明二者等價.
+下面一階微分方程的解法, 都是基於這兩種形式之一的.
+一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 對於這樣的微分方程，其解法應遵從以下兩個步驟
+變量分離 積分 可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$
+分離變量 $$\dif y = f(x) \dif x$$</description></item></channel></rss>

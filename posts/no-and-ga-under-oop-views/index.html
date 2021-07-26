@@ -1,0 +1,237 @@
+<!doctype html><html lang=zh-hant>
+<head><meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="封裝是典型的 OOP 的特徵之一（另外兩個是繼承和多肽多態）
+封裝 拿以下 Java Class 举例 (省略方法實現)
+class Human { double name; // 名前  double weight; // 体重  double height; // 身長  //挨拶  Human helloTo( Human target ) { // do something 	return this; }; //寝ること  Human sleep( Time time ) { // do something 	return this; }; }; 其中返回 this 是爲了方便鏈式調用。使用成員變量和方法如下
+Human me, you; // omit some codes here ...  // use member variables me."><title>以OOP的視角看が和の</title>
+<link rel=canonical href=https://blog.ling.moe/posts/no-and-ga-under-oop-views/>
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="以OOP的視角看が和の">
+<meta property="og:description" content="封裝是典型的 OOP 的特徵之一（另外兩個是繼承和多肽多態）
+封裝 拿以下 Java Class 举例 (省略方法實現)
+class Human { double name; // 名前  double weight; // 体重  double height; // 身長  //挨拶  Human helloTo( Human target ) { // do something 	return this; }; //寝ること  Human sleep( Time time ) { // do something 	return this; }; }; 其中返回 this 是爲了方便鏈式調用。使用成員變量和方法如下
+Human me, you; // omit some codes here ...  // use member variables me.">
+<meta property="og:url" content="https://blog.ling.moe/posts/no-and-ga-under-oop-views/">
+<meta property="og:site_name" content="鳴鈴">
+<meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:published_time" content="2021-07-05T12:59:56+08:00"><meta property="article:modified_time" content="2021-07-05T12:59:56+08:00"><meta property="og:image" content="https://blog.ling.moe/posts/no-and-ga-under-oop-views/cover.jpg">
+<meta name=twitter:title content="以OOP的視角看が和の">
+<meta name=twitter:description content="封裝是典型的 OOP 的特徵之一（另外兩個是繼承和多肽多態）
+封裝 拿以下 Java Class 举例 (省略方法實現)
+class Human { double name; // 名前  double weight; // 体重  double height; // 身長  //挨拶  Human helloTo( Human target ) { // do something 	return this; }; //寝ること  Human sleep( Time time ) { // do something 	return this; }; }; 其中返回 this 是爲了方便鏈式調用。使用成員變量和方法如下
+Human me, you; // omit some codes here ...  // use member variables me."><meta name=twitter:card content="summary_large_image">
+<meta name=twitter:image content="https://blog.ling.moe/posts/no-and-ga-under-oop-views/cover.jpg">
+<link rel="shortcut icon" href=https://blog.ling.moe/files/public/ico/favicon.ico>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
+<style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}.katex-display::-webkit-scrollbar{display:none}.katex-display{overflow:auto hidden;-ms-overflow-style:none;scrollbar-width:none}</style>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+</head>
+<body class="article-page has-toc">
+<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
+<div class="container main-container flex
+extended">
+<div id=article-toolbar>
+<a href=https://blog.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
+<span>返回</span>
+</a>
+</div>
+<main class="main full-width">
+<article class="has-image main-article">
+<header class=article-header>
+<div class=article-image>
+<a href=/posts/no-and-ga-under-oop-views/>
+<img src=/posts/no-and-ga-under-oop-views/cover_hu2d7fe98771aa7bba84c77eadae6be665_366511_800x0_resize_q75_box.jpg srcset="/posts/no-and-ga-under-oop-views/cover_hu2d7fe98771aa7bba84c77eadae6be665_366511_800x0_resize_q75_box.jpg 800w, /posts/no-and-ga-under-oop-views/cover_hu2d7fe98771aa7bba84c77eadae6be665_366511_1600x0_resize_q75_box.jpg 1600w" width=800 height=533 loading=lazy alt="Featured image of post 以OOP的視角看が和の">
+</a>
+</div>
+<div class=article-details>
+<header class=article-category>
+<a href=/categories/thinking/>
+胡思亂想
+</a>
+<a href=/categories/nihongo/>
+日本語の勉強
+</a>
+</header>
+<h2 class=article-title>
+<a href=/posts/no-and-ga-under-oop-views/>以OOP的視角看が和の</a>
+</h2>
+<footer class=article-time>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
+<time class=article-time--published>Jul 05, 2021</time>
+</div>
+<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
+<time class=article-time--reading>
+1 min read
+</time>
+</div>
+</footer>
+</div>
+</header>
+<section class=article-content>
+<p>封裝是典型的 OOP 的特徵之一（另外兩個是繼承和<del>多肽</del>多態）</p>
+<h2 id=封裝>封裝</h2>
+<p>拿以下 Java Class 举例 (省略方法實現)</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=kd>class</span> <span class=nc>Human</span> <span class=o>{</span>
+    <span class=kt>double</span> <span class=n>name</span><span class=o>;</span>    <span class=c1>// 名前
+</span><span class=c1></span>    <span class=kt>double</span> <span class=n>weight</span><span class=o>;</span>  <span class=c1>// 体重
+</span><span class=c1></span>    <span class=kt>double</span> <span class=n>height</span><span class=o>;</span>  <span class=c1>// 身長
+</span><span class=c1></span>
+    <span class=c1>//挨拶
+</span><span class=c1></span>    <span class=n>Human</span> <span class=nf>helloTo</span><span class=o>(</span> <span class=n>Human</span> <span class=n>target</span> <span class=o>)</span> <span class=o>{</span>
+	<span class=c1>// do something
+</span><span class=c1></span>	<span class=k>return</span> <span class=k>this</span><span class=o>;</span>
+    <span class=o>};</span> 
+
+    <span class=c1>//寝ること
+</span><span class=c1></span>    <span class=n>Human</span> <span class=nf>sleep</span><span class=o>(</span> <span class=n>Time</span> <span class=n>time</span> <span class=o>)</span> <span class=o>{</span>
+	<span class=c1>// do something
+</span><span class=c1></span>	<span class=k>return</span> <span class=k>this</span><span class=o>;</span>
+    <span class=o>};</span>
+<span class=o>};</span>
+</code></pre></div><p>其中返回 this 是爲了方便鏈式調用。使用成員變量和方法如下</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=n>Human</span> <span class=n>me</span><span class=o>,</span> <span class=n>you</span><span class=o>;</span>
+
+<span class=c1>// omit some codes here ...
+</span><span class=c1></span>
+<span class=c1>// use member variables
+</span><span class=c1></span><span class=n>me</span><span class=o>.</span><span class=na>name</span><span class=o>;</span>
+<span class=n>you</span><span class=o>.</span><span class=na>height</span><span class=o>;</span>
+
+<span class=c1>// use method
+</span><span class=c1></span><span class=n>me</span><span class=o>.</span><span class=na>helloTo</span><span class=o>(</span><span class=n>you</span><span class=o>);</span>
+<span class=n>me</span><span class=o>.</span><span class=na>sleep</span><span class=o>();</span>
+
+<span class=c1>// link
+</span><span class=c1></span><span class=n>me</span><span class=o>.</span><span class=na>helloTo</span><span class=o>(</span><span class=n>you</span><span class=o>).</span><span class=na>sleep</span><span class=o>();</span>
+</code></pre></div><p>到此爲止在任何語言任何講述 OOP 的教學中都存在於此類似的例子。那麼對於封裝的思想就是：</p>
+<p>把一些擁有共同數據和行爲的結構抽象爲「類」。但這個思想其實就來自於生活之中，就像前例一樣。人擁有名字、身高、體重等數據，也擁有打招呼或睡覺等行爲。既然來自於生活那麼必然有相應的自然語言去描述。</p>
+<p>這便是本文的主題，以 OOP 的角度來看助詞「の」和「が」。</p>
+<h2 id=日文>日文</h2>
+<p>在日文中，如何描述所有關係呢？這個很簡單了，沒有學過日文的人都知道，用「の」接續所有者和所有物。那麼前例從翻譯成日文就是</p>
+<ul>
+<li>私の名前</li>
+<li>あなたの身長</li>
+</ul>
+<p>如果把相應的實詞直譯的話就是</p>
+<ul>
+<li>meのname</li>
+<li>youのheight</li>
+</ul>
+<p>在日文中，修飾主語（動作者）的助詞是「が」，把前例翻譯成日文就是（實詞直譯，只留助詞）</p>
+<ul>
+<li>meがyouにhelloする</li>
+<li>meがsleepする</li>
+<li>meがyouにhelloしてsleepする</li>
+</ul>
+<p>這樣是不是就能看出の和が在形式上存在某種一致性？正如在<a class=link href=https://blog.ling.moe/posts/jyu-jyu-dou-si/>動詞接續授受動詞的行爲</a>一文中類比過的授受動詞在被動詞（從句）和名詞接續的現象，還有在定語從句中の和が可以互換等現象來看：以某個詞爲中心，其發出的動作和其所有的物品，在某種程度上的語言邏輯是類似的。更形式化的說，の 用來接續名詞，而 が 用來接續動詞。將 の 和 が 看作是同級或對偶的存在比較好，而 を，で，に修飾的成分看作是修飾動詞的（即參數，只是存在是否 <code>Nullable</code> 的區別）。在 OOP 中不難發現更多相似之處。</p>
+<p>對於て形中斷，其實和鏈狀調用蛮相似的，那麼與丁寧/辭書形結尾類似的就是「;」了。综合起来舉個複雜的例子。</p>
+<h2 id=例>例</h2>
+<p>私があなたの醤油をつけて彼の餃子を食べる</p>
+<div class=highlight><pre tabindex=0 class=chroma><code class=language-java data-lang=java><span class=n>me</span><span class=o>.</span><span class=na>dip</span><span class=o>(</span><span class=n>you</span><span class=o>.</span><span class=na>joySource</span><span class=o>).</span><span class=na>eat</span><span class=o>(</span><span class=n>he</span><span class=o>.</span><span class=na>dumpling</span><span class=o>);</span>
+</code></pre></div><p>當然了，計算機語言是由人類精心設計過的，主要是給編譯器看的。而自然語言是經歷上千年的變化而來的。拿二者比較本身就不是很嚴謹的事，所以這只是鳴鈴箇人的一點小想法。其實鳴鈴注意到の和が之間存在某種相似性很早之前就有了，當初學到の可以替代從句中的が時就隱隱覺得奇怪，而後仔細對比了の和が在授受動詞接續名詞和從句時的行爲寫成了<a class=link href=https://blog.ling.moe/posts/jyu-jyu-dou-si/>動詞接續授受動詞的行爲</a>一文，之後發現OOP對於變量和方法的封裝正好類似於の和が接續名詞和動詞，也就有了本文。</p>
+</section>
+<footer class=article-footer>
+<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
+<span>Licensed under CC BY-NC-SA 4.0</span>
+</section>
+</footer>
+</article>
+<aside class=related-contents--wrapper>
+<h2 class=section-title>相关文章</h2>
+<div class=related-contents>
+<div class="flex article-list--tile">
+<article class=has-image>
+<a href=/posts/jyu-jyu-dou-si/>
+<div class=article-image>
+<img src=/posts/jyu-jyu-dou-si/cover.cae1fbf243ed3239e97c84fe455eed92_hu3c14a78fca0a60a3358e30cb982d0229_4290743_250x150_fill_q75_box_smart1.jpg width=250 height=150 loading=lazy data-key data-hash="md5-yuH78kPtMjnpfIT+RV7tkg==">
+</div>
+<div class=article-details>
+<h2 class=article-title>動詞接續授受動詞的行爲</h2>
+</div>
+</a>
+</article>
+<article class=has-image>
+<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/>
+<div class=article-image>
+<img src=/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1.9acfec627c7fb92fc43e1f696084c6a1_hua3b5ef3d8ad153eb71e4de820d5d50d2_345788_250x150_fill_q75_box_smart1.jpg width=250 height=150 loading=lazy data-key data-hash="md5-ms/sYnx/uS/EPh9pYITGoQ==">
+</div>
+<div class=article-details>
+<h2 class=article-title>兩個人同時開一個門會怎麼樣？</h2>
+</div>
+</a>
+</article>
+</div>
+</div>
+</aside>
+<script src=https://utteranc.es/client.js repo=narisuzu-blog/comments issue-term=pathname label=✨💬✨ crossorigin=anonymous async></script>
+<style>.utterances{max-width:unset}</style>
+<script>function setUtterancesTheme(b){let a=document.querySelector('.utterances iframe');a&&a.contentWindow.postMessage({type:'set-theme',theme:`github-${b}`},'https://utteranc.es')}addEventListener('message',a=>{if(a.origin!=='https://utteranc.es')return;setUtterancesTheme(document.documentElement.dataset.scheme)}),window.addEventListener('onColorSchemeChange',a=>{setUtterancesTheme(a.detail)})</script>
+<footer class=site-footer>
+<section class=copyright>
+&copy;
+2021 鳴鈴
+</section>
+<section class=powerby>
+Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=2.5.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+</section>
+</footer>
+<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
+<div class=pswp__bg></div>
+<div class=pswp__scroll-wrap>
+<div class=pswp__container>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+<div class=pswp__item></div>
+</div>
+<div class="pswp__ui pswp__ui--hidden">
+<div class=pswp__top-bar>
+<div class=pswp__counter></div>
+<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+<button class="pswp__button pswp__button--share" title=Share></button>
+<button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+<div class=pswp__preloader>
+<div class=pswp__preloader__icn>
+<div class=pswp__preloader__cut>
+<div class=pswp__preloader__donut></div>
+</div>
+</div>
+</div>
+</div>
+<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+<div class=pswp__share-tooltip></div>
+</div>
+<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+</button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+</button>
+<div class=pswp__caption>
+<div class=pswp__caption__center></div>
+</div>
+</div>
+</div>
+</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
+</main>
+<aside class="sidebar right-sidebar sticky">
+<section class="widget archives">
+<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
+</div>
+<h2 class="widget-title section-title">目录</h2>
+<div class=widget--toc>
+<nav id=TableOfContents>
+<ol>
+<li><a href=#封裝>封裝</a></li>
+<li><a href=#日文>日文</a></li>
+<li><a href=#例>例</a></li>
+</ol>
+</nav>
+</div>
+</section>
+</aside>
+</div>
+<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+<script type=text/javascript src=/ts/pageViews.js defer></script>
+<script type=text/javascript src=/ts/totalViews.js defer></script>
+</body>
+</html>
