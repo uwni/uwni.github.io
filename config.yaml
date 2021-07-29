@@ -1,5 +1,5 @@
 baseurl: https://blog.ling.moe
-languageCode: zh-hant
+languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
 timeout: 300000
@@ -13,7 +13,7 @@ googleAnalytics: G-EHQRC06KY5
 
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl
-DefaultContentLanguage: zh-cn
+DefaultContentLanguage: en
 
 permalinks:
     post: /p/:slug/
