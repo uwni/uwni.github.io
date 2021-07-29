@@ -1,4 +1,4 @@
-<!doctype html><html lang=zh-hant>
+<!doctype html><html lang=en-us>
 <head><meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="序 鳴鈴此前發過MC:JE 鯖策劃案一文. 其中遇到了幾個棘手的問題.
  文件管理困難：需要在本地調試好後使用 FTP 上傳至伺服器上 版本控制困難: 同樣需要 FTP, 而且因 MOD 衆多, 所以只要有更新就要傳一次, 十分麻煩.  上述兩個問題皆可透過 Git 來解決. 但是有一個弊端, 需要使用 LFS 來做大體積二進位檔案的存儲, 而且一個一個的下載再 Git Push, Git Pull 又太過麻煩.
@@ -39,7 +39,7 @@ Mod 管理 實現類似 npm 或 maven 這樣的包管理功能. 管理mod, 實�
 extended">
 <div id=article-toolbar>
 <a href=https://blog.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
-<span>返回</span>
+<span>Back</span>
 </a>
 </div>
 <main class="main full-width">
@@ -141,7 +141,7 @@ Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=
 <section class="widget archives">
 <div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
 </div>
-<h2 class="widget-title section-title">目录</h2>
+<h2 class="widget-title section-title">Table of contents</h2>
 <div class=widget--toc>
 <nav id=TableOfContents>
 <ol>
