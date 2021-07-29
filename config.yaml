@@ -24,7 +24,7 @@ params:
         - posts
     featuredImageField: image
     rssFullContent: true
-    favicon: https://blog.ling.moe/files/public/ico/favicon.ico
+    favicon: https://blog.ling.moe/file-storage/public/ico/favicon.ico
 
     footer:
         since: 2021
@@ -97,7 +97,7 @@ params:
         content:
             enabled: true
 
-    imgBase: "https://blog.ling.moe/files/public/tikz/"
+    imgBase: "https://blog.ling.moe/file-storage/public/tikz/"
 
 ### Custom menu
 ### See https://docs.stack.jimmycai.com/configuration/custom-menu
