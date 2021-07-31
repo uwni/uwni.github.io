@@ -176,7 +176,7 @@ $$</p>
 </div>
 </aside>
 <script src=https://giscus.app/client.js data-repo=narisuzu/blog-comments data-repo-id="MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=" data-category=comments data-category-id=DIC_kwDOF0zYzs4B-f-8 data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=1 data-theme=light crossorigin=anonymous async></script>
-<script>function setGiscusTheme(b){let a=document.querySelector('.giscus-frame');a&&a.contentWindow.postMessage({giscus:{setConfig:{theme:b}}},'https://giscus.app')}addEventListener('message',a=>{if(a.origin!=='https://giscus.app')return;setGiscusTheme(document.documentElement.dataset.scheme)}),window.addEventListener('onColorSchemeChange',a=>{setGiscusTheme(a.detail)})</script>
+<script>function setGiscusTheme(b){let a=document.querySelector('.giscus-frame');if(!a)return;a.contentWindow.postMessage({giscus:{setConfig:{theme:b}}},'https://giscus.app')}addEventListener('message',a=>{if(a.origin!=='https://giscus.app')return;setGiscusTheme(document.documentElement.dataset.scheme)}),window.addEventListener('onColorSchemeChange',a=>{setGiscusTheme(a.detail)})</script>
 <footer class=site-footer>
 <section class=copyright>
 &copy;
