@@ -14,18 +14,15 @@
 
 <script>
     function setGiscusTheme(theme) {
-        let utterances = document.querySelector('.giscus-frame');
-        if (utterances) {
-            utterances.contentWindow.postMessage({
-                giscus:{
-                    setConfig: {
-                        theme: theme,
-                    }
+        let giscus = document.querySelector('.giscus-frame');
+        if (!giscus) return;
+        giscus.contentWindow.postMessage({
+            giscus:{
+                setConfig: {
+                    theme: theme,
                 }
-            },
-                'https://giscus.app'
-            );
-        }
+            }
+        }, 'https://giscus.app');
     }
 
     addEventListener('message', event => {
