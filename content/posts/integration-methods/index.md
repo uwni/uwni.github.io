@@ -3,7 +3,7 @@ title: "積分法"
 description: 
 date: 2021-07-08T17:35:28+08:00
 image: 
-math: 
+math: true
 license: 
 hidden: false
 comments: true

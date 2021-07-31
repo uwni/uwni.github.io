@@ -51,12 +51,19 @@ params:
 
     comments:
         enabled: true
-        provider: utterances
+        provider: giscus
 
         utterances:
             repo: narisuzu-blog/comments
             issueTerm: pathname
             label: ✨💬✨
+
+        giscus:
+            repo: narisuzu/blog-comments
+            repoId: MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=
+            category: comments
+            categoryId: DIC_kwDOF0zYzs4B-f-8
+            mapping: pathname
 
     widgets:
         enabled:
