@@ -7,12 +7,13 @@
 對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多。記憶方法性的知識在於練習（做題）。
 而本文之目的，並非在於教條化的記憶或背誦這些方法. 如果不能知其因何可行, 總是令人覺得不安. 單純的將解法和知識當作教條, 這纔是我所認爲的「做題家」, 而我想要的知識是沒有教條的, 除了基本公理是不證自明之外.
 一階微分方程 一階微分方程可以寫成兩種等價的形式 $$\frac{\dif y}{\dif x} = f(x, y)$$ 或 $$P(x,y)\dif x + Q(x,y)\dif y = 0$$ 只要令 $f(x,y) = -\displaystyle\frac{P(x,y)}{Q(x,y)}$, 就可證明二者等價.
-下面一階微分方程的解法, 都是基於這兩種形式之一的.
-一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 對於這樣的微分方程，其解法應遵從以下兩個步驟
- 變量分離 積分  可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$
-  分離變量 $$\dif y = f(x) \dif x$$"><title>關於常微分方程的一切（更新中）</title>
+下面一階微分方程的解法, 都是基於這兩種形式之一的. 但單就「一階微分方程」而言是沒有什麼足夠的特徵或稱性質讓我們利用以解方程的. 方程之所以有法可解, 一定是他擁有某些具體的可利用的性質, 而這些性質往往來自於方程的形式或方程中所含函數的性質. 在意識中建立某種模式到某種方法的映射, 便可作爲被我們解方程的規律.
+一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 形如 $$\frac{\dif y}{\dif x} = g(x)h(y)$$
+對於這樣的微分方程，其解法應遵從以下兩個步驟
+ 變量分離 積分  由上式不難得出幾種常見的亞型.
+可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$"><title>常微分方程與無能的我</title>
 <link rel=canonical href=https://blog.ling.moe/posts/all-about-ode/>
-<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="關於常微分方程的一切（更新中）">
+<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="常微分方程與無能的我">
 <meta property="og:description" content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
 序 解微分方程，甚至於說解方程，是方法大於意義的一種過程。從高斯消元法開始，我們都發現，解方程的學習就是在尋求符合某種特定模式（Pattern）的方程的具體解法. 因此對於之前的各種方程的分類，其一方面表現了一定現實意義的象徵，同時對我們而言，也是選取何種方法去解它的一種信號。這種同類的方程是共用某種「模型」的抽象，用 CS 的話說，就是方程這種數學抽象，允許我們在各種不同的場景中復用(Reuse)這些前人總結的結論。
 很顯然的就是在古典控制理論中，一階電路、彈簧阻尼器系統這兩個完全不同的情境都可以抽象成模式相同的一階微分方程，而如果我們學會了一階微分方程，就能同時解決這兩種情境下的問題。而這種解決方程的方法，應該是不含有任何現實意義的，即方程中的任何參量於變量，都是沒有任何含義的。只有在具體的環境下，量才能有具體的意義。這就是鳴鈴之前說的解方程，是方法大於意義的一種過程。在方程約束的數學模型中，解決問題的流程大概可以分爲兩步，列方程（建模）和解方程。而在進入後一個步驟後，我們的焦點就不應該停留在現實意義上了。直到得到解（解集、通解或特解），變量才又重新有了直觀的意義。
@@ -20,14 +21,15 @@
 對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多。記憶方法性的知識在於練習（做題）。
 而本文之目的，並非在於教條化的記憶或背誦這些方法. 如果不能知其因何可行, 總是令人覺得不安. 單純的將解法和知識當作教條, 這纔是我所認爲的「做題家」, 而我想要的知識是沒有教條的, 除了基本公理是不證自明之外.
 一階微分方程 一階微分方程可以寫成兩種等價的形式 $$\frac{\dif y}{\dif x} = f(x, y)$$ 或 $$P(x,y)\dif x + Q(x,y)\dif y = 0$$ 只要令 $f(x,y) = -\displaystyle\frac{P(x,y)}{Q(x,y)}$, 就可證明二者等價.
-下面一階微分方程的解法, 都是基於這兩種形式之一的.
-一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 對於這樣的微分方程，其解法應遵從以下兩個步驟
- 變量分離 積分  可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$
-  分離變量 $$\dif y = f(x) \dif x$$">
+下面一階微分方程的解法, 都是基於這兩種形式之一的. 但單就「一階微分方程」而言是沒有什麼足夠的特徵或稱性質讓我們利用以解方程的. 方程之所以有法可解, 一定是他擁有某些具體的可利用的性質, 而這些性質往往來自於方程的形式或方程中所含函數的性質. 在意識中建立某種模式到某種方法的映射, 便可作爲被我們解方程的規律.
+一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 形如 $$\frac{\dif y}{\dif x} = g(x)h(y)$$
+對於這樣的微分方程，其解法應遵從以下兩個步驟
+ 變量分離 積分  由上式不難得出幾種常見的亞型.
+可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$">
 <meta property="og:url" content="https://blog.ling.moe/posts/all-about-ode/">
 <meta property="og:site_name" content="鳴鈴">
 <meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:tag" content="數學"><meta property="article:tag" content="微積分"><meta property="article:tag" content="微分方程"><meta property="article:published_time" content="2021-07-07T22:07:12+08:00"><meta property="article:modified_time" content="2021-07-07T22:07:12+08:00"><meta property="og:image" content="https://blog.ling.moe/posts/all-about-ode/cover.jpg">
-<meta name=twitter:title content="關於常微分方程的一切（更新中）">
+<meta name=twitter:title content="常微分方程與無能的我">
 <meta name=twitter:description content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
 序 解微分方程，甚至於說解方程，是方法大於意義的一種過程。從高斯消元法開始，我們都發現，解方程的學習就是在尋求符合某種特定模式（Pattern）的方程的具體解法. 因此對於之前的各種方程的分類，其一方面表現了一定現實意義的象徵，同時對我們而言，也是選取何種方法去解它的一種信號。這種同類的方程是共用某種「模型」的抽象，用 CS 的話說，就是方程這種數學抽象，允許我們在各種不同的場景中復用(Reuse)這些前人總結的結論。
 很顯然的就是在古典控制理論中，一階電路、彈簧阻尼器系統這兩個完全不同的情境都可以抽象成模式相同的一階微分方程，而如果我們學會了一階微分方程，就能同時解決這兩種情境下的問題。而這種解決方程的方法，應該是不含有任何現實意義的，即方程中的任何參量於變量，都是沒有任何含義的。只有在具體的環境下，量才能有具體的意義。這就是鳴鈴之前說的解方程，是方法大於意義的一種過程。在方程約束的數學模型中，解決問題的流程大概可以分爲兩步，列方程（建模）和解方程。而在進入後一個步驟後，我們的焦點就不應該停留在現實意義上了。直到得到解（解集、通解或特解），變量才又重新有了直觀的意義。
@@ -35,10 +37,11 @@
 對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多。記憶方法性的知識在於練習（做題）。
 而本文之目的，並非在於教條化的記憶或背誦這些方法. 如果不能知其因何可行, 總是令人覺得不安. 單純的將解法和知識當作教條, 這纔是我所認爲的「做題家」, 而我想要的知識是沒有教條的, 除了基本公理是不證自明之外.
 一階微分方程 一階微分方程可以寫成兩種等價的形式 $$\frac{\dif y}{\dif x} = f(x, y)$$ 或 $$P(x,y)\dif x + Q(x,y)\dif y = 0$$ 只要令 $f(x,y) = -\displaystyle\frac{P(x,y)}{Q(x,y)}$, 就可證明二者等價.
-下面一階微分方程的解法, 都是基於這兩種形式之一的.
-一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 對於這樣的微分方程，其解法應遵從以下兩個步驟
- 變量分離 積分  可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$
-  分離變量 $$\dif y = f(x) \dif x$$"><meta name=twitter:card content="summary_large_image">
+下面一階微分方程的解法, 都是基於這兩種形式之一的. 但單就「一階微分方程」而言是沒有什麼足夠的特徵或稱性質讓我們利用以解方程的. 方程之所以有法可解, 一定是他擁有某些具體的可利用的性質, 而這些性質往往來自於方程的形式或方程中所含函數的性質. 在意識中建立某種模式到某種方法的映射, 便可作爲被我們解方程的規律.
+一階可分離變量 有些微分方程，他們的變量是可以分離至等號兩邊的. 形如 $$\frac{\dif y}{\dif x} = g(x)h(y)$$
+對於這樣的微分方程，其解法應遵從以下兩個步驟
+ 變量分離 積分  由上式不難得出幾種常見的亞型.
+可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$"><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.ling.moe/posts/all-about-ode/cover.jpg">
 <link rel="shortcut icon" href=https://blog.ling.moe/file-storage/public/ico/favicon.ico>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
@@ -60,7 +63,7 @@ extended">
 <header class=article-header>
 <div class=article-image>
 <a href=/posts/all-about-ode/>
-<img src=/posts/all-about-ode/cover_hu40187953f5b88c41521b0a24ee9dc606_226635_800x0_resize_q75_box.jpg srcset="/posts/all-about-ode/cover_hu40187953f5b88c41521b0a24ee9dc606_226635_800x0_resize_q75_box.jpg 800w, /posts/all-about-ode/cover_hu40187953f5b88c41521b0a24ee9dc606_226635_1600x0_resize_q75_box.jpg 1600w" width=800 height=408 loading=lazy alt="Featured image of post 關於常微分方程的一切（更新中）">
+<img src=/posts/all-about-ode/cover_hu40187953f5b88c41521b0a24ee9dc606_226635_800x0_resize_q75_box.jpg srcset="/posts/all-about-ode/cover_hu40187953f5b88c41521b0a24ee9dc606_226635_800x0_resize_q75_box.jpg 800w, /posts/all-about-ode/cover_hu40187953f5b88c41521b0a24ee9dc606_226635_1600x0_resize_q75_box.jpg 1600w" width=800 height=408 loading=lazy alt="Featured image of post 常微分方程與無能的我">
 </a>
 </div>
 <div class=article-details>
@@ -70,7 +73,7 @@ extended">
 </a>
 </header>
 <h2 class=article-title>
-<a href=/posts/all-about-ode/>關於常微分方程的一切（更新中）</a>
+<a href=/posts/all-about-ode/>常微分方程與無能的我</a>
 </h2>
 <footer class=article-time>
 <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
@@ -78,7 +81,7 @@ extended">
 </div>
 <div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
 <time class=article-time--reading>
-2 min read
+4 min read
 </time>
 </div>
 </footer>
@@ -100,13 +103,16 @@ $$\frac{\dif y}{\dif x} = f(x, y)$$
 或
 $$P(x,y)\dif x + Q(x,y)\dif y = 0$$
 只要令 $f(x,y) = -\displaystyle\frac{P(x,y)}{Q(x,y)}$, 就可證明二者等價.</p>
-<p>下面一階微分方程的解法, 都是基於這兩種形式之一的.</p>
+<p>下面一階微分方程的解法, 都是基於這兩種形式之一的. 但單就「一階微分方程」而言是沒有什麼足夠的特徵或稱性質讓我們利用以解方程的. 方程之所以有法可解, 一定是他擁有某些具體的可利用的性質, 而這些性質往往來自於方程的形式或方程中所含函數的性質. 在意識中建立某種模式到某種方法的映射, 便可作爲被我們解方程的規律.</p>
 <h2 id=一階可分離變量>一階可分離變量</h2>
-<p>有些微分方程，他們的變量是可以分離至等號兩邊的. 對於這樣的微分方程，其解法應遵從以下兩個步驟</p>
+<p>有些微分方程，他們的變量是可以分離至等號兩邊的. 形如
+$$\frac{\dif y}{\dif x} = g(x)h(y)$$</p>
+<p>對於這樣的微分方程，其解法應遵從以下兩個步驟</p>
 <ol>
 <li>變量分離</li>
 <li>積分</li>
 </ol>
+<p>由上式不難得出幾種常見的亞型.</p>
 <h3 id=可分離-𝑥>可分離 𝑥</h3>
 <p>形如:
 $$\frac{\dif y}{\dif x} = f(x)$$</p>
@@ -158,10 +164,10 @@ $$\int\frac{Q_1(y)}{Q_2(y)} \dif y = -\int\frac{P_2(x)}{P_1(x)} \dif x$$</p>
 </li>
 </ol>
 <h2 id=一階不可分離變量>一階不可分離變量</h2>
-<p>對於另一些微分方程，我們不能直接把他們的變量分離開（比如兩個變量相乘除）. 但也不是沒有辦法, 偉大的數學家先人們已經爲我們照亮迷途啦! 還不快感恩戴德的記下來?!</p>
+<p>對於另一些微分方程，我們不能直接把他們的變量分離開. 但也不是沒有辦法, 偉大的數學家們已經爲我們照亮迷途啦! 還不快感恩戴德的記下來?!</p>
 <h3 id=一階齊次微分方程>一階齊次微分方程</h3>
 <p>形如:
-$$M(x,y)\dif x + N(x,y)\dif y = 0$$
+$$M(x,y)\dif x + N(x,y)\dif y = 0 \tag{1}$$
 其中 $M$ 和 $N$ 是同次的二元齊次函數, 這類微分方程是可以化爲可分離變量的微分方程的, 怎麼分離呢, 是需要一點魔法來先處理一下原方程.
 $$\frac{\dif y}{\dif x} = - \frac{M(x,y)}{N(x,y)}$$
 然後有
@@ -173,7 +179,7 @@ $$f(ax, ay) = a^kf(x,y)$$
 其中, $k$ 爲整數. 按此定義, 就有
 $$\frac{M(x,y)}{N(x,y)} = \frac{\displaystyle x^{-k}M\left(\frac{x}{x},\frac{y}{x}\right)}{\displaystyle x^{-k}N\left(\frac{x}{x},\frac{y}{x}\right)} = \frac{M\left(1,\displaystyle\frac{y}{x}\right)}{N\left(1,\displaystyle\frac{y}{x}\right)}$$
 嗯, 好吧, 但是等號右邊依舊有 $y$ 呀. 怎樣才能分離呢? 使用換元法, 令 $y=u(x)x$
-$$\frac{\dif y}{\dif x} = -\frac{M(1, u)}{N(1, u)} \tag{1}$$
+$$\frac{\dif y}{\dif x} = -\frac{M(1, u)}{N(1, u)} \tag{2}$$
 而 $\displaystyle\frac{\dif y}{\dif x} = \frac{\dif u}{\dif x}x + u(x)$ 代入有
 $$\frac{\dif u}{\dif x} x + u = - \frac{M(1,u)}{N(1,u)}$$
 然後稍作變換, 便可分離變量了.
@@ -182,20 +188,113 @@ $$\frac{1}{\displaystyle\frac{M(1,u)}{N(1,u)} + u} \dif u = -\frac{1}{x}\dif x$$
 <p>在教科書上, 對於一階齊次微分方程的描述是這樣的<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></p>
 <blockquote>
 <p>如果一階微分方程可化成
-$$\frac{\dif y}{\dif x} = \varphi\left(\frac{y}{x}\right) \tag{2}$$
+$$\frac{\dif y}{\dif x} = \varphi\left(\frac{y}{x}\right) \tag{3}$$
 的形式, 那麼就稱這方程爲其次方程.</p>
 </blockquote>
 <p>首先來說明一下這兩種定義的等價性, 而後再來說說兩種定義的優缺點.
-對於式 (1) , 我們令
+對於式 (2) , 我們令
 $$\varphi(u) \coloneqq -\frac{M(1,u)}{N(1,u)}$$
-而前面我們已經知道 $\displaystyle u=\frac{y}{x}$, 因此式 (1) 等價於式 (2).</p>
-<p>那麼鳴鈴爲什麼不採用教科書上的定義呢？但從式 (2) 的形式, 我們是無法得知這類方程爲什麼叫「齊次」的. 而最致命的, 在後面還會學到「線性齊次微分方程」但這兩個「齊次」所指並不相同. 本節的齊次指的是「齊次函數」而後文的齊次指的是「齊次方程」.所以搞明白「齊次函數」在解方程中作用爲何就尤爲重要.</p>
+而前面我們已經知道 $\displaystyle u=\frac{y}{x}$, 因此式 (2) 等價於式 (3).</p>
+<p>那麼鳴鈴爲什麼不採用教科書上的定義呢？單從式 (3) 的形式, 我們是無法得知這類方程爲什麼叫「齊次」的. 而最致命的, 在後面還會學到「線性齊次微分方程」但這兩個「齊次」所指並不相同. 本節的齊次指的是「齊次函數」而後文的齊次指的是「齊次方程」.所以搞明白「齊次函數」在解方程中作用爲何就尤爲重要.</p>
 <p>那麼教科書上的定義方式有什麼優點呢? 優點就是簡單, 方便學生在稀裏糊塗的情況下把這種方法當作教條一樣背下來解題. 不用去記憶多餘的「齊次函數」什麼的定義. 因爲在解題過程中真正的關鍵是換元, 而理解齊次函數的性質是沒有任何意義的. 所以爲了保護做題家們珍貴的神經元和膠質細胞. 沒有必要記憶這些對於做題沒有意義的知識 )</p>
+<h3 id=一階可化爲齊次的方程>一階可化爲齊次的方程</h3>
+<p>同濟高數提到了這樣一種特殊形式的方程，在式 (1) 中:
+$$
+\begin{gathered}
+M \coloneqq a_1x+b_1y+c_1 \\
+N \coloneqq a_2x+b_2y+c_2
+\end{gathered}
+$$
+時，$M(\alpha x, \alpha y) = \alpha (a_1x + b_1y) + c_1$, 不爲齊次方程, $N$ 同理. 然而我們依然可以透過換元來適用齊次方程的解法.</p>
+<p>我們可以想辦法構造
+$$
+\begin{gathered}
+M = a'_1x'+b'_1y' \\
+N = a'_2x'+b'_2y'
+\end{gathered}
+$$
+如此雖然$M(x, y)$ 和 $N(x, y)$ 並非齊次函數，但 $M(x', y')$ 和 $N(x', y')$ 是齊次函數. 而我們只需要求出 $x$ 和 $x'$, $y$ 和 $y'$ 之間的關係, 便可應用一階齊次方程的解法.</p>
+<p>這其實也是換元法最大且唯一的思路，使用換元法可以將一種未知解法的「模式」轉換爲一種已知的「模式」. 而這種思想其實滲透應用於各個角落。譬如某些物理量的複量<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup>，其作用便是爲了利用歐拉公式用指數運算來簡化三角函數運算.</p>
+<h3 id=小結>小結</h3>
+<p>在此之前所提及的種種微分方程，以及之後提到的微分方程, 其核心思想就是絞盡腦汁把方程化成可分離變量的形式. 比如一階可化爲齊次的方程先換元化爲齊次方程，齊次方程再利用換元法得到可分離變量的微分方程. 因此解方程的圖景是很明晰的, 各種不同形式的方程解法的核心就在於如何分離變量, 而換元則是很重要的一種方法.</p>
+<h2 id=線性微分方程>線性微分方程</h2>
+<p>前面提到，這裏的線性是指「線性方程」的線性. 那麼什麼叫線性方程呢? 滿足線性的方程叫做線性方程, 滿足線性的方程組叫做線性方程組.
+但這兩個線性又不是同一個線性的定義.. @_@ 好暈啊. 這裏直接採用 Wikipedia 的定義1和定義2以區別兩種定義. 顯然線性方程組的「線性」指的是定義1. 而這種定義是流於形式的, 是不一定滿足可和和齊次性的. 或者說只有當這種線性方程擁有平凡解時（即常數項爲$0$）才符合定義2.</p>
+<p>其實從名字也能看出，微分的線性性質和線性微分方程的線性是不同的. 因爲線性的定義2要求滿足「齊次性」，而又存在「線性非齊次微分方程」, 如果這種方程的「線性」和要求齊次性的「線性」是同一定義, 則自相矛盾. 而鳴鈴就是從這裏發現不對勁的地方的.</p>
+<details>
+<summary>雖然本文大概和定義 2 無關, 但鳴鈴還是想討論一下</summary>
+<p><p>在線性代數中有對於這種性質是另一種表述. 對於函數 $y = f(\bm{x}), \bm{x} \in \R^n$.
+設集合 $S : \{(x_1 \cdots x_n, y) \in \R^{n+1} | y = f(\bm{x})\} $, 若 $S$ 對數乘和加法封閉. 則
+$$
+\begin{gathered}
+(\bm{x}_1 + \bm{x}_2 , y_1 + y_2) \in S \\
+k\bm{x}_1 \in S
+\end{gathered}
+$$
+和和數乘都屬於解集, 則說明其都滿足方程. 不難證明, 這等價於
+$$
+\begin{gathered}
+f(\bm{x}_1 + \bm{x}_2) = f(\bm{x}_1) + f(\bm{x}_2)\\
+f(k\bm{x}_1) = kf(\bm{x}_1)
+\end{gathered}
+$$</p>
+<p>也就是說, 這時的函數 $f(\bm{x})$ 是定義 2 下的線性函數. 這說明線性函數約束了所有變量存在於一個向量空間中.
+你問鳴鈴這有什麼用？ 當然沒用啦.</p>
+</p>
+</details>
+<p>在線性微分方程領域. 因其線性指的是定義 1 , 但如果將常數項移動到等號右邊, 等號左邊的函數(變換)便是線性的, 故對於形如
+$$
+y^{(n)} + a_1(x)y^{(n-1)} + \cdots +a_{n-1}(x)y' + a_n(x)y = b(x) \tag{4}
+$$</p>
+<p>的方程, 有
+$$
+\begin{gathered}
+&(y_1 + y_2)^{(n)} + a_1(x)(y_1 + y_2)^{(n-1)} + \cdots +a_{n-1}(x)(y_1+y_2)' + a_n(x)(y_1+y_2) = b_1(x) + b_2(x)\\
+&(ky)^{(n)} + a_1(x)(ky)^{(n-1)} + \cdots +a_{n-1}(x)(ky)' + a_n(x)(ky) = kb(x)
+\end{gathered}
+$$</p>
+<p>因而稱其爲 $n$ 階線性微分方程. 細究起來，不難發現其線性特徵其實是來自於兩方面，一是微分算子的線性. 即
+$$
+\begin{gathered}
+&(f+g)'(x) = f'(x) + g'(x)\\
+&(kf)'(x) = kf'(x)
+\end{gathered}
+$$
+而微分算子的線性實際上是來自於向量空間中定義的加法和數乘運算, 從導數的極限定義不難證明 <span class=omitted-text title=(*/ω＼*)>（<del>讀者自證不難</del>）</span><style>.omitted-text{background-color:var(--card-text-color-main);color:transparent}.omitted-text:hover{transition:color .1s linear;color:var(--card-background)}</style>
+<details>
+<summary>小貼士</summary>
+<p>$$
+\begin{gathered}
+(f+g)'(x_0) &= \lim_{x\to x_0} \frac{(f+g)(x) - (f+g)(x_0)}{x - x_0}
+\end{gathered}
+$$
+如果 $C^1[a,b]$ 不是向量空間則不存在加法, 則不存在 $(f+g)'(x)$</p>
+</details>
+</p>
+<p>好啦好啦，看起來扯太遠了 (ﾉ≧ڡ≦).</p>
+<h3 id=線性微分方程解的分析>線性微分方程解的分析</h3>
+<p>對於線性微分方程的解, 我們總能得出一些通用的結論. 因爲擔心諸位的熒幕寬度與流量, 就先拿二階舉例<span class=omitted-text title=(*/ω＼*)><del>其實是因爲懶</del></span><style>.omitted-text{background-color:var(--card-text-color-main);color:transparent}.omitted-text:hover{transition:color .1s linear;color:var(--card-background)}</style>, 這裏就直接引用同濟版高數.</p>
+<blockquote>
+<p>對於方程
+$$y'' + P(x)y' +Q(x)y = 0$$
+若函數 $y_1$ 和 $y_2$ 是方程的兩個解
+那麼 $$y = c_1y_1(x) + c_2y_2(x)$$
+也是方程的解. $c_1$, $c_2$ 是任意常數.</p>
+</blockquote>
+<p><strong>證明</strong>： 設方程解集爲 $S$, 由題可知 $S$ 是 $C^2[a, b]$ 的子空間 (題目中出現了二階導數，所以 $y$ 必然二階可導). 因此 $S$ 封閉, 得證.</p>
+<h2 id=一階線性微分方程>一階線性微分方程</h2>
+<p>一階線性微分方程係將 (4) 式中 $n$ 取 $1$ 得到的方程:
+$$y' + P(x)y = Q(x)$$
+前面說了那麼一大堆，一定能很方便的解方程吧！對吧對吧！那麼要怎麼解呢？ 唔.. 還是得用常數便易法.</p>
+<p>當 $Q(x) = 0$ 時, 方程係齊次的, 而且顯然是可分離變量的. 這裏就不再多言. 而非齊次情況下, 同濟課本上的常數變易法只給了方法卻沒有思路. 所以鳴鈴傾向於讀托馬斯微積分上的方法.</p>
 <section class=footnotes role=doc-endnotes>
 <hr>
 <ol>
 <li id=fn:1 role=doc-endnote>
 <p>《高等数学第七版上册》同济大学数学系编 ISBN 978-7-04-039663-8&#160;<a href=#fnref:1 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
+</li>
+<li id=fn:2 role=doc-endnote>
+<p>電路理論中的相量、波動中的複振幅等&#160;<a href=#fnref:2 class=footnote-backref role=doc-backlink>&#8617;&#xfe0e;</a></p>
 </li>
 </ol>
 </section>
@@ -283,8 +382,16 @@ Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=
 <li><a href=#一階不可分離變量>一階不可分離變量</a>
 <ol>
 <li><a href=#一階齊次微分方程>一階齊次微分方程</a></li>
+<li><a href=#一階可化爲齊次的方程>一階可化爲齊次的方程</a></li>
+<li><a href=#小結>小結</a></li>
 </ol>
 </li>
+<li><a href=#線性微分方程>線性微分方程</a>
+<ol>
+<li><a href=#線性微分方程解的分析>線性微分方程解的分析</a></li>
+</ol>
+</li>
+<li><a href=#一階線性微分方程>一階線性微分方程</a></li>
 </ol>
 </nav>
 </div>
