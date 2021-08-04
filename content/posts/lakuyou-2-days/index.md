@@ -49,7 +49,7 @@ categories: ["nitijyou"]
 
 另外在泰國風格佛殿的某處門前放着這個牌子：
 
-![這個很可愛，鳴鈴很喜歡。](mask-alert.jpg)
+![超級可愛](mask-alert.jpg)
 
 ## 關林
 
