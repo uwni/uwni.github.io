@@ -17,12 +17,12 @@ Mod 管理 實現類似 npm 或 maven 這樣的包管理功能. 管理mod, 實�
 可分離 𝑥 形如: $$\frac{\dif y}{\dif x} = f(x)$$</description></item><item><title>以OOP的視角看が和の</title><link>https://blog.ling.moe/posts/no-and-ga-under-oop-views/</link><pubDate>Mon, 05 Jul 2021 12:59:56 +0800</pubDate><guid>https://blog.ling.moe/posts/no-and-ga-under-oop-views/</guid><description>封裝是典型的 OOP 的特徵之一（另外兩個是繼承和多肽多態）
 封裝 拿以下 Java Class 举例 (省略方法實現)
 class Human { double name; // 名前 double weight; // 体重 double height; // 身長 //挨拶 Human helloTo( Human target ) { // do something return this; }; //寝ること Human sleep( Time time ) { // do something return this; }; }; 其中返回 this 是爲了方便鏈式調用。使用成員變量和方法如下
-Human me, you; // omit some codes here ... // use member variables me.</description></item><item><title>傳輸線模型（未完稿）</title><link>https://blog.ling.moe/posts/all-about-transmission-line/</link><pubDate>Sat, 03 Jul 2021 20:54:56 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-transmission-line/</guid><description>$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+Human me, you; // omit some codes here ... // use member variables me.</description></item><item><title>傳輸線模型（未完稿）</title><link>https://blog.ling.moe/posts/all-about-transmission-line/</link><pubDate>Sat, 03 Jul 2021 20:54:56 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-transmission-line/</guid><description>$$\gdef\dif{\mathop{}\!\mathrm{d}}$$
 序 傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.
 在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應. 其電路的模型都是集總參數電路. 集總參數電路是由集總元件連接成的電路, 其中的詳細定義鳴鈴也不怎麼會背, 引用 一下集總電路中的內容：
 集總元件是指元件大小遠小於電路工作頻率相對之電磁波波長時, 對所有元件之統稱. 對於信號而言, 不論任何時刻, 元件特性始終保持固定, 與頻率無關. 相反地, 若元件大小與電路工作頻率相對之波長差不多或更大的時候, 則當信號通過元件之時, 元件本身各點之特性將因信號之變化而有所不同, 則此時不能將元件整體視為一特性固定之單一體, 而應稱為分布元件 （Distributed element）, 例如微波電路就是其中一個例子. 在此種電路中傳統之導線很可能會成為具有電感及電容串並聯特性之複雜組合.
 總的來說, 不论集總还是分布, 都是在某些條件下, 電路元件的一種抽象化模型. 和質點、點電荷等概念類似, 集總參數是和空間分佈無關的. 而分佈參數就類似於密度的定義, 其分布是和空間相關的. 不如說在傳輸線的場景中, 分佈參數本身就是密度.
-建模型 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
+建模 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
 對於空間中某個變量連續分佈的模型. 其實我們有現成的模型來解決, 那就是密度（廣義上的）. 如果我們沿着這個思想, 就可以構建沿着綫均勻分佈着無窮多無窮小的集總參數二端口網絡的模型. 如下圖所示
 傳輸線模型 (() = { const scheme = document.</description></item><item><title>MC:JE 鯖策劃案（更新中...）</title><link>https://blog.ling.moe/posts/new-mc-server/</link><pubDate>Thu, 01 Jul 2021 16:59:16 +0800</pubDate><guid>https://blog.ling.moe/posts/new-mc-server/</guid><description>列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！
 綱要 該伺服器名稱未定，但其應有以下特徵：

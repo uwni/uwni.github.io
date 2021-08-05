@@ -1,40 +1,40 @@
 <!doctype html><html lang=en-us>
 <head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="$$\gdef\dif{\mathop{}\!\mathrm{d}}$$
 序 傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.
 在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應. 其電路的模型都是集總參數電路. 集總參數電路是由集總元件連接成的電路, 其中的詳細定義鳴鈴也不怎麼會背, 引用 一下集總電路中的內容：
  集總元件是指元件大小遠小於電路工作頻率相對之電磁波波長時, 對所有元件之統稱. 對於信號而言, 不論任何時刻, 元件特性始終保持固定, 與頻率無關. 相反地, 若元件大小與電路工作頻率相對之波長差不多或更大的時候, 則當信號通過元件之時, 元件本身各點之特性將因信號之變化而有所不同, 則此時不能將元件整體視為一特性固定之單一體, 而應稱為分布元件 （Distributed element）, 例如微波電路就是其中一個例子. 在此種電路中傳統之導線很可能會成為具有電感及電容串並聯特性之複雜組合.
  總的來說, 不论集總还是分布, 都是在某些條件下, 電路元件的一種抽象化模型. 和質點、點電荷等概念類似, 集總參數是和空間分佈無關的. 而分佈參數就類似於密度的定義, 其分布是和空間相關的. 不如說在傳輸線的場景中, 分佈參數本身就是密度.
-建模型 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
+建模 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
 對於空間中某個變量連續分佈的模型. 其實我們有現成的模型來解決, 那就是密度（廣義上的）. 如果我們沿着這個思想, 就可以構建沿着綫均勻分佈着無窮多無窮小的集總參數二端口網絡的模型. 如下圖所示
 傳輸線模型   (() = { const scheme = document."><title>傳輸線模型（未完稿）</title>
 <link rel=canonical href=https://blog.ling.moe/posts/all-about-transmission-line/>
 <link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="傳輸線模型（未完稿）">
-<meta property="og:description" content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+<meta property="og:description" content="$$\gdef\dif{\mathop{}\!\mathrm{d}}$$
 序 傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.
 在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應. 其電路的模型都是集總參數電路. 集總參數電路是由集總元件連接成的電路, 其中的詳細定義鳴鈴也不怎麼會背, 引用 一下集總電路中的內容：
  集總元件是指元件大小遠小於電路工作頻率相對之電磁波波長時, 對所有元件之統稱. 對於信號而言, 不論任何時刻, 元件特性始終保持固定, 與頻率無關. 相反地, 若元件大小與電路工作頻率相對之波長差不多或更大的時候, 則當信號通過元件之時, 元件本身各點之特性將因信號之變化而有所不同, 則此時不能將元件整體視為一特性固定之單一體, 而應稱為分布元件 （Distributed element）, 例如微波電路就是其中一個例子. 在此種電路中傳統之導線很可能會成為具有電感及電容串並聯特性之複雜組合.
  總的來說, 不论集總还是分布, 都是在某些條件下, 電路元件的一種抽象化模型. 和質點、點電荷等概念類似, 集總參數是和空間分佈無關的. 而分佈參數就類似於密度的定義, 其分布是和空間相關的. 不如說在傳輸線的場景中, 分佈參數本身就是密度.
-建模型 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
+建模 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
 對於空間中某個變量連續分佈的模型. 其實我們有現成的模型來解決, 那就是密度（廣義上的）. 如果我們沿着這個思想, 就可以構建沿着綫均勻分佈着無窮多無窮小的集總參數二端口網絡的模型. 如下圖所示
 傳輸線模型   (() = { const scheme = document.">
 <meta property="og:url" content="https://blog.ling.moe/posts/all-about-transmission-line/">
 <meta property="og:site_name" content="鳴鈴">
 <meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:tag" content="電路"><meta property="article:published_time" content="2021-07-03T20:54:56+08:00"><meta property="article:modified_time" content="2021-07-03T20:54:56+08:00"><meta property="og:image" content="https://blog.ling.moe/posts/all-about-transmission-line/cover.jpg">
 <meta name=twitter:title content="傳輸線模型（未完稿）">
-<meta name=twitter:description content="$$ \gdef\dif{\mathop{}\!\mathrm{d}} $$
+<meta name=twitter:description content="$$\gdef\dif{\mathop{}\!\mathrm{d}}$$
 序 傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.
 在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應. 其電路的模型都是集總參數電路. 集總參數電路是由集總元件連接成的電路, 其中的詳細定義鳴鈴也不怎麼會背, 引用 一下集總電路中的內容：
  集總元件是指元件大小遠小於電路工作頻率相對之電磁波波長時, 對所有元件之統稱. 對於信號而言, 不論任何時刻, 元件特性始終保持固定, 與頻率無關. 相反地, 若元件大小與電路工作頻率相對之波長差不多或更大的時候, 則當信號通過元件之時, 元件本身各點之特性將因信號之變化而有所不同, 則此時不能將元件整體視為一特性固定之單一體, 而應稱為分布元件 （Distributed element）, 例如微波電路就是其中一個例子. 在此種電路中傳統之導線很可能會成為具有電感及電容串並聯特性之複雜組合.
  總的來說, 不论集總还是分布, 都是在某些條件下, 電路元件的一種抽象化模型. 和質點、點電荷等概念類似, 集總參數是和空間分佈無關的. 而分佈參數就類似於密度的定義, 其分布是和空間相關的. 不如說在傳輸線的場景中, 分佈參數本身就是密度.
-建模型 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
+建模 Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.
 對於空間中某個變量連續分佈的模型. 其實我們有現成的模型來解決, 那就是密度（廣義上的）. 如果我們沿着這個思想, 就可以構建沿着綫均勻分佈着無窮多無窮小的集總參數二端口網絡的模型. 如下圖所示
 傳輸線模型   (() = { const scheme = document."><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://blog.ling.moe/posts/all-about-transmission-line/cover.jpg">
 <link rel="shortcut icon" href=https://blog.ling.moe/file-storage/public/ico/favicon.ico>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
-<style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}.katex-display::-webkit-scrollbar{display:none}.katex-display{overflow:auto hidden;-ms-overflow-style:none;scrollbar-width:none}</style>
+<style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}</style>
 <script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
 <link rel=stylesheet href=https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css>
 <link rel=stylesheet href=https://pro.fontawesome.com/releases/v5.10.0/css/all.css integrity=sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p crossorigin=anonymous>
@@ -78,9 +78,7 @@ extended">
 </div>
 </header>
 <section class=article-content>
-<p>$$
-\gdef\dif{\mathop{}\!\mathrm{d}}
-$$</p>
+<p>$$\gdef\dif{\mathop{}\!\mathrm{d}}$$</p>
 <h2 id=序>序</h2>
 <p>傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.</p>
 <p>在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應.
@@ -93,7 +91,7 @@ $$</p>
 <p>總的來說, 不论集總还是分布, 都是在某些條件下, 電路元件的一種抽象化模型.
 和質點、點電荷等概念類似, 集總參數是和空間分佈無關的.
 而分佈參數就類似於密度的定義, 其分布是和空間相關的. 不如說在傳輸線的場景中, 分佈參數本身就是密度.</p>
-<h2 id=建模型>建模型</h2>
+<h2 id=建模>建模</h2>
 <p>Heaviside 所提出的傳輸綫是這樣一種模型, 對於平行直導線或同軸綫間, 不可避免存在不完全絕緣的電介質. 因此而產生綫間的漏電流. 對於導線間, 我們可以認爲綫間存在寄生的電容和電導連續分佈. 而沿着線上, 必然存在壓降且電流會在週遭形成磁場, 因此可以認爲導線上存在電阻和電感連續分佈.</p>
 <p>對於空間中某個變量連續分佈的模型. 其實我們有現成的模型來解決, 那就是密度（廣義上的）. 如果我們沿着這個思想, 就可以構建沿着綫均勻分佈着無窮多無窮小的集總參數二端口網絡的模型. 如下圖所示</p>
 <img class=tikz-img id=tikz-distributed loading=lazy>
@@ -114,29 +112,29 @@ $$</p>
 <script>(()=>{const a=document.documentElement.dataset.scheme,b=document.getElementById("tikz-dis-element"),c='https://blog.ling.moe/file-storage/public/tikz/'+(a||'light')+'/dis-element.svg';b.setAttribute('src',c)})()</script>
 <style>.tikz-wrapper{padding:0 20px}.tikz-img{display:block;margin:auto}.tikz-capt{box-sizing:border-box;margin-top:10px;line-height:25.9px;text-align:center;font-size:14px;color:#747474}</style>
 <style>@media screen and (min-width:680px){.tikz-img{width:55%}}</style>
-<p><del>宣告</del>了這麼一堆變量，是要幹什麼呢？不妨先列一下 KVL 和 KCL 吧:</p>
-<p>$$
+<p><del>宣告</del>了這麼一堆變量，是要幹什麼呢？電路建模當然要列一下 KVL 和 KCL 啦:
+$$
 i(x, t) = i(x+\Delta x, t) + Gu(x+\Delta x, t) + C\frac{\partial u}{\partial t} (x+\Delta x, t)
 $$
 $$
 u(x, t) = u(x+\Delta x,t) + Ri(x, t) + L\frac{\partial i}{\partial t}(x, t)
-$$</p>
-<p>然後, 稍作變形, 成如下形式</p>
-<p>$$
+$$
+然後, 稍作變形, 成如下形式
+$$
 \frac{i(x+\Delta x, t) - i(x, t)}{\Delta x} = -\frac{G}{\Delta x}u(x+\Delta x, t) - \frac{C}{\Delta x}\frac{\partial u}{\partial t}(x+\Delta x, t) \tag{1}
 $$
 $$
 \frac{u(x+\Delta x, t) - u(x, t)}{\Delta x} = -\frac{R}{\Delta x}i(x,t) - \frac{L}{\Delta x}\frac{\partial i}{\partial t}(x,t) \tag{2}
-$$</p>
-<p>看着這個形式，總感覺想到了什麼。是什麼呢？是(偏)導數的定義式哦！我們對 (1), (2) 式兩邊同時取極限: $\Delta x \to 0$. 首先, 對等號左邊:</p>
-<p>$$
+$$
+看着這個形式，總感覺想到了什麼。是什麼呢？ 我們對 (1), (2) 式兩邊同時取極限: $\Delta x \to 0$. 首先, 對等號左邊:
+$$
 \lim_{\Delta x \to 0} \frac{i(x+\Delta x, t) - i(x, t)}{\Delta x} = \frac{\partial i}{\partial x} \tag{3}
 $$
 $$
 \lim_{\Delta x \to 0} \frac{u(x+\Delta x, t) - u(x, t)}{\Delta x} = \frac{\partial u}{\partial x} \tag{4}
 $$
-其次，等號右邊，類比密度的定義 $\displaystyle\lim_{\Delta V \to 0} \frac{m}{\Delta V} = \rho$, 定義<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup></p>
-<p>$$
+其次，等號右邊，類比密度的定義 $\displaystyle\lim_{\Delta V \to 0} \frac{m}{\Delta V} = \rho$, 定義<sup id=fnref:1><a href=#fn:1 class=footnote-ref role=doc-noteref>1</a></sup>:
+$$
 \lim_{\Delta x \to 0} \frac{R}{\Delta x} \coloneqq \lambda_R \tag{5}
 $$
 $$
@@ -148,36 +146,44 @@ $$
 $$
 \lim_{\Delta x \to 0} \frac{C}{\Delta x} \coloneqq \lambda_C \tag{8}
 $$</p>
-<p>另外，設 $u$ 和 $\displaystyle\frac{\partial u}{\partial t}$在 $x$ 上連續<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup>則.</p>
-<p>$$
+<p>另外，設 $u$ 和 $\displaystyle\frac{\partial u}{\partial t}$在 $x$ 上連續<sup id=fnref:2><a href=#fn:2 class=footnote-ref role=doc-noteref>2</a></sup>則:
+$$
 \lim_{\Delta x \to 0} u(x+\Delta x, t) = u(x,t) \tag{9}
 $$
 $$
 \lim_{\Delta x \to 0} \frac{\partial u}{\partial t}(x+\Delta x, t) = \frac{\partial u}{\partial t}(x, t) \tag{10}
 $$</p>
-<p>根據極限運算規則，將 (3) ~ (10) 代入 (1) 和 (2) 式中, 得到</p>
-<p>$$
+<p>根據極限運算規則，將 (3) ~ (10) 代入 (1) 和 (2) 式中, 得到
+$$
 \begin{cases}
 \begin{aligned}
-&\frac{\partial i}{\partial x} = -\lambda_G u - \lambda_C \frac{\partial u}{\partial t} \\
+&\frac{\partial i}{\partial x} = -\lambda_G u - \lambda_C \frac{\partial u}{\partial t} \cr
 &\frac{\partial u}{\partial x} = -\lambda_R i - \lambda_L \frac{\partial i}{\partial t}
 \end{aligned}
 \end{cases}
-$$</p>
-<p>這便是電報方程<sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup> (省略自變量).</p>
+$$
+這便是電報方程<sup id=fnref:3><a href=#fn:3 class=footnote-ref role=doc-noteref>3</a></sup> (省略自變量).</p>
 <h2 id=解>解</h2>
 <p>下面來討論幾種邊界條件（主要是輸入電壓/電流）下的情況，從簡單到複雜來看:</p>
 <h3 id=直流>直流</h3>
-<p>直流時，設 $i(x,t) = I(x)$ ,$u(x,t) = U(x)$, 從而 $\displaystyle\frac{\partial u}{\partial t} = 0$, $\displaystyle\frac{\partial i}{\partial t} = 0$. 代入電報方程得</p>
-<p>$$
+<p>直流時，設 $i(x,t) = I(x)$ ,$u(x,t) = U(x)$, 從而 $\displaystyle\frac{\partial u}{\partial t} = 0$, $\displaystyle\frac{\partial i}{\partial t} = 0$. 代入電報方程得
+$$
 \begin{cases}
 \begin{aligned}
-&\frac{\dif I}{\dif x} = -\lambda_G U \\
+&\frac{\dif I}{\dif x} = -\lambda_G U \cr
 &\frac{\dif U}{\dif x} = -\lambda_R I
 \end{aligned}
 \end{cases}
+$$
+<del>誒&mldr; 微分方程怎麼解來着？</del> 對於這個方程組可以互相消元成爲兩個獨立的微分方程:
+$$
+\begin{cases}
+\begin{aligned}
+&\frac{\dif^2 I}{\dif x^2} = \lambda_G\lambda_R I \cr
+&\frac{\dif^2 U}{\dif x^2} = \lambda_G\lambda_R U
+\end{aligned}
+\end{cases}
 $$</p>
-<p>誒&mldr; 微分方程怎麼解來着？</p>
 <h3 id=正弦穩態>正弦穩態</h3>
 <p>這裏給出正弦穩態信號的解的過程. d</p>
 <h3 id=暫態響應>暫態響應</h3>
@@ -281,7 +287,7 @@ Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=
 <nav id=TableOfContents>
 <ol>
 <li><a href=#序>序</a></li>
-<li><a href=#建模型>建模型</a></li>
+<li><a href=#建模>建模</a></li>
 <li><a href=#列方程>列方程</a></li>
 <li><a href=#解>解</a>
 <ol>
