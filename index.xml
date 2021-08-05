@@ -2,10 +2,10 @@
 \gdef\dif{\mathop{}\!\mathrm{d}}
 $$&lt;/p>
 &lt;h2 id="序">序&lt;/h2>
-&lt;p>解微分方程，甚至於說解方程，是方法大於意義的一種過程。從高斯消元法開始，我們都發現，解方程的學習就是在尋求符合某種特定模式（Pattern）的方程的具體解法. 因此對於之前的各種方程的分類，其一方面表現了一定現實意義的象徵，同時對我們而言，也是選取何種方法去解它的一種信號。這種同類的方程是共用某種「模型」的抽象，用 CS 的話說，就是方程這種數學抽象，允許我們在各種不同的場景中復用(Reuse)這些前人總結的結論。&lt;/p>
-&lt;p>很顯然的就是在古典控制理論中，一階電路、彈簧阻尼器系統這兩個完全不同的情境都可以抽象成模式相同的一階微分方程，而如果我們學會了一階微分方程，就能同時解決這兩種情境下的問題。而這種解決方程的方法，應該是不含有任何現實意義的，即方程中的任何參量於變量，都是沒有任何含義的。只有在具體的環境下，量才能有具體的意義。這就是鳴鈴之前說的解方程，是方法大於意義的一種過程。在方程約束的數學模型中，解決問題的流程大概可以分爲兩步，列方程（建模）和解方程。而在進入後一個步驟後，我們的焦點就不應該停留在現實意義上了。直到得到解（解集、通解或特解），變量才又重新有了直觀的意義。&lt;/p>
-&lt;p>在理工科中，抽象化的概念總是讓人難以理解。但抽象帶來最大的好處，就是增加了過程或結構的通用性. 就像我們能把電路、交通、人物關係都能抽象成圖，從而可以在不同的領域中復用圖論中的結論. 因此不僅是方程, 我們可以將結論也抽象一下, 對於任何事物: 抽象程度愈高, 具體意義愈少.&lt;/p>
-&lt;p>對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多。記憶方法性的知識在於練習（做題）。&lt;/p>
+&lt;p>解微分方程，甚至於說解方程，是方法大於意義的一種過程. 從高斯消元法開始，我們都發現，解方程的學習就是在尋求符合某種特定模式（Pattern）的方程的具體解法. 因此對於之前的各種方程的分類，其一方面表現了一定現實意義的象徵，同時對我們而言，也是選取何種方法去解它的一種信號. 這種同類的方程是共用某種「模型」的抽象，用 CS 的話說，就是方程這種數學抽象，允許我們在各種不同的場景中復用(Reuse)這些前人總結的結論.&lt;/p>
+&lt;p>很顯然的就是在古典控制理論中，一階電路、彈簧阻尼器系統這兩個完全不同的情境都可以抽象成模式相同的一階微分方程，而如果我們學會了一階微分方程，就能同時解決這兩種情境下的問題. 而這種解決方程的方法，應該是不含有任何現實意義的，即方程中的任何參量於變量，都是沒有任何含義的. 只有在具體的環境下，量才能有具體的意義. 這就是鳴鈴之前說的解方程，是方法大於意義的一種過程. 在方程約束的數學模型中，解決問題的流程大概可以分爲兩步，列方程（建模）和解方程. 而在進入後一個步驟後，我們的焦點就不應該停留在現實意義上了. 直到得到解（解集、通解或特解），變量才又重新有了直觀的意義.&lt;/p>
+&lt;p>在理工科中，抽象化的概念總是讓人難以理解. 但抽象帶來最大的好處，就是增加了過程或結構的通用性. 就像我們能把電路、交通、人物關係都能抽象成圖，從而可以在不同的領域中復用圖論中的結論. 因此不僅是方程, 我們可以將結論也抽象一下, 對於任何事物: 抽象程度愈高, 具體意義愈少.&lt;/p>
+&lt;p>對於鳴鈴個人體驗而言，在同等的抽象程度下，學習方法性的知識比學習概念性的知識要困難的多. 記憶方法性的知識在於練習（做題）.&lt;/p>
 &lt;p>而本文之目的，並非在於教條化的記憶或背誦這些方法. 如果不能知其因何可行, 總是令人覺得不安. 單純的將解法和知識當作教條, 這纔是我所認爲的「做題家」, 而我想要的知識是沒有教條的, 除了基本公理是不證自明之外.&lt;/p>
 &lt;h2 id="一階微分方程">一階微分方程&lt;/h2>
 &lt;p>一階微分方程可以寫成兩種等價的形式
@@ -114,18 +114,18 @@ N = a'_2x'+b'_2y'
 \end{gathered}
 $$
 如此雖然$M(x, y)$ 和 $N(x, y)$ 並非齊次函數，但 $M(x', y')$ 和 $N(x', y')$ 是齊次函數. 而我們只需要求出 $x$ 和 $x'$, $y$ 和 $y'$ 之間的關係, 便可應用一階齊次方程的解法.&lt;/p>
-&lt;p>這其實也是換元法最大且唯一的思路，使用換元法可以將一種未知解法的「模式」轉換爲一種已知的「模式」. 而這種思想其實滲透應用於各個角落。譬如某些物理量的複量&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>，其作用便是爲了利用歐拉公式用指數運算來簡化三角函數運算.&lt;/p>
+&lt;p>這其實也是換元法最大且唯一的思路，使用換元法可以將一種未知解法的「模式」轉換爲一種已知的「模式」. 而這種思想其實滲透應用於各個角落. 譬如某些物理量的複量&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>，其作用便是爲了利用歐拉公式用指數運算來簡化三角函數運算.&lt;/p>
 &lt;h3 id="小結">小結&lt;/h3>
 &lt;p>在此之前所提及的種種微分方程，以及之後提到的微分方程, 其核心思想就是絞盡腦汁把方程化成可分離變量的形式. 比如一階可化爲齊次的方程先換元化爲齊次方程，齊次方程再利用換元法得到可分離變量的微分方程. 因此解方程的圖景是很明晰的, 各種不同形式的方程解法的核心就在於如何分離變量, 而換元則是很重要的一種方法.&lt;/p>
 &lt;h2 id="線性微分方程">線性微分方程&lt;/h2>
 &lt;p>前面提到，這裏的線性是指「線性方程」的線性. 那麼什麼叫線性方程呢? 滿足線性的方程叫做線性方程, 滿足線性的方程組叫做線性方程組.
-但這兩個線性又不是同一個線性的定義.. @_@ 好暈啊. 這裏直接採用&lt;a class="link" href="https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E9%97%9C%E4%BF%82#%E5%AE%9A%E4%B9%89" target="_blank" rel="noopener"
+但這兩個線性又不是同一個線性的定義.. @_@ 什麼什麼, 好暈呀. 這裏直接採用&lt;a class="link" href="https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E9%97%9C%E4%BF%82#%E5%AE%9A%E4%B9%89" target="_blank" rel="noopener"
 >
-&lt;i class="inline-icon fab fa-wikipedia-w">&lt;/i>線性關係&lt;/a>中的定义:&lt;/p>
+&lt;i class="inline-icon fab fa-wikipedia-w">&lt;/i>線性關係&lt;/a>中的定義:&lt;/p>
 &lt;blockquote>
 &lt;p>如果稱一個数学函數 $L(x)$ 為線性的，可以是指：&lt;/p>
 &lt;ul>
-&lt;li>定义 1： $L(x)$ 是個只擁有一個變數的一階多項式函數，即是可以表示為 $ L(x)=kx+b $ 的形式（其中 $k,b$ 為常数）。&lt;/li>
+&lt;li>定义 1： $L(x)$ 是個只擁有一個變數的一階多項式函數，即是可以表示為 $ L(x)=kx+b $ 的形式（其中 $k,b$ 為常数）.&lt;/li>
 &lt;li>定义 2： $L(x)$ 具有以下兩個性質：
 &lt;ul>
 &lt;li>可加性: $L(x+t) = L(x)+L(t)$&lt;/li>
@@ -134,7 +134,7 @@ $$
 &lt;/li>
 &lt;/ul>
 &lt;/blockquote>
-&lt;p>顯然線性方程組之「線性」指的是定義 1. 而這種定義是流於形式的, 是不一定滿足可和和一階齊次性的. 或者說這種線性方程將常數項置於等號右邊, 則等號左邊方爲定義 1 下的線性函數.&lt;/p>
+&lt;p>顯然線性方程組之「線性」指的是定義 1. 而這種定義是流於形式的, 是不一定滿足可和和一階齊次性的. 或者說, 若將線性方程的自由項置於等號右邊, 則等號左邊方爲定義 1 下的線性函數. (尋常所見的線性方程組俱爲此形式 )&lt;/p>
 &lt;p>其實從名字也能看出，微分的線性性質和線性微分方程的線性是不同的. 因爲線性的定義2要求滿足「齊次性」，而又存在「線性非齊次微分方程」, 如果這種方程的「線性」和要求齊次性的「線性」是同一定義, 則自相矛盾. 而鳴鈴就是從這裏發現不對勁的地方的.&lt;/p>
 &lt;details >
 &lt;summary>雖然本文大概和定義 2 無關, 但鳴鈴還是想討論一下&lt;/summary>
@@ -273,7 +273,10 @@ $$y' + P(x)y = Q(x)$$
 &lt;h2 id="例">例&lt;/h2>
 &lt;p>私があなたの醤油をつけて彼の餃子を食べる&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">dip&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">you&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">joySource&lt;/span>&lt;span class="o">).&lt;/span>&lt;span class="na">eat&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">he&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">dumpling&lt;/span>&lt;span class="o">);&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>當然了，計算機語言是由人類精心設計過的，主要是給編譯器看的。而自然語言是經歷上千年的變化而來的。拿二者比較本身就不是很嚴謹的事，所以這只是鳴鈴箇人的一點小想法。其實鳴鈴注意到の和が之間存在某種相似性很早之前就有了，當初學到の可以替代從句中的が時就隱隱覺得奇怪，而後仔細對比了の和が在授受動詞接續名詞和從句時的行爲寫成了&lt;a class="link" href="https://blog.ling.moe/posts/jyu-jyu-dou-si/" >動詞接續授受動詞的行爲&lt;/a>一文，之後發現OOP對於變量和方法的封裝正好類似於の和が接續名詞和動詞，也就有了本文。&lt;/p></description></item><item><title>傳輸線模型（未完稿）</title><link>https://blog.ling.moe/posts/all-about-transmission-line/</link><pubDate>Sat, 03 Jul 2021 20:54:56 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-transmission-line/</guid><description>&lt;img src="https://blog.ling.moe/posts/all-about-transmission-line/cover.jpg" alt="Featured image of post 傳輸線模型（未完稿）" />&lt;p>$$\gdef\dif{\mathop{}\!\mathrm{d}}$$&lt;/p>
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>當然了，計算機語言是由人類精心設計過的，主要是給編譯器看的。而自然語言是經歷上千年的變化而來的。拿二者比較本身就不是很嚴謹的事，所以這只是鳴鈴箇人的一點小想法。其實鳴鈴注意到の和が之間存在某種相似性很早之前就有了，當初學到の可以替代從句中的が時就隱隱覺得奇怪，而後仔細對比了の和が在授受動詞接續名詞和從句時的行爲寫成了&lt;a class="link" href="https://blog.ling.moe/posts/jyu-jyu-dou-si/" >動詞接續授受動詞的行爲&lt;/a>一文，之後發現OOP對於變量和方法的封裝正好類似於の和が接續名詞和動詞，也就有了本文。&lt;/p></description></item><item><title>傳輸線模型（未完稿）</title><link>https://blog.ling.moe/posts/all-about-transmission-line/</link><pubDate>Sat, 03 Jul 2021 20:54:56 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-transmission-line/</guid><description>&lt;img src="https://blog.ling.moe/posts/all-about-transmission-line/cover.jpg" alt="Featured image of post 傳輸線模型（未完稿）" />&lt;p>$$
+\gdef\dif{\mathop{}\!\mathrm{d}}
+\gdef\elr{\mathrm{e}}
+$$&lt;/p>
 &lt;h2 id="序">序&lt;/h2>
 &lt;p>傳輸線模型是最簡單的分佈參數電路. 雖說如此, 但因不是強電相關專業, 學電路時老師並沒有講到這裏. 所以也就只能自學. 因此鳴鈴想撰文釐清一下學習思路、總結一下學習成果.&lt;/p>
 &lt;p>在本節內容之前學到的電路, 無論是探究穩態的正弦交流或直流, 抑或者探究暫態過程的各種響應.
@@ -433,17 +436,25 @@ $$
 \end{aligned}
 \end{cases}
 $$
-&lt;del>誒&amp;hellip; 微分方程怎麼解來着？&lt;/del> 對於這個方程組可以互相消元成爲兩個獨立的微分方程:
+&lt;del>誒&amp;hellip; 微分方程怎麼解來着？&lt;/del> 對於這個二元一階方程組可以互相消元成爲兩個獨立的一元二階常係數線性微分方程:
 $$
 \begin{cases}
 \begin{aligned}
-&amp;amp;\frac{\dif^2 I}{\dif x^2} = \lambda_G\lambda_R I \cr
-&amp;amp;\frac{\dif^2 U}{\dif x^2} = \lambda_G\lambda_R U
+&amp;amp;I'' - \lambda_G\lambda_R I = 0 \cr
+&amp;amp;U'' - \lambda_G\lambda_R U = 0
 \end{aligned}
 \end{cases}
-$$&lt;/p>
+$$
+得通解爲
+$$
+\begin{gathered}
+I = C_1\elr^{\sqrt{\lambda_G\lambda_R}x} + C_2\elr^{-\sqrt{\lambda_G\lambda_R}x} \cr
+U = C_3\elr^{\sqrt{\lambda_G\lambda_R}x} + C_4\elr^{-\sqrt{\lambda_G\lambda_R}x}
+\end{gathered}
+$$
+而 $C_3, C_4$ 其實是依賴於 $C_1, C_2$ (太神奇了) :&lt;/p>
 &lt;h3 id="正弦穩態">正弦穩態&lt;/h3>
-&lt;p>這裏給出正弦穩態信號的解的過程. d&lt;/p>
+&lt;p>這裏給出正弦穩態信號的解的過程.&lt;/p>
 &lt;h3 id="暫態響應">暫態響應&lt;/h3>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
