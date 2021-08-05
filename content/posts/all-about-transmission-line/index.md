@@ -128,14 +128,18 @@ $$
     \end{aligned}
 \end{cases}
 $$
-解得通解爲
+得通解爲
 $$
-I = C_1\elr^{\pm \sqrt{\lambda_G\lambda_R}x}
+\begin{gathered}
+    I = C_1\elr^{\sqrt{\lambda_G\lambda_R}x} + C_2\elr^{-\sqrt{\lambda_G\lambda_R}x} \cr
+    U = C_3\elr^{\sqrt{\lambda_G\lambda_R}x} + C_4\elr^{-\sqrt{\lambda_G\lambda_R}x}
+\end{gathered}
 $$
+而 $C_3, C_4$ 其實是依賴於 $C_1, C_2$ (太神奇了) :
 
 ### 正弦穩態
 
-這裏給出正弦穩態信號的解的過程. d
+這裏給出正弦穩態信號的解的過程. 
 
 ### 暫態響應
 
