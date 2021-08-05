@@ -48,6 +48,8 @@
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
 <style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}.katex-display::-webkit-scrollbar{display:none}.katex-display{overflow:auto hidden;-ms-overflow-style:none;scrollbar-width:none}</style>
 <script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
+<link rel=stylesheet href=https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css>
+<link rel=stylesheet href=https://pro.fontawesome.com/releases/v5.10.0/css/all.css integrity=sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p crossorigin=anonymous>
 </head>
 <body class="article-page has-toc">
 <script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
@@ -219,11 +221,25 @@ $$
 <p>在此之前所提及的種種微分方程，以及之後提到的微分方程, 其核心思想就是絞盡腦汁把方程化成可分離變量的形式. 比如一階可化爲齊次的方程先換元化爲齊次方程，齊次方程再利用換元法得到可分離變量的微分方程. 因此解方程的圖景是很明晰的, 各種不同形式的方程解法的核心就在於如何分離變量, 而換元則是很重要的一種方法.</p>
 <h2 id=線性微分方程>線性微分方程</h2>
 <p>前面提到，這裏的線性是指「線性方程」的線性. 那麼什麼叫線性方程呢? 滿足線性的方程叫做線性方程, 滿足線性的方程組叫做線性方程組.
-但這兩個線性又不是同一個線性的定義.. @_@ 好暈啊. 這裏直接採用 Wikipedia 的定義1和定義2以區別兩種定義. 顯然線性方程組的「線性」指的是定義1. 而這種定義是流於形式的, 是不一定滿足可和和齊次性的. 或者說只有當這種線性方程擁有平凡解時（即常數項爲$0$）才符合定義2.</p>
+但這兩個線性又不是同一個線性的定義.. @_@ 好暈啊. 這裏直接採用<a class=link href=https://zh.wikipedia.org/wiki/%E7%B7%9A%E6%80%A7%E9%97%9C%E4%BF%82#%E5%AE%9A%E4%B9%89 target=_blank rel=noopener>
+<i class="inline-icon fab fa-wikipedia-w"></i>線性關係</a>中的定义:</p>
+<blockquote>
+<p>如果稱一個数学函數 $L(x)$ 為線性的，可以是指：</p>
+<ul>
+<li>定义 1： $L(x)$ 是個只擁有一個變數的一階多項式函數，即是可以表示為 $ L(x)=kx+b $ 的形式（其中 $k,b$ 為常数）。</li>
+<li>定义 2： $L(x)$ 具有以下兩個性質：
+<ul>
+<li>可加性: $L(x+t) = L(x)+L(t)$</li>
+<li>一次齊次性: $L(mx) = mL(x)$</li>
+</ul>
+</li>
+</ul>
+</blockquote>
+<p>顯然線性方程組之「線性」指的是定義 1. 而這種定義是流於形式的, 是不一定滿足可和和一階齊次性的. 或者說這種線性方程將常數項置於等號右邊, 則等號左邊方爲定義 1 下的線性函數.</p>
 <p>其實從名字也能看出，微分的線性性質和線性微分方程的線性是不同的. 因爲線性的定義2要求滿足「齊次性」，而又存在「線性非齊次微分方程」, 如果這種方程的「線性」和要求齊次性的「線性」是同一定義, 則自相矛盾. 而鳴鈴就是從這裏發現不對勁的地方的.</p>
 <details>
 <summary>雖然本文大概和定義 2 無關, 但鳴鈴還是想討論一下</summary>
-<p><p>在線性代數中有對於這種性質是另一種表述. 對於函數 $y = f(\bm{x}), \bm{x} \in \R^n$.
+<p>在線性代數中有對於這種性質是另一種表述. 對於函數 $y = f(\bm{x}), \bm{x} \in \R^n$.
 設集合 $S : \{(x_1 \cdots x_n, y) \in \R^{n+1} | y = f(\bm{x})\} $, 若 $S$ 對數乘和加法封閉. 則
 $$
 \begin{gathered}
@@ -237,23 +253,22 @@ $$
 f(\bm{x}_1 + \bm{x}_2) = f(\bm{x}_1) + f(\bm{x}_2)\\
 f(k\bm{x}_1) = kf(\bm{x}_1)
 \end{gathered}
-$$</p>
-<p>也就是說, 這時的函數 $f(\bm{x})$ 是定義 2 下的線性函數. 這說明線性函數約束了所有變量存在於一個向量空間中.
+$$
+也就是說, 這時的函數 $f(\bm{x})$ 是定義 2 下的線性函數. 這說明線性函數約束了所有變量存在於一個向量空間中.
 你問鳴鈴這有什麼用？ 當然沒用啦.</p>
-</p>
 </details>
 <p>在線性微分方程領域. 因其線性指的是定義 1 , 但如果將常數項移動到等號右邊, 等號左邊的函數(變換)便是線性的, 故對於形如
 $$
 y^{(n)} + a_1(x)y^{(n-1)} + \cdots +a_{n-1}(x)y' + a_n(x)y = b(x) \tag{4}
-$$</p>
-<p>的方程, 有
+$$
+的方程, 有
 $$
 \begin{gathered}
 &(y_1 + y_2)^{(n)} + a_1(x)(y_1 + y_2)^{(n-1)} + \cdots +a_{n-1}(x)(y_1+y_2)' + a_n(x)(y_1+y_2) = b_1(x) + b_2(x)\\
 &(ky)^{(n)} + a_1(x)(ky)^{(n-1)} + \cdots +a_{n-1}(x)(ky)' + a_n(x)(ky) = kb(x)
 \end{gathered}
-$$</p>
-<p>因而稱其爲 $n$ 階線性微分方程. 細究起來，不難發現其線性特徵其實是來自於兩方面，一是微分算子的線性. 即
+$$
+因而稱其爲 $n$ 階線性微分方程. 細究起來，不難發現其線性特徵其實是來自於兩方面，一是微分算子的線性. 即
 $$
 \begin{gathered}
 &(f+g)'(x) = f'(x) + g'(x)\\
