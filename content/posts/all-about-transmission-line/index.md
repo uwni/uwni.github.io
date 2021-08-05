@@ -9,7 +9,10 @@ keywords: ["傳輸線", "電報方程式", "電報員方程式", "分佈參數"]
 categories: ["circuit-analysis"]
 tags: ["電路"]
 ---
-$$\gdef\dif{\mathop{}\\!\mathrm{d}}$$
+$$
+\gdef\dif{\mathop{}\\!\mathrm{d}}
+\gdef\elr{\mathrm{e}}
+$$
 
 ## 序
 
@@ -116,14 +119,18 @@ $$
     \end{aligned}
 \end{cases}
 $$
-~~誒... 微分方程怎麼解來着？~~ 對於這個方程組可以互相消元成爲兩個獨立的微分方程:
+~~誒... 微分方程怎麼解來着？~~ 對於這個二元一階方程組可以互相消元成爲兩個獨立的一元二階常係數線性微分方程:
 $$
 \begin{cases}
     \begin{aligned}
-        &\frac{\dif^2 I}{\dif x^2} = \lambda_G\lambda_R I \cr
-        &\frac{\dif^2 U}{\dif x^2} = \lambda_G\lambda_R U
+        &I'' - \lambda_G\lambda_R I = 0 \cr
+        &U'' - \lambda_G\lambda_R U = 0
     \end{aligned}
 \end{cases}
+$$
+解得通解爲
+$$
+I = C_1\elr^{\pm \sqrt{\lambda_G\lambda_R}x}
 $$
 
 ### 正弦穩態
