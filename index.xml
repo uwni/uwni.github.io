@@ -394,18 +394,18 @@ $$
 $$
 \lim_{\Delta x \to 0} \frac{u(x+\Delta x, t) - u(x, t)}{\Delta x} = \frac{\partial u}{\partial x} \tag{4}
 $$
-其次，等號右邊，類比密度的定義 $\displaystyle\lim_{\Delta V \to 0} \frac{m}{\Delta V} = \rho$, 定義&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>:
+其次，等號右邊，類比密度的定義, 定義&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>:
 $$
-\lim_{\Delta x \to 0} \frac{R}{\Delta x} \coloneqq \lambda_R \tag{5}
-$$
-$$
-\lim_{\Delta x \to 0} \frac{L}{\Delta x} \coloneqq \lambda_L \tag{6}
+\lambda_R \coloneqq \lim_{\Delta x \to 0} \frac{R}{\Delta x} \tag{5}
 $$
 $$
-\lim_{\Delta x \to 0} \frac{G}{\Delta x} \coloneqq \lambda_G \tag{7}
+\lambda_L \coloneqq \lim_{\Delta x \to 0} \frac{L}{\Delta x} \tag{6}
 $$
 $$
-\lim_{\Delta x \to 0} \frac{C}{\Delta x} \coloneqq \lambda_C \tag{8}
+\lambda_G \coloneqq \lim_{\Delta x \to 0} \frac{G}{\Delta x} \tag{7}
+$$
+$$
+\lambda_C \coloneqq \lim_{\Delta x \to 0} \frac{C}{\Delta x} \tag{8}
 $$&lt;/p>
 &lt;p>另外，設 $u$ 和 $\displaystyle\frac{\partial u}{\partial t}$在 $x$ 上連續&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>則:
 $$
