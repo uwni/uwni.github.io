@@ -15,12 +15,12 @@ menu:
 ---
 ## 關於敝站
 
-{{< badge "https://github.com/narisuzu-blog/source/actions/workflows/main.yml/badge.svg" "https://github.com/narisuzu-blog/source/actions/workflows/main.yml" >}}
+{{< badge "https://github.com/narisuzu/narisuzu.github.io/actions/workflows/main.yml/badge.svg" "https://github.com/narisuzu/narisuzu.github.io/actions/workflows/main.yml" >}}
 {{< badge "https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg" "http://commonmark.org" >}}
 {{< badge "https://img.shields.io/badge/Made%20with-LaTeX-1f425f.svg" "https://www.latex-project.org/" >}}
 
 敝站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog。
-驅動自 Hugo, 左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫. 
+驅動自 Hugo, 左列所有功能完全基於 {{< ti "brand-github" >}}Github 部署, 不使用任何第三方伺服器与資料庫.
 
 - blog 程式 [Hugo](https://gohugo.io/)
 - 持續整合 [Github Actions](https://github.com/features/actions)
@@ -52,14 +52,15 @@ menu:
 - 敝站的標準化方案
 - 代碼塊中的代碼
 
-當然，縱使你沒有盡責遵守協議，鳴鈴也不會說什麼。當然如果能提到鳴鈴一句，鳴鈴會十分開心的。
+當然啦，縱使你沒有遵守協議，鳴鈴也不會抱怨什麼的。
 
 ## 關於本人
 
 自號「鳴鈴」，想成爲厲害的 Rustacan 與 Gopher，目前啃老中係無業遊民，無知且無能。  
-❓爲何號「鳴鈴」：自古人們鳴鐘以警醒，但我無能爲鐘，只求爲鈴。
+❓爲何號「鳴鈴」：鐘聲徹千里, 鈴鳴留寸隙。因爲最喜歡「鐘」和「鈴」了，但「鈴」聽起來更可愛！
 
 ### 技能標籤
+
 `🦀Rust` `🦫Go` `☕Java` `{{< ti "brand-kotlin" >}}Kotlin` `🌕Lua`  
 `{{< ti "brand-html5" >}}HTML` `{{< ti "brand-css3" >}}CSS` `{{< ti "brand-javascript" >}}JavaScript` `TypeScript` `⚛️React.js`  
 `SQL` `🥭MongoDB` `🧱Redis`  
@@ -68,6 +69,7 @@ menu:
 `官話(zh-Hant)` `日本語(ja)` `English(en-US)`
 
 ### ~~信仰~~ 環境
+
 `🚪ArchLinux` `AwesomeWM` `♾️Visual Studio Code` `JetBrains` `⛏️Minecraft` `ㄓRIME`  
 `傳承字`　`PILOT kakuno` `LAMY AL-star`
 
@@ -75,7 +77,7 @@ menu:
 
 - 小學三年級，家裏電腦太廢，運行着極其老舊的 {{< ti "brand-windows" >}}Windows XP，很羨慕 {{< ti "brand-windows" >}}Windows 7 的 Aero 特效，只能在親戚不用的舊電腦上運行「Ghost XP Win7 終極美化版」
   來望梅止渴。
-- 小學記不清幾年級，因爲番茄花園的官司,「深度」和「雨林沐風」分別從盜版 {{< ti "brand-windows" >}}Windows 
+- 小學記不清幾年級，因爲番茄花園的官司,「深度」和「雨林沐風」分別從盜版 {{< ti "brand-windows" >}}Windows
   轉向做「國產 Linux 發行版」，因此年幼的鳴鈴因爲吃不到 {{< ti "brand-windows" >}}Windows 7 這顆梅，就在 ylmfOS 和 LinuxDeepin 間反覆橫跳以尋求新鮮感。這大概也是鳴鈴接觸 {{< fa "fab" "linux" >}}Linux 最早的歷史
 - 初中時，家裏用親戚不要的舊電腦換掉了更舊的電腦後裝上了 {{< ti "brand-windows" >}}Windows 8 , 因爲要求配置比 7 低了不少，若沒記錯 2GB RAM 便可，而 7 需要 4GB, 使用 Metro 模式下的 {{< fa "fab" "internet-explorer">}}Internet Explorer 成爲鳴鈴最大的樂趣.
 - 初中買了很喜歡的手機 Nokia Lumia 1020, 喜歡拍照後在電腦上放大, 鳴鈴陪它走過了 {{< ti "brand-windows" >}}Windows Phone 8 到 {{< ti "brand-windows" >}}Windows 10 Mobile.
@@ -87,7 +89,7 @@ menu:
 - 爲了寫一些無聊的東西，所以高中學了網頁開發和 {{< fa "fab" "php" >}}PHP.
 - 高考完終於買了第一檯電腦, 也自此接觸了 {{< ti "brand-apple" >}}Hackintosh, 主要原因就是好看.
 - 爲了打出漂亮的公式，所以大一學習了 $\LaTeX$
-- 因爲喜歡 JetBrains，所以大一時學了 {{< ti "brand-kotlin" >}}Kotlin 後表示再也不想使用 {{< ti "coffee" >}}Java 
+- 因爲喜歡 JetBrains，所以大一時學了 {{< ti "brand-kotlin" >}}Kotlin 後表示再也不想使用 {{< ti "coffee" >}}Java
 - 用過 Gradle 尤其是 `.kts` 來寫配置文件後，就再也不想用 {{< ti "feather" >}}Maven 了。
 - 大一時因爲不小心瞭解了 Redis，就順便學了一下。
 - 因爲當時接觸了許多應用是用 Go 寫的，喜歡 Go 的簡單輕量高效率，所以大二時學了 Go。
@@ -98,7 +100,7 @@ menu:
 - 大二, 瞭解到了 ArchLinux, 覺得要是安裝上了, 曬出 `neofetch` 能吹一個禮拜. 於是就入坑.
 - 爲了開發一款好看的 Minecraft Launcher，大二時學習了 {{< ti "atom" >}}Electron
 - 爲了追求「現代化」網頁開發，所以大三時學了一些前端 Framework, Library 還有 TypeScript.
-- 大三爲了追求 Hackintosh 的 Retina 和 4K 買了 Rx590, 但不久後審美疲勞又想念起了 KDE, 遂裝回 ArchLinux, 但 AMD 的開源驅動會造成鳴鈴綿綿滑滑的 4K Retina 熒幕窗口移動撕裂, 於是查了一下午 wiki 換成了閉源驅動, 其中還實驗了是否 wayland 的原因等等之類一系列的問題. 
+- 大三爲了追求 Hackintosh 的 Retina 和 4K 買了 Rx590, 但不久後審美疲勞又想念起了 KDE, 遂裝回 ArchLinux, 但 AMD 的開源驅動會造成鳴鈴綿綿滑滑的 4K Retina 熒幕窗口移動撕裂, 於是查了一下午 wiki 換成了閉源驅動, 其中還實驗了是否 wayland 的原因等等之類一系列的問題.
 - 大三,  折騰 JACK, PulseAudio 等等音頻相關的東西搞了一週.
 - 爲了在大三的課程設計中偷懶（懶得設計表），學習了 MongoDB。
 - 大三的課程中學習了 STM32 單片機，還有 PLC，第一次接觸到 C 的條件編譯
@@ -107,7 +109,7 @@ menu:
 - 大四爲了在畢業設計中給自己挑戰，學習了 Rust 及其異步，還有 GraphQL。
 
 P.S. 雖然說, 在鳴鈴的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環境中不斷的換來換去，但始終有一點鳴鈴是從未妥協的.
-那就是不用 {{< ti "brand-windows" >}}Windows, 一是因爲其極其醜陋, 二是其對開發極不友好，例如：路徑的反斜槓、環境變量的設置、包管理工具不成熟（`choco` `scoop` `win-get` 遠比不上 `🍺brew` `apt` `pacman` `yum` 等等）、甚至`cmd`中默認字體爲宋體，等等問題讓鳴鈴對 {{< ti "brand-windows" >}}Windows 極其反感. 
+那就是不用 {{< ti "brand-windows" >}}Windows, 一是因爲其極其醜陋, 二是其對開發極不友好，例如：路徑的反斜槓、環境變量的設置、包管理工具不成熟（`choco` `scoop` `win-get` 遠比不上 `🍺brew` `apt` `pacman` `yum` 等等）、甚至`cmd`中默認字體爲宋體，等等問題讓鳴鈴對 {{< ti "brand-windows" >}}Windows 極其反感.
 
 另一個鳴鈴能擺脫 {{< ti "brand-windows" >}}Windows 依賴的原因是，鳴鈴在 {{< ti "devices-pc" >}}PC 上幾乎只玩 OpenGL 驅動的 Minecraft: {{< ti "coffee" >}}Java Edition. 並且所需要的軟體基本在 *NIX 系統上都能有或有替代品, 例如調試 STM32 時用到的 OpenOCD, 甚至大不了用 {{< ti "glass-full" >}}Wine 來解決.
 
@@ -118,7 +120,7 @@ P.S. 雖然說, 在鳴鈴的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環�
 - 高中時，最大的願望是有生之年中國憲政與自由
 - 大一時，最大的願望是 ☭ 能死
 - 大二時，最大的願望是中華民國光復大陸
-- 大三時，最大的願望是跑路到德國 
+- 大三時，最大的願望是跑路到德國
 - 大四時，最大的願望是能夠順利{{< ti "school" >}}升學
 
 {{< details "此處沒有什麼值得在意的" false true >}}
@@ -153,11 +155,12 @@ P.S. 雖然說, 在鳴鈴的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環�
 | 《矢量分析与场论》                 | 謝樹藝        | 加深理解電磁學必讀                                                                        |
 
 ### ~~FAQ~~Q&A
-Q：你是哪裏的人？爲什麼要用繁體字？  
+
+Q：你來自哪裏呀？爲什麼要用繁體字呢？  
 A：鳴鈴**目前**的法律身份仍是中國人，用什麼字體全憑喜好。其實鳴鈴是想用小篆的。大一時鳴鈴覺得小篆很好看，於是買了本《篆書千字文五種》學識寫小篆。但是書法不好於是學會了小篆卻一次都沒用過（
 
-Q：爲什麼不用中華民國教育部規定的正體字？  
-A：因爲不合理，比如「表」字爲上下結構，理應對「裏」而非「裡」。
+Q：既然都用繁體字了，那爲何不用中華民國教育部所規定的正體字呢？  
+A：因爲鳴鈴覺得不合理，比如「表」字爲上下結構，理應對「裏」而非「裡」。
 
-Q：爲什麼要用「伺服器」這種臺灣常用詞彙？但又不全用臺灣詞彙？  
-A：鳴鈴用詞是很審慎的，如果覺得某些外文翻譯是更好就會採用。在中國大陸同時使用「伺服電機」和「服務器」很奇怪對吧？對吧？
+Q：爲什麼要用「伺服器」這種臺灣慣用詞呢？但好像又不是全部如此？  
+A：鳴鈴希望能夠審慎斟酌用字以符合個人的審美，譬如鳴鈴會採用自己感覺更佳的外文翻譯。比如同在中國大陸，同時使用「伺服電機」和「服務器」很奇怪對吧？對吧？
