@@ -1,18 +1,21 @@
 ---
-title: "About"
+title: "About & Comments"
 date: 2020-06-07T20:25:49+08:00
 lastmod: 2021-06-27T00:43:00+08:00
 draft: false
 math: true
 icon: true
 toc: false
-comments: false
+comments: true
 menu: 
     main:
-        name: About
+        name: About & Comments
         pre: user
         weight: -90
 ---
+
+這裏是敝站的關於頁面暨全局留言板。歡迎大家在下方留言哦 -ω-
+
 ## 關於敝站
 
 {{< badge "https://github.com/narisuzu/narisuzu.github.io/actions/workflows/main.yml/badge.svg" "https://github.com/narisuzu/narisuzu.github.io/actions/workflows/main.yml" >}}
@@ -25,7 +28,7 @@ menu:
 - blog 程式 [Hugo](https://gohugo.io/)
 - 持續整合 [Github Actions](https://github.com/features/actions)
 - 靜態頁面 [Github Pages](https://pages.github.com/)
-- 留言 [utterances 🔮](https://utteranc.es/)
+- 留言 [💎 giscus](https://giscus.app/)
 
 關於敝站的構建流程，可見於[此]({{< ref "hugo-with-all-github" >}})。
 
@@ -57,7 +60,7 @@ menu:
 ## 關於本人
 
 自號「鳴鈴」，想成爲厲害的 Rustacan 與 Gopher，目前啃老中係無業遊民，無知且無能。  
-❓爲何號「鳴鈴」：鐘聲徹千里, 鈴鳴留寸隙。因爲最喜歡「鐘」和「鈴」了，但「鈴」聽起來更可愛！
+❓爲何號「鳴鈴」：鐘聲徹千里, 鈴鳴留寸隙。因爲最喜歡「鐘」和「鈴」了，但「鈴」聽起來更可愛 (
 
 ### 技能標籤
 
@@ -101,7 +104,7 @@ menu:
 - 爲了開發一款好看的 Minecraft Launcher，大二時學習了 {{< ti "atom" >}}Electron
 - 爲了追求「現代化」網頁開發，所以大三時學了一些前端 Framework, Library 還有 TypeScript.
 - 大三爲了追求 Hackintosh 的 Retina 和 4K 買了 Rx590, 但不久後審美疲勞又想念起了 KDE, 遂裝回 ArchLinux, 但 AMD 的開源驅動會造成鳴鈴綿綿滑滑的 4K Retina 熒幕窗口移動撕裂, 於是查了一下午 wiki 換成了閉源驅動, 其中還實驗了是否 wayland 的原因等等之類一系列的問題.
-- 大三,  折騰 JACK, PulseAudio 等等音頻相關的東西搞了一週.
+- 大三, 折騰 JACK, PulseAudio 等等音頻相關的東西搞了一週.
 - 爲了在大三的課程設計中偷懶（懶得設計表），學習了 MongoDB。
 - 大三的課程中學習了 STM32 單片機，還有 PLC，第一次接觸到 C 的條件編譯
 - 大三的課程設計中使用了 gRPC 定義並實現通信協議（C: {{< ti "coffee" >}}Java, S: Go）
@@ -118,7 +121,7 @@ P.S. 雖然說, 在鳴鈴的大學生涯中, Hackintosh, KDE, Gnome, DDE 等環�
 - 小學時，最大的願望是{{< omit >}}禁忌內容{{< /omit >}}
 - 初中時，最大的願望是有一部自己的{{< ti "device-mobile" >}}手機和{{< omit >}}禁忌內容{{< /omit >}}
 - 高中時，最大的願望是有生之年中國憲政與自由
-- 大一時，最大的願望是 ☭ 能死
+- 大一時，最大的願望是 ☭ 能倒臺
 - 大二時，最大的願望是中華民國光復大陸
 - 大三時，最大的願望是跑路到德國
 - 大四時，最大的願望是能夠順利{{< ti "school" >}}升學
