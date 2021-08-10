@@ -1,5 +1,6 @@
 ---
 title: "常微分方程與無能的我"
+description: "常微分方程學習筆記"
 date: 2021-07-07T22:07:12+08:00
 image: cover.jpg
 math: true
