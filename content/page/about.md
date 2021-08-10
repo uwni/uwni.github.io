@@ -1,20 +1,19 @@
 ---
 title: "About & Comments"
+description: "這裏是敝站的關於頁面暨全局留言板。歡迎大家在下方留言哦 ♡(˃͈ દ ˂͈ ༶ )
+"
 date: 2020-06-07T20:25:49+08:00
 lastmod: 2021-06-27T00:43:00+08:00
 draft: false
 math: true
 icon: true
 toc: false
-comments: true
 menu: 
     main:
         name: About & Comments
         pre: user
         weight: -90
 ---
-
-這裏是敝站的關於頁面暨全局留言板。歡迎大家在下方留言哦 -ω-
 
 ## 關於敝站
 
