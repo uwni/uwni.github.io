@@ -116,11 +116,14 @@ menu:
           url: /
           weight: -100
           pre: home
+        
         - identifier: feed
           name: Feed
           url: /index.xml
           weight: 0
           pre: rss
+          params:
+            newTab: true
 
 related:
     includeNewer: true
