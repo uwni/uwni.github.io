@@ -18,6 +18,10 @@ tags: [英語]
 | :--: | :--: |
 | [OM] | 本義 |
 | [EM] | 引申 |
+| [C]  | 可數名詞 |
+| [U]  | 不可數名詞 |
+| [T] | 他動詞 |
+| [I] | 自動詞 |
 
 ## 11 Aug
 
@@ -72,3 +76,20 @@ Often said about yourself.
 ### mattress /ˈmæt.rəs/
 
 ![a mattress](mattress.jpg)
+
+### ornament /ˈɔː.nə.mənt/
+
+- [C] an object that is beautiful rather than useful.  
+但和「華而不實」有異, ~ 不含貶義. 可譯爲：飾品，裝飾物.
+
+- [U] decoration that is added to increase the beauty of something.  
+可譯爲：裝飾(不可數)
+
+- [T] to add decoration to something
+
+### admit /ədˈmɪt/
+
+- [TI] **ACCEPT** to agree that something is true, especially unwillingly.  
+尤其不情願. something 指命題.
+
+- [T] **ALLOW IN** to allow someone to enter a place.
