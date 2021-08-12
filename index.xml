@@ -17,6 +17,22 @@
 &lt;td style="text-align:center">[EM]&lt;/td>
 &lt;td style="text-align:center">引申&lt;/td>
 &lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">[C]&lt;/td>
+&lt;td style="text-align:center">可數名詞&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">[U]&lt;/td>
+&lt;td style="text-align:center">不可數名詞&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">[T]&lt;/td>
+&lt;td style="text-align:center">他動詞&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td style="text-align:center">[I]&lt;/td>
+&lt;td style="text-align:center">自動詞&lt;/td>
+&lt;/tr>
 &lt;/tbody>
 &lt;/table>
 &lt;h2 id="11-aug">11 Aug&lt;/h2>
@@ -91,7 +107,31 @@ loading="lazy"
 alt="a mattress">
 &lt;/a>
 &lt;figcaption>a mattress&lt;/figcaption>
-&lt;/figure>&lt;/p></description></item><item><title>常微分方程與無能的我</title><link>https://blog.ling.moe/posts/all-about-ode/</link><pubDate>Wed, 07 Jul 2021 22:07:12 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-ode/</guid><description>&lt;img src="https://blog.ling.moe/posts/all-about-ode/cover.jpg" alt="Featured image of post 常微分方程與無能的我" />&lt;p>$$
+&lt;/figure>&lt;/p>
+&lt;h3 id="ornament-ˈɔːnəmənt">ornament /ˈɔː.nə.mənt/&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>[C] an object that is beautiful rather than useful.&lt;br>
+但和「華而不實」有異, ~ 不含貶義. 可譯爲：飾品，裝飾物.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[U] decoration that is added to increase the beauty of something.&lt;br>
+可譯爲：裝飾(不可數)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[T] to add decoration to something&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="admit-ədˈmɪt">admit /ədˈmɪt/&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>[TI] &lt;strong>ACCEPT&lt;/strong> to agree that something is true, especially unwillingly.&lt;br>
+尤其不情願. something 指命題.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>[T] &lt;strong>ALLOW IN&lt;/strong> to allow someone to enter a place.&lt;/p>
+&lt;/li>
+&lt;/ul></description></item><item><title>常微分方程與無能的我</title><link>https://blog.ling.moe/posts/all-about-ode/</link><pubDate>Wed, 07 Jul 2021 22:07:12 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-ode/</guid><description>&lt;img src="https://blog.ling.moe/posts/all-about-ode/cover.jpg" alt="Featured image of post 常微分方程與無能的我" />&lt;p>$$
 \gdef\dif{\mathop{}\!\mathrm{d}}
 $$&lt;/p>
 &lt;h2 id="序">序&lt;/h2>
