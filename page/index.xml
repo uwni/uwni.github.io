@@ -13,7 +13,7 @@ blog 程式 Hugo 持續整合 Github Actions 靜態頁面 Github Pages 留言 �
 格式 敝站使用十分高效的 $\KaTeX$ 作爲 $\LaTeX$ 公式渲染器. 中文排版基本按照中文文案排版指北的規範進行.
 關於敝站的格式標準化，可見於：
 留言 在每個有內容的頁面底部，您可以登入 Github 賬戶以發佈留言，留言支援 Markdown 語法.
-著作權 鳴鈴尊重創作者與著作權，敝站所有第三方資源均在共有領域內、或以著作權許可的方式使用。
-敝站除額外標註版權信息外，含下列內容之一者，許可協議均爲姓名標示-非商業性-相同方式分享 4.0 國際 (CC BY-NC-SA 4.0)：
+著作權 鳴鈴尊重創作者與著作權，敝站所有第三方資源均在共有領域內、或以著作權許可的方式使用。敝站除額外標註版權信息外，含下列內容之一者，許可協議均爲姓名標示-非商業性-相同方式分享 4.0 國際 (CC BY-NC-SA 4.0)：
 引用內容（引號與引用塊的內容）之外的文本內容（包含公式的 $\LaTeX$ 源碼） 使用 $\text{Ti}k\text{Z}$ 生成的圖示及其源碼 使用 mermaid 生成的圖示及其源碼 敝站的標準化方案 代碼塊中的代碼 當然啦，縱使妳沒有遵守協議，鳴鈴也不會抱怨什麼的 (
-關於本人 自號「鳴鈴」，想成爲厲害的 Rustacan 與 Gopher，目前啃老中係無業遊民，無知且無能。</description></item><item><title>Archives</title><link>https://blog.ling.moe/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/archives/</guid><description/></item><item><title>朋友</title><link>https://blog.ling.moe/links/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/links/</guid><description/></item><item><title>Search</title><link>https://blog.ling.moe/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/search/</guid><description/></item></channel></rss>
+關於本人 自號「鳴鈴」，想成爲厲害的 Rustacan 與 Gopher，目前啃老中係無業遊民，無知且無能。
+❓爲何號「鳴鈴」：鐘聲徹千里, 鈴鳴留寸隙。因爲最喜歡「鐘」和「鈴」了，但「鈴」聽起來更可愛 (</description></item><item><title>Archives</title><link>https://blog.ling.moe/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/archives/</guid><description/></item><item><title>朋友</title><link>https://blog.ling.moe/links/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/links/</guid><description/></item><item><title>Search</title><link>https://blog.ling.moe/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/search/</guid><description/></item></channel></rss>
