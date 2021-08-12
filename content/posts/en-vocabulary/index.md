@@ -1,10 +1,11 @@
 ---
 title: "背單詞嘍"
-description: 鳴鈴的英語單詞表
+description: 鳴鈴的英語生詞表
 date: 2021-08-11T22:09:03+08:00
 image: cover.jpg
 hidden: false
 draft: false
+tags: [英語]
 ---
 
 ## 序
