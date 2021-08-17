@@ -1,4 +1,4 @@
-baseurl: https://blog.ling.moe
+baseurl: https://ming.ling.moe
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
