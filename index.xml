@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>鳴鈴</title><link>https://blog.ling.moe/</link><description>Recent content on 鳴鈴</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 22:09:03 +0800</lastBuildDate><atom:link href="https://blog.ling.moe/index.xml" rel="self" type="application/rss+xml"/><item><title>背單詞嘍</title><link>https://blog.ling.moe/posts/en-vocabulary/</link><pubDate>Wed, 11 Aug 2021 22:09:03 +0800</pubDate><guid>https://blog.ling.moe/posts/en-vocabulary/</guid><description>&lt;img src="https://blog.ling.moe/posts/en-vocabulary/cover.jpg" alt="Featured image of post 背單詞嘍" />&lt;h2 id="序">序&lt;/h2>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>鳴鈴</title><link>https://ming.ling.moe/</link><description>Recent content on 鳴鈴</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 Aug 2021 22:09:03 +0800</lastBuildDate><atom:link href="https://ming.ling.moe/index.xml" rel="self" type="application/rss+xml"/><item><title>背單詞嘍</title><link>https://ming.ling.moe/posts/en-vocabulary/</link><pubDate>Wed, 11 Aug 2021 22:09:03 +0800</pubDate><guid>https://ming.ling.moe/posts/en-vocabulary/</guid><description>&lt;img src="https://ming.ling.moe/posts/en-vocabulary/cover.jpg" alt="Featured image of post 背單詞嘍" />&lt;h2 id="序">序&lt;/h2>
 &lt;p>本文是爲了&lt;del>應付&lt;/del>應對 TOEIC® 考試和日常應用而準備的. 鳴鈴在用的單詞書是新東方的《3500 词搞定托业考试》。不得不說的是此書的分類真的超亂，基本沒有參考意義。&lt;/p>
 &lt;p>因爲書中有些詞是鳴鈴本就會的，所以本頁只記錄生詞，即單詞釋義中有任何一項不知者。對於學會的生詞會進行標記。而本頁面中會使用到一些標記，在此列出:&lt;/p>
 &lt;table>
@@ -99,8 +99,8 @@ Often said about yourself.&lt;/li>
 &lt;/ul>
 &lt;h3 id="mattress-ˈmætrəs">mattress /ˈmæt.rəs/&lt;/h3>
 &lt;p>&lt;figure style="flex-grow: 143; flex-basis: 343px">
-&lt;a href="https://blog.ling.moe/posts/en-vocabulary/mattress.jpg" data-size="1920x1342">&lt;img src="https://blog.ling.moe/posts/en-vocabulary/mattress.jpg"
-srcset="https://blog.ling.moe/posts/en-vocabulary/mattress_hue564591dc686470820dd8e4050f4e41d_88759_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/en-vocabulary/mattress_hue564591dc686470820dd8e4050f4e41d_88759_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/en-vocabulary/mattress.jpg" data-size="1920x1342">&lt;img src="https://ming.ling.moe/posts/en-vocabulary/mattress.jpg"
+srcset="https://ming.ling.moe/posts/en-vocabulary/mattress_hue564591dc686470820dd8e4050f4e41d_88759_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/en-vocabulary/mattress_hue564591dc686470820dd8e4050f4e41d_88759_1024x0_resize_q75_box.jpg 1024w"
 width="1920"
 height="1342"
 loading="lazy"
@@ -131,7 +131,7 @@ alt="a mattress">
 &lt;li>
 &lt;p>[T] &lt;strong>ALLOW IN&lt;/strong> to allow someone to enter a place.&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>常微分方程與無能的我</title><link>https://blog.ling.moe/posts/all-about-ode/</link><pubDate>Wed, 07 Jul 2021 22:07:12 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-ode/</guid><description>&lt;img src="https://blog.ling.moe/posts/all-about-ode/cover.jpg" alt="Featured image of post 常微分方程與無能的我" />&lt;p>$$
+&lt;/ul></description></item><item><title>常微分方程與無能的我</title><link>https://ming.ling.moe/posts/all-about-ode/</link><pubDate>Wed, 07 Jul 2021 22:07:12 +0800</pubDate><guid>https://ming.ling.moe/posts/all-about-ode/</guid><description>&lt;img src="https://ming.ling.moe/posts/all-about-ode/cover.jpg" alt="Featured image of post 常微分方程與無能的我" />&lt;p>$$
 \gdef\dif{\mathop{}\!\mathrm{d}}
 $$&lt;/p>
 &lt;h2 id="序">序&lt;/h2>
@@ -350,7 +350,7 @@ $$y' + P(x)y = Q(x)$$
 &lt;p>電路理論中的相量、波動中的複振幅等&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>以OOP的視角看が和の</title><link>https://blog.ling.moe/posts/no-and-ga-under-oop-views/</link><pubDate>Mon, 05 Jul 2021 12:59:56 +0800</pubDate><guid>https://blog.ling.moe/posts/no-and-ga-under-oop-views/</guid><description>&lt;img src="https://blog.ling.moe/posts/no-and-ga-under-oop-views/cover.jpg" alt="Featured image of post 以OOP的視角看が和の" />&lt;p>封裝是典型的 OOP 的特徵之一（另外兩個是繼承和&lt;del>多肽&lt;/del>多態）&lt;/p>
+&lt;/section></description></item><item><title>以OOP的視角看が和の</title><link>https://ming.ling.moe/posts/no-and-ga-under-oop-views/</link><pubDate>Mon, 05 Jul 2021 12:59:56 +0800</pubDate><guid>https://ming.ling.moe/posts/no-and-ga-under-oop-views/</guid><description>&lt;img src="https://ming.ling.moe/posts/no-and-ga-under-oop-views/cover.jpg" alt="Featured image of post 以OOP的視角看が和の" />&lt;p>封裝是典型的 OOP 的特徵之一（另外兩個是繼承和&lt;del>多肽&lt;/del>多態）&lt;/p>
 &lt;h2 id="封裝">封裝&lt;/h2>
 &lt;p>拿以下 Java Class 举例 (省略方法實現)&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="kd">class&lt;/span> &lt;span class="nc">Human&lt;/span> &lt;span class="o">{&lt;/span>
@@ -401,12 +401,12 @@ $$y' + P(x)y = Q(x)$$
 &lt;li>meがsleepする&lt;/li>
 &lt;li>meがyouにhelloしてsleepする&lt;/li>
 &lt;/ul>
-&lt;p>這樣是不是就能看出の和が在形式上存在某種一致性？正如在&lt;a class="link" href="https://blog.ling.moe/posts/jyu-jyu-dou-si/" >動詞接續授受動詞的行爲&lt;/a>一文中類比過的授受動詞在被動詞（從句）和名詞接續的現象，還有在定語從句中の和が可以互換等現象來看：以某個詞爲中心，其發出的動作和其所有的物品，在某種程度上的語言邏輯是類似的。更形式化的說，の 用來接續名詞，而 が 用來接續動詞。將 の 和 が 看作是同級或對偶的存在比較好，而 を，で，に修飾的成分看作是修飾動詞的（即參數，只是存在是否 &lt;code>Nullable&lt;/code> 的區別）。在 OOP 中不難發現更多相似之處。&lt;/p>
+&lt;p>這樣是不是就能看出の和が在形式上存在某種一致性？正如在&lt;a class="link" href="https://ming.ling.moe/posts/jyu-jyu-dou-si/" >動詞接續授受動詞的行爲&lt;/a>一文中類比過的授受動詞在被動詞（從句）和名詞接續的現象，還有在定語從句中の和が可以互換等現象來看：以某個詞爲中心，其發出的動作和其所有的物品，在某種程度上的語言邏輯是類似的。更形式化的說，の 用來接續名詞，而 が 用來接續動詞。將 の 和 が 看作是同級或對偶的存在比較好，而 を，で，に修飾的成分看作是修飾動詞的（即參數，只是存在是否 &lt;code>Nullable&lt;/code> 的區別）。在 OOP 中不難發現更多相似之處。&lt;/p>
 &lt;p>對於て形中斷，其實和鏈狀調用蛮相似的，那麼與丁寧/辭書形結尾類似的就是「;」了。综合起来舉個複雜的例子。&lt;/p>
 &lt;h2 id="例">例&lt;/h2>
 &lt;p>私があなたの醤油をつけて彼の餃子を食べる&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">dip&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">you&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">joySource&lt;/span>&lt;span class="o">).&lt;/span>&lt;span class="na">eat&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">he&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">dumpling&lt;/span>&lt;span class="o">);&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>當然了，計算機語言是由人類精心設計過的，主要是給編譯器看的。而自然語言是經歷上千年的變化而來的。拿二者比較本身就不是很嚴謹的事，所以這只是鳴鈴箇人的一點小想法。其實鳴鈴注意到の和が之間存在某種相似性很早之前就有了，當初學到の可以替代從句中的が時就隱隱覺得奇怪，而後仔細對比了の和が在授受動詞接續名詞和從句時的行爲寫成了&lt;a class="link" href="https://blog.ling.moe/posts/jyu-jyu-dou-si/" >動詞接續授受動詞的行爲&lt;/a>一文，之後發現OOP對於變量和方法的封裝正好類似於の和が接續名詞和動詞，也就有了本文。&lt;/p></description></item><item><title>傳輸線模型（未完稿）</title><link>https://blog.ling.moe/posts/all-about-transmission-line/</link><pubDate>Sat, 03 Jul 2021 20:54:56 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-transmission-line/</guid><description>&lt;img src="https://blog.ling.moe/posts/all-about-transmission-line/cover.jpg" alt="Featured image of post 傳輸線模型（未完稿）" />&lt;p>$$
+&lt;/code>&lt;/pre>&lt;/div>&lt;p>當然了，計算機語言是由人類精心設計過的，主要是給編譯器看的。而自然語言是經歷上千年的變化而來的。拿二者比較本身就不是很嚴謹的事，所以這只是鳴鈴箇人的一點小想法。其實鳴鈴注意到の和が之間存在某種相似性很早之前就有了，當初學到の可以替代從句中的が時就隱隱覺得奇怪，而後仔細對比了の和が在授受動詞接續名詞和從句時的行爲寫成了&lt;a class="link" href="https://ming.ling.moe/posts/jyu-jyu-dou-si/" >動詞接續授受動詞的行爲&lt;/a>一文，之後發現OOP對於變量和方法的封裝正好類似於の和が接續名詞和動詞，也就有了本文。&lt;/p></description></item><item><title>傳輸線模型（未完稿）</title><link>https://ming.ling.moe/posts/all-about-transmission-line/</link><pubDate>Sat, 03 Jul 2021 20:54:56 +0800</pubDate><guid>https://ming.ling.moe/posts/all-about-transmission-line/</guid><description>&lt;img src="https://ming.ling.moe/posts/all-about-transmission-line/cover.jpg" alt="Featured image of post 傳輸線模型（未完稿）" />&lt;p>$$
 \gdef\dif{\mathop{}\!\mathrm{d}}
 \gdef\elr{\mathrm{e}}
 $$&lt;/p>
@@ -607,7 +607,7 @@ $C_1, C_2, C_3, C_4$ 有四個未定常數, 但一維變量的邊界條件只有
 &lt;p>雖然鳴鈴能夠證明之，但卻不懂箇中動機. 即「我們知道加上邊界條件也解不出 $C_1 \cdots C_4$ 但是什麼能讓我們得知他們並非相互獨立，從而通過廽代解出其中的關係」.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>MC:JE 鯖策劃案（更新中...）</title><link>https://blog.ling.moe/posts/new-mc-server/</link><pubDate>Thu, 01 Jul 2021 16:59:16 +0800</pubDate><guid>https://blog.ling.moe/posts/new-mc-server/</guid><description>&lt;img src="https://blog.ling.moe/posts/new-mc-server/cover.png" alt="Featured image of post MC:JE 鯖策劃案（更新中...）" />&lt;p>列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！&lt;/p>
+&lt;/section></description></item><item><title>MC:JE 鯖策劃案（更新中...）</title><link>https://ming.ling.moe/posts/new-mc-server/</link><pubDate>Thu, 01 Jul 2021 16:59:16 +0800</pubDate><guid>https://ming.ling.moe/posts/new-mc-server/</guid><description>&lt;img src="https://ming.ling.moe/posts/new-mc-server/cover.png" alt="Featured image of post MC:JE 鯖策劃案（更新中...）" />&lt;p>列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！&lt;/p>
 &lt;h2 id="綱要">綱要&lt;/h2>
 &lt;p>該伺服器名稱未定，但其應有以下特徵：&lt;/p>
 &lt;ul>
@@ -868,14 +868,14 @@ color: var(--card-background);
 >https://wiki.vg/Protocol_Encryption&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>神都二日遊記</title><link>https://blog.ling.moe/posts/lakuyou-2-days/</link><pubDate>Thu, 01 Jul 2021 07:39:54 +0800</pubDate><guid>https://blog.ling.moe/posts/lakuyou-2-days/</guid><description>&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/cover.jpg" alt="Featured image of post 神都二日遊記" />&lt;p>鳴鈴在家閒得沒事幹，於是前兩日前去洛陽轉了轉，權當畢業旅行。但去洛陽的兩天真的有夠熱的，縱使撐着傘，依然感覺「背灼炎天光」。&lt;/p>
+&lt;/section></description></item><item><title>神都二日遊記</title><link>https://ming.ling.moe/posts/lakuyou-2-days/</link><pubDate>Thu, 01 Jul 2021 07:39:54 +0800</pubDate><guid>https://ming.ling.moe/posts/lakuyou-2-days/</guid><description>&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/cover.jpg" alt="Featured image of post 神都二日遊記" />&lt;p>鳴鈴在家閒得沒事幹，於是前兩日前去洛陽轉了轉，權當畢業旅行。但去洛陽的兩天真的有夠熱的，縱使撐着傘，依然感覺「背灼炎天光」。&lt;/p>
 &lt;h2 id="龍門石窟">龍門石窟&lt;/h2>
 &lt;p>龍門石窟確實古老，而且聽說文革時被紅小將們砸了不少。但鳴鈴一非佛教徒、二非學者、三非雕塑造像藝術家，對其亦沒有什麼太大的興趣。（即便走在伊水畔也絲毫不涼快就是了）&lt;/p>
 &lt;h3 id="蔣宋別墅">蔣宋別墅&lt;/h3>
 &lt;p>唯一令鳴鈴感興趣的是位於龍門石窟景區伊水東岸香山上的蔣宋別墅。這個別墅是當時河南政府爲先總統夫婦修築的。位於中國大陸並同中國國民黨相關的景點，必然存在國父遺像、🇹🇼 青天白日滿地紅國旗和青天白日旗。當然啦，這裏也不例外.&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/sun-yatsan.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/sun-yatsan.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/sun-yatsan_hua9added3e19d546946479170b551c671_789243_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/sun-yatsan_hua9added3e19d546946479170b551c671_789243_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan_hua9added3e19d546946479170b551c671_789243_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan_hua9added3e19d546946479170b551c671_789243_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
@@ -884,8 +884,8 @@ alt="會客廳">
 &lt;figcaption>會客廳&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/roc-flag.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/roc-flag.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/roc-flag_hu5b1b5ccf85d4c8dce4e375b221267911_722176_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/roc-flag_hu5b1b5ccf85d4c8dce4e375b221267911_722176_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-flag.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-flag.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-flag_hu5b1b5ccf85d4c8dce4e375b221267911_722176_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-flag_hu5b1b5ccf85d4c8dce4e375b221267911_722176_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
@@ -900,8 +900,8 @@ alt="會議室">
 &lt;/blockquote>
 &lt;p>鳴鈴什麼時候才能逃離胡塵呢。&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/fendou.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/fendou.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/fendou_hu8c00e5176e8767d99e8e0918b95f5d03_552307_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/fendou_hu8c00e5176e8767d99e8e0918b95f5d03_552307_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/fendou.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/fendou.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/fendou_hu8c00e5176e8767d99e8e0918b95f5d03_552307_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/fendou_hu8c00e5176e8767d99e8e0918b95f5d03_552307_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
@@ -909,8 +909,8 @@ alt="才能自由">
 &lt;/a>
 &lt;figcaption>才能自由&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/qinai-jingcheng.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/qinai-jingcheng.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/qinai-jingcheng_hu4d60b82c985d98529e37329f242e580b_585896_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/qinai-jingcheng_hu4d60b82c985d98529e37329f242e580b_585896_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng_hu4d60b82c985d98529e37329f242e580b_585896_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng_hu4d60b82c985d98529e37329f242e580b_585896_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -922,8 +922,8 @@ alt="親愛精誠">
 &lt;h2 id="白馬寺">白馬寺&lt;/h2>
 &lt;p>白馬寺被長者稱爲「中國第一&lt;del>咕殺&lt;/del>古剎」，當然，白馬寺名副其實。不得不提的一點是, 鳴鈴最喜歡白馬寺的門票：&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A_hu539b135a9353c685bbcd31e6758d8521_1503903_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A_hu539b135a9353c685bbcd31e6758d8521_1503903_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A_hu539b135a9353c685bbcd31e6758d8521_1503903_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A_hu539b135a9353c685bbcd31e6758d8521_1503903_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
@@ -932,8 +932,8 @@ alt="門票正面">
 &lt;figcaption>門票正面&lt;/figcaption>
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B_hufe893c48502c4c9a29d1fe20496de9fe_1652082_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B_hufe893c48502c4c9a29d1fe20496de9fe_1652082_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B_hufe893c48502c4c9a29d1fe20496de9fe_1652082_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B_hufe893c48502c4c9a29d1fe20496de9fe_1652082_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
@@ -945,16 +945,16 @@ alt="門票反面">
 &lt;p>你是不是想問鳴鈴爲什麼不給時間和編號打馬賽克？嗯，鳴鈴覺得這種東西史塔西或者蓋世太保是很好調查的，如果他們真的想的話。&lt;/p>
 &lt;p>泰國風格佛殿和緬甸風格佛殿對鳴鈴而言是很新鮮的：&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/thai-a.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/thai-a.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/thai-a_hu3a4d17f0716ba382f989d3209bfbd4a0_804216_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/thai-a_hu3a4d17f0716ba382f989d3209bfbd4a0_804216_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-a.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-a.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-a_hu3a4d17f0716ba382f989d3209bfbd4a0_804216_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-a_hu3a4d17f0716ba382f989d3209bfbd4a0_804216_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/thai-b.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/thai-b.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/thai-b_hu97126711a1be4e88f2b514781a930e82_1443613_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/thai-b_hu97126711a1be4e88f2b514781a930e82_1443613_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-b.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-b.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-b_hu97126711a1be4e88f2b514781a930e82_1443613_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-b_hu97126711a1be4e88f2b514781a930e82_1443613_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
@@ -962,24 +962,24 @@ loading="lazy"
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/thai-c.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/thai-c.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/thai-c_hu27a3686cd319c58e8664b1c8efaddbdc_918214_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/thai-c_hu27a3686cd319c58e8664b1c8efaddbdc_918214_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-c.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-c.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-c_hu27a3686cd319c58e8664b1c8efaddbdc_918214_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-c_hu27a3686cd319c58e8664b1c8efaddbdc_918214_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/thai-d.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/thai-d.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/thai-d_hu0ad01ebd030647aba221931e322360fa_1346810_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/thai-d_hu0ad01ebd030647aba221931e322360fa_1346810_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-d.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-d.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-d_hu0ad01ebd030647aba221931e322360fa_1346810_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-d_hu0ad01ebd030647aba221931e322360fa_1346810_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/thai-e.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/thai-e.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/thai-e_hu4d8050520c35275e98ab0c6b29a16719_1318003_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/thai-e_hu4d8050520c35275e98ab0c6b29a16719_1318003_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-e.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-e.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-e_hu4d8050520c35275e98ab0c6b29a16719_1318003_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-e_hu4d8050520c35275e98ab0c6b29a16719_1318003_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
@@ -987,16 +987,16 @@ loading="lazy"
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/myanmar-a.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/myanmar-a.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/myanmar-a_huc127342b2b5aa7da602bb36f0b37d86b_937664_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/myanmar-a_huc127342b2b5aa7da602bb36f0b37d86b_937664_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a_huc127342b2b5aa7da602bb36f0b37d86b_937664_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a_huc127342b2b5aa7da602bb36f0b37d86b_937664_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/myanmar-b.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/myanmar-b.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/myanmar-b_hu76a7d083655893541cd56bb4c2d18b50_778877_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/myanmar-b_hu76a7d083655893541cd56bb4c2d18b50_778877_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b_hu76a7d083655893541cd56bb4c2d18b50_778877_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b_hu76a7d083655893541cd56bb4c2d18b50_778877_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
@@ -1005,8 +1005,8 @@ loading="lazy"
 &lt;/figure>&lt;/p>
 &lt;p>另外在泰國風格佛殿的某處門前放着這個牌子：&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/mask-alert.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/mask-alert.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/mask-alert_hu1c08d28ae3256de396e700b0811b630d_1126298_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/mask-alert_hu1c08d28ae3256de396e700b0811b630d_1126298_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/mask-alert.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/mask-alert.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/mask-alert_hu1c08d28ae3256de396e700b0811b630d_1126298_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/mask-alert_hu1c08d28ae3256de396e700b0811b630d_1126298_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -1018,16 +1018,16 @@ alt="超級可愛">
 &lt;p>關林係關二爺的墓（雖說只有頭葬在這裏）。洛陽的這個關林是曹操爲其修築的。關林中有自大明國起至當代各種人立的碑，說實話滿有趣的。下面按朝代分類一下拍到的碑記。&lt;/p>
 &lt;h3 id="大明國">大明國&lt;/h3>
 &lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/ming-a.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/ming-a.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/ming-a_hufb61fc85bf548a57c93970b2adc2cb31_2027430_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/ming-a_hufb61fc85bf548a57c93970b2adc2cb31_2027430_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-a.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-a.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-a_hufb61fc85bf548a57c93970b2adc2cb31_2027430_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-a_hufb61fc85bf548a57c93970b2adc2cb31_2027430_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/ming-b.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/ming-b.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/ming-b_hub8707ae6b0931088aded4bb26debd26c_2025833_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/ming-b_hub8707ae6b0931088aded4bb26debd26c_2025833_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-b.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-b.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-b_hub8707ae6b0931088aded4bb26debd26c_2025833_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-b_hub8707ae6b0931088aded4bb26debd26c_2025833_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -1035,24 +1035,24 @@ loading="lazy"
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/ming-c.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/ming-c.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/ming-c_hue7a3992b1b18719ac8109a1aeebbdb58_2390520_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/ming-c_hue7a3992b1b18719ac8109a1aeebbdb58_2390520_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-c.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-c.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-c_hue7a3992b1b18719ac8109a1aeebbdb58_2390520_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-c_hue7a3992b1b18719ac8109a1aeebbdb58_2390520_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/ming-d.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/ming-d.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/ming-d_hubbf11134c3b84446cf7accaff3db6748_2094188_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/ming-d_hubbf11134c3b84446cf7accaff3db6748_2094188_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-d.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-d.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-d_hubbf11134c3b84446cf7accaff3db6748_2094188_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-d_hubbf11134c3b84446cf7accaff3db6748_2094188_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/ming-e.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/ming-e.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/ming-e_hue6d821df5b41b7f9a56e5d14dfb2e22f_2046117_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/ming-e_hue6d821df5b41b7f9a56e5d14dfb2e22f_2046117_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-e.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-e.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-e_hue6d821df5b41b7f9a56e5d14dfb2e22f_2046117_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-e_hue6d821df5b41b7f9a56e5d14dfb2e22f_2046117_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -1060,16 +1060,16 @@ loading="lazy"
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/ming-f.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/ming-f.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/ming-f_hu8c0a69ab703245a3f9124b057661424b_1901036_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/ming-f_hu8c0a69ab703245a3f9124b057661424b_1901036_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-f.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-f.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-f_hu8c0a69ab703245a3f9124b057661424b_1901036_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-f_hu8c0a69ab703245a3f9124b057661424b_1901036_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/ming-g.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/ming-g.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/ming-g_huc3f640e64ca98a9c2f6b7d788a6c12d2_1335463_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/ming-g_huc3f640e64ca98a9c2f6b7d788a6c12d2_1335463_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-g.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-g.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-g_huc3f640e64ca98a9c2f6b7d788a6c12d2_1335463_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-g_huc3f640e64ca98a9c2f6b7d788a6c12d2_1335463_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -1079,24 +1079,24 @@ loading="lazy"
 &lt;p>鳴鈴注意到：明朝時就已經開始混用「国」和「國」，還有「歷」和「曆」了。但是作爲年號應該是有唯一正確的寫法吧？&lt;/p>
 &lt;h3 id="大清國">大清國&lt;/h3>
 &lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/qing-a.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/qing-a.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/qing-a_hu2f23b58d42b1c6c5ba8279e023b6aa3a_698825_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/qing-a_hu2f23b58d42b1c6c5ba8279e023b6aa3a_698825_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-a.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-a.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-a_hu2f23b58d42b1c6c5ba8279e023b6aa3a_698825_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-a_hu2f23b58d42b1c6c5ba8279e023b6aa3a_698825_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/qing-b.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/qing-b.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/qing-b_hu92657d0910576780ffaf8c7188e45473_2727669_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/qing-b_hu92657d0910576780ffaf8c7188e45473_2727669_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-b.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-b.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-b_hu92657d0910576780ffaf8c7188e45473_2727669_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-b_hu92657d0910576780ffaf8c7188e45473_2727669_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/qing-c.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/qing-c.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/qing-c_hu3e9aa3152e50d2560fd6b09bcd51d12d_1526630_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/qing-c_hu3e9aa3152e50d2560fd6b09bcd51d12d_1526630_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-c.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-c.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-c_hu3e9aa3152e50d2560fd6b09bcd51d12d_1526630_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-c_hu3e9aa3152e50d2560fd6b09bcd51d12d_1526630_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -1104,16 +1104,16 @@ loading="lazy"
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/qing-d.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/qing-d.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/qing-d_hu13cc15457d44b008a25f11c1a50f2ef1_2082170_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/qing-d_hu13cc15457d44b008a25f11c1a50f2ef1_2082170_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-d.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-d.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-d_hu13cc15457d44b008a25f11c1a50f2ef1_2082170_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-d_hu13cc15457d44b008a25f11c1a50f2ef1_2082170_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/qing-e.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/qing-e.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/qing-e_hu9b2d4ff050d9d87fa31f4c050a31ea6f_1563429_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/qing-e_hu9b2d4ff050d9d87fa31f4c050a31ea6f_1563429_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-e.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-e.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-e_hu9b2d4ff050d9d87fa31f4c050a31ea6f_1563429_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-e_hu9b2d4ff050d9d87fa31f4c050a31ea6f_1563429_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -1121,24 +1121,24 @@ loading="lazy"
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/qing-f.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/qing-f.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/qing-f_hu0e54abcc725dc7b5952458c81508f226_1446953_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/qing-f_hu0e54abcc725dc7b5952458c81508f226_1446953_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-f.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-f.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-f_hu0e54abcc725dc7b5952458c81508f226_1446953_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-f_hu0e54abcc725dc7b5952458c81508f226_1446953_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/qing-g.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/qing-g.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/qing-g_hub0feac968138b2a214a29c9e619ec395_3010904_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/qing-g_hub0feac968138b2a214a29c9e619ec395_3010904_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-g.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-g.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-g_hub0feac968138b2a214a29c9e619ec395_3010904_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-g_hub0feac968138b2a214a29c9e619ec395_3010904_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/qing-h.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/qing-h.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/qing-h_hu6f0a38b85551f75cbff3f3c631ed7200_1810779_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/qing-h_hu6f0a38b85551f75cbff3f3c631ed7200_1810779_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-h.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-h.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-h_hu6f0a38b85551f75cbff3f3c631ed7200_1810779_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-h_hu6f0a38b85551f75cbff3f3c631ed7200_1810779_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -1147,8 +1147,8 @@ loading="lazy"
 &lt;/figure>&lt;/p>
 &lt;p>下圖是乾隆年代所建的香爐，上面的花紋很漂亮，現在依然在使用。立於其前，雖然很熱，但更重要的是能嗅到歷史的氣息（別鬧啦，只是因爲爐內在焚香吧 -`д´- ） 此類有很長的歷史，卻依舊使用中，而非列於防爆玻璃展臺之內的文物真的感覺很奇妙。&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/incense-burner.jpg" data-size="4032x2256">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/incense-burner.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/incense-burner_hue6a1e390a4558d332b10228cabd82d3d_1834661_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/incense-burner_hue6a1e390a4558d332b10228cabd82d3d_1834661_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/incense-burner.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/incense-burner.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/incense-burner_hue6a1e390a4558d332b10228cabd82d3d_1834661_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/incense-burner_hue6a1e390a4558d332b10228cabd82d3d_1834661_1024x0_resize_q75_box.jpg 1024w"
 width="4032"
 height="2256"
 loading="lazy"
@@ -1158,24 +1158,24 @@ loading="lazy"
 &lt;p>一般提到文物，給鳴鈴的印象就算不是陳設於展臺之上，也是石碑匾額之類單純供人觀賞的器物。所以鳴鈴就把這個還在使用中的香爐就拍了下來，這個香爐左右兩邊各有一個，鳴鈴攝的是右邊那個。&lt;/p>
 &lt;h3 id="中華民國">中華民國&lt;/h3>
 &lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/roc-a.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/roc-a.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/roc-a_hue3246a8110418c5738d5338ad42eb5a6_2015336_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/roc-a_hue3246a8110418c5738d5338ad42eb5a6_2015336_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-a.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-a.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-a_hue3246a8110418c5738d5338ad42eb5a6_2015336_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-a_hue3246a8110418c5738d5338ad42eb5a6_2015336_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/roc-b.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/roc-b.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/roc-b_hu377cc21ead80195a2f4f82b9bd15ed3f_2232152_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/roc-b_hu377cc21ead80195a2f4f82b9bd15ed3f_2232152_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-b.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-b.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-b_hu377cc21ead80195a2f4f82b9bd15ed3f_2232152_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-b_hu377cc21ead80195a2f4f82b9bd15ed3f_2232152_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/roc-c.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/roc-c.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/roc-c_hufebf266c0265caea516c5c8abc9ad4e1_2053502_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/roc-c_hufebf266c0265caea516c5c8abc9ad4e1_2053502_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-c.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-c.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-c_hufebf266c0265caea516c5c8abc9ad4e1_2053502_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-c_hufebf266c0265caea516c5c8abc9ad4e1_2053502_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -1183,24 +1183,24 @@ loading="lazy"
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/roc-d.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/roc-d.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/roc-d_hu1116eee8057951aa17966297a637d0cf_1064960_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/roc-d_hu1116eee8057951aa17966297a637d0cf_1064960_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-d.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-d.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-d_hu1116eee8057951aa17966297a637d0cf_1064960_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-d_hu1116eee8057951aa17966297a637d0cf_1064960_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/roc-e.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/roc-e.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/roc-e_hu2e5d5b334d4810fb1ce92224643fd743_1634192_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/roc-e_hu2e5d5b334d4810fb1ce92224643fd743_1634192_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-e.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-e.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-e_hu2e5d5b334d4810fb1ce92224643fd743_1634192_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-e_hu2e5d5b334d4810fb1ce92224643fd743_1634192_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://blog.ling.moe/posts/lakuyou-2-days/roc-f.jpg" data-size="2256x4032">&lt;img src="https://blog.ling.moe/posts/lakuyou-2-days/roc-f.jpg"
-srcset="https://blog.ling.moe/posts/lakuyou-2-days/roc-f_hue5b1292fa415ab08953e84927ce79016_1521769_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/lakuyou-2-days/roc-f_hue5b1292fa415ab08953e84927ce79016_1521769_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-f.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-f.jpg"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-f_hue5b1292fa415ab08953e84927ce79016_1521769_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-f_hue5b1292fa415ab08953e84927ce79016_1521769_1024x0_resize_q75_box.jpg 1024w"
 width="2256"
 height="4032"
 loading="lazy"
@@ -1210,7 +1210,7 @@ loading="lazy"
 &lt;h3 id="僞朝">僞朝&lt;/h3>
 &lt;p>沒有什麼值得拍攝的 :)&lt;/p>
 &lt;h2 id="跋">跋&lt;/h2>
-&lt;p>此行洛陽，鳴鈴覺得需要注意&lt;strong>切不可在仲夏酷暑隨便出來玩，雖然鳴鈴沒有煤紋病，但沒有做好防曬措施是可能會誘發皮膚癌的！縱使去洛陽這種北方城市好像也不太行的樣子。&lt;/strong>，可以的話，儘量遠離北迴歸線吧 QAQ.&lt;/p></description></item><item><title>Hugo ❤ Github</title><link>https://blog.ling.moe/posts/hugo-with-all-github/</link><pubDate>Sat, 26 Jun 2021 18:50:11 +0800</pubDate><guid>https://blog.ling.moe/posts/hugo-with-all-github/</guid><description>&lt;img src="https://blog.ling.moe/posts/hugo-with-all-github/github.jpg" alt="Featured image of post Hugo ❤ Github" />&lt;h2 id="序">序&lt;/h2>
+&lt;p>此行洛陽，鳴鈴覺得需要注意&lt;strong>切不可在仲夏酷暑隨便出來玩，雖然鳴鈴沒有煤紋病，但沒有做好防曬措施是可能會誘發皮膚癌的！縱使去洛陽這種北方城市好像也不太行的樣子。&lt;/strong>，可以的話，儘量遠離北迴歸線吧 QAQ.&lt;/p></description></item><item><title>Hugo ❤ Github</title><link>https://ming.ling.moe/posts/hugo-with-all-github/</link><pubDate>Sat, 26 Jun 2021 18:50:11 +0800</pubDate><guid>https://ming.ling.moe/posts/hugo-with-all-github/</guid><description>&lt;img src="https://ming.ling.moe/posts/hugo-with-all-github/github.jpg" alt="Featured image of post Hugo ❤ Github" />&lt;h2 id="序">序&lt;/h2>
 &lt;p>鳴鈴曾經建過的 blog 也不少，用過 &lt;a class="link" href="https://www.wordpress.com" target="_blank" rel="noopener"
 >WordPress&lt;/a>, &lt;a class="link" href="https://typecho.org" target="_blank" rel="noopener"
 >Typecho&lt;/a> 等基於
@@ -1360,8 +1360,8 @@ loading="lazy"
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>就可以得到 tabler 圖標, 打開 &lt;a class="link" href="https://tabler-icons.io/" target="_blank" rel="noopener"
 >tabler官網&lt;/a>，查找你想要插入的圖標，而後複製圖標的名。&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 224; flex-basis: 539px">
-&lt;a href="https://blog.ling.moe/posts/hugo-with-all-github/tabler-selector.png" data-size="1741x774">&lt;img src="https://blog.ling.moe/posts/hugo-with-all-github/tabler-selector.png"
-srcset="https://blog.ling.moe/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_480x0_resize_box_3.png 480w, https://blog.ling.moe/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_1024x0_resize_box_3.png 1024w"
+&lt;a href="https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector.png" data-size="1741x774">&lt;img src="https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector.png"
+srcset="https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_480x0_resize_box_3.png 480w, https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_1024x0_resize_box_3.png 1024w"
 width="1741"
 height="774"
 loading="lazy"
@@ -1420,7 +1420,7 @@ display: none;
 &lt;h3 id="webp-錯誤">webp 錯誤&lt;/h3>
 &lt;p>℞：目前 Hugo 還不支援 webp 圖像，如果遇到 webp 的錯誤就換成 png/jpeg 吧.&lt;/p>
 &lt;h2 id="總結">總結&lt;/h2>
-&lt;p>哼哼，能夠完全基於免費的服務新建可靠，功能完備的 blog 還是滿有成就感的.&lt;/p></description></item><item><title>多諧振蕩器</title><link>https://blog.ling.moe/posts/all-about-multivibrator/</link><pubDate>Fri, 25 Jun 2021 04:21:11 +0800</pubDate><guid>https://blog.ling.moe/posts/all-about-multivibrator/</guid><description>&lt;img src="https://blog.ling.moe/posts/all-about-multivibrator/cover.jpg" alt="Featured image of post 多諧振蕩器" />&lt;h2 id="bjt實現">BJT實現&lt;/h2>
+&lt;p>哼哼，能夠完全基於免費的服務新建可靠，功能完備的 blog 還是滿有成就感的.&lt;/p></description></item><item><title>多諧振蕩器</title><link>https://ming.ling.moe/posts/all-about-multivibrator/</link><pubDate>Fri, 25 Jun 2021 04:21:11 +0800</pubDate><guid>https://ming.ling.moe/posts/all-about-multivibrator/</guid><description>&lt;img src="https://ming.ling.moe/posts/all-about-multivibrator/cover.jpg" alt="Featured image of post 多諧振蕩器" />&lt;h2 id="bjt實現">BJT實現&lt;/h2>
 &lt;img class="tikz-img" id="tikz-bjt-multivibrator" loading="lazy">
 &lt;div class="tikz-capt">
 無穩態多諧振盪器
@@ -1461,7 +1461,7 @@ width: 50%;
 &lt;/style>
 &lt;h2 id="運放實現">運放實現&lt;/h2>
 &lt;h2 id="邏輯門實現">邏輯門實現&lt;/h2>
-&lt;h2 id="555定時器實現">555定時器實現&lt;/h2></description></item><item><title>動詞接續授受動詞的行爲</title><link>https://blog.ling.moe/posts/jyu-jyu-dou-si/</link><pubDate>Sat, 12 Jun 2021 13:23:10 +0800</pubDate><guid>https://blog.ling.moe/posts/jyu-jyu-dou-si/</guid><description>&lt;img src="https://blog.ling.moe/posts/jyu-jyu-dou-si/cover.jpg" alt="Featured image of post 動詞接續授受動詞的行爲" />&lt;p>衆所周知的，日語中的主語常常隱藏因此會產生一系列難解的問題。本文所描述的就是授受動詞動詞接續授受動詞的行爲。
+&lt;h2 id="555定時器實現">555定時器實現&lt;/h2></description></item><item><title>動詞接續授受動詞的行爲</title><link>https://ming.ling.moe/posts/jyu-jyu-dou-si/</link><pubDate>Sat, 12 Jun 2021 13:23:10 +0800</pubDate><guid>https://ming.ling.moe/posts/jyu-jyu-dou-si/</guid><description>&lt;img src="https://ming.ling.moe/posts/jyu-jyu-dou-si/cover.jpg" alt="Featured image of post 動詞接續授受動詞的行爲" />&lt;p>衆所周知的，日語中的主語常常隱藏因此會產生一系列難解的問題。本文所描述的就是授受動詞動詞接續授受動詞的行爲。
 爲什麼會有這個問題呢，最初學習「 V て下さい」的時候，被生硬的翻譯成了「請」。之後又學習了：&lt;/p>
 &lt;ul>
 &lt;li>てくれない&lt;/li>
@@ -1511,7 +1511,7 @@ graph RL
 &lt;p>典型例句爲「教えてもらった」，其中もらう約束了主句雙賓語必然是物品的提供者或者動作的主語，在例句中
 即從句「教えて」的主語是主句的雙賓語。而在前兩種動詞，從句和主句的主賓都是一致的，而「もらう」和「いただく」卻是相反的，這一點也是第一時間難以反應的原因。&lt;/p>
 &lt;h2 id="纏め">纏め&lt;/h2>
-&lt;p>由以上三例可以看出，主句和從句的主句是沒有什麼關係的。文法上，主句的主語只由主句動詞決定，從句的主語只由從句動詞決定。但是在主語隱藏的情況下，是可以通過授受動詞的方向約束和從句動詞的形式與含義來推斷出主語是誰的。比如開始的「&amp;hellip;休ませていただきます」，顯然從主句可以推斷出這句話的主語接受到了某人的許可可以休假，然後從句是休假的使役型，因爲自己讓自己休假顯然沒有什麼意義，那麼從句省略的主語就是看到看板的顧客們。&lt;/p></description></item><item><title>兩個人同時開一個門會怎麼樣？</title><link>https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/</link><pubDate>Sat, 12 Jun 2021 11:02:02 +0800</pubDate><guid>https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/</guid><description>&lt;img src="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1.jpg" alt="Featured image of post 兩個人同時開一個門會怎麼樣？" />&lt;h2 id="破題">破題&lt;/h2>
+&lt;p>由以上三例可以看出，主句和從句的主句是沒有什麼關係的。文法上，主句的主語只由主句動詞決定，從句的主語只由從句動詞決定。但是在主語隱藏的情況下，是可以通過授受動詞的方向約束和從句動詞的形式與含義來推斷出主語是誰的。比如開始的「&amp;hellip;休ませていただきます」，顯然從主句可以推斷出這句話的主語接受到了某人的許可可以休假，然後從句是休假的使役型，因爲自己讓自己休假顯然沒有什麼意義，那麼從句省略的主語就是看到看板的顧客們。&lt;/p></description></item><item><title>兩個人同時開一個門會怎麼樣？</title><link>https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/</link><pubDate>Sat, 12 Jun 2021 11:02:02 +0800</pubDate><guid>https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/</guid><description>&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1.jpg" alt="Featured image of post 兩個人同時開一個門會怎麼樣？" />&lt;h2 id="破題">破題&lt;/h2>
 &lt;p>不，鳴鈴不是想討論一般情況下開門的問題，在《異世界食堂》動畫作品中，鳴鈴看到了一個彈幕：&lt;/p>
 &lt;blockquote>
 &lt;p>「要是有兩個異世界人同時打開門會怎麼樣？」&lt;/p>
@@ -1524,8 +1524,8 @@ graph RL
 $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是週六一天 $24$ 小時。那麼，我們不妨把一次從開門事件到關門事件的過程稱爲一個&lt;strong>開放區間&lt;/strong>，兩個開放區間有重疊稱爲同時打開門。那麼問題就是，如何處理兩個不同的開放區間可能重疊的問題。&lt;/p>
 &lt;p>那麼矛盾在哪裏呢？在動畫畫面中可以看到，在從食堂朝向外面的畫面中，我們可以知道在食堂中是能直接看到外界的，同時也有從外向內的畫面。&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
-&lt;a href="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png" data-size="2172x1222">&lt;img src="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png"
-srcset="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_480x0_resize_box_3.png 480w, https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_1024x0_resize_box_3.png 1024w"
+&lt;a href="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png" data-size="2172x1222">&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png"
+srcset="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_480x0_resize_box_3.png 480w, https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_1024x0_resize_box_3.png 1024w"
 width="2172"
 height="1222"
 loading="lazy"
@@ -1533,8 +1533,8 @@ alt="炸肉餅二世的門外">
 &lt;/a>
 &lt;figcaption>炸肉餅二世的門外&lt;/figcaption>
 &lt;/figure> &lt;figure style="flex-grow: 177; flex-basis: 426px">
-&lt;a href="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png" data-size="2172x1222">&lt;img src="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png"
-srcset="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_480x0_resize_box_3.png 480w, https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_1024x0_resize_box_3.png 1024w"
+&lt;a href="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png" data-size="2172x1222">&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png"
+srcset="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_480x0_resize_box_3.png 480w, https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_1024x0_resize_box_3.png 1024w"
 width="2172"
 height="1222"
 loading="lazy"
@@ -1554,8 +1554,8 @@ alt="炸蝦一世的門外">
 &lt;h3 id="引用計數">🔂引用計數&lt;/h3>
 &lt;p>如果愛好燉牛肉的六柱之赤從別人的門走出來了，不就不妙了嗎？（從月球上的門走出來似乎沒什麼問題）&lt;/p>
 &lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
-&lt;a href="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg" data-size="1280x720">&lt;img src="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg"
-srcset="https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_480x0_resize_q75_box.jpg 480w, https://blog.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_1024x0_resize_q75_box.jpg 1024w"
+&lt;a href="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg" data-size="1280x720">&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg"
+srcset="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_1024x0_resize_q75_box.jpg 1024w"
 width="1280"
 height="720"
 loading="lazy"
@@ -1567,7 +1567,7 @@ alt="赤女王">
 &lt;p>我們可以設定當一名顧客進門時，會攜帶一個上下文 &lt;code>context&lt;/code> （可以用魔法實現），其中包含了其所打開的門的引用 &lt;code>reference&lt;/code>，從而在出門時食堂只需要讀取上下文中的傳送門引用就可以再次打開進入時的那扇門。&lt;/p>
 &lt;p>還有，在咖喱飯和炸蝦中可以看到，一個門是允許多個人進入的，那麼要怎麼實現才能讓由同一扇門進入的最後一人出門時，該處的門再消失呢。使用引用計數可以解決這個問題，異世界各處的門都有一個引用計數器，當顧客進門時會進行計數，每人進入就自增一，當計數器爲零時則門構析.&lt;/p>
 &lt;hr>
-&lt;p>所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論&lt;/p></description></item><item><title>𝜀₀𝑬 不是 𝑫</title><link>https://blog.ling.moe/posts/epsilon-e-is-not-d/</link><pubDate>Thu, 10 Jun 2021 00:39:17 +0800</pubDate><guid>https://blog.ling.moe/posts/epsilon-e-is-not-d/</guid><description>&lt;img src="https://blog.ling.moe/posts/epsilon-e-is-not-d/cover.jpg" alt="Featured image of post 𝜀₀𝑬 不是 𝑫" />&lt;p>$$
+&lt;p>所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論&lt;/p></description></item><item><title>𝜀₀𝑬 不是 𝑫</title><link>https://ming.ling.moe/posts/epsilon-e-is-not-d/</link><pubDate>Thu, 10 Jun 2021 00:39:17 +0800</pubDate><guid>https://ming.ling.moe/posts/epsilon-e-is-not-d/</guid><description>&lt;img src="https://ming.ling.moe/posts/epsilon-e-is-not-d/cover.jpg" alt="Featured image of post 𝜀₀𝑬 不是 𝑫" />&lt;p>$$
 \gdef\dif{\mathop{}\!\mathrm{d}}
 $$&lt;/p>
 &lt;h2 id="破題">破題&lt;/h2>
@@ -1607,7 +1607,7 @@ $$
 &lt;p>本文只從方向上粗淺的說明, 那麼該如何理解這個結論呢. 這個結論說明了: &lt;strong>電介質的形狀是決定極化的重要因素&lt;/strong>.
 因爲形狀決定了界面的法向, 而退極化場總是朝法向的, 退極化場是由極化電荷激發的, 而極化電荷則是由極化強度矢量決定的.
 而極化的方向並沒有義務正交於界面, 因此電介質形狀的不同就會導致極化強度不同.
-從而導致極化電荷的分佈乃至最終電場的不同.&lt;/p></description></item><item><title>符號定義</title><link>https://blog.ling.moe/posts/symbol-def/</link><pubDate>Wed, 09 Jun 2021 04:35:29 +0800</pubDate><guid>https://blog.ling.moe/posts/symbol-def/</guid><description>&lt;p>$$
+從而導致極化電荷的分佈乃至最終電場的不同.&lt;/p></description></item><item><title>符號定義</title><link>https://ming.ling.moe/posts/symbol-def/</link><pubDate>Wed, 09 Jun 2021 04:35:29 +0800</pubDate><guid>https://ming.ling.moe/posts/symbol-def/</guid><description>&lt;p>$$
 \gdef\uv#1{\hat{\boldsymbol{#1}}}
 \gdef\dif{\mathop{}\!\mathrm{d}}
 \gdef\imi{\mathrm{i}}
@@ -2158,7 +2158,7 @@ $$&lt;/p>
 &lt;td>$\Delta_\mathrm{r} G_\mathrm{m}^\ominus$&lt;/td>
 &lt;/tr>
 &lt;/tbody>
-&lt;/table></description></item><item><title>Ma LA 5</title><link>https://blog.ling.moe/posts/ma-la-5/</link><pubDate>Thu, 09 Jul 2020 09:53:26 +0800</pubDate><guid>https://blog.ling.moe/posts/ma-la-5/</guid><description>&lt;h2 id="題目">題目&lt;/h2>
+&lt;/table></description></item><item><title>Ma LA 5</title><link>https://ming.ling.moe/posts/ma-la-5/</link><pubDate>Thu, 09 Jul 2020 09:53:26 +0800</pubDate><guid>https://ming.ling.moe/posts/ma-la-5/</guid><description>&lt;h2 id="題目">題目&lt;/h2>
 &lt;p>令&lt;/p>
 &lt;p>$$
 A = \begin{bmatrix}
@@ -2216,7 +2216,7 @@ $$ c_{ij} = \boldsymbol a_i \boldsymbol b_j = \sum_{k=1}^n a_{ik}b_{kj} $$
 &lt;li>$\alpha(AB) = (\alpha A)B = A(\alpha B)$&lt;/li>
 &lt;li>$(\alpha + \beta)A = \alpha A + \beta A$&lt;/li>
 &lt;li>$\alpha (A + B) = \alpha A + \alpha B$&lt;/li>
-&lt;/ol></description></item><item><title>Ma LA 4</title><link>https://blog.ling.moe/posts/ma-la-4/</link><pubDate>Wed, 08 Jul 2020 16:47:15 +0800</pubDate><guid>https://blog.ling.moe/posts/ma-la-4/</guid><description>&lt;p>證明行等價矩陣的性質：&lt;/p>
+&lt;/ol></description></item><item><title>Ma LA 4</title><link>https://ming.ling.moe/posts/ma-la-4/</link><pubDate>Wed, 08 Jul 2020 16:47:15 +0800</pubDate><guid>https://ming.ling.moe/posts/ma-la-4/</guid><description>&lt;p>證明行等價矩陣的性質：&lt;/p>
 &lt;p>Ⅰ. $A$ 與 $B$ 是行等價的，則 $B$ 與 $A$ 是行等價的.&lt;br>
 Ⅱ. $A$ 與 $B$ 是行等價的，且 $B$ 與 $C$ 是行等價的， 則 $A$ 與 $C$ 是行等價的.&lt;/p>
 &lt;hr>
@@ -2249,7 +2249,7 @@ $A$ 經歷有限 ($k+j$) 次行運算得到 $C$，$A$ 與 $C$ 等價.
 &lt;h1 id="關聯內容">關聯內容&lt;/h1>
 &lt;div class="theorem">
 若 $E$ 爲一初等矩陣，則 $E$ 是非奇異的，且 $E^{-1}$ 爲一與其同類型的初等矩陣
-&lt;/div></description></item><item><title>Ma LA 3</title><link>https://blog.ling.moe/posts/ma-la-3/</link><pubDate>Wed, 08 Jul 2020 15:59:18 +0800</pubDate><guid>https://blog.ling.moe/posts/ma-la-3/</guid><description>&lt;h2 id="題目">題目&lt;/h2>
+&lt;/div></description></item><item><title>Ma LA 3</title><link>https://ming.ling.moe/posts/ma-la-3/</link><pubDate>Wed, 08 Jul 2020 15:59:18 +0800</pubDate><guid>https://ming.ling.moe/posts/ma-la-3/</guid><description>&lt;h2 id="題目">題目&lt;/h2>
 &lt;p>設 $A$ 是 $2 \times 2$ 的矩陣，其中 $a_{11} \neq 0$，設 $\alpha = a_{21}/a_{11}$. 證明 $A$ 可分解爲積的形式
 $$
 \begin{aligned}
@@ -2302,7 +2302,7 @@ a_{21} &amp;amp; a_{22}
 \end{aligned}
 $$&lt;/p>
 &lt;p>又因題設條件 $\alpha = a_{21}/a_{11}$， 所以 $A$ 可以分解爲題中給出的形式，同時可求出 $b = a_{22} - \dfrac{a_{12}a_{21}}{a_{11}}$ .&lt;/p>
-&lt;/div></description></item><item><title>Ma LA 2</title><link>https://blog.ling.moe/posts/ma-la-2/</link><pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/posts/ma-la-2/</guid><description>&lt;h2 id="題目">題目&lt;/h2>
+&lt;/div></description></item><item><title>Ma LA 2</title><link>https://ming.ling.moe/posts/ma-la-2/</link><pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/posts/ma-la-2/</guid><description>&lt;h2 id="題目">題目&lt;/h2>
 &lt;p>設 $A\boldsymbol x = \boldsymbol b$ 是增廣矩陣具有最簡形&lt;/p>
 &lt;p>$$
 \begin{bmatrix}
@@ -2378,7 +2378,7 @@ $$&lt;/p>
 \begin{bmatrix}\begin{array}{r} 8\\ -7\\ -1\\ 7 \end{array}\end{bmatrix}
 $$&lt;/p>
 &lt;h2 id="關聯內容">關聯內容&lt;/h2>
-&lt;p>如不採用&lt;strong>特殊值法&lt;/strong>，可以直接將解集代入矩陣方程 (2) 中，自由變量 $r, s, t$ 最終都會被消去而得到相同的答案. 但如此一來，最後的步驟就是解一個自變量爲 $\boldsymbol a_2, \boldsymbol a_4, \boldsymbol a_5, \boldsymbol b$ 的 4 元 4 次線性方程組，顯然取特殊值 0 的方法在計算上簡單的多.&lt;/p></description></item><item><title>Ma LA 1</title><link>https://blog.ling.moe/posts/ma-la-1/</link><pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate><guid>https://blog.ling.moe/posts/ma-la-1/</guid><description>&lt;h2 id="題目">題目&lt;/h2>
+&lt;p>如不採用&lt;strong>特殊值法&lt;/strong>，可以直接將解集代入矩陣方程 (2) 中，自由變量 $r, s, t$ 最終都會被消去而得到相同的答案. 但如此一來，最後的步驟就是解一個自變量爲 $\boldsymbol a_2, \boldsymbol a_4, \boldsymbol a_5, \boldsymbol b$ 的 4 元 4 次線性方程組，顯然取特殊值 0 的方法在計算上簡單的多.&lt;/p></description></item><item><title>Ma LA 1</title><link>https://ming.ling.moe/posts/ma-la-1/</link><pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/posts/ma-la-1/</guid><description>&lt;h2 id="題目">題目&lt;/h2>
 &lt;p>用高斯-若爾當消元法解方程組 :&lt;/p>
 &lt;p>$$
 \begin{alignedat}{4}
@@ -2495,7 +2495,7 @@ $$&lt;/p>
 &lt;li>每行的首非零元是該列唯一的非零元.&lt;/li>
 &lt;/ol>
 &lt;p>則稱該矩陣爲&lt;strong>行最簡形&lt;/strong>(reduced row echelon form).&lt;/p>
-&lt;p>也請參見：&lt;a class="link" href="https://blog.ling.moe/posts/consistency-of-linear-systeme/" >小學之上，線代之下&lt;/a>&lt;/p></description></item><item><title>小學之上，線代之下</title><link>https://blog.ling.moe/posts/consistency-of-linear-systeme/</link><pubDate>Fri, 05 Jun 2020 23:38:04 +0800</pubDate><guid>https://blog.ling.moe/posts/consistency-of-linear-systeme/</guid><description>&lt;img src="https://blog.ling.moe/posts/consistency-of-linear-systeme/cover.jpg" alt="Featured image of post 小學之上，線代之下" />&lt;h2 id="m-和-n">$m$ 和 $n$&lt;/h2>
+&lt;p>也請參見：&lt;a class="link" href="https://ming.ling.moe/posts/consistency-of-linear-systeme/" >小學之上，線代之下&lt;/a>&lt;/p></description></item><item><title>小學之上，線代之下</title><link>https://ming.ling.moe/posts/consistency-of-linear-systeme/</link><pubDate>Fri, 05 Jun 2020 23:38:04 +0800</pubDate><guid>https://ming.ling.moe/posts/consistency-of-linear-systeme/</guid><description>&lt;img src="https://ming.ling.moe/posts/consistency-of-linear-systeme/cover.jpg" alt="Featured image of post 小學之上，線代之下" />&lt;h2 id="m-和-n">$m$ 和 $n$&lt;/h2>
 &lt;p>$m \times n$ 線性方程組中，共有 $n$ 個變量，$m$ 條線性方程&lt;/p>
 &lt;p>感性的來看，方程組中的每一條方程都是一種「約束」，在所有方程的共同約束下，變量的取值範圍（解集）被確定下來，每一條方程的「約束」都是將變量的解集縮小. 舉例來看，設獨立變量 $x$ 與 $y$ 均爲實數，設一個方程組，假設開始時方程組內沒有任何方程. 這時 $(x, y)$ 的解集就是整個 $\mathbb{R}^2$，幾何上看就是整個 $xOy$ 平面.&lt;/p>
 &lt;p>現在，給方程組內加入一條方程
