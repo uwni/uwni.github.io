@@ -24,7 +24,7 @@ params:
         - posts
     featuredImageField: image
     rssFullContent: true
-    favicon: https://blog.ling.moe/file-storage/public/ico/favicon.ico
+    favicon: https://ming.ling.moe/file-storage/public/ico/favicon.ico
 
     footer:
         since: 2021
@@ -53,17 +53,16 @@ params:
         enabled: true
         provider: giscus
 
-        utterances:
-            repo: narisuzu-blog/comments
-            issueTerm: pathname
-            label: ✨💬✨
-
         giscus:
             repo: narisuzu/blog-comments
             repoId: MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=
             category: comments
             categoryId: DIC_kwDOF0zYzs4B-f-8
             mapping: pathname
+            lightTheme:
+            darkTheme:
+            reactionsEnabled: 1
+            emitMetadata: 0
 
     widgets:
         enabled:
