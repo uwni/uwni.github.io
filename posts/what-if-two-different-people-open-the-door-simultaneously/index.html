@@ -61,7 +61,7 @@
 還有，在咖喱飯和炸蝦中可以看到，一個門是允許多個人進入的，那麼要怎麼實現才能讓由同一扇門進入的最後一人出門時，該處的門再消失呢。使用引用計數可以解決這個問題，異世界各處的門都有一個引用計數器，當顧客進門時會進行計數，每人進入就自增一，當計數器爲零時則門構析.
  所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論"><meta name=twitter:card content="summary_large_image">
 <meta name=twitter:image content="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1.jpg">
-<link rel="shortcut icon" href=https://blog.ling.moe/file-storage/public/ico/favicon.ico>
+<link rel="shortcut icon" href=https://ming.ling.moe/file-storage/public/ico/favicon.ico>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
 <script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
 <style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}</style>
@@ -173,8 +173,8 @@ $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是�
 </div>
 </div>
 </aside>
-<script src=https://giscus.app/client.js data-repo=narisuzu/blog-comments data-repo-id="MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=" data-category=comments data-category-id=DIC_kwDOF0zYzs4B-f-8 data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=1 data-theme=light crossorigin=anonymous async></script>
-<script>function setGiscusTheme(b){let a=document.querySelector('.giscus-frame');if(!a)return;a.contentWindow.postMessage({giscus:{setConfig:{theme:b}}},'https://giscus.app')}addEventListener('message',a=>{if(a.origin!=='https://giscus.app')return;setGiscusTheme(document.documentElement.dataset.scheme)}),window.addEventListener('onColorSchemeChange',a=>{setGiscusTheme(a.detail)})</script>
+<script src=https://giscus.app/client.js data-repo=narisuzu/blog-comments data-repo-id="MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=" data-category=comments data-category-id=DIC_kwDOF0zYzs4B-f-8 data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light crossorigin=anonymous async></script>
+<script>function setGiscusTheme(b){let a=document.querySelector('iframe.giscus-frame');a&&a.contentWindow.postMessage({giscus:{setConfig:{theme:b}}},"https://giscus.app")}(function(){addEventListener('message',b=>{if(event.origin!=='https://giscus.app')return;a()}),window.addEventListener('onColorSchemeChange',a);function a(){document.documentElement.dataset.scheme==="light"?setGiscusTheme('light'):setGiscusTheme('dark_dimmed')}})()</script>
 <footer class=site-footer>
 <section class=copyright>
 &copy;
@@ -182,7 +182,7 @@ $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是�
 </section>
 <section class=powerby>
 Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
-Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.0.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.1.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
 </section>
 </footer>
 <div class=pswp tabindex=-1 role=dialog aria-hidden=true>
