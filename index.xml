@@ -434,7 +434,7 @@ $$&lt;/p>
 (() => {
 const scheme = document.documentElement.dataset.scheme;
 const img = document.getElementById("tikz-distributed");
-const url = 'https:\/\/blog.ling.moe\/file-storage\/public\/tikz\/' +
+const url = 'https:\/\/ming.ling.moe\/file-storage\/public\/tikz\/' +
 (scheme ? scheme : 'light') +
 '/distributed.svg';
 img.setAttribute('src', url);
@@ -476,7 +476,7 @@ width: 70%;
 (() => {
 const scheme = document.documentElement.dataset.scheme;
 const img = document.getElementById("tikz-dis-element");
-const url = 'https:\/\/blog.ling.moe\/file-storage\/public\/tikz\/' +
+const url = 'https:\/\/ming.ling.moe\/file-storage\/public\/tikz\/' +
 (scheme ? scheme : 'light') +
 '/dis-element.svg';
 img.setAttribute('src', url);
@@ -1429,7 +1429,7 @@ display: none;
 (() => {
 const scheme = document.documentElement.dataset.scheme;
 const img = document.getElementById("tikz-bjt-multivibrator");
-const url = 'https:\/\/blog.ling.moe\/file-storage\/public\/tikz\/' +
+const url = 'https:\/\/ming.ling.moe\/file-storage\/public\/tikz\/' +
 (scheme ? scheme : 'light') +
 '/bjt-multivibrator.svg';
 img.setAttribute('src', url);
