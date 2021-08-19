@@ -16,24 +16,24 @@ tags: [英語]
 
 | 標記 | 含義 |
 | :--: | :--: |
-| [OM] | 本義 |
-| [EM] | 引申 |
-| [C]  | 可數名詞 |
-| [U]  | 不可數名詞 |
-| [T] | 他動詞 |
-| [I] | 自動詞 |
+| `OM` | 本義 |
+| `EM` | 引申 |
+| `C`  | 可數名詞 |
+| `U`  | 不可數名詞 |
+| `T` | 他動詞 |
+| `I` | 自動詞 |
 
 ## 11 Aug
 
 ### abide
 
-- [OM] to live or stay somewhere, wait, wait for
+- `OM` to live or stay somewhere, wait, wait for
   - **abide with**: live or stay with sb.
 
-- [EM] endure, sustain, stay firm under
+- `EM` endure, sustain, stay firm under
   - **abide by**: + rules (不情願地, 不得不)遵守規則
 
-- [EM] tolerate, bear, put up with
+- `EM` tolerate, bear, put up with
   - **can't abide sb/sth**: cannot bear sb/sth
 
   與 「不共戴天」 的用法類似. 形容難以忍受，以至於無法和 sb/sth 待在一起. 可以忍受即可以和 sb/sth 在一起. 想象垃圾或者粉蛆在身邊. 引申義多帶貶意，即不情願的感覺.
@@ -79,17 +79,33 @@ Often said about yourself.
 
 ### ornament /ˈɔː.nə.mənt/
 
-- [C] an object that is beautiful rather than useful.  
+- `C` an object that is beautiful rather than useful.  
 但和「華而不實」有異, ~ 不含貶義. 可譯爲：飾品，裝飾物.
 
-- [U] decoration that is added to increase the beauty of something.  
+- `U` decoration that is added to increase the beauty of something.  
 可譯爲：裝飾(不可數)
 
-- [T] to add decoration to something
+- `T` to add decoration to something
 
 ### admit /ədˈmɪt/
 
-- [TI] **ACCEPT** to agree that something is true, especially unwillingly.  
+- `T` `I` **ACCEPT** to agree that something is true, especially unwillingly.  
 尤其不情願. something 指命題.
 
-- [T] **ALLOW IN** to allow someone to enter a place.
+- `T` **ALLOW IN** to allow someone to enter a place.
+
+### conform /kənˈfɔːm/
+
+- `I` to behave in the way that most other people behave.  
+to behave according to the usual standards of behaviour that are expected by a group or society.  
+or to operate according to a rule.
+
+  - `T` ~ to/with: to obey a rule or reach the necessary stated standard
+
+### manage /ˈmæn.ɪdʒ/
+
+- **SUCCEED**  
+manage to V == succeed in Ving.  
+manage N(動作性名詞) == succeed in N.
+
+- to be able to attend or do something at a particular time. ~ + 有時間屬性的名詞.
