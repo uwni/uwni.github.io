@@ -10,27 +10,27 @@
 &lt;/thead>
 &lt;tbody>
 &lt;tr>
-&lt;td style="text-align:center">[OM]&lt;/td>
+&lt;td style="text-align:center">&lt;code>OM&lt;/code>&lt;/td>
 &lt;td style="text-align:center">本義&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">[EM]&lt;/td>
+&lt;td style="text-align:center">&lt;code>EM&lt;/code>&lt;/td>
 &lt;td style="text-align:center">引申&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">[C]&lt;/td>
+&lt;td style="text-align:center">&lt;code>C&lt;/code>&lt;/td>
 &lt;td style="text-align:center">可數名詞&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">[U]&lt;/td>
+&lt;td style="text-align:center">&lt;code>U&lt;/code>&lt;/td>
 &lt;td style="text-align:center">不可數名詞&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">[T]&lt;/td>
+&lt;td style="text-align:center">&lt;code>T&lt;/code>&lt;/td>
 &lt;td style="text-align:center">他動詞&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td style="text-align:center">[I]&lt;/td>
+&lt;td style="text-align:center">&lt;code>I&lt;/code>&lt;/td>
 &lt;td style="text-align:center">自動詞&lt;/td>
 &lt;/tr>
 &lt;/tbody>
@@ -39,19 +39,19 @@
 &lt;h3 id="abide">abide&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>[OM] to live or stay somewhere, wait, wait for&lt;/p>
+&lt;p>&lt;code>OM&lt;/code> to live or stay somewhere, wait, wait for&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>abide with&lt;/strong>: live or stay with sb.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>[EM] endure, sustain, stay firm under&lt;/p>
+&lt;p>&lt;code>EM&lt;/code> endure, sustain, stay firm under&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>abide by&lt;/strong>: + rules (不情願地, 不得不)遵守規則&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>
-&lt;p>[EM] tolerate, bear, put up with&lt;/p>
+&lt;p>&lt;code>EM&lt;/code> tolerate, bear, put up with&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>can&amp;rsquo;t abide sb/sth&lt;/strong>: cannot bear sb/sth&lt;/li>
 &lt;/ul>
@@ -111,25 +111,47 @@ alt="a mattress">
 &lt;h3 id="ornament-ˈɔːnəmənt">ornament /ˈɔː.nə.mənt/&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>[C] an object that is beautiful rather than useful.&lt;br>
+&lt;p>&lt;code>C&lt;/code> an object that is beautiful rather than useful.&lt;br>
 但和「華而不實」有異, ~ 不含貶義. 可譯爲：飾品，裝飾物.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>[U] decoration that is added to increase the beauty of something.&lt;br>
+&lt;p>&lt;code>U&lt;/code> decoration that is added to increase the beauty of something.&lt;br>
 可譯爲：裝飾(不可數)&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>[T] to add decoration to something&lt;/p>
+&lt;p>&lt;code>T&lt;/code> to add decoration to something&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h3 id="admit-ədˈmɪt">admit /ədˈmɪt/&lt;/h3>
 &lt;ul>
 &lt;li>
-&lt;p>[TI] &lt;strong>ACCEPT&lt;/strong> to agree that something is true, especially unwillingly.&lt;br>
+&lt;p>&lt;code>T&lt;/code> &lt;code>I&lt;/code> &lt;strong>ACCEPT&lt;/strong> to agree that something is true, especially unwillingly.&lt;br>
 尤其不情願. something 指命題.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>[T] &lt;strong>ALLOW IN&lt;/strong> to allow someone to enter a place.&lt;/p>
+&lt;p>&lt;code>T&lt;/code> &lt;strong>ALLOW IN&lt;/strong> to allow someone to enter a place.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="conform-kənˈfɔːm">conform /kənˈfɔːm/&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;code>I&lt;/code> to behave in the way that most other people behave.&lt;br>
+to behave according to the usual standards of behaviour that are expected by a group or society.&lt;br>
+or to operate according to a rule.&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>T&lt;/code> ~ to/with: to obey a rule or reach the necessary stated standard&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="manage-ˈmænɪdʒ">manage /ˈmæn.ɪdʒ/&lt;/h3>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;strong>SUCCEED&lt;/strong>&lt;br>
+manage to V == succeed in Ving.&lt;br>
+manage N(動作性名詞) == succeed in N.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>to be able to attend or do something at a particular time. ~ + 有時間屬性的名詞.&lt;/p>
 &lt;/li>
 &lt;/ul></description></item><item><title>常微分方程與無能的我</title><link>https://ming.ling.moe/posts/all-about-ode/</link><pubDate>Wed, 07 Jul 2021 22:07:12 +0800</pubDate><guid>https://ming.ling.moe/posts/all-about-ode/</guid><description>&lt;img src="https://ming.ling.moe/posts/all-about-ode/cover.jpg" alt="Featured image of post 常微分方程與無能的我" />&lt;p>$$
 \gdef\dif{\mathop{}\!\mathrm{d}}

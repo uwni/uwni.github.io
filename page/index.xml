@@ -4,10 +4,10 @@
 &amp;ndash; Tanya von Degurechaff
 拙譯：
 實話說，戰爭什麼的最討厭了。我覺得人類互相屠戮之類的，甚至是人類歷史上最差的行爲。簡直是對資源和人力資本的浪費。 但是，對方是共匪。是侵害個人自由的集體主義者。我無法與共匪共戴天。即便是爲了在安全的後方過一帆風順的人生也應該拿起槍來。
-辛丑年七月初七 今天是乞巧節耶. 許什麼願好呢. 但是說出來的話好像就不靈了耶.
+辛丑年七月十三 明天目標: 把 Gnome 換成 KDE
+detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年七月初七 今天是乞巧節耶. 許什麼願好呢. 但是說出來的話好像就不靈了耶.
 detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年七月初四 明明不是很餓，爲什麼還是想要喫好喫的東西呢。爲什麼呢。
-detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年六月廿八 今天從 AwesomeWM 跳到 Gnome 啦! Gtk 4 能修復窗口下沿圓角真是了不起, 希望小狐狸也能快快升級到 Gtk 4！
-detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年六月廿七 還好護照辦的早.</description></item><item><title>About &amp; Comments</title><link>https://ming.ling.moe/about-comments/</link><pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/about-comments/</guid><description>關於敝站
+detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年六月廿八 今天從 AwesomeWM 跳到 Gnome 啦!</description></item><item><title>About &amp; Comments</title><link>https://ming.ling.moe/about-comments/</link><pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/about-comments/</guid><description>關於敝站
 敝站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog。 驅動自 Hugo, 左列所有功能完全基於 Github 部署, 不使用任何第三方伺服器与資料庫.
 blog 程式 Hugo 持續整合 Github Actions 靜態頁面 Github Pages 留言 💎 giscus 關於敝站的構建流程，可見於此。
 格式 敝站使用十分高效的 $\KaTeX$ 作爲 $\LaTeX$ 公式渲染器. 中文排版基本按照中文文案排版指北的規範進行.
