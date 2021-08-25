@@ -25,7 +25,7 @@ tags: [英語]
 
 ## 11 Aug
 
-### abide
+### abide /əˈbaɪd/
 
 - `OM` to live or stay somewhere, wait, wait for
   - **abide with**: live or stay with sb.
@@ -38,13 +38,13 @@ tags: [英語]
 
   與 「不共戴天」 的用法類似. 形容難以忍受，以至於無法和 sb/sth 待在一起. 可以忍受即可以和 sb/sth 在一起. 想象垃圾或者粉蛆在身邊. 引申義多帶貶意，即不情願的感覺.
 
-### farewell /ˌfeəˈwel/
+### farewell /fɛəˈwɛl/
 
  old-fashioned or formal
 
 - **GOODBYE**
 
-### abstain /æbˈsteɪn/
+### abstain /əbˈsteɪn/
 
 - **NOT DO**: to not do something, especially something enjoyable that you think might be bad.  
 典型的：奶頭樂，雖然開心但是有害. 不去做這種事情就叫 abstain.
@@ -62,7 +62,7 @@ e.g. ~ address/lecture/speech
 - An inaugural event is the first in a series of planned events.  
 e.g. ~ meeting/event/ceremony/celebration
 
-### accustom /əˈkʌs·təm/
+### accustom /ə.ˈkʌs.təm/
 
 - to make someone familiar with new conditions.  
 Often said about yourself.
@@ -73,7 +73,7 @@ Often said about yourself.
 鳴: 書上的漢譯有誤，按照上述定義應爲：「綽綽然」「有餘裕(的)」，「餘裕」的定義爲：充裕而有餘. 「綽綽」的定義爲：寬而有餘之貌.
 其共通點在於多餘所需之量. 而非豐富，大量之含義.
 
-### mattress /ˈmæt.rəs/
+### mattress /ˈmætɹɪs/
 
 ![a mattress](mattress.jpg)
 
@@ -102,7 +102,7 @@ or to operate according to a rule.
 
   - `T` ~ to/with: to obey a rule or reach the necessary stated standard
 
-### manage /ˈmæn.ɪdʒ/
+### manage /ˈmænɪdʒ/
 
 - **SUCCEED**  
 manage to V == succeed in Ving.  
