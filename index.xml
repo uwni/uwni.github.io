@@ -98,11 +98,17 @@ Often said about yourself.&lt;/li>
 其共通點在於多餘所需之量. 而非豐富，大量之含義.&lt;/li>
 &lt;/ul>
 &lt;h3 id="mattress-ˈmætrəs">mattress /ˈmæt.rəs/&lt;/h3>
-&lt;p>&lt;figure style="flex-grow: 143; flex-basis: 343px">
-&lt;a href="https://ming.ling.moe/posts/en-vocabulary/mattress.jpg" data-size="1920x1342">&lt;img src="https://ming.ling.moe/posts/en-vocabulary/mattress.jpg"
-srcset="https://ming.ling.moe/posts/en-vocabulary/mattress_hue564591dc686470820dd8e4050f4e41d_88759_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/en-vocabulary/mattress_hue564591dc686470820dd8e4050f4e41d_88759_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 143;
+flex-basis: 343px"
+>
+&lt;a href="https://ming.ling.moe/posts/en-vocabulary/mattress.jpg" data-size="1920x1342">
+&lt;img src="https://ming.ling.moe/posts/en-vocabulary/mattress.jpg"
 width="1920"
 height="1342"
+srcset="https://ming.ling.moe/posts/en-vocabulary/mattress_hue564591dc686470820dd8e4050f4e41d_88759_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/en-vocabulary/mattress_hue564591dc686470820dd8e4050f4e41d_88759_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="a mattress">
 &lt;/a>
@@ -895,21 +901,33 @@ color: var(--card-background);
 &lt;p>龍門石窟確實古老，而且聽說文革時被紅小將們砸了不少。但鳴鈴一非佛教徒、二非學者、三非雕塑造像藝術家，對其亦沒有什麼太大的興趣。（即便走在伊水畔也絲毫不涼快就是了）&lt;/p>
 &lt;h3 id="蔣宋別墅">蔣宋別墅&lt;/h3>
 &lt;p>唯一令鳴鈴感興趣的是位於龍門石窟景區伊水東岸香山上的蔣宋別墅。這個別墅是當時河南政府爲先總統夫婦修築的。位於中國大陸並同中國國民黨相關的景點，必然存在國父遺像、🇹🇼 青天白日滿地紅國旗和青天白日旗。當然啦，這裏也不例外.&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan_hua9added3e19d546946479170b551c671_789243_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan_hua9added3e19d546946479170b551c671_789243_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan.jpg"
 width="4032"
 height="2256"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan_hua9added3e19d546946479170b551c671_789243_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/sun-yatsan_hua9added3e19d546946479170b551c671_789243_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="會客廳">
 &lt;/a>
 &lt;figcaption>會客廳&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-flag.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-flag.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-flag_hu5b1b5ccf85d4c8dce4e375b221267911_722176_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-flag_hu5b1b5ccf85d4c8dce4e375b221267911_722176_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-flag.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-flag.jpg"
 width="4032"
 height="2256"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-flag_hu5b1b5ccf85d4c8dce4e375b221267911_722176_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-flag_hu5b1b5ccf85d4c8dce4e375b221267911_722176_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="會議室">
 &lt;/a>
@@ -921,20 +939,32 @@ alt="會議室">
 &amp;mdash;&amp;mdash; &lt;em>陸游&lt;/em>&lt;/p>
 &lt;/blockquote>
 &lt;p>鳴鈴什麼時候才能逃離胡塵呢。&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/fendou.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/fendou.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/fendou_hu8c00e5176e8767d99e8e0918b95f5d03_552307_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/fendou_hu8c00e5176e8767d99e8e0918b95f5d03_552307_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/fendou.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/fendou.jpg"
 width="4032"
 height="2256"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/fendou_hu8c00e5176e8767d99e8e0918b95f5d03_552307_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/fendou_hu8c00e5176e8767d99e8e0918b95f5d03_552307_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="才能自由">
 &lt;/a>
 &lt;figcaption>才能自由&lt;/figcaption>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng_hu4d60b82c985d98529e37329f242e580b_585896_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng_hu4d60b82c985d98529e37329f242e580b_585896_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng.jpg"
 width="2256"
 height="4032"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng_hu4d60b82c985d98529e37329f242e580b_585896_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qinai-jingcheng_hu4d60b82c985d98529e37329f242e580b_585896_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="親愛精誠">
 &lt;/a>
@@ -943,21 +973,33 @@ alt="親愛精誠">
 &lt;p>唯一遺憾的是，🇹🇼 國旗沒有飄在旗杆上。 話說鳴鈴要是在那邊唱三民主義吾黨所宗以建民國以進大同的話，會被尋釁滋事的吧（怖いよ～&lt;/p>
 &lt;h2 id="白馬寺">白馬寺&lt;/h2>
 &lt;p>白馬寺被長者稱爲「中國第一&lt;del>咕殺&lt;/del>古剎」，當然，白馬寺名副其實。不得不提的一點是, 鳴鈴最喜歡白馬寺的門票：&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A_hu539b135a9353c685bbcd31e6758d8521_1503903_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A_hu539b135a9353c685bbcd31e6758d8521_1503903_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A.jpg"
 width="4032"
 height="2256"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A_hu539b135a9353c685bbcd31e6758d8521_1503903_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-A_hu539b135a9353c685bbcd31e6758d8521_1503903_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="門票正面">
 &lt;/a>
 &lt;figcaption>門票正面&lt;/figcaption>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B_hufe893c48502c4c9a29d1fe20496de9fe_1652082_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B_hufe893c48502c4c9a29d1fe20496de9fe_1652082_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B.jpg"
 width="4032"
 height="2256"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B_hufe893c48502c4c9a29d1fe20496de9fe_1652082_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/white-horse-temple-ticket-B_hufe893c48502c4c9a29d1fe20496de9fe_1652082_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="門票反面">
 &lt;/a>
@@ -966,71 +1008,119 @@ alt="門票反面">
 &lt;p>馬寺的門票所有漢字繁體直排，使用字體得當，寺院介紹以文言著，背景樸質而典雅，紙的撓度和表面粗糙度合適。無比重要的是，沒有什麼「國家xx級景區」、「重點xx保護單位」、「社會主義核心價值觀」、「依法納稅xx」之類意識形態的污染。票面上印有當年的干支，很有收藏價值。&lt;/p>
 &lt;p>你是不是想問鳴鈴爲什麼不給時間和編號打馬賽克？嗯，鳴鈴覺得這種東西史塔西或者蓋世太保是很好調查的，如果他們真的想的話。&lt;/p>
 &lt;p>泰國風格佛殿和緬甸風格佛殿對鳴鈴而言是很新鮮的：&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-a.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-a.jpg"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-a.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-a.jpg"
+width="4032"
+height="2256"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-a_hu3a4d17f0716ba382f989d3209bfbd4a0_804216_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-a_hu3a4d17f0716ba382f989d3209bfbd4a0_804216_1024x0_resize_q75_box.jpg 1024w"
-width="4032"
-height="2256"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-b.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-b.jpg"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-b.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-b.jpg"
+width="4032"
+height="2256"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-b_hu97126711a1be4e88f2b514781a930e82_1443613_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-b_hu97126711a1be4e88f2b514781a930e82_1443613_1024x0_resize_q75_box.jpg 1024w"
-width="4032"
-height="2256"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-c.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-c.jpg"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-c.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-c.jpg"
+width="4032"
+height="2256"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-c_hu27a3686cd319c58e8664b1c8efaddbdc_918214_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-c_hu27a3686cd319c58e8664b1c8efaddbdc_918214_1024x0_resize_q75_box.jpg 1024w"
-width="4032"
-height="2256"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-d.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-d.jpg"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-d.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-d.jpg"
+width="4032"
+height="2256"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-d_hu0ad01ebd030647aba221931e322360fa_1346810_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-d_hu0ad01ebd030647aba221931e322360fa_1346810_1024x0_resize_q75_box.jpg 1024w"
-width="4032"
-height="2256"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-e.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-e.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-e_hu4d8050520c35275e98ab0c6b29a16719_1318003_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-e_hu4d8050520c35275e98ab0c6b29a16719_1318003_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/thai-e.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/thai-e.jpg"
 width="4032"
 height="2256"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/thai-e_hu4d8050520c35275e98ab0c6b29a16719_1318003_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/thai-e_hu4d8050520c35275e98ab0c6b29a16719_1318003_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a_huc127342b2b5aa7da602bb36f0b37d86b_937664_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a_huc127342b2b5aa7da602bb36f0b37d86b_937664_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a.jpg"
 width="4032"
 height="2256"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a_huc127342b2b5aa7da602bb36f0b37d86b_937664_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/myanmar-a_huc127342b2b5aa7da602bb36f0b37d86b_937664_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b_hu76a7d083655893541cd56bb4c2d18b50_778877_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b_hu76a7d083655893541cd56bb4c2d18b50_778877_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b.jpg"
 width="4032"
 height="2256"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b_hu76a7d083655893541cd56bb4c2d18b50_778877_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/myanmar-b_hu76a7d083655893541cd56bb4c2d18b50_778877_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>另外在泰國風格佛殿的某處門前放着這個牌子：&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/mask-alert.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/mask-alert.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/mask-alert_hu1c08d28ae3256de396e700b0811b630d_1126298_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/mask-alert_hu1c08d28ae3256de396e700b0811b630d_1126298_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/mask-alert.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/mask-alert.jpg"
 width="2256"
 height="4032"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/mask-alert_hu1c08d28ae3256de396e700b0811b630d_1126298_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/mask-alert_hu1c08d28ae3256de396e700b0811b630d_1126298_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="超級可愛">
 &lt;/a>
@@ -1039,192 +1129,324 @@ alt="超級可愛">
 &lt;h2 id="關林">關林&lt;/h2>
 &lt;p>關林係關二爺的墓（雖說只有頭葬在這裏）。洛陽的這個關林是曹操爲其修築的。關林中有自大明國起至當代各種人立的碑，說實話滿有趣的。下面按朝代分類一下拍到的碑記。&lt;/p>
 &lt;h3 id="大明國">大明國&lt;/h3>
-&lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-a.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-a.jpg"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-a.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-a.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-a_hufb61fc85bf548a57c93970b2adc2cb31_2027430_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-a_hufb61fc85bf548a57c93970b2adc2cb31_2027430_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-b.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-b.jpg"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-b.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-b.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-b_hub8707ae6b0931088aded4bb26debd26c_2025833_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-b_hub8707ae6b0931088aded4bb26debd26c_2025833_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-c.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-c.jpg"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-c.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-c.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-c_hue7a3992b1b18719ac8109a1aeebbdb58_2390520_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-c_hue7a3992b1b18719ac8109a1aeebbdb58_2390520_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-d.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-d.jpg"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-d.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-d.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-d_hubbf11134c3b84446cf7accaff3db6748_2094188_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-d_hubbf11134c3b84446cf7accaff3db6748_2094188_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-e.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-e.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-e_hue6d821df5b41b7f9a56e5d14dfb2e22f_2046117_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-e_hue6d821df5b41b7f9a56e5d14dfb2e22f_2046117_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-e.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-e.jpg"
 width="2256"
 height="4032"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-e_hue6d821df5b41b7f9a56e5d14dfb2e22f_2046117_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-e_hue6d821df5b41b7f9a56e5d14dfb2e22f_2046117_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-f.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-f.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-f_hu8c0a69ab703245a3f9124b057661424b_1901036_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-f_hu8c0a69ab703245a3f9124b057661424b_1901036_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-f.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-f.jpg"
 width="2256"
 height="4032"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-f_hu8c0a69ab703245a3f9124b057661424b_1901036_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-f_hu8c0a69ab703245a3f9124b057661424b_1901036_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-g.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-g.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-g_huc3f640e64ca98a9c2f6b7d788a6c12d2_1335463_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-g_huc3f640e64ca98a9c2f6b7d788a6c12d2_1335463_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/ming-g.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/ming-g.jpg"
 width="2256"
 height="4032"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/ming-g_huc3f640e64ca98a9c2f6b7d788a6c12d2_1335463_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/ming-g_huc3f640e64ca98a9c2f6b7d788a6c12d2_1335463_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>鳴鈴注意到：明朝時就已經開始混用「国」和「國」，還有「歷」和「曆」了。但是作爲年號應該是有唯一正確的寫法吧？&lt;/p>
 &lt;h3 id="大清國">大清國&lt;/h3>
-&lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-a.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-a.jpg"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-a.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-a.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-a_hu2f23b58d42b1c6c5ba8279e023b6aa3a_698825_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-a_hu2f23b58d42b1c6c5ba8279e023b6aa3a_698825_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-b.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-b.jpg"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-b.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-b.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-b_hu92657d0910576780ffaf8c7188e45473_2727669_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-b_hu92657d0910576780ffaf8c7188e45473_2727669_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-c.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-c.jpg"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-c.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-c.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-c_hu3e9aa3152e50d2560fd6b09bcd51d12d_1526630_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-c_hu3e9aa3152e50d2560fd6b09bcd51d12d_1526630_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-d.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-d.jpg"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-d.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-d.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-d_hu13cc15457d44b008a25f11c1a50f2ef1_2082170_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-d_hu13cc15457d44b008a25f11c1a50f2ef1_2082170_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-e.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-e.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-e_hu9b2d4ff050d9d87fa31f4c050a31ea6f_1563429_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-e_hu9b2d4ff050d9d87fa31f4c050a31ea6f_1563429_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-e.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-e.jpg"
 width="2256"
 height="4032"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-e_hu9b2d4ff050d9d87fa31f4c050a31ea6f_1563429_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-e_hu9b2d4ff050d9d87fa31f4c050a31ea6f_1563429_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-f.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-f.jpg"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-f.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-f.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-f_hu0e54abcc725dc7b5952458c81508f226_1446953_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-f_hu0e54abcc725dc7b5952458c81508f226_1446953_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-g.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-g.jpg"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-g.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-g.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-g_hub0feac968138b2a214a29c9e619ec395_3010904_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-g_hub0feac968138b2a214a29c9e619ec395_3010904_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-h.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-h.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-h_hu6f0a38b85551f75cbff3f3c631ed7200_1810779_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-h_hu6f0a38b85551f75cbff3f3c631ed7200_1810779_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/qing-h.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/qing-h.jpg"
 width="2256"
 height="4032"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/qing-h_hu6f0a38b85551f75cbff3f3c631ed7200_1810779_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/qing-h_hu6f0a38b85551f75cbff3f3c631ed7200_1810779_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>下圖是乾隆年代所建的香爐，上面的花紋很漂亮，現在依然在使用。立於其前，雖然很熱，但更重要的是能嗅到歷史的氣息（別鬧啦，只是因爲爐內在焚香吧 -`д´- ） 此類有很長的歷史，卻依舊使用中，而非列於防爆玻璃展臺之內的文物真的感覺很奇妙。&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 178; flex-basis: 428px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/incense-burner.jpg" data-size="4032x2256">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/incense-burner.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/incense-burner_hue6a1e390a4558d332b10228cabd82d3d_1834661_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/incense-burner_hue6a1e390a4558d332b10228cabd82d3d_1834661_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 178;
+flex-basis: 428px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/incense-burner.jpg" data-size="4032x2256">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/incense-burner.jpg"
 width="4032"
 height="2256"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/incense-burner_hue6a1e390a4558d332b10228cabd82d3d_1834661_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/incense-burner_hue6a1e390a4558d332b10228cabd82d3d_1834661_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
 &lt;p>一般提到文物，給鳴鈴的印象就算不是陳設於展臺之上，也是石碑匾額之類單純供人觀賞的器物。所以鳴鈴就把這個還在使用中的香爐就拍了下來，這個香爐左右兩邊各有一個，鳴鈴攝的是右邊那個。&lt;/p>
 &lt;h3 id="中華民國">中華民國&lt;/h3>
-&lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-a.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-a.jpg"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-a.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-a.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-a_hue3246a8110418c5738d5338ad42eb5a6_2015336_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-a_hue3246a8110418c5738d5338ad42eb5a6_2015336_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-b.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-b.jpg"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-b.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-b.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-b_hu377cc21ead80195a2f4f82b9bd15ed3f_2232152_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-b_hu377cc21ead80195a2f4f82b9bd15ed3f_2232152_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-c.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-c.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-c_hufebf266c0265caea516c5c8abc9ad4e1_2053502_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-c_hufebf266c0265caea516c5c8abc9ad4e1_2053502_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-c.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-c.jpg"
 width="2256"
 height="4032"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-c_hufebf266c0265caea516c5c8abc9ad4e1_2053502_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-c_hufebf266c0265caea516c5c8abc9ad4e1_2053502_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
 &lt;/figure>&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-d.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-d.jpg"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-d.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-d.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-d_hu1116eee8057951aa17966297a637d0cf_1064960_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-d_hu1116eee8057951aa17966297a637d0cf_1064960_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-e.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-e.jpg"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-e.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-e.jpg"
+width="2256"
+height="4032"
 srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-e_hu2e5d5b334d4810fb1ce92224643fd743_1634192_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-e_hu2e5d5b334d4810fb1ce92224643fd743_1634192_1024x0_resize_q75_box.jpg 1024w"
-width="2256"
-height="4032"
 loading="lazy"
 >
 &lt;/a>
-&lt;/figure> &lt;figure style="flex-grow: 55; flex-basis: 134px">
-&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-f.jpg" data-size="2256x4032">&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-f.jpg"
-srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-f_hue5b1292fa415ab08953e84927ce79016_1521769_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-f_hue5b1292fa415ab08953e84927ce79016_1521769_1024x0_resize_q75_box.jpg 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 55;
+flex-basis: 134px"
+>
+&lt;a href="https://ming.ling.moe/posts/lakuyou-2-days/roc-f.jpg" data-size="2256x4032">
+&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/roc-f.jpg"
 width="2256"
 height="4032"
+srcset="https://ming.ling.moe/posts/lakuyou-2-days/roc-f_hue5b1292fa415ab08953e84927ce79016_1521769_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/lakuyou-2-days/roc-f_hue5b1292fa415ab08953e84927ce79016_1521769_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 >
 &lt;/a>
@@ -1381,11 +1603,17 @@ loading="lazy"
 &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">i&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;ti ti-{{$iconid}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
 &lt;/code>&lt;/pre>&lt;/div>&lt;p>就可以得到 tabler 圖標, 打開 &lt;a class="link" href="https://tabler-icons.io/" target="_blank" rel="noopener"
 >tabler官網&lt;/a>，查找你想要插入的圖標，而後複製圖標的名。&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 224; flex-basis: 539px">
-&lt;a href="https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector.png" data-size="1741x774">&lt;img src="https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector.png"
-srcset="https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_480x0_resize_box_3.png 480w, https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 224;
+flex-basis: 539px"
+>
+&lt;a href="https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector.png" data-size="1741x774">
+&lt;img src="https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector.png"
 width="1741"
 height="774"
+srcset="https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_480x0_resize_box_3.png 480w, https://ming.ling.moe/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="tabler 圖標">
 &lt;/a>
@@ -1545,20 +1773,32 @@ graph RL
 那麼有什麼辦法可以解釋這個現象或者解決這個問題呢？首先定義一下什麼叫同時打開門，兩個開門事件在同時發生的概率爲
 $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是週六一天 $24$ 小時。那麼，我們不妨把一次從開門事件到關門事件的過程稱爲一個&lt;strong>開放區間&lt;/strong>，兩個開放區間有重疊稱爲同時打開門。那麼問題就是，如何處理兩個不同的開放區間可能重疊的問題。&lt;/p>
 &lt;p>那麼矛盾在哪裏呢？在動畫畫面中可以看到，在從食堂朝向外面的畫面中，我們可以知道在食堂中是能直接看到外界的，同時也有從外向內的畫面。&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
-&lt;a href="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png" data-size="2172x1222">&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png"
-srcset="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_480x0_resize_box_3.png 480w, https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_1024x0_resize_box_3.png 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 177;
+flex-basis: 426px"
+>
+&lt;a href="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png" data-size="2172x1222">
+&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png"
 width="2172"
 height="1222"
+srcset="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_480x0_resize_box_3.png 480w, https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="炸肉餅二世的門外">
 &lt;/a>
 &lt;figcaption>炸肉餅二世的門外&lt;/figcaption>
-&lt;/figure> &lt;figure style="flex-grow: 177; flex-basis: 426px">
-&lt;a href="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png" data-size="2172x1222">&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png"
-srcset="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_480x0_resize_box_3.png 480w, https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_1024x0_resize_box_3.png 1024w"
+&lt;/figure> &lt;figure
+class="gallery-image"
+style="
+flex-grow: 177;
+flex-basis: 426px"
+>
+&lt;a href="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png" data-size="2172x1222">
+&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png"
 width="2172"
 height="1222"
+srcset="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_480x0_resize_box_3.png 480w, https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_1024x0_resize_box_3.png 1024w"
 loading="lazy"
 alt="炸蝦一世的門外">
 &lt;/a>
@@ -1575,11 +1815,17 @@ alt="炸蝦一世的門外">
 &lt;p>同時鳴鈴注意到了，在動畫中人餐後離開食堂關上門後，門就會消失掉。這裏可以設定爲門被析構的同時 Mutex 被解鎖，就像 &lt;code>std::sync::Mutex&lt;/code> 一樣.&lt;/p>
 &lt;h3 id="引用計數">🔂引用計數&lt;/h3>
 &lt;p>如果愛好燉牛肉的六柱之赤從別人的門走出來了，不就不妙了嗎？（從月球上的門走出來似乎沒什麼問題）&lt;/p>
-&lt;p>&lt;figure style="flex-grow: 177; flex-basis: 426px">
-&lt;a href="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg" data-size="1280x720">&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg"
-srcset="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_1024x0_resize_q75_box.jpg 1024w"
+&lt;p>&lt;figure
+class="gallery-image"
+style="
+flex-grow: 177;
+flex-basis: 426px"
+>
+&lt;a href="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg" data-size="1280x720">
+&lt;img src="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg"
 width="1280"
 height="720"
+srcset="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_480x0_resize_q75_box.jpg 480w, https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_1024x0_resize_q75_box.jpg 1024w"
 loading="lazy"
 alt="赤女王">
 &lt;/a>

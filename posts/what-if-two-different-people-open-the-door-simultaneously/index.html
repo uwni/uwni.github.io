@@ -118,12 +118,14 @@ extended">
 那麼有什麼辦法可以解釋這個現象或者解決這個問題呢？首先定義一下什麼叫同時打開門，兩個開門事件在同時發生的概率爲
 $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是週六一天 $24$ 小時。那麼，我們不妨把一次從開門事件到關門事件的過程稱爲一個<strong>開放區間</strong>，兩個開放區間有重疊稱爲同時打開門。那麼問題就是，如何處理兩個不同的開放區間可能重疊的問題。</p>
 <p>那麼矛盾在哪裏呢？在動畫畫面中可以看到，在從食堂朝向外面的畫面中，我們可以知道在食堂中是能直接看到外界的，同時也有從外向內的畫面。</p>
-<p><figure style=flex-grow:177;flex-basis:426px>
-<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png data-size=2172x1222><img src=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_480x0_resize_box_3.png 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_1024x0_resize_box_3.png 1024w" width=2172 height=1222 loading=lazy alt=炸肉餅二世的門外>
+<p><figure class=gallery-image style=flex-grow:177;flex-basis:426px>
+<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png data-size=2172x1222>
+<img src=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png width=2172 height=1222 srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_480x0_resize_box_3.png 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_1024x0_resize_box_3.png 1024w" loading=lazy alt=炸肉餅二世的門外>
 </a>
 <figcaption>炸肉餅二世的門外</figcaption>
-</figure> <figure style=flex-grow:177;flex-basis:426px>
-<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png data-size=2172x1222><img src=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_480x0_resize_box_3.png 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_1024x0_resize_box_3.png 1024w" width=2172 height=1222 loading=lazy alt=炸蝦一世的門外>
+</figure> <figure class=gallery-image style=flex-grow:177;flex-basis:426px>
+<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png data-size=2172x1222>
+<img src=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png width=2172 height=1222 srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_480x0_resize_box_3.png 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_1024x0_resize_box_3.png 1024w" loading=lazy alt=炸蝦一世的門外>
 </a>
 <figcaption>炸蝦一世的門外</figcaption>
 </figure></p>
@@ -138,8 +140,9 @@ $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是�
 <p>同時鳴鈴注意到了，在動畫中人餐後離開食堂關上門後，門就會消失掉。這裏可以設定爲門被析構的同時 Mutex 被解鎖，就像 <code>std::sync::Mutex</code> 一樣.</p>
 <h3 id=引用計數>🔂引用計數</h3>
 <p>如果愛好燉牛肉的六柱之赤從別人的門走出來了，不就不妙了嗎？（從月球上的門走出來似乎沒什麼問題）</p>
-<p><figure style=flex-grow:177;flex-basis:426px>
-<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg data-size=1280x720><img src=/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_480x0_resize_q75_box.jpg 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_1024x0_resize_q75_box.jpg 1024w" width=1280 height=720 loading=lazy alt=赤女王>
+<p><figure class=gallery-image style=flex-grow:177;flex-basis:426px>
+<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg data-size=1280x720>
+<img src=/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg width=1280 height=720 srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_480x0_resize_q75_box.jpg 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_1024x0_resize_q75_box.jpg 1024w" loading=lazy alt=赤女王>
 </a>
 <figcaption>赤女王</figcaption>
 </figure></p>
@@ -182,7 +185,7 @@ $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是�
 </section>
 <section class=powerby>
 Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
-Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.1.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
+Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.2.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
 </section>
 </footer>
 <div class=pswp tabindex=-1 role=dialog aria-hidden=true>
