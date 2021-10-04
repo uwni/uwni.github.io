@@ -1582,7 +1582,7 @@ loading="lazy"
 &lt;li>還沒有想到&lt;/li>
 &lt;/ol>
 &lt;p>那麼我們就不需要向源碼的repo中上傳任何編譯時生成的檔案了，因此新建 &lt;code>.gitignore&lt;/code> 並寫入&lt;/p>
-&lt;pre>&lt;code>/public/
+&lt;pre tabindex="0">&lt;code>/public/
 /resources/_gen
 &lt;/code>&lt;/pre>&lt;p>以讓 git 忽略 &lt;code>/public&lt;/code> 和 &lt;code>/resources/_gen&lt;/code> 這兩個目錄.&lt;/p>
 &lt;h2 id="擴展功能">擴展功能&lt;/h2>
