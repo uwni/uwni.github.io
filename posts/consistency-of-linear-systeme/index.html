@@ -1,181 +1,23 @@
-<!doctype html><html lang=en-us>
-<head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="不使用線性代數概念對方程、自變量和解集的關係的感性理解"><title>小學之上，線代之下</title>
-<link rel=canonical href=https://ming.ling.moe/posts/consistency-of-linear-systeme/>
-<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="小學之上，線代之下">
-<meta property="og:description" content="不使用線性代數概念對方程、自變量和解集的關係的感性理解">
-<meta property="og:url" content="https://ming.ling.moe/posts/consistency-of-linear-systeme/">
-<meta property="og:site_name" content="鳴鈴">
-<meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:tag" content="線性代數"><meta property="article:published_time" content="2020-06-05T23:38:04+08:00"><meta property="article:modified_time" content="2020-06-05T23:38:04+08:00"><meta property="og:image" content="https://ming.ling.moe/posts/consistency-of-linear-systeme/cover.jpg">
-<meta name=twitter:title content="小學之上，線代之下">
-<meta name=twitter:description content="不使用線性代數概念對方程、自變量和解集的關係的感性理解"><meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://ming.ling.moe/posts/consistency-of-linear-systeme/cover.jpg">
-<link rel="shortcut icon" href=https://ming.ling.moe/file-storage/public/ico/favicon.ico>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
-<style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}</style>
-<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
-</head>
-<body class="article-page has-toc">
-<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
-<div class="container main-container flex
-extended">
-<div id=article-toolbar>
-<a href=https://ming.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
-<span>Back</span>
-</a>
-</div>
-<main class="main full-width">
-<article class="has-image main-article">
-<header class=article-header>
-<div class=article-image>
-<a href=/posts/consistency-of-linear-systeme/>
-<img src=/posts/consistency-of-linear-systeme/cover_hu6a30b78d1b97b36ad9e386e78c589302_2928633_800x0_resize_q75_box.jpg srcset="/posts/consistency-of-linear-systeme/cover_hu6a30b78d1b97b36ad9e386e78c589302_2928633_800x0_resize_q75_box.jpg 800w, /posts/consistency-of-linear-systeme/cover_hu6a30b78d1b97b36ad9e386e78c589302_2928633_1600x0_resize_q75_box.jpg 1600w" width=800 height=533 loading=lazy alt="Featured image of post 小學之上，線代之下">
-</a>
-</div>
-<div class=article-details>
-<h2 class=article-title>
-<a href=/posts/consistency-of-linear-systeme/>小學之上，線代之下</a>
-</h2>
-<h3 class=article-subtitle>
-不使用線性代數概念對方程、自變量和解集的關係的感性理解
-</h3>
-<footer class=article-time>
-<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
-<time class=article-time--published>Jun 05, 2020</time>
-</div>
-<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
-<time class=article-time--reading>
-1 min read
-</time>
-</div>
-</footer>
-</div>
-</header>
-<section class=article-content>
-<h2 id=m-和-n>$m$ 和 $n$</h2>
-<p>$m \times n$ 線性方程組中，共有 $n$ 個變量，$m$ 條線性方程</p>
-<p>感性的來看，方程組中的每一條方程都是一種「約束」，在所有方程的共同約束下，變量的取值範圍（解集）被確定下來，每一條方程的「約束」都是將變量的解集縮小. 舉例來看，設獨立變量 $x$ 與 $y$ 均爲實數，設一個方程組，假設開始時方程組內沒有任何方程. 這時 $(x, y)$ 的解集就是整個 $\mathbb{R}^2$，幾何上看就是整個 $xOy$ 平面.</p>
-<p>現在，給方程組內加入一條方程
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="不使用線性代數概念對方程、自變量和解集的關係的感性理解"><title>小學之上，線代之下</title><link rel=canonical href=https://ming.ling.moe/posts/consistency-of-linear-systeme/><link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="小學之上，線代之下"><meta property="og:description" content="不使用線性代數概念對方程、自變量和解集的關係的感性理解"><meta property="og:url" content="https://ming.ling.moe/posts/consistency-of-linear-systeme/"><meta property="og:site_name" content="鳴鈴"><meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:tag" content="線性代數"><meta property="article:published_time" content="2020-06-05T23:38:04+08:00"><meta property="article:modified_time" content="2020-06-05T23:38:04+08:00"><meta property="og:image" content="https://ming.ling.moe/posts/consistency-of-linear-systeme/cover.jpg"><meta name=twitter:title content="小學之上，線代之下"><meta name=twitter:description content="不使用線性代數概念對方程、自變量和解集的關係的感性理解"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://ming.ling.moe/posts/consistency-of-linear-systeme/cover.jpg"><link rel="shortcut icon" href=https://ming.ling.moe/file-storage/public/ico/favicon.ico><script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-EHQRC06KY5",{anonymize_ip:!1})}</script><style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}</style><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></head><body class="article-page has-toc"><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex
+extended"><div id=article-toolbar><a href=https://ming.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg><span>Back</span></a></div><main class="main full-width"><article class="has-image main-article"><header class=article-header><div class=article-image><a href=/posts/consistency-of-linear-systeme/><img src=/posts/consistency-of-linear-systeme/cover_hu6a30b78d1b97b36ad9e386e78c589302_2928633_800x0_resize_q75_box.jpg srcset="/posts/consistency-of-linear-systeme/cover_hu6a30b78d1b97b36ad9e386e78c589302_2928633_800x0_resize_q75_box.jpg 800w, /posts/consistency-of-linear-systeme/cover_hu6a30b78d1b97b36ad9e386e78c589302_2928633_1600x0_resize_q75_box.jpg 1600w" width=800 height=533 loading=lazy alt="Featured image of post 小學之上，線代之下"></a></div><div class=article-details><h2 class=article-title><a href=/posts/consistency-of-linear-systeme/>小學之上，線代之下</a></h2><h3 class=article-subtitle>不使用線性代數概念對方程、自變量和解集的關係的感性理解</h3><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg><time class=article-time--published>Jun 05, 2020</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg><time class=article-time--reading>1 min read</time></div></footer></div></header><section class=article-content><h2 id=m-和-n>$m$ 和 $n$</h2><p>$m \times n$ 線性方程組中，共有 $n$ 個變量，$m$ 條線性方程</p><p>感性的來看，方程組中的每一條方程都是一種「約束」，在所有方程的共同約束下，變量的取值範圍（解集）被確定下來，每一條方程的「約束」都是將變量的解集縮小. 舉例來看，設獨立變量 $x$ 與 $y$ 均爲實數，設一個方程組，假設開始時方程組內沒有任何方程. 這時 $(x, y)$ 的解集就是整個 $\mathbb{R}^2$，幾何上看就是整個 $xOy$ 平面.</p><p>現在，給方程組內加入一條方程
 $$2x + y = 1 \tag{1}$$
-這時顯然有許多點不能出現在解集中了，比如座標原點 $(0, 0)$，因爲 $2 \times 0 + 0 \neq 1$，幾何上看，就是原點不在 $(1)$ 式確定的直線上. 這時，可以這麼感性的理解解集上發生的變化：因爲 $(1)$ 式的加入，解集不能再「肆無忌憚」的想取什麼就取什麼了，解集中的解必須同時「服從」所有方程規定的「條件」. 換句話說解集從原來的整個平面被方程 $(1)$「約束」成了一條直線.</p>
-<p>這時讓我們加入第二條方程
+這時顯然有許多點不能出現在解集中了，比如座標原點 $(0, 0)$，因爲 $2 \times 0 + 0 \neq 1$，幾何上看，就是原點不在 $(1)$ 式確定的直線上. 這時，可以這麼感性的理解解集上發生的變化：因爲 $(1)$ 式的加入，解集不能再「肆無忌憚」的想取什麼就取什麼了，解集中的解必須同時「服從」所有方程規定的「條件」. 換句話說解集從原來的整個平面被方程 $(1)$「約束」成了一條直線.</p><p>這時讓我們加入第二條方程
 $$3x + y = 0 \tag{2}$$
-這時，連原來的一條直線上的點都取不到了，解集中僅僅剩下 $(-1, 3)$ 了，顯然地，兩個方程顯然比一個方程的條件更加「嚴苛」，解集不止要「服從」$(1)$ 式還要「服從」$(2)$ 式，而能同時服從這兩個條件的點，就只剩下 $(-1, 3)$ 了.</p>
-<p>如果我們再加入一個方程會怎麼樣？, 假設其爲
+這時，連原來的一條直線上的點都取不到了，解集中僅僅剩下 $(-1, 3)$ 了，顯然地，兩個方程顯然比一個方程的條件更加「嚴苛」，解集不止要「服從」$(1)$ 式還要「服從」$(2)$ 式，而能同時服從這兩個條件的點，就只剩下 $(-1, 3)$ 了.</p><p>如果我們再加入一個方程會怎麼樣？, 假設其爲
 $$2x - 2y = 4 \tag{3}$$
-這時，連解集中僅剩的一個點 $(-1 ,3)$ 也不能滿足新加入的這個方程的約束了. 這時，解集爲 $\varnothing$，方程組就沒有解了.</p>
-<h2 id=相容性>相容性</h2>
-<p>因而可知，在上述的例子中，當方程組中若</p>
-<p>a. 沒有方程或僅有 $(1)$ 式： 解集爲無限集<br>
-b. 有 $(1)$ 和 $(2)$ 式：解集爲有限集<br>
-c. 有 $(1)$, $(2)$ 和 $(3)$ 式： 解集爲 $\varnothing$</p>
-<p>我們稱當解集爲 $\varnothing$ 時方程組是不相容的 (inconsistent)，解集非空時方程組是相容的 (consistent)，</p>
-<p>脫去集合論的外衣，當解集爲</p>
-<p>無限集 $\implies$ 方程組有無窮多解<br>
-有限集 $\implies$ 方程組有有限個解. (對於線性方程組有唯一解)<br>
-$\varnothing$ $\implies$ 方程組無解</p>
-<p>因此有結論：<strong>相容的線性方程組解集必非空</strong>.</p>
-<h2 id=亞定與超定>亞定與超定</h2>
-<ul>
-<li>
-<p>當方程的個數多於未知數的個數 ($m > n$)，則稱方程組是超定的(overdetermined)</p>
-</li>
-<li>
-<p>當方程的個數少於未知數的個數 ($m &lt; n$)，則稱方程組是亞定的(underdetermined)</p>
-</li>
-</ul>
-<p>還拿前例舉例：
+這時，連解集中僅剩的一個點 $(-1 ,3)$ 也不能滿足新加入的這個方程的約束了. 這時，解集爲 $\varnothing$，方程組就沒有解了.</p><h2 id=相容性>相容性</h2><p>因而可知，在上述的例子中，當方程組中若</p><p>a. 沒有方程或僅有 $(1)$ 式： 解集爲無限集<br>b. 有 $(1)$ 和 $(2)$ 式：解集爲有限集<br>c. 有 $(1)$, $(2)$ 和 $(3)$ 式： 解集爲 $\varnothing$</p><p>我們稱當解集爲 $\varnothing$ 時方程組是不相容的 (inconsistent)，解集非空時方程組是相容的 (consistent)，</p><p>脫去集合論的外衣，當解集爲</p><p>無限集 $\implies$ 方程組有無窮多解<br>有限集 $\implies$ 方程組有有限個解. (對於線性方程組有唯一解)<br>$\varnothing$ $\implies$ 方程組無解</p><p>因此有結論：<strong>相容的線性方程組解集必非空</strong>.</p><h2 id=亞定與超定>亞定與超定</h2><ul><li><p>當方程的個數多於未知數的個數 ($m > n$)，則稱方程組是超定的(overdetermined)</p></li><li><p>當方程的個數少於未知數的個數 ($m &lt; n$)，則稱方程組是亞定的(underdetermined)</p></li></ul><p>還拿前例舉例：
 情況a中 $m &lt; n$，方程組亞定，
-情況c中 $m > n$，方程組超定.</p>
-<p>字面理解，亞定，就是線性方程組的「約束」不足，超定，就是「約束」過多，從而造成方程組可能無窮多解或無解這兩種極端情況.</p>
-<p><strong>但是超定並不意味不相容</strong>(雖然現實中通常都不相容)，還是上面的例子，如果所加入的式 $(3)$ 改成 $2x - 2y = -8$ 的話，就會驚喜的發現，加入前解集中唯一的解 $(-1 ,3)$ 依然滿足新加入的方程，則方程組雖然同樣是超定的，但是相容的. 現實中這種概率實在太低了，因此超定往往不相容.</p>
-<p>同樣的，亞定也不意味相容.
+情況c中 $m > n$，方程組超定.</p><p>字面理解，亞定，就是線性方程組的「約束」不足，超定，就是「約束」過多，從而造成方程組可能無窮多解或無解這兩種極端情況.</p><p><strong>但是超定並不意味不相容</strong>(雖然現實中通常都不相容)，還是上面的例子，如果所加入的式 $(3)$ 改成 $2x - 2y = -8$ 的話，就會驚喜的發現，加入前解集中唯一的解 $(-1 ,3)$ 依然滿足新加入的方程，則方程組雖然同樣是超定的，但是相容的. 現實中這種概率實在太低了，因此超定往往不相容.</p><p>同樣的，亞定也不意味相容.
 如上述例子中當方程組中沒有方程時，加入的方程改爲 $0x + 0y = 1$，則 $(x, y)$ 取遍 $\mathbb{R}^2$ 域中的所有點，都將無法滿足之，解集爲空而方程組不相容.
 但是，只要亞定的方程組相容，其一定有無窮多解.
 因爲在解相容的亞定方程的過程中，總能將 $n - m$ 個變量先視爲不需要解的參量(或稱自由變量)，把他們當作常數寫在等號右邊，最後的解在形式上總是包含這些自由變量.
-這時，每個自由變量都可以在定義域 $\mathbb{R}$ 中任意取值，則 $m$ 個解出來的變量的值也跟隨着變化，可以視爲 $m$ 個多元線性函數，其值域也是 $\mathbb{R}$，因而有無窮多解.</p>
-</section>
-<footer class=article-footer>
-<section class=article-tags>
-<a href=/tags/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/>線性代數</a>
-</section>
-<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
-<span>Licensed under CC BY-NC-SA 4.0</span>
-</section>
-</footer>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css integrity=sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js integrity=sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script>
-</article>
-<aside class=related-contents--wrapper>
-</aside>
-<script src=https://giscus.app/client.js data-repo=narisuzu/blog-comments data-repo-id="MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=" data-category=comments data-category-id=DIC_kwDOF0zYzs4B-f-8 data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light crossorigin=anonymous async></script>
-<script>function setGiscusTheme(b){let a=document.querySelector('iframe.giscus-frame');a&&a.contentWindow.postMessage({giscus:{setConfig:{theme:b}}},"https://giscus.app")}(function(){addEventListener('message',b=>{if(event.origin!=='https://giscus.app')return;a()}),window.addEventListener('onColorSchemeChange',a);function a(){document.documentElement.dataset.scheme==="light"?setGiscusTheme('light'):setGiscusTheme('dark_dimmed')}})()</script>
-<footer class=site-footer>
-<section class=copyright>
-&copy;
+這時，每個自由變量都可以在定義域 $\mathbb{R}$ 中任意取值，則 $m$ 個解出來的變量的值也跟隨着變化，可以視爲 $m$ 個多元線性函數，其值域也是 $\mathbb{R}$，因而有無窮多解.</p></section><footer class=article-footer><section class=article-tags><a href=/tags/%E7%B7%9A%E6%80%A7%E4%BB%A3%E6%95%B8/>線性代數</a></section><section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg><span>Licensed under CC BY-NC-SA 4.0</span></section></footer><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css integrity=sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js integrity=sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script></article><aside class=related-contents--wrapper></aside><script src=https://giscus.app/client.js data-repo=narisuzu/blog-comments data-repo-id="MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=" data-category=comments data-category-id=DIC_kwDOF0zYzs4B-f-8 data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light crossorigin=anonymous async></script>
+<script>function setGiscusTheme(t){let e=document.querySelector("iframe.giscus-frame");e&&e.contentWindow.postMessage({giscus:{setConfig:{theme:t}}},"https://giscus.app")}(function(){addEventListener("message",t=>{if(event.origin!=="https://giscus.app")return;e()}),window.addEventListener("onColorSchemeChange",e);function e(){document.documentElement.dataset.scheme==="light"?setGiscusTheme("light"):setGiscusTheme("dark_dimmed")}})()</script><footer class=site-footer><section class=copyright>&copy;
 2021 -
-2022 鳴鈴
-</section>
-<section class=powerby>
-Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
-Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.2.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
-</section>
-</footer>
-<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
-<div class=pswp__bg></div>
-<div class=pswp__scroll-wrap>
-<div class=pswp__container>
-<div class=pswp__item></div>
-<div class=pswp__item></div>
-<div class=pswp__item></div>
-</div>
-<div class="pswp__ui pswp__ui--hidden">
-<div class=pswp__top-bar>
-<div class=pswp__counter></div>
-<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+2022 鳴鈴</section><section class=powerby>Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a><br>Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.2.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 <button class="pswp__button pswp__button--share" title=Share></button>
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-<div class=pswp__preloader>
-<div class=pswp__preloader__icn>
-<div class=pswp__preloader__cut>
-<div class=pswp__preloader__donut></div>
-</div>
-</div>
-</div>
-</div>
-<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-<div class=pswp__share-tooltip></div>
-</div>
-<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-</button>
-<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-</button>
-<div class=pswp__caption>
-<div class=pswp__caption__center></div>
-</div>
-</div>
-</div>
-</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
-</main>
-<aside class="sidebar right-sidebar sticky">
-<section class="widget archives">
-<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
-</div>
-<h2 class="widget-title section-title">Table of contents</h2>
-<div class=widget--toc>
-<nav id=TableOfContents>
-<ol>
-<li><a href=#m-和-n>$m$ 和 $n$</a></li>
-<li><a href=#相容性>相容性</a></li>
-<li><a href=#亞定與超定>亞定與超定</a></li>
-</ol>
-</nav>
-</div>
-</section>
-</aside>
-</div>
-<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
-<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
-</body>
-</html>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous></main><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">Table of contents</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#m-和-n>$m$ 和 $n$</a></li><li><a href=#相容性>相容性</a></li><li><a href=#亞定與超定>亞定與超定</a></li></ol></nav></div></section></aside></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>

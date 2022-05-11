@@ -1,4 +1,93 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>鳴鈴</title><link>https://ming.ling.moe/</link><description>Recent content on 鳴鈴</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 13 Sep 2021 20:57:55 +0800</lastBuildDate><atom:link href="https://ming.ling.moe/index.xml" rel="self" type="application/rss+xml"/><item><title>如何構造複數域</title><link>https://ming.ling.moe/posts/complex-number/</link><pubDate>Mon, 13 Sep 2021 20:57:55 +0800</pubDate><guid>https://ming.ling.moe/posts/complex-number/</guid><description>&lt;p>$$
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>鳴鈴</title><link>https://ming.ling.moe/</link><description>Recent content on 鳴鈴</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 11 May 2022 19:02:55 +0900</lastBuildDate><atom:link href="https://ming.ling.moe/index.xml" rel="self" type="application/rss+xml"/><item><title>個人実績</title><link>https://ming.ling.moe/posts/cv/</link><pubDate>Wed, 11 May 2022 19:02:55 +0900</pubDate><guid>https://ming.ling.moe/posts/cv/</guid><description>&lt;h2 id="個人実績">個人実績&lt;/h2>
+&lt;p>全てのプロジェクトは &lt;a class="link" href="https://github.com/narisuzu?tab=repositories" target="_blank" rel="noopener"
+>Github&lt;/a> で見られます。
+本文では内容と主要な技術を紹介いたします。&lt;/p>
+&lt;h3 id="個人ブログこのサイト">個人ブログ（このサイト）&lt;/h3>
+&lt;p>自分のブログです。自分の発想を記述するために、高校生のころから、最新技術を使っていくつのブログを作りました.&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/narisuzu/narisuzu.github.io" target="_blank" rel="noopener"
+>repo&lt;/a>&lt;/p>
+&lt;p>&lt;strong>主要な技術：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;a class="link" href="https://gohugo.io/" target="_blank" rel="noopener"
+>Hugo&lt;/a>&lt;/li>
+&lt;li>Markdown&lt;/li>
+&lt;li>$\KaTeX$&lt;/li>
+&lt;li>Github pages&lt;/li>
+&lt;li>CI(Github Action)&lt;/li>
+&lt;/ul>
+&lt;h3 id="uroj-rs">UROJ-rs&lt;/h3>
+&lt;p>大学の卒業研究の作品で、Universal Railway Online judge という鉄道の電子連動装置（computer interlocking）のシミュレーターのバックエンドです。この作品は web を基づいてフロントエンドとバックエンド両方あるプロジェクトです。どちらも最新の技術を使ったものです。&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/narisuzu/uroj" target="_blank" rel="noopener"
+>repo&lt;/a>&lt;/p>
+&lt;p>&lt;strong>主要な技術：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Rust: Mozilla によって開発する高効率化コンパイル式現代的なプログラミング言語である。バックエンドを開発するにはつかいました&lt;/li>
+&lt;li>GraphQL: Facebook によって開発するフロントエンドとバックエンドを通信するフレームワークである&lt;/li>
+&lt;li>PostgreSQL: データベースソフトウェアである&lt;/li>
+&lt;li>Tokio: Rust async runtime library&lt;/li>
+&lt;li>actix-web: rust web framwork.&lt;/li>
+&lt;li>Dijkstra&amp;rsquo;s algorithm: グラフ理論のアルゴリズム&lt;/li>
+&lt;/ul>
+&lt;h3 id="uroj-web">UROJ-web&lt;/h3>
+&lt;p>上記の UROJ-rs のフロントエンドです&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/narisuzu/uroj-web" target="_blank" rel="noopener"
+>repo&lt;/a>&lt;/p>
+&lt;p>&lt;strong>主要な技術：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>React.js: Facebook によって開発する有名なフロントエンドライブラリーである。フロントエンドで使いました&lt;/li>
+&lt;li>GraphQL: Facebook によって開発するフロントエンドとバックエンドを通信するフレームワークである&lt;/li>
+&lt;li>Two.js: ブラウザでベクトル画像描くライブラリー&lt;/li>
+&lt;li>TypeScript: マイクロソフトによって開発する JavaScript よりいいプログラミング言語です&lt;/li>
+&lt;li>Node.js: web server runtime&lt;/li>
+&lt;/ul>
+&lt;p>これらは現代的なウェブ開発技術である、伝統的な HTML, CSS, JS に基づくものです。すなわち、HTML, CSS, JS　ができるには決まっています。&lt;/p>
+&lt;h3 id="卒業論文">卒業論文&lt;/h3>
+&lt;p>上記の卒業研究の論文。$\LaTeX$ できれいに作ったものです。&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/narisuzu/ronbun" target="_blank" rel="noopener"
+>repo&lt;/a>&lt;/p>
+&lt;h3 id="pracstation-server">pracstation-server&lt;/h3>
+&lt;p>Goで実現する鉄道の電子信号所のソフトウェアのサーバーサイドです&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/narisuzu/pracstation-server" target="_blank" rel="noopener"
+>repo&lt;/a>&lt;/p>
+&lt;p>&lt;strong>主要な技術：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Go(golang): Google によって開発するプログラミング言語です&lt;/li>
+&lt;li>gRPC: Google によって開発する　RPC　フレームワークです&lt;/li>
+&lt;li>MongoDB: データベースです&lt;/li>
+&lt;/ul>
+&lt;h3 id="pracstation-client">pracstation-client&lt;/h3>
+&lt;p>上記の pracstation-server の GUI クライアントサイドです&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/narisuzu/pracstation-server" target="_blank" rel="noopener"
+>repo&lt;/a>&lt;/p>
+&lt;p>&lt;strong>主要な技術：&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Java(JDK 15)&lt;/li>
+&lt;li>JavaFX 15(based on FXML)&lt;/li>
+&lt;li>MongoDB&lt;/li>
+&lt;li>Log4j2&lt;/li>
+&lt;li>Gson&lt;/li>
+&lt;li>Lombok&lt;/li>
+&lt;li>Gradle&lt;/li>
+&lt;/ul>
+&lt;h3 id="ctcs-transponder-message-parse">ctcs-transponder-message-parse&lt;/h3>
+&lt;p>中国の鉄道の地上子のメッセージ(Balise message)を解析するプログラム&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/narisuzu/ctcs-transponder-message-parser" target="_blank" rel="noopener"
+>repo&lt;/a>&lt;/p>
+&lt;p>&lt;strong>主な技術&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Go(golang)&lt;/li>
+&lt;/ul>
+&lt;h3 id="2dgeometrylib">2dgeometrylib&lt;/h3>
+&lt;p>Minecraft 向けのジオメトリライブラリー&lt;/p>
+&lt;p>&lt;a class="link" href="https://github.com/narisuzu/2dgeometrylib" target="_blank" rel="noopener"
+>repo&lt;/a>&lt;/p>
+&lt;p>&lt;strong>主な技術&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>Java(JDK 8)&lt;/li>
+&lt;li>Maven&lt;/li>
+&lt;li>Gitlab CI&lt;/li>
+&lt;/ul>
+&lt;p>Github の中にある以上で言及しないプロジェクトは未完成の作品です。&lt;/p></description></item><item><title>如何構造複數域</title><link>https://ming.ling.moe/posts/complex-number/</link><pubDate>Mon, 13 Sep 2021 20:57:55 +0800</pubDate><guid>https://ming.ling.moe/posts/complex-number/</guid><description>&lt;p>$$
 \gdef\imi{\mathrm{i}}
 $$&lt;/p>
 &lt;h2 id="序">序&lt;/h2>
@@ -358,11 +447,11 @@ $$
 &lt;p>我們可以想辦法構造
 $$
 \begin{gathered}
-M = a'_1x'+b'_1y' \cr
-N = a'_2x'+b'_2y'
+M = a&amp;rsquo;_1x&amp;rsquo;+b&amp;rsquo;_1y&amp;rsquo; \cr
+N = a&amp;rsquo;_2x&amp;rsquo;+b&amp;rsquo;_2y'
 \end{gathered}
 $$
-如此雖然$M(x, y)$ 和 $N(x, y)$ 並非齊次函數，但 $M(x', y')$ 和 $N(x', y')$ 是齊次函數. 而我們只需要求出 $x$ 和 $x'$, $y$ 和 $y'$ 之間的關係, 便可應用一階齊次方程的解法.&lt;/p>
+如此雖然$M(x, y)$ 和 $N(x, y)$ 並非齊次函數，但 $M(x&amp;rsquo;, y&amp;rsquo;)$ 和 $N(x&amp;rsquo;, y&amp;rsquo;)$ 是齊次函數. 而我們只需要求出 $x$ 和 $x&amp;rsquo;$, $y$ 和 $y&amp;rsquo;$ 之間的關係, 便可應用一階齊次方程的解法.&lt;/p>
 &lt;p>這其實也是換元法最大且唯一的思路，使用換元法可以將一種未知解法的「模式」轉換爲一種已知的「模式」. 而這種思想其實滲透應用於各個角落. 譬如某些物理量的複量&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>，其作用便是爲了利用歐拉公式用指數運算來簡化三角函數運算.&lt;/p>
 &lt;h3 id="小結">小結&lt;/h3>
 &lt;p>在此之前所提及的種種微分方程，以及之後提到的微分方程, 其核心思想就是絞盡腦汁把方程化成可分離變量的形式. 比如一階可化爲齊次的方程先換元化爲齊次方程，齊次方程再利用換元法得到可分離變量的微分方程. 因此解方程的圖景是很明晰的, 各種不同形式的方程解法的核心就在於如何分離變量, 而換元則是很重要的一種方法.&lt;/p>
@@ -407,20 +496,20 @@ $$
 &lt;/details>
 &lt;p>在線性微分方程領域. 因其線性指的是定義 1 , 但如果將常數項移動到等號右邊, 等號左邊的函數(變換)便是線性的, 故對於形如
 $$
-y^{(n)} + a_1(x)y^{(n-1)} + \cdots +a_{n-1}(x)y' + a_n(x)y = b(x) \tag{4}
+y^{(n)} + a_1(x)y^{(n-1)} + \cdots +a_{n-1}(x)y&amp;rsquo; + a_n(x)y = b(x) \tag{4}
 $$
 的方程, 有
 $$
 \begin{gathered}
-&amp;amp;(y_1 + y_2)^{(n)} + a_1(x)(y_1 + y_2)^{(n-1)} + \cdots +a_{n-1}(x)(y_1+y_2)' + a_n(x)(y_1+y_2) = b_1(x) + b_2(x) \cr
-&amp;amp;(ky)^{(n)} + a_1(x)(ky)^{(n-1)} + \cdots +a_{n-1}(x)(ky)' + a_n(x)(ky) = kb(x)
+&amp;amp;(y_1 + y_2)^{(n)} + a_1(x)(y_1 + y_2)^{(n-1)} + \cdots +a_{n-1}(x)(y_1+y_2)&amp;rsquo; + a_n(x)(y_1+y_2) = b_1(x) + b_2(x) \cr
+&amp;amp;(ky)^{(n)} + a_1(x)(ky)^{(n-1)} + \cdots +a_{n-1}(x)(ky)&amp;rsquo; + a_n(x)(ky) = kb(x)
 \end{gathered}
 $$
 因而稱其爲 $n$ 階線性微分方程. 細究起來，不難發現其線性特徵其實是來自於兩方面，一是微分算子的線性. 即
 $$
 \begin{gathered}
-&amp;amp;(f+g)'(x) = f'(x) + g'(x) \cr
-&amp;amp;(kf)'(x) = kf'(x)
+&amp;amp;(f+g)&amp;rsquo;(x) = f&amp;rsquo;(x) + g&amp;rsquo;(x) \cr
+&amp;amp;(kf)&amp;rsquo;(x) = kf&amp;rsquo;(x)
 \end{gathered}
 $$
 而微分算子的線性實際上是來自於向量空間中定義的加法和數乘運算, 從導數的極限定義不難證明 &lt;span class="omitted-text" title="(*/ω＼*)">（&lt;del>讀者自證不難&lt;/del>）&lt;/span>&lt;style>
@@ -436,16 +525,16 @@ color: var(--card-background);
 &lt;details >
 &lt;summary>小貼士&lt;/summary>
 &lt;p>$$
-(f+g)'(x_0) = \lim_{x\to x_0} \frac{(f+g)(x) - (f+g)(x_0)}{x - x_0}
+(f+g)&amp;rsquo;(x_0) = \lim_{x\to x_0} \frac{(f+g)(x) - (f+g)(x_0)}{x - x_0}
 $$
-如果 $C^1[a,b]$ 不是向量空間則不存在加法, 則不存在 $(f+g)'(x)$&lt;/p>
+如果 $C^1[a,b]$ 不是向量空間則不存在加法, 則不存在 $(f+g)&amp;rsquo;(x)$&lt;/p>
 &lt;/details>
 好啦好啦，看起來扯太遠了 (ﾉ≧ڡ≦).&lt;/p>
 &lt;h3 id="線性微分方程解的分析">線性微分方程解的分析&lt;/h3>
 &lt;p>對於線性微分方程的解, 我們總能得出一些通用的結論. 因爲&lt;del>懶&lt;/del>擔心諸位的熒幕寬度與流量, 就先拿二階舉例, 這裏就直接引用同濟版高數.&lt;/p>
 &lt;blockquote>
 &lt;p>對於方程
-$$y'' + P(x)y' +Q(x)y = 0$$
+$$y&amp;rsquo;&amp;rsquo; + P(x)y&amp;rsquo; +Q(x)y = 0$$
 若函數 $y_1$ 和 $y_2$ 是方程的兩個解
 那麼 $$y = c_1y_1(x) + c_2y_2(x)$$
 也是方程的解. $c_1$, $c_2$ 是任意常數.&lt;/p>
@@ -453,51 +542,55 @@ $$y'' + P(x)y' +Q(x)y = 0$$
 &lt;p>&lt;strong>證明&lt;/strong>： 設方程解集爲 $S$, 由題可知 $S$ 是 $C^2[a, b]$ 的子空間 (題目中出現了二階導數，所以 $y$ 必然二階可導). 因此 $S$ 封閉, 得證.&lt;/p>
 &lt;h2 id="一階線性微分方程">一階線性微分方程&lt;/h2>
 &lt;p>一階線性微分方程係將 (4) 式中 $n$ 取 $1$ 得到的方程:
-$$y' + P(x)y = Q(x)$$
+$$y&amp;rsquo; + P(x)y = Q(x)$$
 前面說了那麼一大堆，一定能很方便的解方程吧！對吧對吧！那麼要怎麼解呢？ 唔.. 還是得用常數變易法.&lt;/p>
 &lt;p>當 $Q(x) = 0$ 時, 方程係齊次的, 而且顯然是可分離變量的. 這裏就不再多言. 而非齊次情況下, 同濟課本上的常數變易法只給了方法卻沒有思路. 所以鳴鈴傾向於讀托馬斯微積分上的方法.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>《高等数学第七版上册》同济大学数学系编 ISBN 978-7-04-039663-8&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
+&lt;li id="fn:2">
 &lt;p>電路理論中的相量、波動中的複振幅等&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>以OOP的視角看が和の</title><link>https://ming.ling.moe/posts/no-and-ga-under-oop-views/</link><pubDate>Mon, 05 Jul 2021 12:59:56 +0800</pubDate><guid>https://ming.ling.moe/posts/no-and-ga-under-oop-views/</guid><description>&lt;img src="https://ming.ling.moe/posts/no-and-ga-under-oop-views/cover.jpg" alt="Featured image of post 以OOP的視角看が和の" />&lt;p>封裝是典型的 OOP 的特徵之一（另外兩個是繼承和&lt;del>多肽&lt;/del>多態）&lt;/p>
+&lt;/div></description></item><item><title>以OOP的視角看が和の</title><link>https://ming.ling.moe/posts/no-and-ga-under-oop-views/</link><pubDate>Mon, 05 Jul 2021 12:59:56 +0800</pubDate><guid>https://ming.ling.moe/posts/no-and-ga-under-oop-views/</guid><description>&lt;img src="https://ming.ling.moe/posts/no-and-ga-under-oop-views/cover.jpg" alt="Featured image of post 以OOP的視角看が和の" />&lt;p>封裝是典型的 OOP 的特徵之一（另外兩個是繼承和&lt;del>多肽&lt;/del>多態）&lt;/p>
 &lt;h2 id="封裝">封裝&lt;/h2>
 &lt;p>拿以下 Java Class 举例 (省略方法實現)&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="kd">class&lt;/span> &lt;span class="nc">Human&lt;/span> &lt;span class="o">{&lt;/span>
-&lt;span class="kt">double&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="o">;&lt;/span> &lt;span class="c1">// 名前
-&lt;/span>&lt;span class="c1">&lt;/span> &lt;span class="kt">double&lt;/span> &lt;span class="n">weight&lt;/span>&lt;span class="o">;&lt;/span> &lt;span class="c1">// 体重
-&lt;/span>&lt;span class="c1">&lt;/span> &lt;span class="kt">double&lt;/span> &lt;span class="n">height&lt;/span>&lt;span class="o">;&lt;/span> &lt;span class="c1">// 身長
-&lt;/span>&lt;span class="c1">&lt;/span>
-&lt;span class="c1">//挨拶
-&lt;/span>&lt;span class="c1">&lt;/span> &lt;span class="n">Human&lt;/span> &lt;span class="nf">helloTo&lt;/span>&lt;span class="o">(&lt;/span> &lt;span class="n">Human&lt;/span> &lt;span class="n">target&lt;/span> &lt;span class="o">)&lt;/span> &lt;span class="o">{&lt;/span>
-&lt;span class="c1">// do something
-&lt;/span>&lt;span class="c1">&lt;/span> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="o">;&lt;/span>
-&lt;span class="o">};&lt;/span>
-&lt;span class="c1">//寝ること
-&lt;/span>&lt;span class="c1">&lt;/span> &lt;span class="n">Human&lt;/span> &lt;span class="nf">sleep&lt;/span>&lt;span class="o">(&lt;/span> &lt;span class="n">Time&lt;/span> &lt;span class="n">time&lt;/span> &lt;span class="o">)&lt;/span> &lt;span class="o">{&lt;/span>
-&lt;span class="c1">// do something
-&lt;/span>&lt;span class="c1">&lt;/span> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="o">;&lt;/span>
-&lt;span class="o">};&lt;/span>
-&lt;span class="o">};&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>其中返回 this 是爲了方便鏈式調用。使用成員變量和方法如下&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="n">Human&lt;/span> &lt;span class="n">me&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">you&lt;/span>&lt;span class="o">;&lt;/span>
-&lt;span class="c1">// omit some codes here ...
-&lt;/span>&lt;span class="c1">&lt;/span>
-&lt;span class="c1">// use member variables
-&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">name&lt;/span>&lt;span class="o">;&lt;/span>
-&lt;span class="n">you&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">height&lt;/span>&lt;span class="o">;&lt;/span>
-&lt;span class="c1">// use method
-&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">helloTo&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">you&lt;/span>&lt;span class="o">);&lt;/span>
-&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">sleep&lt;/span>&lt;span class="o">();&lt;/span>
-&lt;span class="c1">// link
-&lt;/span>&lt;span class="c1">&lt;/span>&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">helloTo&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">you&lt;/span>&lt;span class="o">).&lt;/span>&lt;span class="na">sleep&lt;/span>&lt;span class="o">();&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>到此爲止在任何語言任何講述 OOP 的教學中都存在於此類似的例子。那麼對於封裝的思想就是：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">class&lt;/span> &lt;span class="nc">Human&lt;/span> &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="kt">double&lt;/span> &lt;span class="n">name&lt;/span>&lt;span class="o">;&lt;/span> &lt;span class="c1">// 名前
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kt">double&lt;/span> &lt;span class="n">weight&lt;/span>&lt;span class="o">;&lt;/span> &lt;span class="c1">// 体重
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="kt">double&lt;/span> &lt;span class="n">height&lt;/span>&lt;span class="o">;&lt;/span> &lt;span class="c1">// 身長
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//挨拶
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">Human&lt;/span> &lt;span class="nf">helloTo&lt;/span>&lt;span class="o">(&lt;/span> &lt;span class="n">Human&lt;/span> &lt;span class="n">target&lt;/span> &lt;span class="o">)&lt;/span> &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// do something
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">//寝ること
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="n">Human&lt;/span> &lt;span class="nf">sleep&lt;/span>&lt;span class="o">(&lt;/span> &lt;span class="n">Time&lt;/span> &lt;span class="n">time&lt;/span> &lt;span class="o">)&lt;/span> &lt;span class="o">{&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1">// do something
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span> &lt;span class="k">return&lt;/span> &lt;span class="k">this&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">};&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="o">};&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>其中返回 this 是爲了方便鏈式調用。使用成員變量和方法如下&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="n">Human&lt;/span> &lt;span class="n">me&lt;/span>&lt;span class="o">,&lt;/span> &lt;span class="n">you&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// omit some codes here ...
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// use member variables
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">name&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">you&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">height&lt;/span>&lt;span class="o">;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// use method
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">helloTo&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">you&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">sleep&lt;/span>&lt;span class="o">();&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">// link
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1">&lt;/span>&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">helloTo&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">you&lt;/span>&lt;span class="o">).&lt;/span>&lt;span class="na">sleep&lt;/span>&lt;span class="o">();&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>到此爲止在任何語言任何講述 OOP 的教學中都存在於此類似的例子。那麼對於封裝的思想就是：&lt;/p>
 &lt;p>把一些擁有共同數據和行爲的結構抽象爲「類」。但這個思想其實就來自於生活之中，就像前例一樣。人擁有名字、身高、體重等數據，也擁有打招呼或睡覺等行爲。既然來自於生活那麼必然有相應的自然語言去描述。&lt;/p>
 &lt;p>這便是本文的主題，以 OOP 的角度來看助詞「の」和「が」。&lt;/p>
 &lt;h2 id="日文">日文&lt;/h2>
@@ -521,8 +614,8 @@ $$y' + P(x)y = Q(x)$$
 &lt;p>對於て形中斷，其實和鏈狀調用蛮相似的，那麼與丁寧/辭書形結尾類似的就是「;」了。综合起来舉個複雜的例子。&lt;/p>
 &lt;h2 id="例">例&lt;/h2>
 &lt;p>私があなたの醤油をつけて彼の餃子を食べる&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">dip&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">you&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">joySource&lt;/span>&lt;span class="o">).&lt;/span>&lt;span class="na">eat&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">he&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">dumpling&lt;/span>&lt;span class="o">);&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>當然了，計算機語言是由人類精心設計過的，主要是給編譯器看的。而自然語言是經歷上千年的變化而來的。拿二者比較本身就不是很嚴謹的事，所以這只是鳴鈴箇人的一點小想法。其實鳴鈴注意到の和が之間存在某種相似性很早之前就有了，當初學到の可以替代從句中的が時就隱隱覺得奇怪，而後仔細對比了の和が在授受動詞接續名詞和從句時的行爲寫成了&lt;a class="link" href="https://ming.ling.moe/posts/jyu-jyu-dou-si/" >動詞接續授受動詞的行爲&lt;/a>一文，之後發現OOP對於變量和方法的封裝正好類似於の和が接續名詞和動詞，也就有了本文。&lt;/p></description></item><item><title>傳輸線模型（未完稿）</title><link>https://ming.ling.moe/posts/all-about-transmission-line/</link><pubDate>Sat, 03 Jul 2021 20:54:56 +0800</pubDate><guid>https://ming.ling.moe/posts/all-about-transmission-line/</guid><description>&lt;img src="https://ming.ling.moe/posts/all-about-transmission-line/cover.jpg" alt="Featured image of post 傳輸線模型（未完稿）" />&lt;p>$$
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-java" data-lang="java">&lt;span class="line">&lt;span class="cl">&lt;span class="n">me&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">dip&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">you&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">joySource&lt;/span>&lt;span class="o">).&lt;/span>&lt;span class="na">eat&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="n">he&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="na">dumpling&lt;/span>&lt;span class="o">);&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>當然了，計算機語言是由人類精心設計過的，主要是給編譯器看的。而自然語言是經歷上千年的變化而來的。拿二者比較本身就不是很嚴謹的事，所以這只是鳴鈴箇人的一點小想法。其實鳴鈴注意到の和が之間存在某種相似性很早之前就有了，當初學到の可以替代從句中的が時就隱隱覺得奇怪，而後仔細對比了の和が在授受動詞接續名詞和從句時的行爲寫成了&lt;a class="link" href="https://ming.ling.moe/posts/jyu-jyu-dou-si/" >動詞接續授受動詞的行爲&lt;/a>一文，之後發現OOP對於變量和方法的封裝正好類似於の和が接續名詞和動詞，也就有了本文。&lt;/p></description></item><item><title>傳輸線模型（未完稿）</title><link>https://ming.ling.moe/posts/all-about-transmission-line/</link><pubDate>Sat, 03 Jul 2021 20:54:56 +0800</pubDate><guid>https://ming.ling.moe/posts/all-about-transmission-line/</guid><description>&lt;img src="https://ming.ling.moe/posts/all-about-transmission-line/cover.jpg" alt="Featured image of post 傳輸線模型（未完稿）" />&lt;p>$$
 \gdef\dif{\mathop{}\!\mathrm{d}}
 \gdef\elr{\mathrm{e}}
 $$&lt;/p>
@@ -689,8 +782,8 @@ $$
 $$
 \begin{cases}
 \begin{aligned}
-&amp;amp;I'' - \lambda_G\lambda_R I = 0 \cr
-&amp;amp;U'' - \lambda_G\lambda_R U = 0
+&amp;amp;I&amp;rsquo;&amp;rsquo; - \lambda_G\lambda_R I = 0 \cr
+&amp;amp;U&amp;rsquo;&amp;rsquo; - \lambda_G\lambda_R U = 0
 \end{aligned}
 \end{cases}
 $$
@@ -707,23 +800,23 @@ $C_1, C_2, C_3, C_4$ 有四個未定常數, 但一維變量的邊界條件只有
 &lt;h3 id="正弦穩態">正弦穩態&lt;/h3>
 &lt;p>這裏給出正弦穩態信號的解的過程.&lt;/p>
 &lt;h3 id="暫態響應">暫態響應&lt;/h3>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>分別爲電阻、電感、電導、電容的線密度.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:2" role="doc-endnote">
+&lt;li id="fn:2">
 &lt;p>古典物理學中有一句格言：「自然界中，一切都是連續的.」&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:3" role="doc-endnote">
+&lt;li id="fn:3">
 &lt;p>《電路》: ISBN 978-7-04-019671-9 中稱其爲「均勻傳輸線方程」，但是不一定本文中只有 $\lambda$ 與 $x$ 無關，才可稱爲「均勻」. 若 $\lambda_R$ 和 $\lambda_G$ 爲 $0$ 則稱爲無損耗傳輸線.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
-&lt;li id="fn:4" role="doc-endnote">
+&lt;li id="fn:4">
 &lt;p>雖然鳴鈴能夠證明之，但卻不懂箇中動機. 即「我們知道加上邊界條件也解不出 $C_1 \cdots C_4$ 但是什麼能讓我們得知他們並非相互獨立，從而通過廽代解出其中的關係」.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>MC:JE 鯖策劃案（更新中...）</title><link>https://ming.ling.moe/posts/new-mc-server/</link><pubDate>Thu, 01 Jul 2021 16:59:16 +0800</pubDate><guid>https://ming.ling.moe/posts/new-mc-server/</guid><description>&lt;img src="https://ming.ling.moe/posts/new-mc-server/cover.png" alt="Featured image of post MC:JE 鯖策劃案（更新中...）" />&lt;p>列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！&lt;/p>
+&lt;/div></description></item><item><title>MC:JE 鯖策劃案（更新中...）</title><link>https://ming.ling.moe/posts/new-mc-server/</link><pubDate>Thu, 01 Jul 2021 16:59:16 +0800</pubDate><guid>https://ming.ling.moe/posts/new-mc-server/</guid><description>&lt;img src="https://ming.ling.moe/posts/new-mc-server/cover.png" alt="Featured image of post MC:JE 鯖策劃案（更新中...）" />&lt;p>列位！諸君！鳴鈴最近和朋友在策劃一個社區向的伺服器，落成後歡迎來玩！&lt;/p>
 &lt;h2 id="綱要">綱要&lt;/h2>
 &lt;p>該伺服器名稱未定，但其應有以下特徵：&lt;/p>
 &lt;ul>
@@ -976,15 +1069,15 @@ color: var(--card-background);
 &lt;li>&lt;code>DB&lt;/code> (Debug): 排錯調試&lt;/li>
 &lt;/ul>
 &lt;p>爲方便今後開發私有 Mod 以增添附屬功能，選取 Fabric 作爲 Mod Loadder。目前還在調試之中，如果調試完成本文會繼續更新。&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>&lt;a class="link" href="https://wiki.vg/Protocol_Encryption" target="_blank" rel="noopener"
 >https://wiki.vg/Protocol_Encryption&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>神都二日遊記</title><link>https://ming.ling.moe/posts/lakuyou-2-days/</link><pubDate>Thu, 01 Jul 2021 07:39:54 +0800</pubDate><guid>https://ming.ling.moe/posts/lakuyou-2-days/</guid><description>&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/cover.jpg" alt="Featured image of post 神都二日遊記" />&lt;p>鳴鈴在家閒得沒事幹，於是前兩日前去洛陽轉了轉，權當畢業旅行。但去洛陽的兩天真的有夠熱的，縱使撐着傘，依然感覺「背灼炎天光」。&lt;/p>
+&lt;/div></description></item><item><title>神都二日遊記</title><link>https://ming.ling.moe/posts/lakuyou-2-days/</link><pubDate>Thu, 01 Jul 2021 07:39:54 +0800</pubDate><guid>https://ming.ling.moe/posts/lakuyou-2-days/</guid><description>&lt;img src="https://ming.ling.moe/posts/lakuyou-2-days/cover.jpg" alt="Featured image of post 神都二日遊記" />&lt;p>鳴鈴在家閒得沒事幹，於是前兩日前去洛陽轉了轉，權當畢業旅行。但去洛陽的兩天真的有夠熱的，縱使撐着傘，依然感覺「背灼炎天光」。&lt;/p>
 &lt;h2 id="龍門石窟">龍門石窟&lt;/h2>
 &lt;p>龍門石窟確實古老，而且聽說文革時被紅小將們砸了不少。但鳴鈴一非佛教徒、二非學者、三非雕塑造像藝術家，對其亦沒有什麼太大的興趣。（即便走在伊水畔也絲毫不涼快就是了）&lt;/p>
 &lt;h3 id="蔣宋別墅">蔣宋別墅&lt;/h3>
@@ -1588,55 +1681,55 @@ loading="lazy"
 >hugo-setup&lt;/a> 這個 Action 來實現我們自動化的需求.&lt;/p>
 &lt;h4 id="配置文件">配置文件&lt;/h4>
 &lt;p>在源碼的根目錄新建 &lt;code>.github/workflows/main.yml&lt;/code>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">github pages&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># CI 的名稱&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 指定在何時觸發&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="l">master &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 選定觸發 CI 的 branch&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">pull_request&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-latest&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">checkout&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@master&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">submodules&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch Hugo 主題（如果你使用了子模塊來引入主題的話）&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">fetch-depth&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch all history for .GitInfo and .Lastmod&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Setup Hugo &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 安裝 Hugo&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v2&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;latest&amp;#39;&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># extended: true&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/cache@v2&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">path&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">/tmp/hugo_cache&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">key&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ runner.os }}-hugomod-${{ hashFiles(&amp;#39;**/go.sum&amp;#39;) }}&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">restore-keys&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">|&lt;/span>&lt;span class="sd">
-&lt;/span>&lt;span class="sd"> &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ runner.os }}-hugomod-&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 編譯 Hugo 內容&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 部署&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-gh-pages@v3&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy_key&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.ACTIONS_DEPLOY_KEY }}&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">external_repository&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">narisuzu/narisuzu.github.io&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 部署至何 repo&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_branch&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">main &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 部署至何 branch&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">./public&lt;/span>&lt;span class="w">
-&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nt">cname&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">blog.ling.moe&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 客製化域名的 CNAME 記錄&lt;/span>&lt;span class="w">
-&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在這裏，因爲我們將 Github Pages 和源碼分置於不同的 repo ，因此用到了 &lt;code>external_repository: &lt;/code> 以指定將編譯結果輸出至應用 Github Pages 的 repo。
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yml" data-lang="yml">&lt;span class="line">&lt;span class="cl">&lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">github pages&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># CI 的名稱&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 指定在何時觸發&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">push&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">branches&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="l">master &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 選定觸發 CI 的 branch&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">pull_request&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="nt">jobs&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">runs-on&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">ubuntu-latest&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">steps&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">checkout&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/checkout@master&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">submodules&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="kc">true&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch Hugo 主題（如果你使用了子模塊來引入主題的話）&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">fetch-depth&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># Fetch all history for .GitInfo and .Lastmod&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Setup Hugo &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 安裝 Hugo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-hugo@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">hugo-version&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s1">&amp;#39;latest&amp;#39;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># extended: true&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">actions/cache@v2&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">path&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">/tmp/hugo_cache&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">key&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ runner.os }}-hugomod-${{ hashFiles(&amp;#39;**/go.sum&amp;#39;) }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">restore-keys&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">|&lt;/span>&lt;span class="sd">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="sd"> &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ runner.os }}-hugomod-&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Build &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 編譯 Hugo 內容&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">run&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">hugo --minify&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">Deploy &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 部署&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">uses&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">peaceiris/actions-gh-pages@v3&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">with&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">deploy_key&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">${{ secrets.ACTIONS_DEPLOY_KEY }}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">external_repository&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">narisuzu/narisuzu.github.io&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 部署至何 repo&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_branch&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">main &lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 部署至何 branch&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">publish_dir&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">./public&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">cname&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">blog.ling.moe&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># 客製化域名的 CNAME 記錄&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>在這裏，因爲我們將 Github Pages 和源碼分置於不同的 repo ，因此用到了 &lt;code>external_repository: &lt;/code> 以指定將編譯結果輸出至應用 Github Pages 的 repo。
 但這會帶來一個問題：我們不能使用推薦的 &lt;code>github_token&lt;/code> 了, 只能使用 &lt;code>deploy_key&lt;/code> 或 &lt;code>personal_token&lt;/code> 作爲存取令牌.
 這裏使用 &lt;code>deploy_key&lt;/code> （P.s. 存取令牌的作用是讓運行 Github Action 的虛擬機有權限部署網站至 Github Pages 的 repo 中）&lt;/p>
 &lt;h4 id="deploy-key">Deploy Key&lt;/h4>
 &lt;p>使用以下代碼生成 RSA 公鑰和私鑰&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">ssh-keygen -t rsa -b &lt;span class="m">4096&lt;/span> -C &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>git config user.email&lt;span class="k">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> -f gh-pages -N &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>你將得到兩個文件 &lt;code>gh-pages.pub&lt;/code> (公鑰) 和 &lt;code>gh-pages&lt;/code> (私鑰). 而後&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-sh" data-lang="sh">&lt;span class="line">&lt;span class="cl">ssh-keygen -t rsa -b &lt;span class="m">4096&lt;/span> -C &lt;span class="s2">&amp;#34;&lt;/span>&lt;span class="k">$(&lt;/span>git config user.email&lt;span class="k">)&lt;/span>&lt;span class="s2">&amp;#34;&lt;/span> -f gh-pages -N &lt;span class="s2">&amp;#34;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>你將得到兩個文件 &lt;code>gh-pages.pub&lt;/code> (公鑰) 和 &lt;code>gh-pages&lt;/code> (私鑰). 而後&lt;/p>
 &lt;ul>
 &lt;li>進入 Github Pages 所在 repo 的 Repository Settings，
 將&lt;strong>公鑰&lt;/strong>的內容添加至 Deploy Keys （記得要點選 &amp;ldquo;Allow write access&amp;rdquo; 以獲取寫入權限）&lt;/li>
@@ -1654,14 +1747,14 @@ loading="lazy"
 &lt;p>然後你需要在 blog 端配置 utterances 的客戶端，如果你的主題原生的支援 utterances ，你只需要按照主題作者提供的配置格式來配置即可。如若不然，你需要手動爲 hugo 添加 utterances 支援。&lt;/p>
 &lt;p>在 &lt;a class="link" href="https://utteranc.es/" target="_blank" rel="noopener"
 >utterances 官網&lt;/a>內你可以詳細配置你的客戶端 repository，條目索引，主題等設定項，而後在下方能獲得類似這樣的代碼片段:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://utteranc.es/client.js&amp;#34;&lt;/span>
-&lt;span class="na">repo&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;[ENTER REPO HERE]&amp;#34;&lt;/span>
-&lt;span class="na">issue-term&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;pathname&amp;#34;&lt;/span>
-&lt;span class="na">theme&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;github-light&amp;#34;&lt;/span>
-&lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span>
-&lt;span class="na">async&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>將這段代碼複製到 hugo 需要有留言區的頁面的 head 中即可，具體方法可以閱讀 hugo 的文檔或者參考有相關功能的主題。&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">script&lt;/span> &lt;span class="na">src&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://utteranc.es/client.js&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">repo&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;[ENTER REPO HERE]&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">issue-term&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;pathname&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">theme&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;github-light&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">async&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">script&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>將這段代碼複製到 hugo 需要有留言區的頁面的 head 中即可，具體方法可以閱讀 hugo 的文檔或者參考有相關功能的主題。&lt;/p>
 &lt;h2 id="優化">優化&lt;/h2>
 &lt;p>我們將網站和源碼分置了，這樣做的好處有以下幾點&lt;/p>
 &lt;ol>
@@ -1681,15 +1774,16 @@ loading="lazy"
 &lt;i class="ti ti-brand-tabler">&lt;/i>tabler icons 或
 &lt;i class="inline-icon fab fa-font-awesome-alt">&lt;/i>fontawesome.&lt;/p>
 &lt;p>要想在 hugo 中便捷地使用這些圖標，首先要在 head 中引入相關的 CSS：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="c">&amp;lt;!--引入 tabler icons--&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="c">&amp;lt;!--引入 fontawesome--&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://pro.fontawesome.com/releases/v5.10.0/css/all.css&amp;#34;&lt;/span>
-&lt;span class="na">integrity&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p&amp;#34;&lt;/span> &lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>其後，在 &lt;code>[hugo根目錄]/layouts/shortcodes&lt;/code> 下新建 &lt;code>ti.html&lt;/code>，並寫入:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">{{ $iconid := (.Get 0) }}
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">i&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;ti ti-{{$iconid}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>就可以得到 tabler 圖標, 打開 &lt;a class="link" href="https://tabler-icons.io/" target="_blank" rel="noopener"
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!--引入 tabler icons--&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!--引入 fontawesome--&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">link&lt;/span> &lt;span class="na">rel&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;stylesheet&amp;#34;&lt;/span> &lt;span class="na">href&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;https://pro.fontawesome.com/releases/v5.10.0/css/all.css&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="na">integrity&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p&amp;#34;&lt;/span> &lt;span class="na">crossorigin&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;anonymous&amp;#34;&lt;/span> &lt;span class="p">/&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>其後，在 &lt;code>[hugo根目錄]/layouts/shortcodes&lt;/code> 下新建 &lt;code>ti.html&lt;/code>，並寫入:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $iconid := (.Get 0) }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">i&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;ti ti-{{$iconid}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>就可以得到 tabler 圖標, 打開 &lt;a class="link" href="https://tabler-icons.io/" target="_blank" rel="noopener"
 >tabler官網&lt;/a>，查找你想要插入的圖標，而後複製圖標的名。&lt;/p>
 &lt;p>&lt;figure
 class="gallery-image"
@@ -1709,10 +1803,10 @@ alt="tabler 圖標">
 &lt;/figure>&lt;/p>
 &lt;p>在 &lt;code>.md&lt;/code> 源碼中你想插入的位置處輸入 &lt;code>{{&amp;lt; ti &amp;quot;[圖標名]&amp;quot; &amp;gt;}}&lt;/code> 即可插入。上圖的例子中你應該輸入 &lt;code>{{&amp;lt; ti &amp;quot;brand-tabler&amp;quot; &amp;gt;}}&lt;/code>。&lt;/p>
 &lt;p>類似地，在 &lt;code>[hugo根目錄]/layouts/shortcodes&lt;/code> 下新建 &lt;code>fa.html&lt;/code>，寫入:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">{{ $fi := (.Get 0) }}
-{{ $se := (.Get 1) }}
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">i&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;inline-icon {{$fi}} fa-{{$se}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>就可以得到 font awesome 圖標, 打開 &lt;a class="link" href="https://fontawesome.com" target="_blank" rel="noopener"
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $fi := (.Get 0) }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{ $se := (.Get 1) }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">i&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;inline-icon {{$fi}} fa-{{$se}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&amp;lt;/&lt;/span>&lt;span class="nt">i&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>就可以得到 font awesome 圖標, 打開 &lt;a class="link" href="https://fontawesome.com" target="_blank" rel="noopener"
 >fontawesome 官網&lt;/a>, 查找你想要插入的圖標，而後複製圖標的分類和名。
 使用 &lt;code>{{&amp;lt; fa &amp;quot;[圖標分類]&amp;quot; &amp;quot;[圖標名]&amp;quot; &amp;gt;}}&lt;/code> 來插入. 其中 &lt;code>[圖標分類]&lt;/code> 指的是官網中 &lt;code>fab&lt;/code> 或者 &lt;code>fac&lt;/code> 之類的分類。&lt;/p>
 &lt;h3 id="文本摺疊">文本摺疊&lt;/h3>
@@ -1730,28 +1824,29 @@ display: none;
 }
 &lt;/style>
 &lt;p>在 &lt;code>[hugo根目錄]/layouts/shortcodes&lt;/code> 下新建 &lt;code>details.html&lt;/code>，寫入:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">{{ $summary := .Get 0 }}
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">details&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">summary&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ $summary }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">summary&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ safeHTML .Inner | markdownify }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">details&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>而後，在你想使用處貼入&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">details&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">這裏可以展開哦&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-嘿嘿 (OwO
-{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">details&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>就能達到上面的效果啦~&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">{{ $summary := .Get 0 }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">details&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">summary&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ $summary }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">summary&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>{{ safeHTML .Inner | markdownify }}&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">p&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">details&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>而後，在你想使用處貼入&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">details&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">這裏可以展開哦&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">嘿嘿 (OwO
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">details&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>就能達到上面的效果啦~&lt;/p>
 &lt;h3 id="mermaid">mermaid&lt;/h3>
 &lt;p>&lt;a class="link" href="https://mermaid-js.github.io" target="_blank" rel="noopener"
 >mermaid&lt;/a> 可以爲你的 blog 添加一些圖。
 在 &lt;code>[hugo根目錄]/layouts/shortcodes&lt;/code> 下新建 &lt;code>mermaid.html&lt;/code>，寫入:&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;mermaid&amp;#34;&lt;/span> &lt;span class="na">align&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ if .Get &amp;#34;&lt;/span> &lt;span class="na">align&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Get&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">align&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="na">else&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="na">center&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-{{ safeHTML .Inner }}
-&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;p>而後可以通過下列代碼使用&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">mermaid&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-//mermaid 源碼
-{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">mermaid&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="問題記錄">問題記錄&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-html" data-lang="html">&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;&lt;/span>&lt;span class="nt">div&lt;/span> &lt;span class="na">class&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;mermaid&amp;#34;&lt;/span> &lt;span class="na">align&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s">&amp;#34;{{ if .Get &amp;#34;&lt;/span> &lt;span class="na">align&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="err">.&lt;/span>&lt;span class="na">Get&lt;/span> &lt;span class="err">&amp;#34;&lt;/span>&lt;span class="na">align&lt;/span>&lt;span class="err">&amp;#34;&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="na">else&lt;/span> &lt;span class="err">}}&lt;/span> &lt;span class="na">center&lt;/span> &lt;span class="err">{{&lt;/span> &lt;span class="na">end&lt;/span> &lt;span class="err">}}&amp;#34;&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> {{ safeHTML .Inner }}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">&amp;lt;/&lt;/span>&lt;span class="nt">div&lt;/span>&lt;span class="p">&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>而後可以通過下列代碼使用&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="nt">mermaid&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">//mermaid 源碼
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">{{&lt;span class="p">&amp;lt;&lt;/span> &lt;span class="p">/&lt;/span>&lt;span class="nt">mermaid&lt;/span> &lt;span class="p">&amp;gt;&lt;/span>}}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="問題記錄">問題記錄&lt;/h2>
 &lt;h3 id="draft-true-帶來的問題">&lt;code>draft: true&lt;/code> 帶來的問題&lt;/h3>
 &lt;p>℞：草稿貼文是不會被編譯的，因此要注意使用站內引用 &lt;code>{{&amp;lt; ref &amp;gt;}}&lt;/code> 時，不要引用草稿貼文。&lt;/p>
 &lt;p>P.s. 鳴鈴被此問題困擾了好久的說 ，&lt;code>hugo server -D&lt;/code> 正常但 &lt;code>hugo&lt;/code> 就報錯 (・–・;)ゞ&lt;/p>
@@ -1949,16 +2044,16 @@ $$\boldsymbol{D} = \varepsilon_0\boldsymbol{E}_0 \tag{2}$$
 $$
 \boldsymbol{D} = \varepsilon_0\boldsymbol{E} + \boldsymbol{P}
 $$
-由 $\boldsymbol{E} = \boldsymbol{E}_0 + \boldsymbol{E}'$
+由 $\boldsymbol{E} = \boldsymbol{E}_0 + \boldsymbol{E}&amp;rsquo;$
 $$
-\boldsymbol{D} = \varepsilon_0\boldsymbol{E}_0 + \varepsilon_0\boldsymbol{E}' + \boldsymbol{P}
+\boldsymbol{D} = \varepsilon_0\boldsymbol{E}_0 + \varepsilon_0\boldsymbol{E}&amp;rsquo; + \boldsymbol{P}
 $$
 則，預證 (2) 式，等價於求證
 $$
-\boldsymbol{P} = -\varepsilon_0\boldsymbol{E}' \tag{3}
+\boldsymbol{P} = -\varepsilon_0\boldsymbol{E}&amp;rsquo; \tag{3}
 $$
 不總是成立.&lt;/p>
-&lt;p>退極化場 $\boldsymbol{E}'$ 由 $q'$ 激發, 考慮任意有向面元 $\dif\boldsymbol{S} = \hat{\boldsymbol{n}}\dif{S}$ , 設面元上帶有 $\dif{q'}$ 的極化電荷, 由 Gauss 定理可知 $\boldsymbol{E}'\cdot\hat{\boldsymbol{n}} = 0$ . 但是，對於 $\boldsymbol{P}$ 而言，其穩態方向等於 $\boldsymbol{E}$ 的方向, 而 $\boldsymbol{E} = \boldsymbol{E}_0 + \boldsymbol{E}'$. 因此, 唯有 $\boldsymbol{E}' \parallel \boldsymbol{E}_0$ 時 (即 $\boldsymbol{E}_0 \perp\hat{\boldsymbol{n}}$), $\boldsymbol{P} \parallel \boldsymbol{E}'$ 成立. 因此在其他情況下 (3) 式不成立, 則 (2) 式也不成立.&lt;/p>
+&lt;p>退極化場 $\boldsymbol{E}&amp;rsquo;$ 由 $q&amp;rsquo;$ 激發, 考慮任意有向面元 $\dif\boldsymbol{S} = \hat{\boldsymbol{n}}\dif{S}$ , 設面元上帶有 $\dif{q&amp;rsquo;}$ 的極化電荷, 由 Gauss 定理可知 $\boldsymbol{E}&amp;rsquo;\cdot\hat{\boldsymbol{n}} = 0$ . 但是，對於 $\boldsymbol{P}$ 而言，其穩態方向等於 $\boldsymbol{E}$ 的方向, 而 $\boldsymbol{E} = \boldsymbol{E}_0 + \boldsymbol{E}&amp;rsquo;$. 因此, 唯有 $\boldsymbol{E}&amp;rsquo; \parallel \boldsymbol{E}_0$ 時 (即 $\boldsymbol{E}_0 \perp\hat{\boldsymbol{n}}$), $\boldsymbol{P} \parallel \boldsymbol{E}&amp;rsquo;$ 成立. 因此在其他情況下 (3) 式不成立, 則 (2) 式也不成立.&lt;/p>
 &lt;h2 id="思考">思考&lt;/h2>
 &lt;p>本文只從方向上粗淺的說明, 那麼該如何理解這個結論呢. 這個結論說明了: &lt;strong>電介質的形狀是決定極化的重要因素&lt;/strong>.
 因爲形狀決定了界面的法向, 而退極化場總是朝法向的, 退極化場是由極化電荷激發的, 而極化電荷則是由極化強度矢量決定的.
@@ -1999,33 +2094,33 @@ $$&lt;/p>
 &lt;li>算符和單位不適用斜體&lt;/li>
 &lt;li>矩陣使用方括號&lt;/li>
 &lt;/ul>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-LaTeX" data-lang="LaTeX">&lt;span class="sb">$$&lt;/span>&lt;span class="nb">
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\uv&lt;/span>&lt;span class="nb">#&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\hat&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\boldsymbol&lt;/span>&lt;span class="nb">{#&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\dif&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{}&lt;/span>&lt;span class="nv">\\&lt;/span>&lt;span class="o">!&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{d}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\imi&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{i}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\imj&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{j}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\elr&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{e}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Ft&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathscr&lt;/span>&lt;span class="nb">{F}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Lt&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathscr&lt;/span>&lt;span class="nb">{L}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\dB&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{dB}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Hz&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{Hz}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Ohm&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\Omega&lt;/span>&lt;span class="nb">}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Volt&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{V}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Amp&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{A}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Wat&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{W}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Col&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{C}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Far&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{F}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Var&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{Var}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\milli&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{m}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\micro&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mu&lt;/span>&lt;span class="nb">}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\kilo&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{k}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\grad&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{grad}}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\dive&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{div}}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\rot&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{rot}}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\perm&lt;/span>&lt;span class="nb">#&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">#&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\^&lt;/span>&lt;span class="nb">#&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nv">\\&lt;/span>&lt;span class="o">!&lt;/span>&lt;span class="nb"> P_#&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="nb">}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\sgn&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{sgn}}}
-&lt;/span>&lt;span class="nb">&lt;/span>&lt;span class="s">$$&lt;/span>
-&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="通用">通用&lt;/h2>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-LaTeX" data-lang="LaTeX">&lt;span class="line">&lt;span class="cl">&lt;span class="sb">$$&lt;/span>&lt;span class="nb">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\uv&lt;/span>&lt;span class="nb">#&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\hat&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\boldsymbol&lt;/span>&lt;span class="nb">{#&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">}}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\dif&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{}&lt;/span>&lt;span class="nv">\\&lt;/span>&lt;span class="o">!&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{d}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\imi&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{i}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\imj&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{j}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\elr&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{e}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Ft&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathscr&lt;/span>&lt;span class="nb">{F}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Lt&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathscr&lt;/span>&lt;span class="nb">{L}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\dB&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{dB}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Hz&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{Hz}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Ohm&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\Omega&lt;/span>&lt;span class="nb">}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Volt&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{V}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Amp&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{A}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Wat&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{W}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Col&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{C}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Far&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{F}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\Var&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{Var}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\milli&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{m}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\micro&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mu&lt;/span>&lt;span class="nb">}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\kilo&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{k}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\grad&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{grad}}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\dive&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{div}}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\rot&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{rot}}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\perm&lt;/span>&lt;span class="nb">#&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nb">#&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\^&lt;/span>&lt;span class="nb">#&lt;/span>&lt;span class="m">1&lt;/span>&lt;span class="nv">\\&lt;/span>&lt;span class="o">!&lt;/span>&lt;span class="nb"> P_#&lt;/span>&lt;span class="m">2&lt;/span>&lt;span class="nb">}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="nv">\gdef\sgn&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathop&lt;/span>&lt;span class="nb">{&lt;/span>&lt;span class="nv">\mathrm&lt;/span>&lt;span class="nb">{sgn}}}
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="nb">&lt;/span>&lt;span class="s">$$&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h2 id="通用">通用&lt;/h2>
 &lt;h3 id="量的表記">量的表記&lt;/h3>
 &lt;table>
 &lt;thead>
@@ -2206,7 +2301,7 @@ $$&lt;/p>
 &lt;td>&lt;code>\dif&lt;/code>&lt;/td>
 &lt;/tr>
 &lt;tr>
-&lt;td>$x'$, $\dot{x}$, $\dfrac{\dif x}{\dif t}$&lt;/td>
+&lt;td>$x&amp;rsquo;$, $\dot{x}$, $\dfrac{\dif x}{\dif t}$&lt;/td>
 &lt;td>導數&lt;/td>
 &lt;td>&lt;/td>
 &lt;/tr>

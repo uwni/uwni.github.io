@@ -7,4 +7,4 @@
 並介此來説明上述的結論。提到「側面」一詞總是令鳴鈴有種攪渾水的感覺。雖然鳴鈴相信其結論的正確性，但畢竟是沒有證明這若同時滿足了兩個「側面」則矢量場可被唯一確定（簡單猜測和唯一性定理有關，高斯定理和環路定理的微分形式可以推出 Poisson 方程，而後可以證明邊界條件下勢函數的梯度是唯一的，則電場是唯一的）。
 因此呢，鳴鈴在圖書館坐了半個小時，想出了一個等效的證明，而且更加直觀。 求證： $$\boldsymbol{D} = \varepsilon_0\boldsymbol{E}_0 \tag{2}$$ 不總是成立
 解 我的證法不是直接證明(2)式，而是證明它的一個等價命題.
-由 $\boldsymbol{D}$ 的定義 $$ \boldsymbol{D} = \varepsilon_0\boldsymbol{E} + \boldsymbol{P} $$ 由 $\boldsymbol{E} = \boldsymbol{E}_0 + \boldsymbol{E}'$ $$ \boldsymbol{D} = \varepsilon_0\boldsymbol{E}_0 + \varepsilon_0\boldsymbol{E}' + \boldsymbol{P} $$ 則，預證 (2) 式，等價於求證 $$ \boldsymbol{P} = -\varepsilon_0\boldsymbol{E}' \tag{3} $$ 不總是成立.</description></item></channel></rss>
+由 $\boldsymbol{D}$ 的定義 $$ \boldsymbol{D} = \varepsilon_0\boldsymbol{E} + \boldsymbol{P} $$ 由 $\boldsymbol{E} = \boldsymbol{E}_0 + \boldsymbol{E}&amp;rsquo;$ $$ \boldsymbol{D} = \varepsilon_0\boldsymbol{E}_0 + \varepsilon_0\boldsymbol{E}&amp;rsquo; + \boldsymbol{P} $$ 則，預證 (2) 式，等價於求證 $$ \boldsymbol{P} = -\varepsilon_0\boldsymbol{E}&amp;rsquo; \tag{3} $$ 不總是成立.</description></item></channel></rss>

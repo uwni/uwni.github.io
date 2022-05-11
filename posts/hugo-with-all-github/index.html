@@ -1,374 +1,126 @@
-<!doctype html><html lang=en-us>
-<head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="序 鳴鈴曾經建過的 blog 也不少，用過 WordPress, Typecho 等基於 PHP 的 blog 軟體，最近也用過 Hexo 這種靜態頁面的 blog 軟體，最終因爲一些鳴鈴不願意透露的原因選擇了當前的 Hugo. 爲了省錢，敝站完全使用 Github 來構建，因此對於落魄的鳴鈴來講十分合適 (
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="序 鳴鈴曾經建過的 blog 也不少，用過 WordPress, Typecho 等基於 PHP 的 blog 軟體，最近也用過 Hexo 這種靜態頁面的 blog 軟體，最終因爲一些鳴鈴不願意透露的原因選擇了當前的 Hugo. 爲了省錢，敝站完全使用 Github 來構建，因此對於落魄的鳴鈴來講十分合適 (
 如果你想將本文作爲教程使用，至少需要以下知識儲備：
  git 和 Github Hugo 靜態網頁開發  Blog 程式 Hugo 類似於 $\LaTeX$ 將 .tex 檔案編譯爲 .dvi 或者 .pdf，其可以將十分利於人類讀寫的 Markdown 檔案編譯爲 blog 所需的靜態網頁.
 具體的使用方法可見於此
 部署 在編輯完成 Blog 後，使用 hugo server 以編譯，hugo 會將網站輸出在 \public 目錄下。如果你有虛擬主機或者雲伺服器的話，便可以使用 Nginx 或者 Apache 之類的網頁伺服器來部署你的網頁了。
 但鳴鈴使用 Github Pages 來承載網站，並使用 Github Actions 來實現自動化部署到 Github Pages 上.
-首先我們需要兩個 repositories, 一個用來放 Hugo 的 blog 源碼，另一個用來放編譯生成的網站(用作 Github Pages)."><title>Hugo ❤ Github</title>
-<link rel=canonical href=https://ming.ling.moe/posts/hugo-with-all-github/>
-<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="Hugo ❤ Github">
-<meta property="og:description" content="序 鳴鈴曾經建過的 blog 也不少，用過 WordPress, Typecho 等基於 PHP 的 blog 軟體，最近也用過 Hexo 這種靜態頁面的 blog 軟體，最終因爲一些鳴鈴不願意透露的原因選擇了當前的 Hugo. 爲了省錢，敝站完全使用 Github 來構建，因此對於落魄的鳴鈴來講十分合適 (
+首先我們需要兩個 repositories, 一個用來放 Hugo 的 blog 源碼，另一個用來放編譯生成的網站(用作 Github Pages)."><title>Hugo ❤ Github</title><link rel=canonical href=https://ming.ling.moe/posts/hugo-with-all-github/><link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="Hugo ❤ Github"><meta property="og:description" content="序 鳴鈴曾經建過的 blog 也不少，用過 WordPress, Typecho 等基於 PHP 的 blog 軟體，最近也用過 Hexo 這種靜態頁面的 blog 軟體，最終因爲一些鳴鈴不願意透露的原因選擇了當前的 Hugo. 爲了省錢，敝站完全使用 Github 來構建，因此對於落魄的鳴鈴來講十分合適 (
 如果你想將本文作爲教程使用，至少需要以下知識儲備：
  git 和 Github Hugo 靜態網頁開發  Blog 程式 Hugo 類似於 $\LaTeX$ 將 .tex 檔案編譯爲 .dvi 或者 .pdf，其可以將十分利於人類讀寫的 Markdown 檔案編譯爲 blog 所需的靜態網頁.
 具體的使用方法可見於此
 部署 在編輯完成 Blog 後，使用 hugo server 以編譯，hugo 會將網站輸出在 \public 目錄下。如果你有虛擬主機或者雲伺服器的話，便可以使用 Nginx 或者 Apache 之類的網頁伺服器來部署你的網頁了。
 但鳴鈴使用 Github Pages 來承載網站，並使用 Github Actions 來實現自動化部署到 Github Pages 上.
-首先我們需要兩個 repositories, 一個用來放 Hugo 的 blog 源碼，另一個用來放編譯生成的網站(用作 Github Pages).">
-<meta property="og:url" content="https://ming.ling.moe/posts/hugo-with-all-github/">
-<meta property="og:site_name" content="鳴鈴">
-<meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:tag" content="blog"><meta property="article:tag" content="hugo"><meta property="article:published_time" content="2021-06-26T18:50:11+08:00"><meta property="article:modified_time" content="2021-06-26T18:50:11+08:00"><meta property="og:image" content="https://ming.ling.moe/posts/hugo-with-all-github/github.jpg">
-<meta name=twitter:title content="Hugo ❤ Github">
-<meta name=twitter:description content="序 鳴鈴曾經建過的 blog 也不少，用過 WordPress, Typecho 等基於 PHP 的 blog 軟體，最近也用過 Hexo 這種靜態頁面的 blog 軟體，最終因爲一些鳴鈴不願意透露的原因選擇了當前的 Hugo. 爲了省錢，敝站完全使用 Github 來構建，因此對於落魄的鳴鈴來講十分合適 (
+首先我們需要兩個 repositories, 一個用來放 Hugo 的 blog 源碼，另一個用來放編譯生成的網站(用作 Github Pages)."><meta property="og:url" content="https://ming.ling.moe/posts/hugo-with-all-github/"><meta property="og:site_name" content="鳴鈴"><meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:tag" content="blog"><meta property="article:tag" content="hugo"><meta property="article:published_time" content="2021-06-26T18:50:11+08:00"><meta property="article:modified_time" content="2021-06-26T18:50:11+08:00"><meta property="og:image" content="https://ming.ling.moe/posts/hugo-with-all-github/github.jpg"><meta name=twitter:title content="Hugo ❤ Github"><meta name=twitter:description content="序 鳴鈴曾經建過的 blog 也不少，用過 WordPress, Typecho 等基於 PHP 的 blog 軟體，最近也用過 Hexo 這種靜態頁面的 blog 軟體，最終因爲一些鳴鈴不願意透露的原因選擇了當前的 Hugo. 爲了省錢，敝站完全使用 Github 來構建，因此對於落魄的鳴鈴來講十分合適 (
 如果你想將本文作爲教程使用，至少需要以下知識儲備：
  git 和 Github Hugo 靜態網頁開發  Blog 程式 Hugo 類似於 $\LaTeX$ 將 .tex 檔案編譯爲 .dvi 或者 .pdf，其可以將十分利於人類讀寫的 Markdown 檔案編譯爲 blog 所需的靜態網頁.
 具體的使用方法可見於此
 部署 在編輯完成 Blog 後，使用 hugo server 以編譯，hugo 會將網站輸出在 \public 目錄下。如果你有虛擬主機或者雲伺服器的話，便可以使用 Nginx 或者 Apache 之類的網頁伺服器來部署你的網頁了。
 但鳴鈴使用 Github Pages 來承載網站，並使用 Github Actions 來實現自動化部署到 Github Pages 上.
-首先我們需要兩個 repositories, 一個用來放 Hugo 的 blog 源碼，另一個用來放編譯生成的網站(用作 Github Pages)."><meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://ming.ling.moe/posts/hugo-with-all-github/github.jpg">
-<link rel="shortcut icon" href=https://ming.ling.moe/file-storage/public/ico/favicon.ico>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
-<style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}</style>
-<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
-<link rel=stylesheet href=https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css>
-<link rel=stylesheet href=https://pro.fontawesome.com/releases/v5.10.0/css/all.css integrity=sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p crossorigin=anonymous>
-</head>
-<body class="article-page has-toc">
-<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
-<div class="container main-container flex
-extended">
-<div id=article-toolbar>
-<a href=https://ming.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
-<span>Back</span>
-</a>
-</div>
-<main class="main full-width">
-<article class="has-image main-article">
-<header class=article-header>
-<div class=article-image>
-<a href=/posts/hugo-with-all-github/>
-<img src=/posts/hugo-with-all-github/github_hu351bd16911fad72d90986b22d55aee43_1191334_800x0_resize_q75_box.jpg srcset="/posts/hugo-with-all-github/github_hu351bd16911fad72d90986b22d55aee43_1191334_800x0_resize_q75_box.jpg 800w, /posts/hugo-with-all-github/github_hu351bd16911fad72d90986b22d55aee43_1191334_1600x0_resize_q75_box.jpg 1600w" width=800 height=523 loading=lazy alt="Featured image of post Hugo ❤ Github">
-</a>
-</div>
-<div class=article-details>
-<header class=article-category>
-<a href=/categories/log/>
-站務
-</a>
-</header>
-<h2 class=article-title>
-<a href=/posts/hugo-with-all-github/>Hugo ❤ Github</a>
-</h2>
-<footer class=article-time>
-<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
-<time class=article-time--published>Jun 26, 2021</time>
-</div>
-<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
-<time class=article-time--reading>
-4 min read
-</time>
-</div>
-</footer>
-</div>
-</header>
-<section class=article-content>
-<h2 id=序>序</h2>
-<p>鳴鈴曾經建過的 blog 也不少，用過 <a class=link href=https://www.wordpress.com target=_blank rel=noopener>WordPress</a>, <a class=link href=https://typecho.org target=_blank rel=noopener>Typecho</a> 等基於
+首先我們需要兩個 repositories, 一個用來放 Hugo 的 blog 源碼，另一個用來放編譯生成的網站(用作 Github Pages)."><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://ming.ling.moe/posts/hugo-with-all-github/github.jpg"><link rel="shortcut icon" href=https://ming.ling.moe/file-storage/public/ico/favicon.ico><script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-EHQRC06KY5",{anonymize_ip:!1})}</script><style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}</style><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script><link rel=stylesheet href=https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css><link rel=stylesheet href=https://pro.fontawesome.com/releases/v5.10.0/css/all.css integrity=sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p crossorigin=anonymous></head><body class="article-page has-toc"><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex
+extended"><div id=article-toolbar><a href=https://ming.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg><span>Back</span></a></div><main class="main full-width"><article class="has-image main-article"><header class=article-header><div class=article-image><a href=/posts/hugo-with-all-github/><img src=/posts/hugo-with-all-github/github_hu351bd16911fad72d90986b22d55aee43_1191334_800x0_resize_q75_box.jpg srcset="/posts/hugo-with-all-github/github_hu351bd16911fad72d90986b22d55aee43_1191334_800x0_resize_q75_box.jpg 800w, /posts/hugo-with-all-github/github_hu351bd16911fad72d90986b22d55aee43_1191334_1600x0_resize_q75_box.jpg 1600w" width=800 height=523 loading=lazy alt="Featured image of post Hugo ❤ Github"></a></div><div class=article-details><header class=article-category><a href=/categories/log/>站務</a></header><h2 class=article-title><a href=/posts/hugo-with-all-github/>Hugo ❤ Github</a></h2><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg><time class=article-time--published>Jun 26, 2021</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg><time class=article-time--reading>4 min read</time></div></footer></div></header><section class=article-content><h2 id=序>序</h2><p>鳴鈴曾經建過的 blog 也不少，用過 <a class=link href=https://www.wordpress.com target=_blank rel=noopener>WordPress</a>, <a class=link href=https://typecho.org target=_blank rel=noopener>Typecho</a> 等基於
 <i class="inline-icon fab fa-php"></i>PHP 的 blog 軟體，最近也用過 <a class=link href=https://hexo.io target=_blank rel=noopener>Hexo</a> 這種靜態頁面的 blog 軟體，最終因爲一些鳴鈴不願意透露的原因選擇了當前的 <a class=link href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a>.
 爲了省錢，敝站完全使用
-<i class="ti ti-brand-github"></i>Github 來構建，因此對於落魄的鳴鈴來講十分合適 (</p>
-<p>如果你想將本文作爲教程使用，至少需要以下知識儲備：</p>
-<ul>
-<li>git 和 Github</li>
-<li>Hugo</li>
-<li>靜態網頁開發</li>
-</ul>
-<h2 id=blog-程式>Blog 程式</h2>
-<p>Hugo 類似於 $\LaTeX$ 將 <code>.tex</code> 檔案編譯爲 <code>.dvi</code> 或者 <code>.pdf</code>，其可以將十分利於人類讀寫的
-<i class="ti ti-markdown"></i>Markdown 檔案編譯爲 blog 所需的靜態網頁.</p>
-<p>具體的使用方法可見於<a class=link href=https://gohugo.io/documentation/ target=_blank rel=noopener>此</a></p>
-<h2 id=部署>部署</h2>
-<p>在編輯完成 Blog 後，使用 <code>hugo server</code> 以編譯，hugo 會將網站輸出在 <code>\public</code> 目錄下。如果你有虛擬主機或者雲伺服器的話，便可以使用 Nginx 或者 Apache 之類的網頁伺服器來部署你的網頁了。</p>
-<p>但鳴鈴使用 <a class=link href=https://pages.github.com/ target=_blank rel=noopener>Github Pages</a> 來承載網站，並使用 <a class=link href=https://github.com/features/actions target=_blank rel=noopener>Github Actions</a> 來實現自動化部署到 Github Pages 上.</p>
-<p>首先我們需要兩個 repositories, 一個用來放 Hugo 的 blog 源碼，另一個用來放編譯生成的網站(用作 Github Pages).</p>
-<h3 id=github-pages>Github Pages</h3>
-<p>GitHub Pages 允許用家使用 Github Repository 託管自己的靜態網站。下面是使用步驟：</p>
-<ol>
-<li>建立名爲 <code>[Github ID].github.io</code> 的 repository ，其中 [Github ID] 替換爲你的 Github ID，以鳴鈴的博客舉例就是 <code>narisuzu.github.io</code>.</li>
-<li>將靜態網站 Push 至上述 repository 中</li>
-<li>在瀏覽器中欣賞你的網站~</li>
-</ol>
-<p>那麼我們只需要在電腦上編譯好 Blog, 把 <code>\public</code> Push 至 <code>[Github ID].github.io</code> 就可以了. 或者乾脆不需要兩個 repo，只保留 <code>[Github ID].github.io</code>，將
-源碼和 <code>\public</code> 原封不動的 Push 上去也大功告成。但鳴鈴沒有這樣做，因爲我們可以自動化地執行某些步驟&mldr;</p>
-<h3 id=github-actions>Github Actions</h3>
-<p>Github Actions 是 Github 推出的 <a class=link href=https://zh.wikipedia.org/wiki/%E6%8C%81%E7%BA%8C%E6%95%B4%E5%90%88 target=_blank rel=noopener>Continous Integration (CI)</a> 功能。
+<i class="ti ti-brand-github"></i>Github 來構建，因此對於落魄的鳴鈴來講十分合適 (</p><p>如果你想將本文作爲教程使用，至少需要以下知識儲備：</p><ul><li>git 和 Github</li><li>Hugo</li><li>靜態網頁開發</li></ul><h2 id=blog-程式>Blog 程式</h2><p>Hugo 類似於 $\LaTeX$ 將 <code>.tex</code> 檔案編譯爲 <code>.dvi</code> 或者 <code>.pdf</code>，其可以將十分利於人類讀寫的
+<i class="ti ti-markdown"></i>Markdown 檔案編譯爲 blog 所需的靜態網頁.</p><p>具體的使用方法可見於<a class=link href=https://gohugo.io/documentation/ target=_blank rel=noopener>此</a></p><h2 id=部署>部署</h2><p>在編輯完成 Blog 後，使用 <code>hugo server</code> 以編譯，hugo 會將網站輸出在 <code>\public</code> 目錄下。如果你有虛擬主機或者雲伺服器的話，便可以使用 Nginx 或者 Apache 之類的網頁伺服器來部署你的網頁了。</p><p>但鳴鈴使用 <a class=link href=https://pages.github.com/ target=_blank rel=noopener>Github Pages</a> 來承載網站，並使用 <a class=link href=https://github.com/features/actions target=_blank rel=noopener>Github Actions</a> 來實現自動化部署到 Github Pages 上.</p><p>首先我們需要兩個 repositories, 一個用來放 Hugo 的 blog 源碼，另一個用來放編譯生成的網站(用作 Github Pages).</p><h3 id=github-pages>Github Pages</h3><p>GitHub Pages 允許用家使用 Github Repository 託管自己的靜態網站。下面是使用步驟：</p><ol><li>建立名爲 <code>[Github ID].github.io</code> 的 repository ，其中 [Github ID] 替換爲你的 Github ID，以鳴鈴的博客舉例就是 <code>narisuzu.github.io</code>.</li><li>將靜態網站 Push 至上述 repository 中</li><li>在瀏覽器中欣賞你的網站~</li></ol><p>那麼我們只需要在電腦上編譯好 Blog, 把 <code>\public</code> Push 至 <code>[Github ID].github.io</code> 就可以了. 或者乾脆不需要兩個 repo，只保留 <code>[Github ID].github.io</code>，將
+源碼和 <code>\public</code> 原封不動的 Push 上去也大功告成。但鳴鈴沒有這樣做，因爲我們可以自動化地執行某些步驟&mldr;</p><h3 id=github-actions>Github Actions</h3><p>Github Actions 是 Github 推出的 <a class=link href=https://zh.wikipedia.org/wiki/%E6%8C%81%E7%BA%8C%E6%95%B4%E5%90%88 target=_blank rel=noopener>Continous Integration (CI)</a> 功能。
 在此之前，鳴鈴使用過的 CI 產品有
 <i class="ti ti-brand-gitlab"></i>Gitlab + Gitlab CI 和
-<i class="ti ti-brand-bitbucket"></i>Bitbucket + Circle CI, 不過在這裏我們要使用 Github Actions.</p>
-<p>我們需要讓 Github Actions 來完成的工作是，在存有源碼的 repo 更新時自動編譯，並將編譯結果部署於 Github Pages，
-我們可以使用 <a class=link href=https://github.com/marketplace/actions/hugo-setup target=_blank rel=noopener>hugo-setup</a> 這個 Action 來實現我們自動化的需求.</p>
-<h4 id=配置文件>配置文件</h4>
-<p>在源碼的根目錄新建 <code>.github/workflows/main.yml</code></p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-yml data-lang=yml><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>github pages</span><span class=w> </span><span class=c># CI 的名稱</span><span class=w>
-</span><span class=w>
-</span><span class=w></span><span class=nt>on</span><span class=p>:</span><span class=w>                </span><span class=c># 指定在何時觸發</span><span class=w>
-</span><span class=w>  </span><span class=nt>push</span><span class=p>:</span><span class=w>
-</span><span class=w>    </span><span class=nt>branches</span><span class=p>:</span><span class=w>
-</span><span class=w>      </span>- <span class=l>master    </span><span class=w> </span><span class=c># 選定觸發 CI 的 branch</span><span class=w>
-</span><span class=w>  </span><span class=nt>pull_request</span><span class=p>:</span><span class=w>
-</span><span class=w>
-</span><span class=w></span><span class=nt>jobs</span><span class=p>:</span><span class=w>
-</span><span class=w>  </span><span class=nt>deploy</span><span class=p>:</span><span class=w>
-</span><span class=w>    </span><span class=nt>runs-on</span><span class=p>:</span><span class=w> </span><span class=l>ubuntu-latest</span><span class=w>
-</span><span class=w>    </span><span class=nt>steps</span><span class=p>:</span><span class=w>
-</span><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>checkout</span><span class=w>
-</span><span class=w>        </span><span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>actions/checkout@master</span><span class=w>
-</span><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
-</span><span class=w>          </span><span class=nt>submodules</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>  </span><span class=c># Fetch Hugo 主題（如果你使用了子模塊來引入主題的話）</span><span class=w>
-</span><span class=w>          </span><span class=nt>fetch-depth</span><span class=p>:</span><span class=w> </span><span class=m>0</span><span class=w>    </span><span class=c># Fetch all history for .GitInfo and .Lastmod</span><span class=w>
-</span><span class=w>
-</span><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Setup Hugo   </span><span class=w> </span><span class=c># 安裝 Hugo</span><span class=w>
-</span><span class=w>        </span><span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>peaceiris/actions-hugo@v2</span><span class=w>
-</span><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
-</span><span class=w>          </span><span class=nt>hugo-version</span><span class=p>:</span><span class=w> </span><span class=s1>&#39;latest&#39;</span><span class=w>
-</span><span class=w>          </span><span class=c># extended: true</span><span class=w>
-</span><span class=w>
-</span><span class=w>      </span>- <span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>actions/cache@v2</span><span class=w>
-</span><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
-</span><span class=w>          </span><span class=nt>path</span><span class=p>:</span><span class=w> </span><span class=l>/tmp/hugo_cache</span><span class=w>
-</span><span class=w>          </span><span class=nt>key</span><span class=p>:</span><span class=w> </span><span class=l>${{ runner.os }}-hugomod-${{ hashFiles(&#39;**/go.sum&#39;) }}</span><span class=w>
-</span><span class=w>          </span><span class=nt>restore-keys</span><span class=p>:</span><span class=w> </span><span class=p>|</span><span class=sd>
-</span><span class=sd>            </span><span class=w>            </span><span class=l>${{ runner.os }}-hugomod-</span><span class=w>
-</span><span class=w>
-</span><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Build        </span><span class=w> </span><span class=c># 編譯 Hugo 內容</span><span class=w>
-</span><span class=w>        </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=l>hugo --minify</span><span class=w>
-</span><span class=w>
-</span><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Deploy       </span><span class=w> </span><span class=c># 部署</span><span class=w>
-</span><span class=w>        </span><span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>peaceiris/actions-gh-pages@v3</span><span class=w>
-</span><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
-</span><span class=w>          </span><span class=nt>deploy_key</span><span class=p>:</span><span class=w> </span><span class=l>${{ secrets.ACTIONS_DEPLOY_KEY }}</span><span class=w>
-</span><span class=w>          </span><span class=nt>external_repository</span><span class=p>:</span><span class=w> </span><span class=l>narisuzu/narisuzu.github.io</span><span class=w> </span><span class=c># 部署至何 repo</span><span class=w>
-</span><span class=w>          </span><span class=nt>publish_branch</span><span class=p>:</span><span class=w> </span><span class=l>main </span><span class=w> </span><span class=c># 部署至何 branch</span><span class=w>
-</span><span class=w>          </span><span class=nt>publish_dir</span><span class=p>:</span><span class=w> </span><span class=l>./public</span><span class=w>
-</span><span class=w>          </span><span class=nt>cname</span><span class=p>:</span><span class=w> </span><span class=l>blog.ling.moe</span><span class=w> </span><span class=c># 客製化域名的 CNAME 記錄</span><span class=w>
-</span></code></pre></div><p>在這裏，因爲我們將 Github Pages 和源碼分置於不同的 repo ，因此用到了 <code>external_repository: </code> 以指定將編譯結果輸出至應用 Github Pages 的 repo。
+<i class="ti ti-brand-bitbucket"></i>Bitbucket + Circle CI, 不過在這裏我們要使用 Github Actions.</p><p>我們需要讓 Github Actions 來完成的工作是，在存有源碼的 repo 更新時自動編譯，並將編譯結果部署於 Github Pages，
+我們可以使用 <a class=link href=https://github.com/marketplace/actions/hugo-setup target=_blank rel=noopener>hugo-setup</a> 這個 Action 來實現我們自動化的需求.</p><h4 id=配置文件>配置文件</h4><p>在源碼的根目錄新建 <code>.github/workflows/main.yml</code></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-yml data-lang=yml><span class=line><span class=cl><span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>github pages</span><span class=w> </span><span class=c># CI 的名稱</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>on</span><span class=p>:</span><span class=w>                </span><span class=c># 指定在何時觸發</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>push</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>branches</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=l>master    </span><span class=w> </span><span class=c># 選定觸發 CI 的 branch</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>pull_request</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w></span><span class=nt>jobs</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>  </span><span class=nt>deploy</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>runs-on</span><span class=p>:</span><span class=w> </span><span class=l>ubuntu-latest</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>    </span><span class=nt>steps</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>checkout</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>actions/checkout@master</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>submodules</span><span class=p>:</span><span class=w> </span><span class=kc>true</span><span class=w>  </span><span class=c># Fetch Hugo 主題（如果你使用了子模塊來引入主題的話）</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>fetch-depth</span><span class=p>:</span><span class=w> </span><span class=m>0</span><span class=w>    </span><span class=c># Fetch all history for .GitInfo and .Lastmod</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Setup Hugo   </span><span class=w> </span><span class=c># 安裝 Hugo</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>peaceiris/actions-hugo@v2</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>hugo-version</span><span class=p>:</span><span class=w> </span><span class=s1>&#39;latest&#39;</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=c># extended: true</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>actions/cache@v2</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>path</span><span class=p>:</span><span class=w> </span><span class=l>/tmp/hugo_cache</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>key</span><span class=p>:</span><span class=w> </span><span class=l>${{ runner.os }}-hugomod-${{ hashFiles(&#39;**/go.sum&#39;) }}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>restore-keys</span><span class=p>:</span><span class=w> </span><span class=p>|</span><span class=sd>
+</span></span></span><span class=line><span class=cl><span class=sd>            </span><span class=w>            </span><span class=l>${{ runner.os }}-hugomod-</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Build        </span><span class=w> </span><span class=c># 編譯 Hugo 內容</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>run</span><span class=p>:</span><span class=w> </span><span class=l>hugo --minify</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>      </span>- <span class=nt>name</span><span class=p>:</span><span class=w> </span><span class=l>Deploy       </span><span class=w> </span><span class=c># 部署</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>uses</span><span class=p>:</span><span class=w> </span><span class=l>peaceiris/actions-gh-pages@v3</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>        </span><span class=nt>with</span><span class=p>:</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>deploy_key</span><span class=p>:</span><span class=w> </span><span class=l>${{ secrets.ACTIONS_DEPLOY_KEY }}</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>external_repository</span><span class=p>:</span><span class=w> </span><span class=l>narisuzu/narisuzu.github.io</span><span class=w> </span><span class=c># 部署至何 repo</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>publish_branch</span><span class=p>:</span><span class=w> </span><span class=l>main </span><span class=w> </span><span class=c># 部署至何 branch</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>publish_dir</span><span class=p>:</span><span class=w> </span><span class=l>./public</span><span class=w>
+</span></span></span><span class=line><span class=cl><span class=w>          </span><span class=nt>cname</span><span class=p>:</span><span class=w> </span><span class=l>blog.ling.moe</span><span class=w> </span><span class=c># 客製化域名的 CNAME 記錄</span><span class=w>
+</span></span></span></code></pre></div><p>在這裏，因爲我們將 Github Pages 和源碼分置於不同的 repo ，因此用到了 <code>external_repository:</code> 以指定將編譯結果輸出至應用 Github Pages 的 repo。
 但這會帶來一個問題：我們不能使用推薦的 <code>github_token</code> 了, 只能使用 <code>deploy_key</code> 或 <code>personal_token</code> 作爲存取令牌.
-這裏使用 <code>deploy_key</code> （P.s. 存取令牌的作用是讓運行 Github Action 的虛擬機有權限部署網站至 Github Pages 的 repo 中）</p>
-<h4 id=deploy-key>Deploy Key</h4>
-<p>使用以下代碼生成 RSA 公鑰和私鑰</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh>ssh-keygen -t rsa -b <span class=m>4096</span> -C <span class=s2>&#34;</span><span class=k>$(</span>git config user.email<span class=k>)</span><span class=s2>&#34;</span> -f gh-pages -N <span class=s2>&#34;&#34;</span>
-</code></pre></div><p>你將得到兩個文件 <code>gh-pages.pub</code> (公鑰) 和 <code>gh-pages</code> (私鑰). 而後</p>
-<ul>
-<li>進入 Github Pages 所在 repo 的 Repository Settings，
-將<strong>公鑰</strong>的內容添加至 Deploy Keys （記得要點選 &ldquo;Allow write access&rdquo; 以獲取寫入權限）</li>
-<li>進入源碼的 repo 的 Repository Settings 中，
-在 Secrets 中添加變量 <code>ACTIONS_DEPLOY_KEY</code>，其值爲<strong>私鑰</strong>.</li>
-</ul>
-<p>設定完成後，主體功能就配置完成了，這時將源碼 Push 後，如果沒有錯誤的話就能在 [Github ID].github.io 中看到你的博客了.
-パチパチパチなのです！</p>
-<h2 id=留言>留言</h2>
-<p>敝站的留言功能由 <a class=link href=https://utteranc.es/ target=_blank rel=noopener>utterances 🔮</a> 提供，當然也是完全基於 Github 的。因此 utterances 只支持 Github 的登錄用戶留言，如果不能忍受這一點可以選擇其他產品如 disqus 等。</p>
-<p>其利用了 Github 的 issues 作爲資料存儲，因此需要一個 public Github repository 以存放留言的 issues，爲了方便管理留言以免真正的 issue 和留言混在一起，鳴鈴推薦你新建一個專用的 repository 給 utterances 使用。blog 中每一個可以留言的頁面都將映射成一個 issue，而留言內容就存儲在對應 issue 的對話串中。因此你可以指定頁面的索引格式，用來設定 blog 的貼文以何種方式映射至 Github issues.</p>
-<p>要想安裝 utterances ，首先你需要爲 repository 安裝 <a class=link href=https://github.com/apps/utterances target=_blank rel=noopener>utterances 插件</a>，這個插件的作用是將用戶的留言儲存至相關頁面的 issue 中。</p>
-<p>然後你需要在 blog 端配置 utterances 的客戶端，如果你的主題原生的支援 utterances ，你只需要按照主題作者提供的配置格式來配置即可。如若不然，你需要手動爲 hugo 添加 utterances 支援。</p>
-<p>在 <a class=link href=https://utteranc.es/ target=_blank rel=noopener>utterances 官網</a>內你可以詳細配置你的客戶端 repository，條目索引，主題等設定項，而後在下方能獲得類似這樣的代碼片段:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=p>&lt;</span><span class=nt>script</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://utteranc.es/client.js&#34;</span>
-        <span class=na>repo</span><span class=o>=</span><span class=s>&#34;[ENTER REPO HERE]&#34;</span>
-        <span class=na>issue-term</span><span class=o>=</span><span class=s>&#34;pathname&#34;</span>
-        <span class=na>theme</span><span class=o>=</span><span class=s>&#34;github-light&#34;</span>
-        <span class=na>crossorigin</span><span class=o>=</span><span class=s>&#34;anonymous&#34;</span>
-        <span class=na>async</span><span class=p>&gt;</span>
-<span class=p>&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
-</code></pre></div><p>將這段代碼複製到 hugo 需要有留言區的頁面的 head 中即可，具體方法可以閱讀 hugo 的文檔或者參考有相關功能的主題。</p>
-<h2 id=優化>優化</h2>
-<p>我們將網站和源碼分置了，這樣做的好處有以下幾點</p>
-<ol>
-<li>簡化項目結構，減小上傳的體積</li>
-<li>可以將源碼的 repo 設成私有（免費版 Github 不支持將 Github Pages repo 設爲私有）</li>
-<li>還沒有想到</li>
-</ol>
-<p>那麼我們就不需要向源碼的repo中上傳任何編譯時生成的檔案了，因此新建 <code>.gitignore</code> 並寫入</p>
-<pre tabindex=0><code>/public/
+這裏使用 <code>deploy_key</code> （P.s. 存取令牌的作用是讓運行 Github Action 的虛擬機有權限部署網站至 Github Pages 的 repo 中）</p><h4 id=deploy-key>Deploy Key</h4><p>使用以下代碼生成 RSA 公鑰和私鑰</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-sh data-lang=sh><span class=line><span class=cl>ssh-keygen -t rsa -b <span class=m>4096</span> -C <span class=s2>&#34;</span><span class=k>$(</span>git config user.email<span class=k>)</span><span class=s2>&#34;</span> -f gh-pages -N <span class=s2>&#34;&#34;</span>
+</span></span></code></pre></div><p>你將得到兩個文件 <code>gh-pages.pub</code> (公鑰) 和 <code>gh-pages</code> (私鑰). 而後</p><ul><li>進入 Github Pages 所在 repo 的 Repository Settings，
+將<strong>公鑰</strong>的內容添加至 Deploy Keys （記得要點選 &ldquo;Allow write access&rdquo; 以獲取寫入權限）</li><li>進入源碼的 repo 的 Repository Settings 中，
+在 Secrets 中添加變量 <code>ACTIONS_DEPLOY_KEY</code>，其值爲<strong>私鑰</strong>.</li></ul><p>設定完成後，主體功能就配置完成了，這時將源碼 Push 後，如果沒有錯誤的話就能在 [Github ID].github.io 中看到你的博客了.
+パチパチパチなのです！</p><h2 id=留言>留言</h2><p>敝站的留言功能由 <a class=link href=https://utteranc.es/ target=_blank rel=noopener>utterances 🔮</a> 提供，當然也是完全基於 Github 的。因此 utterances 只支持 Github 的登錄用戶留言，如果不能忍受這一點可以選擇其他產品如 disqus 等。</p><p>其利用了 Github 的 issues 作爲資料存儲，因此需要一個 public Github repository 以存放留言的 issues，爲了方便管理留言以免真正的 issue 和留言混在一起，鳴鈴推薦你新建一個專用的 repository 給 utterances 使用。blog 中每一個可以留言的頁面都將映射成一個 issue，而留言內容就存儲在對應 issue 的對話串中。因此你可以指定頁面的索引格式，用來設定 blog 的貼文以何種方式映射至 Github issues.</p><p>要想安裝 utterances ，首先你需要爲 repository 安裝 <a class=link href=https://github.com/apps/utterances target=_blank rel=noopener>utterances 插件</a>，這個插件的作用是將用戶的留言儲存至相關頁面的 issue 中。</p><p>然後你需要在 blog 端配置 utterances 的客戶端，如果你的主題原生的支援 utterances ，你只需要按照主題作者提供的配置格式來配置即可。如若不然，你需要手動爲 hugo 添加 utterances 支援。</p><p>在 <a class=link href=https://utteranc.es/ target=_blank rel=noopener>utterances 官網</a>內你可以詳細配置你的客戶端 repository，條目索引，主題等設定項，而後在下方能獲得類似這樣的代碼片段:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>script</span> <span class=na>src</span><span class=o>=</span><span class=s>&#34;https://utteranc.es/client.js&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=na>repo</span><span class=o>=</span><span class=s>&#34;[ENTER REPO HERE]&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=na>issue-term</span><span class=o>=</span><span class=s>&#34;pathname&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=na>theme</span><span class=o>=</span><span class=s>&#34;github-light&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=na>crossorigin</span><span class=o>=</span><span class=s>&#34;anonymous&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=na>async</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>script</span><span class=p>&gt;</span>
+</span></span></code></pre></div><p>將這段代碼複製到 hugo 需要有留言區的頁面的 head 中即可，具體方法可以閱讀 hugo 的文檔或者參考有相關功能的主題。</p><h2 id=優化>優化</h2><p>我們將網站和源碼分置了，這樣做的好處有以下幾點</p><ol><li>簡化項目結構，減小上傳的體積</li><li>可以將源碼的 repo 設成私有（免費版 Github 不支持將 Github Pages repo 設爲私有）</li><li>還沒有想到</li></ol><p>那麼我們就不需要向源碼的repo中上傳任何編譯時生成的檔案了，因此新建 <code>.gitignore</code> 並寫入</p><pre tabindex=0><code>/public/
 /resources/_gen
-</code></pre><p>以讓 git 忽略 <code>/public</code> 和 <code>/resources/_gen</code> 這兩個目錄.</p>
-<h2 id=擴展功能>擴展功能</h2>
-<p>鳴鈴使用了 hugo 提供的 <a class=link href=https://gohugo.io/templates/shortcode-templates/ target=_blank rel=noopener>shortcode template</a> 功能添加了一些 hugo 沒有提供，主題方亦沒有提供的功能。</p>
-<h3 id=svg-icon>svg icon</h3>
-<p>在敝站中可以看到一些很可愛的行內小圖標，他們來自於
+</code></pre><p>以讓 git 忽略 <code>/public</code> 和 <code>/resources/_gen</code> 這兩個目錄.</p><h2 id=擴展功能>擴展功能</h2><p>鳴鈴使用了 hugo 提供的 <a class=link href=https://gohugo.io/templates/shortcode-templates/ target=_blank rel=noopener>shortcode template</a> 功能添加了一些 hugo 沒有提供，主題方亦沒有提供的功能。</p><h3 id=svg-icon>svg icon</h3><p>在敝站中可以看到一些很可愛的行內小圖標，他們來自於
 <i class="ti ti-brand-tabler"></i>tabler icons 或
-<i class="inline-icon fab fa-font-awesome-alt"></i>fontawesome.</p>
-<p>要想在 hugo 中便捷地使用這些圖標，首先要在 head 中引入相關的 CSS：</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=c>&lt;!--引入 tabler icons--&gt;</span>
-<span class=p>&lt;</span><span class=nt>link</span> <span class=na>rel</span><span class=o>=</span><span class=s>&#34;stylesheet&#34;</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css&#34;</span><span class=p>&gt;</span>
-
-<span class=c>&lt;!--引入 fontawesome--&gt;</span>
-<span class=p>&lt;</span><span class=nt>link</span> <span class=na>rel</span><span class=o>=</span><span class=s>&#34;stylesheet&#34;</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;https://pro.fontawesome.com/releases/v5.10.0/css/all.css&#34;</span>
-    <span class=na>integrity</span><span class=o>=</span><span class=s>&#34;sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p&#34;</span> <span class=na>crossorigin</span><span class=o>=</span><span class=s>&#34;anonymous&#34;</span> <span class=p>/&gt;</span>
-</code></pre></div><p>其後，在 <code>[hugo根目錄]/layouts/shortcodes</code> 下新建 <code>ti.html</code>，並寫入:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html>{{ $iconid := (.Get 0) }}
-<span class=p>&lt;</span><span class=nt>i</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;ti ti-{{$iconid}}&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
-</code></pre></div><p>就可以得到 tabler 圖標, 打開 <a class=link href=https://tabler-icons.io/ target=_blank rel=noopener>tabler官網</a>，查找你想要插入的圖標，而後複製圖標的名。</p>
-<p><figure class=gallery-image style=flex-grow:224;flex-basis:539px>
-<a href=/posts/hugo-with-all-github/tabler-selector.png data-size=1741x774>
-<img src=/posts/hugo-with-all-github/tabler-selector.png width=1741 height=774 srcset="/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_480x0_resize_box_3.png 480w, /posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_1024x0_resize_box_3.png 1024w" loading=lazy alt="tabler 圖標">
-</a>
-<figcaption>tabler 圖標</figcaption>
-</figure></p>
-<p>在 <code>.md</code> 源碼中你想插入的位置處輸入 <code>{{&lt; ti "[圖標名]" >}}</code> 即可插入。上圖的例子中你應該輸入 <code>{{&lt; ti "brand-tabler" >}}</code>。</p>
-<p>類似地，在 <code>[hugo根目錄]/layouts/shortcodes</code> 下新建 <code>fa.html</code>，寫入:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html>{{ $fi := (.Get 0) }}
-{{ $se := (.Get 1) }}
-<span class=p>&lt;</span><span class=nt>i</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;inline-icon {{$fi}} fa-{{$se}}&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
-</code></pre></div><p>就可以得到 font awesome 圖標, 打開 <a class=link href=https://fontawesome.com target=_blank rel=noopener>fontawesome 官網</a>, 查找你想要插入的圖標，而後複製圖標的分類和名。
-使用 <code>{{&lt; fa "[圖標分類]" "[圖標名]" >}}</code> 來插入. 其中 <code>[圖標分類]</code> 指的是官網中 <code>fab</code> 或者 <code>fac</code> 之類的分類。</p>
-<h3 id=文本摺疊>文本摺疊</h3>
-<p>對於長文本，摺疊的功能是必要的，鳴鈴使用了 HTML5 新增的 <code>&lt;details>&lt;/details></code> 和 <code>&lt;summary>&lt;/summary></code> 標籤以實現之.</p>
-<details>
-<summary>這裏可以展開哦</summary>
-<p>嘿嘿 (OwO</p>
-</details>
-<style>details>summary{list-style:none}details>summary::-webkit-details-marker{display:none}</style>
-<p>在 <code>[hugo根目錄]/layouts/shortcodes</code> 下新建 <code>details.html</code>，寫入:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html>{{ $summary := .Get 0 }}
-
-<span class=p>&lt;</span><span class=nt>details</span><span class=p>&gt;</span>
-    <span class=p>&lt;</span><span class=nt>summary</span><span class=p>&gt;</span>{{ $summary }}<span class=p>&lt;/</span><span class=nt>summary</span><span class=p>&gt;</span>
-    <span class=p>&lt;</span><span class=nt>p</span><span class=p>&gt;</span>{{ safeHTML .Inner | markdownify }}<span class=p>&lt;/</span><span class=nt>p</span><span class=p>&gt;</span>
-<span class=p>&lt;/</span><span class=nt>details</span><span class=p>&gt;</span>
-</code></pre></div><p>而後，在你想使用處貼入</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown>{{<span class=p>&lt;</span> <span class=nt>details</span> <span class=err>&#34;</span><span class=na>這裏可以展開哦</span><span class=err>&#34;</span> <span class=p>&gt;</span>}}
-嘿嘿 (OwO
-{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>details</span> <span class=p>&gt;</span>}}
-</code></pre></div><p>就能達到上面的效果啦~</p>
-<h3 id=mermaid>mermaid</h3>
-<p><a class=link href=https://mermaid-js.github.io target=_blank rel=noopener>mermaid</a> 可以爲你的 blog 添加一些圖。
-在 <code>[hugo根目錄]/layouts/shortcodes</code> 下新建 <code>mermaid.html</code>，寫入:</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mermaid&#34;</span> <span class=na>align</span><span class=o>=</span><span class=s>&#34;{{ if .Get &#34;</span> <span class=na>align</span><span class=err>&#34;</span> <span class=err>}}</span> <span class=err>{{</span> <span class=err>.</span><span class=na>Get</span> <span class=err>&#34;</span><span class=na>align</span><span class=err>&#34;</span> <span class=err>}}</span> <span class=err>{{</span> <span class=na>else</span> <span class=err>}}</span> <span class=na>center</span> <span class=err>{{</span> <span class=na>end</span> <span class=err>}}&#34;</span><span class=p>&gt;</span>
-    {{ safeHTML .Inner }}
-<span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
-</code></pre></div><p>而後可以通過下列代碼使用</p>
-<div class=highlight><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
-//mermaid 源碼
-{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
-</code></pre></div><h2 id=問題記錄>問題記錄</h2>
-<h3 id=draft-true-帶來的問題><code>draft: true</code> 帶來的問題</h3>
-<p>℞：草稿貼文是不會被編譯的，因此要注意使用站內引用 <code>{{&lt; ref >}}</code> 時，不要引用草稿貼文。</p>
-<p>P.s. 鳴鈴被此問題困擾了好久的說 ，<code>hugo server -D</code> 正常但 <code>hugo</code> 就報錯 (・–・;)ゞ</p>
-<h3 id=webp-錯誤>webp 錯誤</h3>
-<p>℞：目前 Hugo 還不支援 webp 圖像，如果遇到 webp 的錯誤就換成 png/jpeg 吧.</p>
-<h2 id=總結>總結</h2>
-<p>哼哼，能夠完全基於免費的服務新建可靠，功能完備的 blog 還是滿有成就感的.</p>
-</section>
-<footer class=article-footer>
-<section class=article-tags>
-<a href=/tags/blog/>blog</a>
-<a href=/tags/hugo/>hugo</a>
-</section>
-<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
-<span>Licensed under CC BY-NC-SA 4.0</span>
-</section>
-</footer>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css integrity=sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js integrity=sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script>
-</article>
-<aside class=related-contents--wrapper>
-</aside>
-<script src=https://giscus.app/client.js data-repo=narisuzu/blog-comments data-repo-id="MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=" data-category=comments data-category-id=DIC_kwDOF0zYzs4B-f-8 data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light crossorigin=anonymous async></script>
-<script>function setGiscusTheme(b){let a=document.querySelector('iframe.giscus-frame');a&&a.contentWindow.postMessage({giscus:{setConfig:{theme:b}}},"https://giscus.app")}(function(){addEventListener('message',b=>{if(event.origin!=='https://giscus.app')return;a()}),window.addEventListener('onColorSchemeChange',a);function a(){document.documentElement.dataset.scheme==="light"?setGiscusTheme('light'):setGiscusTheme('dark_dimmed')}})()</script>
-<footer class=site-footer>
-<section class=copyright>
-&copy;
+<i class="inline-icon fab fa-font-awesome-alt"></i>fontawesome.</p><p>要想在 hugo 中便捷地使用這些圖標，首先要在 head 中引入相關的 CSS：</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=c>&lt;!--引入 tabler icons--&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>link</span> <span class=na>rel</span><span class=o>=</span><span class=s>&#34;stylesheet&#34;</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;https://unpkg.com/@tabler/icons@latest/iconfont/tabler-icons.min.css&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c>&lt;!--引入 fontawesome--&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>link</span> <span class=na>rel</span><span class=o>=</span><span class=s>&#34;stylesheet&#34;</span> <span class=na>href</span><span class=o>=</span><span class=s>&#34;https://pro.fontawesome.com/releases/v5.10.0/css/all.css&#34;</span>
+</span></span><span class=line><span class=cl>    <span class=na>integrity</span><span class=o>=</span><span class=s>&#34;sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p&#34;</span> <span class=na>crossorigin</span><span class=o>=</span><span class=s>&#34;anonymous&#34;</span> <span class=p>/&gt;</span>
+</span></span></code></pre></div><p>其後，在 <code>[hugo根目錄]/layouts/shortcodes</code> 下新建 <code>ti.html</code>，並寫入:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>{{ $iconid := (.Get 0) }}
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;ti ti-{{$iconid}}&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span></code></pre></div><p>就可以得到 tabler 圖標, 打開 <a class=link href=https://tabler-icons.io/ target=_blank rel=noopener>tabler官網</a>，查找你想要插入的圖標，而後複製圖標的名。</p><p><figure class=gallery-image style=flex-grow:224;flex-basis:539px><a href=/posts/hugo-with-all-github/tabler-selector.png data-size=1741x774><img src=/posts/hugo-with-all-github/tabler-selector.png width=1741 height=774 srcset="/posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_480x0_resize_box_3.png 480w, /posts/hugo-with-all-github/tabler-selector_hue141aca64bfb327c579169fd7c89e4d5_94074_1024x0_resize_box_3.png 1024w" loading=lazy alt="tabler 圖標"></a><figcaption>tabler 圖標</figcaption></figure></p><p>在 <code>.md</code> 源碼中你想插入的位置處輸入 <code>{{&lt; ti "[圖標名]" >}}</code> 即可插入。上圖的例子中你應該輸入 <code>{{&lt; ti "brand-tabler" >}}</code>。</p><p>類似地，在 <code>[hugo根目錄]/layouts/shortcodes</code> 下新建 <code>fa.html</code>，寫入:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>{{ $fi := (.Get 0) }}
+</span></span><span class=line><span class=cl>{{ $se := (.Get 1) }}
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>i</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;inline-icon {{$fi}} fa-{{$se}}&#34;</span><span class=p>&gt;&lt;/</span><span class=nt>i</span><span class=p>&gt;</span>
+</span></span></code></pre></div><p>就可以得到 font awesome 圖標, 打開 <a class=link href=https://fontawesome.com target=_blank rel=noopener>fontawesome 官網</a>, 查找你想要插入的圖標，而後複製圖標的分類和名。
+使用 <code>{{&lt; fa "[圖標分類]" "[圖標名]" >}}</code> 來插入. 其中 <code>[圖標分類]</code> 指的是官網中 <code>fab</code> 或者 <code>fac</code> 之類的分類。</p><h3 id=文本摺疊>文本摺疊</h3><p>對於長文本，摺疊的功能是必要的，鳴鈴使用了 HTML5 新增的 <code>&lt;details>&lt;/details></code> 和 <code>&lt;summary>&lt;/summary></code> 標籤以實現之.</p><details><summary>這裏可以展開哦</summary><p>嘿嘿 (OwO</p></details><style>details>summary{list-style:none}details>summary::-webkit-details-marker{display:none}</style><p>在 <code>[hugo根目錄]/layouts/shortcodes</code> 下新建 <code>details.html</code>，寫入:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl>{{ $summary := .Get 0 }}
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>details</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>summary</span><span class=p>&gt;</span>{{ $summary }}<span class=p>&lt;/</span><span class=nt>summary</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    <span class=p>&lt;</span><span class=nt>p</span><span class=p>&gt;</span>{{ safeHTML .Inner | markdownify }}<span class=p>&lt;/</span><span class=nt>p</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>details</span><span class=p>&gt;</span>
+</span></span></code></pre></div><p>而後，在你想使用處貼入</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>details</span> <span class=err>&#34;</span><span class=na>這裏可以展開哦</span><span class=err>&#34;</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>嘿嘿 (OwO
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>details</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></div><p>就能達到上面的效果啦~</p><h3 id=mermaid>mermaid</h3><p><a class=link href=https://mermaid-js.github.io target=_blank rel=noopener>mermaid</a> 可以爲你的 blog 添加一些圖。
+在 <code>[hugo根目錄]/layouts/shortcodes</code> 下新建 <code>mermaid.html</code>，寫入:</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-html data-lang=html><span class=line><span class=cl><span class=p>&lt;</span><span class=nt>div</span> <span class=na>class</span><span class=o>=</span><span class=s>&#34;mermaid&#34;</span> <span class=na>align</span><span class=o>=</span><span class=s>&#34;{{ if .Get &#34;</span> <span class=na>align</span><span class=err>&#34;</span> <span class=err>}}</span> <span class=err>{{</span> <span class=err>.</span><span class=na>Get</span> <span class=err>&#34;</span><span class=na>align</span><span class=err>&#34;</span> <span class=err>}}</span> <span class=err>{{</span> <span class=na>else</span> <span class=err>}}</span> <span class=na>center</span> <span class=err>{{</span> <span class=na>end</span> <span class=err>}}&#34;</span><span class=p>&gt;</span>
+</span></span><span class=line><span class=cl>    {{ safeHTML .Inner }}
+</span></span><span class=line><span class=cl><span class=p>&lt;/</span><span class=nt>div</span><span class=p>&gt;</span>
+</span></span></code></pre></div><p>而後可以通過下列代碼使用</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-markdown data-lang=markdown><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span><span class=line><span class=cl>//mermaid 源碼
+</span></span><span class=line><span class=cl>{{<span class=p>&lt;</span> <span class=p>/</span><span class=nt>mermaid</span> <span class=p>&gt;</span>}}
+</span></span></code></pre></div><h2 id=問題記錄>問題記錄</h2><h3 id=draft-true-帶來的問題><code>draft: true</code> 帶來的問題</h3><p>℞：草稿貼文是不會被編譯的，因此要注意使用站內引用 <code>{{&lt; ref >}}</code> 時，不要引用草稿貼文。</p><p>P.s. 鳴鈴被此問題困擾了好久的說 ，<code>hugo server -D</code> 正常但 <code>hugo</code> 就報錯 (・–・;)ゞ</p><h3 id=webp-錯誤>webp 錯誤</h3><p>℞：目前 Hugo 還不支援 webp 圖像，如果遇到 webp 的錯誤就換成 png/jpeg 吧.</p><h2 id=總結>總結</h2><p>哼哼，能夠完全基於免費的服務新建可靠，功能完備的 blog 還是滿有成就感的.</p></section><footer class=article-footer><section class=article-tags><a href=/tags/blog/>blog</a>
+<a href=/tags/hugo/>hugo</a></section><section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg><span>Licensed under CC BY-NC-SA 4.0</span></section></footer><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css integrity=sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js integrity=sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script></article><aside class=related-contents--wrapper></aside><script src=https://giscus.app/client.js data-repo=narisuzu/blog-comments data-repo-id="MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=" data-category=comments data-category-id=DIC_kwDOF0zYzs4B-f-8 data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light crossorigin=anonymous async></script>
+<script>function setGiscusTheme(t){let e=document.querySelector("iframe.giscus-frame");e&&e.contentWindow.postMessage({giscus:{setConfig:{theme:t}}},"https://giscus.app")}(function(){addEventListener("message",t=>{if(event.origin!=="https://giscus.app")return;e()}),window.addEventListener("onColorSchemeChange",e);function e(){document.documentElement.dataset.scheme==="light"?setGiscusTheme("light"):setGiscusTheme("dark_dimmed")}})()</script><footer class=site-footer><section class=copyright>&copy;
 2021 -
-2022 鳴鈴
-</section>
-<section class=powerby>
-Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
-Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.2.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
-</section>
-</footer>
-<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
-<div class=pswp__bg></div>
-<div class=pswp__scroll-wrap>
-<div class=pswp__container>
-<div class=pswp__item></div>
-<div class=pswp__item></div>
-<div class=pswp__item></div>
-</div>
-<div class="pswp__ui pswp__ui--hidden">
-<div class=pswp__top-bar>
-<div class=pswp__counter></div>
-<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+2022 鳴鈴</section><section class=powerby>Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a><br>Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.2.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 <button class="pswp__button pswp__button--share" title=Share></button>
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-<div class=pswp__preloader>
-<div class=pswp__preloader__icn>
-<div class=pswp__preloader__cut>
-<div class=pswp__preloader__donut></div>
-</div>
-</div>
-</div>
-</div>
-<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-<div class=pswp__share-tooltip></div>
-</div>
-<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-</button>
-<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-</button>
-<div class=pswp__caption>
-<div class=pswp__caption__center></div>
-</div>
-</div>
-</div>
-</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
-</main>
-<aside class="sidebar right-sidebar sticky">
-<section class="widget archives">
-<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
-</div>
-<h2 class="widget-title section-title">Table of contents</h2>
-<div class=widget--toc>
-<nav id=TableOfContents>
-<ol>
-<li><a href=#序>序</a></li>
-<li><a href=#blog-程式>Blog 程式</a></li>
-<li><a href=#部署>部署</a>
-<ol>
-<li><a href=#github-pages>Github Pages</a></li>
-<li><a href=#github-actions>Github Actions</a>
-<ol>
-<li><a href=#配置文件>配置文件</a></li>
-<li><a href=#deploy-key>Deploy Key</a></li>
-</ol>
-</li>
-</ol>
-</li>
-<li><a href=#留言>留言</a></li>
-<li><a href=#優化>優化</a></li>
-<li><a href=#擴展功能>擴展功能</a>
-<ol>
-<li><a href=#svg-icon>svg icon</a></li>
-<li><a href=#文本摺疊>文本摺疊</a></li>
-<li><a href=#mermaid>mermaid</a></li>
-</ol>
-</li>
-<li><a href=#問題記錄>問題記錄</a>
-<ol>
-<li><a href=#draft-true-帶來的問題><code>draft: true</code> 帶來的問題</a></li>
-<li><a href=#webp-錯誤>webp 錯誤</a></li>
-</ol>
-</li>
-<li><a href=#總結>總結</a></li>
-</ol>
-</nav>
-</div>
-</section>
-</aside>
-</div>
-<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
-<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
-</body>
-</html>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous></main><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">Table of contents</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#序>序</a></li><li><a href=#blog-程式>Blog 程式</a></li><li><a href=#部署>部署</a><ol><li><a href=#github-pages>Github Pages</a></li><li><a href=#github-actions>Github Actions</a><ol><li><a href=#配置文件>配置文件</a></li><li><a href=#deploy-key>Deploy Key</a></li></ol></li></ol></li><li><a href=#留言>留言</a></li><li><a href=#優化>優化</a></li><li><a href=#擴展功能>擴展功能</a><ol><li><a href=#svg-icon>svg icon</a></li><li><a href=#文本摺疊>文本摺疊</a></li><li><a href=#mermaid>mermaid</a></li></ol></li><li><a href=#問題記錄>問題記錄</a><ol><li><a href=#draft-true-帶來的問題><code>draft: true</code> 帶來的問題</a></li><li><a href=#webp-錯誤>webp 錯誤</a></li></ol></li><li><a href=#總結>總結</a></li></ol></nav></div></section></aside></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>

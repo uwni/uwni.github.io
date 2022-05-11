@@ -1,6 +1,4 @@
-<!doctype html><html lang=en-us>
-<head><meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="破題 不，鳴鈴不是想討論一般情況下開門的問題，在《異世界食堂》動畫作品中，鳴鈴看到了一個彈幕：
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="破題 不，鳴鈴不是想討論一般情況下開門的問題，在《異世界食堂》動畫作品中，鳴鈴看到了一個彈幕：
  「要是有兩個異世界人同時打開門會怎麼樣？」
  在《異世界食堂》的世界觀中，每當禮拜六在異世界的各處就會出現通往「洋食のねこや」之門。開了這扇門就能進入 日本的「洋食のねこや」料理屋。那麼食堂只有一個，但傳送門有很多個，慾使彈幕中的問題有意義的話，更準確的表述應該是：如果有多個異世界人同時打開不同的門會怎樣？
 怎樣？ 在全片中沒有出現過問題中的情況，也沒有解釋這種情況。當然作品中從沒發生過和概率爲零是兩個不同的概念。 那麼有什麼辦法可以解釋這個現象或者解決這個問題呢？首先定義一下什麼叫同時打開門，兩個開門事件在同時發生的概率爲 $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是週六一天 $24$ 小時。那麼，我們不妨把一次從開門事件到關門事件的過程稱爲一個開放區間，兩個開放區間有重疊稱爲同時打開門。那麼問題就是，如何處理兩個不同的開放區間可能重疊的問題。
@@ -17,10 +15,7 @@
 那麼怎麼設計可以使顧客能夠從進入時的門走出呢？
 我們可以設定當一名顧客進門時，會攜帶一個上下文 context （可以用魔法實現），其中包含了其所打開的門的引用 reference，從而在出門時食堂只需要讀取上下文中的傳送門引用就可以再次打開進入時的那扇門。
 還有，在咖喱飯和炸蝦中可以看到，一個門是允許多個人進入的，那麼要怎麼實現才能讓由同一扇門進入的最後一人出門時，該處的門再消失呢。使用引用計數可以解決這個問題，異世界各處的門都有一個引用計數器，當顧客進門時會進行計數，每人進入就自增一，當計數器爲零時則門構析.
- 所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論"><title>兩個人同時開一個門會怎麼樣？</title>
-<link rel=canonical href=https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/>
-<link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="兩個人同時開一個門會怎麼樣？">
-<meta property="og:description" content="破題 不，鳴鈴不是想討論一般情況下開門的問題，在《異世界食堂》動畫作品中，鳴鈴看到了一個彈幕：
+ 所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論"><title>兩個人同時開一個門會怎麼樣？</title><link rel=canonical href=https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/><link rel=stylesheet href=/scss/style.min.css><meta property="og:title" content="兩個人同時開一個門會怎麼樣？"><meta property="og:description" content="破題 不，鳴鈴不是想討論一般情況下開門的問題，在《異世界食堂》動畫作品中，鳴鈴看到了一個彈幕：
  「要是有兩個異世界人同時打開門會怎麼樣？」
  在《異世界食堂》的世界觀中，每當禮拜六在異世界的各處就會出現通往「洋食のねこや」之門。開了這扇門就能進入 日本的「洋食のねこや」料理屋。那麼食堂只有一個，但傳送門有很多個，慾使彈幕中的問題有意義的話，更準確的表述應該是：如果有多個異世界人同時打開不同的門會怎樣？
 怎樣？ 在全片中沒有出現過問題中的情況，也沒有解釋這種情況。當然作品中從沒發生過和概率爲零是兩個不同的概念。 那麼有什麼辦法可以解釋這個現象或者解決這個問題呢？首先定義一下什麼叫同時打開門，兩個開門事件在同時發生的概率爲 $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是週六一天 $24$ 小時。那麼，我們不妨把一次從開門事件到關門事件的過程稱爲一個開放區間，兩個開放區間有重疊稱爲同時打開門。那麼問題就是，如何處理兩個不同的開放區間可能重疊的問題。
@@ -37,12 +32,7 @@
 那麼怎麼設計可以使顧客能夠從進入時的門走出呢？
 我們可以設定當一名顧客進門時，會攜帶一個上下文 context （可以用魔法實現），其中包含了其所打開的門的引用 reference，從而在出門時食堂只需要讀取上下文中的傳送門引用就可以再次打開進入時的那扇門。
 還有，在咖喱飯和炸蝦中可以看到，一個門是允許多個人進入的，那麼要怎麼實現才能讓由同一扇門進入的最後一人出門時，該處的門再消失呢。使用引用計數可以解決這個問題，異世界各處的門都有一個引用計數器，當顧客進門時會進行計數，每人進入就自增一，當計數器爲零時則門構析.
- 所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論">
-<meta property="og:url" content="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/">
-<meta property="og:site_name" content="鳴鈴">
-<meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:published_time" content="2021-06-12T11:02:02+08:00"><meta property="article:modified_time" content="2021-06-12T11:02:02+08:00"><meta property="og:image" content="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1.jpg">
-<meta name=twitter:title content="兩個人同時開一個門會怎麼樣？">
-<meta name=twitter:description content="破題 不，鳴鈴不是想討論一般情況下開門的問題，在《異世界食堂》動畫作品中，鳴鈴看到了一個彈幕：
+ 所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論"><meta property="og:url" content="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/"><meta property="og:site_name" content="鳴鈴"><meta property="og:type" content="article"><meta property="article:section" content="Posts"><meta property="article:published_time" content="2021-06-12T11:02:02+08:00"><meta property="article:modified_time" content="2021-06-12T11:02:02+08:00"><meta property="og:image" content="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1.jpg"><meta name=twitter:title content="兩個人同時開一個門會怎麼樣？"><meta name=twitter:description content="破題 不，鳴鈴不是想討論一般情況下開門的問題，在《異世界食堂》動畫作品中，鳴鈴看到了一個彈幕：
  「要是有兩個異世界人同時打開門會怎麼樣？」
  在《異世界食堂》的世界觀中，每當禮拜六在異世界的各處就會出現通往「洋食のねこや」之門。開了這扇門就能進入 日本的「洋食のねこや」料理屋。那麼食堂只有一個，但傳送門有很多個，慾使彈幕中的問題有意義的話，更準確的表述應該是：如果有多個異世界人同時打開不同的門會怎樣？
 怎樣？ 在全片中沒有出現過問題中的情況，也沒有解釋這種情況。當然作品中從沒發生過和概率爲零是兩個不同的概念。 那麼有什麼辦法可以解釋這個現象或者解決這個問題呢？首先定義一下什麼叫同時打開門，兩個開門事件在同時發生的概率爲 $0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是週六一天 $24$ 小時。那麼，我們不妨把一次從開門事件到關門事件的過程稱爲一個開放區間，兩個開放區間有重疊稱爲同時打開門。那麼問題就是，如何處理兩個不同的開放區間可能重疊的問題。
@@ -59,197 +49,17 @@
 那麼怎麼設計可以使顧客能夠從進入時的門走出呢？
 我們可以設定當一名顧客進門時，會攜帶一個上下文 context （可以用魔法實現），其中包含了其所打開的門的引用 reference，從而在出門時食堂只需要讀取上下文中的傳送門引用就可以再次打開進入時的那扇門。
 還有，在咖喱飯和炸蝦中可以看到，一個門是允許多個人進入的，那麼要怎麼實現才能讓由同一扇門進入的最後一人出門時，該處的門再消失呢。使用引用計數可以解決這個問題，異世界各處的門都有一個引用計數器，當顧客進門時會進行計數，每人進入就自增一，當計數器爲零時則門構析.
- 所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論"><meta name=twitter:card content="summary_large_image">
-<meta name=twitter:image content="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1.jpg">
-<link rel="shortcut icon" href=https://ming.ling.moe/file-storage/public/ico/favicon.ico>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
-<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date),gtag('config','G-EHQRC06KY5',{anonymize_ip:!1})}</script>
-<style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}</style>
-<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
-</head>
-<body class="article-page has-toc">
-<script>(function(){const a='StackColorScheme';localStorage.getItem(a)||localStorage.setItem(a,"auto")})()</script><script>(function(){const b='StackColorScheme',a=localStorage.getItem(b),c=window.matchMedia('(prefers-color-scheme: dark)').matches===!0;a=='dark'||a==='auto'&&c?document.documentElement.dataset.scheme='dark':document.documentElement.dataset.scheme='light'})()</script>
-<div class="container main-container flex
-extended">
-<div id=article-toolbar>
-<a href=https://ming.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg>
-<span>Back</span>
-</a>
-</div>
-<main class="main full-width">
-<article class="has-image main-article">
-<header class=article-header>
-<div class=article-image>
-<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/>
-<img src=/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1_hua3b5ef3d8ad153eb71e4de820d5d50d2_345788_800x0_resize_q75_box.jpg srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1_hua3b5ef3d8ad153eb71e4de820d5d50d2_345788_800x0_resize_q75_box.jpg 800w, /posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1_hua3b5ef3d8ad153eb71e4de820d5d50d2_345788_1600x0_resize_q75_box.jpg 1600w" width=800 height=1157 loading=lazy alt="Featured image of post 兩個人同時開一個門會怎麼樣？">
-</a>
-</div>
-<div class=article-details>
-<header class=article-category>
-<a href=/categories/thinking/>
-胡思亂想
-</a>
-</header>
-<h2 class=article-title>
-<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/>兩個人同時開一個門會怎麼樣？</a>
-</h2>
-<footer class=article-time>
-<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg>
-<time class=article-time--published>Jun 12, 2021</time>
-</div>
-<div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg>
-<time class=article-time--reading>
-1 min read
-</time>
-</div>
-</footer>
-</div>
-</header>
-<section class=article-content>
-<h2 id=破題>破題</h2>
-<p>不，鳴鈴不是想討論一般情況下開門的問題，在《異世界食堂》動畫作品中，鳴鈴看到了一個彈幕：</p>
-<blockquote>
-<p>「要是有兩個異世界人同時打開門會怎麼樣？」</p>
-</blockquote>
-<p>在《異世界食堂》的世界觀中，每當禮拜六在異世界的各處就會出現通往「洋食のねこや」之門。開了這扇門就能進入
-日本的「洋食のねこや」料理屋。那麼食堂只有一個，但傳送門有很多個，慾使彈幕中的問題有意義的話，更準確的表述應該是：如果有多個異世界人同時打開<strong>不同</strong>的門會怎樣？</p>
-<h2 id=怎樣>怎樣？</h2>
-<p>在全片中沒有出現過問題中的情況，也沒有解釋這種情況。當然作品中從沒發生過和概率爲零是兩個不同的概念。
+ 所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://ming.ling.moe/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1.jpg"><link rel="shortcut icon" href=https://ming.ling.moe/file-storage/public/ico/favicon.ico><script async src="https://www.googletagmanager.com/gtag/js?id=G-EHQRC06KY5"></script>
+<script>var doNotTrack=!1;if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-EHQRC06KY5",{anonymize_ip:!1})}</script><style>:root{--article-font-family:"Noto Serif SC", var(--base-font-family)}article{counter-reset:theorems lemmas definitions}:lang(zh-hant) .theorem::before{content:'定理 'counter(theorems) '.\00a0'!important;counter-increment:theorems;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .lemma::before{content:'引理 'counter(lemmas) '.\00a0'!important;counter-increment:lemmas;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::before{content:'證明'attr(title) ':\00a0'!important;font-weight:700;font-family:--base-font-family}:lang(zh-hant) .proof::after{content:'∎';float:right;font-family:--base-font-family}:lang(zh-hant) .definition::before{content:'定義 'counter(definitions) '.\00a0'!important;counter-increment:definitions;font-weight:700;font-family:--base-font-family}.inline-icon{fill:var(--card-text-color-main)}.article-views span+span{margin-left:5px}</style><script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></head><body class="article-page has-toc"><script>(function(){const e="StackColorScheme";localStorage.getItem(e)||localStorage.setItem(e,"auto")})()</script><script>(function(){const t="StackColorScheme",e=localStorage.getItem(t),n=window.matchMedia("(prefers-color-scheme: dark)").matches===!0;e=="dark"||e==="auto"&&n?document.documentElement.dataset.scheme="dark":document.documentElement.dataset.scheme="light"})()</script><div class="container main-container flex
+extended"><div id=article-toolbar><a href=https://ming.ling.moe class=back-home><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><polyline points="15 6 9 12 15 18"/></svg><span>Back</span></a></div><main class="main full-width"><article class="has-image main-article"><header class=article-header><div class=article-image><a href=/posts/what-if-two-different-people-open-the-door-simultaneously/><img src=/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1_hua3b5ef3d8ad153eb71e4de820d5d50d2_345788_800x0_resize_q75_box.jpg srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1_hua3b5ef3d8ad153eb71e4de820d5d50d2_345788_800x0_resize_q75_box.jpg 800w, /posts/what-if-two-different-people-open-the-door-simultaneously/Isekai_Shokudo_Vol1_hua3b5ef3d8ad153eb71e4de820d5d50d2_345788_1600x0_resize_q75_box.jpg 1600w" width=800 height=1157 loading=lazy alt="Featured image of post 兩個人同時開一個門會怎麼樣？"></a></div><div class=article-details><header class=article-category><a href=/categories/thinking/>胡思亂想</a></header><h2 class=article-title><a href=/posts/what-if-two-different-people-open-the-door-simultaneously/>兩個人同時開一個門會怎麼樣？</a></h2><footer class=article-time><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><path d="M11.795 21H5a2 2 0 01-2-2V7a2 2 0 012-2h12a2 2 0 012 2v4"/><circle cx="18" cy="18" r="4"/><path d="M15 3v4"/><path d="M7 3v4"/><path d="M3 11h16"/><path d="M18 16.496V18l1 1"/></svg><time class=article-time--published>Jun 12, 2021</time></div><div><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><polyline points="12 7 12 12 15 15"/></svg><time class=article-time--reading>1 min read</time></div></footer></div></header><section class=article-content><h2 id=破題>破題</h2><p>不，鳴鈴不是想討論一般情況下開門的問題，在《異世界食堂》動畫作品中，鳴鈴看到了一個彈幕：</p><blockquote><p>「要是有兩個異世界人同時打開門會怎麼樣？」</p></blockquote><p>在《異世界食堂》的世界觀中，每當禮拜六在異世界的各處就會出現通往「洋食のねこや」之門。開了這扇門就能進入
+日本的「洋食のねこや」料理屋。那麼食堂只有一個，但傳送門有很多個，慾使彈幕中的問題有意義的話，更準確的表述應該是：如果有多個異世界人同時打開<strong>不同</strong>的門會怎樣？</p><h2 id=怎樣>怎樣？</h2><p>在全片中沒有出現過問題中的情況，也沒有解釋這種情況。當然作品中從沒發生過和概率爲零是兩個不同的概念。
 那麼有什麼辦法可以解釋這個現象或者解決這個問題呢？首先定義一下什麼叫同時打開門，兩個開門事件在同時發生的概率爲
-$0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是週六一天 $24$ 小時。那麼，我們不妨把一次從開門事件到關門事件的過程稱爲一個<strong>開放區間</strong>，兩個開放區間有重疊稱爲同時打開門。那麼問題就是，如何處理兩個不同的開放區間可能重疊的問題。</p>
-<p>那麼矛盾在哪裏呢？在動畫畫面中可以看到，在從食堂朝向外面的畫面中，我們可以知道在食堂中是能直接看到外界的，同時也有從外向內的畫面。</p>
-<p><figure class=gallery-image style=flex-grow:177;flex-basis:426px>
-<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png data-size=2172x1222>
-<img src=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png width=2172 height=1222 srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_480x0_resize_box_3.png 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_1024x0_resize_box_3.png 1024w" loading=lazy alt=炸肉餅二世的門外>
-</a>
-<figcaption>炸肉餅二世的門外</figcaption>
-</figure> <figure class=gallery-image style=flex-grow:177;flex-basis:426px>
-<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png data-size=2172x1222>
-<img src=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png width=2172 height=1222 srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_480x0_resize_box_3.png 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_1024x0_resize_box_3.png 1024w" loading=lazy alt=炸蝦一世的門外>
-</a>
-<figcaption>炸蝦一世的門外</figcaption>
-</figure></p>
-<p>顯然地，不同的人開門，門外的景色是不同的。由此可知，開門過程是不能有阻塞的。</p>
-<h3 id=概率>🎲概率</h3>
-<p>要解決這個問題，最簡單的就是讓兩個開放區間不可能重疊，即令異世界中所有的事物構成一個精密的系統，如波函數坍塌一般，當一個門被打開，則其他的門被打開的概率變爲 $0$，不是指門打不開，而是指在異世界中根本不可能有人去開其他門，通過某種魔法或者猶未可知的機理（畢竟傳送門就已經夠魔幻了）</p>
-<h3 id=緩衝區>🌊緩衝區</h3>
-<p>首先給出結論：使用任何形式的 <code>channel</code>，包括 <code>std::sync::mpsc</code> 和 <code>chan</code> 都是不行的。因爲真實世界中所要求的是絕對的同時。而使用 <code>channel</code> 時，<code>channel</code> 同時只能發送一個物件，其他的發送會被阻塞。因此是無法解決問題的。</p>
-<p>那如果使用帶緩衝區的信道呢？當進入門後都先被傳送入一個佇列（可能是一片魔法空間）中，稱其爲 Buffer，然後遵循 FIFO 的過程，當門被關上時則將 Buffer 中下一位顧客傳入，而且因爲是異世界不需要考慮緩衝區大小的問題。這麼雖然可行，但是顯然不符合作品設定，因此也 PASS.</p>
-<h3 id=互斥鎖>🔒互斥鎖</h3>
-<p>鳴鈴認爲最有意思也是最現實的就是使用互斥鎖（Mutex）了。顯然的，在動畫畫面中傳送門上也是存在門鎖的。那麼只需要作很小的設定就可以解決這個問題：當一個開門的上升沿（大概位於門把手被轉下去的時刻），互斥鎖會被上鎖，然後其他地方的傳送門就不能再次爲 Mutex 上鎖，從而即使壓下門把手也不能打開門，就如同門鎖被物理地鎖上了一樣。當門被關上後，Mutex 被解鎖，其他的門就可以再次打開了。</p>
-<p>同時鳴鈴注意到了，在動畫中人餐後離開食堂關上門後，門就會消失掉。這裏可以設定爲門被析構的同時 Mutex 被解鎖，就像 <code>std::sync::Mutex</code> 一樣.</p>
-<h3 id=引用計數>🔂引用計數</h3>
-<p>如果愛好燉牛肉的六柱之赤從別人的門走出來了，不就不妙了嗎？（從月球上的門走出來似乎沒什麼問題）</p>
-<p><figure class=gallery-image style=flex-grow:177;flex-basis:426px>
-<a href=/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg data-size=1280x720>
-<img src=/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg width=1280 height=720 srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_480x0_resize_q75_box.jpg 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_1024x0_resize_q75_box.jpg 1024w" loading=lazy alt=赤女王>
-</a>
-<figcaption>赤女王</figcaption>
-</figure></p>
-<p>那麼怎麼設計可以使顧客能夠從進入時的門走出呢？</p>
-<p>我們可以設定當一名顧客進門時，會攜帶一個上下文 <code>context</code> （可以用魔法實現），其中包含了其所打開的門的引用 <code>reference</code>，從而在出門時食堂只需要讀取上下文中的傳送門引用就可以再次打開進入時的那扇門。</p>
-<p>還有，在咖喱飯和炸蝦中可以看到，一個門是允許多個人進入的，那麼要怎麼實現才能讓由同一扇門進入的最後一人出門時，該處的門再消失呢。使用引用計數可以解決這個問題，異世界各處的門都有一個引用計數器，當顧客進門時會進行計數，每人進入就自增一，當計數器爲零時則門構析.</p>
-<hr>
-<p>所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論</p>
-</section>
-<footer class=article-footer>
-<section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg>
-<span>Licensed under CC BY-NC-SA 4.0</span>
-</section>
-</footer>
-<link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css integrity=sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js integrity=sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script>
-</article>
-<aside class=related-contents--wrapper>
-<h2 class=section-title>Related contents</h2>
-<div class=related-contents>
-<div class="flex article-list--tile">
-<article class=has-image>
-<a href=/posts/no-and-ga-under-oop-views/>
-<div class=article-image>
-<img src=/posts/no-and-ga-under-oop-views/cover.44306d92e72b94ad3073acf9f1043962_hu2d7fe98771aa7bba84c77eadae6be665_366511_250x150_fill_q75_box_smart1.jpg width=250 height=150 loading=lazy data-key data-hash="md5-RDBtkucrlK0wc6z58QQ5Yg==">
-</div>
-<div class=article-details>
-<h2 class=article-title>以OOP的視角看が和の</h2>
-</div>
-</a>
-</article>
-</div>
-</div>
-</aside>
-<script src=https://giscus.app/client.js data-repo=narisuzu/blog-comments data-repo-id="MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=" data-category=comments data-category-id=DIC_kwDOF0zYzs4B-f-8 data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light crossorigin=anonymous async></script>
-<script>function setGiscusTheme(b){let a=document.querySelector('iframe.giscus-frame');a&&a.contentWindow.postMessage({giscus:{setConfig:{theme:b}}},"https://giscus.app")}(function(){addEventListener('message',b=>{if(event.origin!=='https://giscus.app')return;a()}),window.addEventListener('onColorSchemeChange',a);function a(){document.documentElement.dataset.scheme==="light"?setGiscusTheme('light'):setGiscusTheme('dark_dimmed')}})()</script>
-<footer class=site-footer>
-<section class=copyright>
-&copy;
+$0$ , 因爲一個時刻在數軸上是一個點，傳送門出現的時間是週六一天 $24$ 小時。那麼，我們不妨把一次從開門事件到關門事件的過程稱爲一個<strong>開放區間</strong>，兩個開放區間有重疊稱爲同時打開門。那麼問題就是，如何處理兩個不同的開放區間可能重疊的問題。</p><p>那麼矛盾在哪裏呢？在動畫畫面中可以看到，在從食堂朝向外面的畫面中，我們可以知道在食堂中是能直接看到外界的，同時也有從外向內的畫面。</p><p><figure class=gallery-image style=flex-grow:177;flex-basis:426px><a href=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png data-size=2172x1222><img src=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor.png width=2172 height=1222 srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_480x0_resize_box_3.png 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/outdoor_huc2a584a62c30516026a9dd4806252847_1527552_1024x0_resize_box_3.png 1024w" loading=lazy alt=炸肉餅二世的門外></a><figcaption>炸肉餅二世的門外</figcaption></figure><figure class=gallery-image style=flex-grow:177;flex-basis:426px><a href=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png data-size=2172x1222><img src=/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2.png width=2172 height=1222 srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_480x0_resize_box_3.png 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/outdoor2_huca61de12f396b78905ebe581178b7ed5_1116408_1024x0_resize_box_3.png 1024w" loading=lazy alt=炸蝦一世的門外></a><figcaption>炸蝦一世的門外</figcaption></figure></p><p>顯然地，不同的人開門，門外的景色是不同的。由此可知，開門過程是不能有阻塞的。</p><h3 id=概率>🎲概率</h3><p>要解決這個問題，最簡單的就是讓兩個開放區間不可能重疊，即令異世界中所有的事物構成一個精密的系統，如波函數坍塌一般，當一個門被打開，則其他的門被打開的概率變爲 $0$，不是指門打不開，而是指在異世界中根本不可能有人去開其他門，通過某種魔法或者猶未可知的機理（畢竟傳送門就已經夠魔幻了）</p><h3 id=緩衝區>🌊緩衝區</h3><p>首先給出結論：使用任何形式的 <code>channel</code>，包括 <code>std::sync::mpsc</code> 和 <code>chan</code> 都是不行的。因爲真實世界中所要求的是絕對的同時。而使用 <code>channel</code> 時，<code>channel</code> 同時只能發送一個物件，其他的發送會被阻塞。因此是無法解決問題的。</p><p>那如果使用帶緩衝區的信道呢？當進入門後都先被傳送入一個佇列（可能是一片魔法空間）中，稱其爲 Buffer，然後遵循 FIFO 的過程，當門被關上時則將 Buffer 中下一位顧客傳入，而且因爲是異世界不需要考慮緩衝區大小的問題。這麼雖然可行，但是顯然不符合作品設定，因此也 PASS.</p><h3 id=互斥鎖>🔒互斥鎖</h3><p>鳴鈴認爲最有意思也是最現實的就是使用互斥鎖（Mutex）了。顯然的，在動畫畫面中傳送門上也是存在門鎖的。那麼只需要作很小的設定就可以解決這個問題：當一個開門的上升沿（大概位於門把手被轉下去的時刻），互斥鎖會被上鎖，然後其他地方的傳送門就不能再次爲 Mutex 上鎖，從而即使壓下門把手也不能打開門，就如同門鎖被物理地鎖上了一樣。當門被關上後，Mutex 被解鎖，其他的門就可以再次打開了。</p><p>同時鳴鈴注意到了，在動畫中人餐後離開食堂關上門後，門就會消失掉。這裏可以設定爲門被析構的同時 Mutex 被解鎖，就像 <code>std::sync::Mutex</code> 一樣.</p><h3 id=引用計數>🔂引用計數</h3><p>如果愛好燉牛肉的六柱之赤從別人的門走出來了，不就不妙了嗎？（從月球上的門走出來似乎沒什麼問題）</p><p><figure class=gallery-image style=flex-grow:177;flex-basis:426px><a href=/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg data-size=1280x720><img src=/posts/what-if-two-different-people-open-the-door-simultaneously/red.jpg width=1280 height=720 srcset="/posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_480x0_resize_q75_box.jpg 480w, /posts/what-if-two-different-people-open-the-door-simultaneously/red_hubaf488e48a42a4d7c8736d8575d83de2_63226_1024x0_resize_q75_box.jpg 1024w" loading=lazy alt=赤女王></a><figcaption>赤女王</figcaption></figure></p><p>那麼怎麼設計可以使顧客能夠從進入時的門走出呢？</p><p>我們可以設定當一名顧客進門時，會攜帶一個上下文 <code>context</code> （可以用魔法實現），其中包含了其所打開的門的引用 <code>reference</code>，從而在出門時食堂只需要讀取上下文中的傳送門引用就可以再次打開進入時的那扇門。</p><p>還有，在咖喱飯和炸蝦中可以看到，一個門是允許多個人進入的，那麼要怎麼實現才能讓由同一扇門進入的最後一人出門時，該處的門再消失呢。使用引用計數可以解決這個問題，異世界各處的門都有一個引用計數器，當顧客進門時會進行計數，每人進入就自增一，當計數器爲零時則門構析.</p><hr><p>所有的內容都是鳴鈴突發奇想，請不要認真:) 另外，異世界的白色污染問題也值得討論</p></section><footer class=article-footer><section class=article-copyright><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><circle cx="12" cy="12" r="9"/><path d="M14.5 9a3.5 4 0 100 6"/></svg><span>Licensed under CC BY-NC-SA 4.0</span></section></footer><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css integrity=sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn crossorigin=anonymous><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js integrity=sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8 crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js integrity=sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl crossorigin=anonymous defer></script><script>window.addEventListener("DOMContentLoaded",()=>{renderMathInElement(document.querySelector(`.article-content`),{delimiters:[{left:"$$",right:"$$",display:!0},{left:"$",right:"$",display:!1},{left:"\\(",right:"\\)",display:!1},{left:"\\[",right:"\\]",display:!0}]})})</script></article><aside class=related-contents--wrapper><h2 class=section-title>Related contents</h2><div class=related-contents><div class="flex article-list--tile"><article class=has-image><a href=/posts/no-and-ga-under-oop-views/><div class=article-image><img src=/posts/no-and-ga-under-oop-views/cover.44306d92e72b94ad3073acf9f1043962_hu2d7fe98771aa7bba84c77eadae6be665_366511_250x150_fill_q75_box_smart1.jpg width=250 height=150 loading=lazy data-key data-hash="md5-RDBtkucrlK0wc6z58QQ5Yg=="></div><div class=article-details><h2 class=article-title>以OOP的視角看が和の</h2></div></a></article></div></div></aside><script src=https://giscus.app/client.js data-repo=narisuzu/blog-comments data-repo-id="MDEwOlJlcG9zaXRvcnkzOTA5MTIyMDY=" data-category=comments data-category-id=DIC_kwDOF0zYzs4B-f-8 data-mapping=pathname data-reactions-enabled=1 data-emit-metadata=0 data-theme=light crossorigin=anonymous async></script>
+<script>function setGiscusTheme(t){let e=document.querySelector("iframe.giscus-frame");e&&e.contentWindow.postMessage({giscus:{setConfig:{theme:t}}},"https://giscus.app")}(function(){addEventListener("message",t=>{if(event.origin!=="https://giscus.app")return;e()}),window.addEventListener("onColorSchemeChange",e);function e(){document.documentElement.dataset.scheme==="light"?setGiscusTheme("light"):setGiscusTheme("dark_dimmed")}})()</script><footer class=site-footer><section class=copyright>&copy;
 2021 -
-2022 鳴鈴
-</section>
-<section class=powerby>
-Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a> <br>
-Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.2.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a>
-</section>
-</footer>
-<div class=pswp tabindex=-1 role=dialog aria-hidden=true>
-<div class=pswp__bg></div>
-<div class=pswp__scroll-wrap>
-<div class=pswp__container>
-<div class=pswp__item></div>
-<div class=pswp__item></div>
-<div class=pswp__item></div>
-</div>
-<div class="pswp__ui pswp__ui--hidden">
-<div class=pswp__top-bar>
-<div class=pswp__counter></div>
-<button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+2022 鳴鈴</section><section class=powerby>Built with <a href=https://gohugo.io/ target=_blank rel=noopener>Hugo</a><br>Theme <b><a href=https://github.com/CaiJimmy/hugo-theme-stack target=_blank rel=noopener data-version=3.2.0>Stack</a></b> designed by <a href=https://jimmycai.com target=_blank rel=noopener>Jimmy</a></section></footer><div class=pswp tabindex=-1 role=dialog aria-hidden=true><div class=pswp__bg></div><div class=pswp__scroll-wrap><div class=pswp__container><div class=pswp__item></div><div class=pswp__item></div><div class=pswp__item></div></div><div class="pswp__ui pswp__ui--hidden"><div class=pswp__top-bar><div class=pswp__counter></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
 <button class="pswp__button pswp__button--share" title=Share></button>
 <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-<div class=pswp__preloader>
-<div class=pswp__preloader__icn>
-<div class=pswp__preloader__cut>
-<div class=pswp__preloader__donut></div>
-</div>
-</div>
-</div>
-</div>
-<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-<div class=pswp__share-tooltip></div>
-</div>
-<button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-</button>
-<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-</button>
-<div class=pswp__caption>
-<div class=pswp__caption__center></div>
-</div>
-</div>
-</div>
-</div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous>
-</main>
-<aside class="sidebar right-sidebar sticky">
-<section class="widget archives">
-<div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg>
-</div>
-<h2 class="widget-title section-title">Table of contents</h2>
-<div class=widget--toc>
-<nav id=TableOfContents>
-<ol>
-<li><a href=#破題>破題</a></li>
-<li><a href=#怎樣>怎樣？</a>
-<ol>
-<li><a href=#概率>🎲概率</a></li>
-<li><a href=#緩衝區>🌊緩衝區</a></li>
-<li><a href=#互斥鎖>🔒互斥鎖</a></li>
-<li><a href=#引用計數>🔂引用計數</a></li>
-</ol>
-</li>
-</ol>
-</nav>
-</div>
-</section>
-</aside>
-</div>
-<script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
-<script>(function(){const a=document.createElement('link');a.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",a.type="text/css",a.rel="stylesheet",document.head.appendChild(a)})()</script>
-</body>
-</html>
+<button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button><div class=pswp__preloader><div class=pswp__preloader__icn><div class=pswp__preloader__cut><div class=pswp__preloader__donut></div></div></div></div></div><div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap"><div class=pswp__share-tooltip></div></div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+<button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button><div class=pswp__caption><div class=pswp__caption__center></div></div></div></div></div><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo=" crossorigin=anonymous defer></script><script src=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU=" crossorigin=anonymous defer></script><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css integrity="sha256-c0uckgykQ9v5k+IqViZOZKc47Jn7KQil4/MP3ySA3F8=" crossorigin=anonymous><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE=" crossorigin=anonymous></main><aside class="sidebar right-sidebar sticky"><section class="widget archives"><div class=widget-icon><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentcolor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z"/><line x1="5" y1="9" x2="19" y2="9"/><line x1="5" y1="15" x2="19" y2="15"/><line x1="11" y1="4" x2="7" y2="20"/><line x1="17" y1="4" x2="13" y2="20"/></svg></div><h2 class="widget-title section-title">Table of contents</h2><div class=widget--toc><nav id=TableOfContents><ol><li><a href=#破題>破題</a></li><li><a href=#怎樣>怎樣？</a><ol><li><a href=#概率>🎲概率</a></li><li><a href=#緩衝區>🌊緩衝區</a></li><li><a href=#互斥鎖>🔒互斥鎖</a></li><li><a href=#引用計數>🔂引用計數</a></li></ol></li></ol></nav></div></section></aside></div><script src=https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g=" crossorigin=anonymous defer></script><script type=text/javascript src=/ts/main.js defer></script>
+<script>(function(){const e=document.createElement("link");e.href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap",e.type="text/css",e.rel="stylesheet",document.head.appendChild(e)})()</script></body></html>
