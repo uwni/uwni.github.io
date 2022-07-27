@@ -5,17 +5,24 @@
 拙譯：
 實話說，戰爭什麼的最討厭了。我覺得人類互相屠戮之類的，甚至是人類歷史上最差的行爲。簡直是對資源和人力資本的浪費。 但是，對方是共匪。是侵害個人自由的集體主義者。我無法與共匪共戴天。即便是爲了在安全的後方過一帆風順的人生也應該拿起槍來。
 辛丑年七月十三 明天目標: 把 Gnome 換成 KDE
-detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年七月初七 今天是乞巧節耶. 許什麼願好呢. 但是說出來的話好像就不靈了耶.
-detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年七月初四 明明不是很餓，爲什麼還是想要喫好喫的東西呢。爲什麼呢。
-detailssummary { list-style: none; } detailssummary::-webkit-details-marker { display: none; } 辛丑年六月廿八 今天從 AwesomeWM 跳到 Gnome 啦!</description></item><item><title>About &amp; Comments</title><link>https://ming.ling.moe/about-comments/</link><pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/about-comments/</guid><description>關於敝站
-敝站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog。 驅動自 Hugo, 左列所有功能完全基於 Github 部署, 不使用任何第三方伺服器与資料庫.
+辛丑年七月初七 今天是乞巧節耶. 許什麼願好呢. 但是說出來的話好像就不靈了耶.
+辛丑年七月初四 明明不是很餓，爲什麼還是想要喫好喫的東西呢。爲什麼呢。
+辛丑年六月廿八 今天從 AwesomeWM 跳到 Gnome 啦! Gtk 4 能修復窗口下沿圓角真是了不起, 希望小狐狸也能快快升級到 Gtk 4！
+辛丑年六月廿七 還好護照辦的早. 哈↑哈↑哈↑
+辛丑年六月二十 「野蠻永遠戰勝不了文明 &amp;hellip; 元朝入主中原滿打滿算九十年又廽草原放羊去了」 &amp;mdash;&amp;mdash; 袁騰飛
+歷史或許如此，但胡塵之中，又有幾多遺民能等到那天？
+辛丑年六月初十 「在那種指手畫腳的衝動之上，理智顯得尤其重要」 &amp;mdash;&amp;mdash; 劉大可
+vscode 要求更新本地化的語言包了. 爲什麼中文化之後，很多功能反而不知道什麼意思了.
+辛丑年六月初九 かわいくなりたい&amp;hellip; 有什麼策略可以在 blog 站裏合理地插入表情呢. 不能使用 inline 風格, 因爲這樣就很難看清表情是什麼內容. 似乎也不好和圖片一樣佔用很大的縱向空間. 唔&amp;hellip;
+辛丑年六月初六 梦弘浏览器，很難不支持</description></item><item><title>About &amp; Comments</title><link>https://ming.ling.moe/about-comments/</link><pubDate>Sun, 07 Jun 2020 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/about-comments/</guid><description>關於敝站 敝站原名問題屋，爲數位化習題集，現爲鳴鈴的 weblog。 驅動自 Hugo, 左列所有功能完全基於 Github 部署, 不使用任何第三方伺服器与資料庫.
 blog 程式 Hugo 持續整合 Github Actions 靜態頁面 Github Pages 留言 💎 giscus 關於敝站的構建流程，可見於此。
 格式 敝站使用十分高效的 $\KaTeX$ 作爲 $\LaTeX$ 公式渲染器. 中文排版基本按照中文文案排版指北的規範進行.
 關於敝站的格式標準化，可見於：
 留言 在每個有內容的頁面底部，您可以登入 Github 賬戶以發佈留言，留言支援 Markdown 語法.
-關於本人 自號「鳴鈴」，想成爲厲害的 Rustacan 與 Gopher，目前啃老中係無業遊民，無知且無能。
-❓爲何號「鳴鈴」：鐘聲徹千里, 鈴鳴留寸隙。因爲最喜歡「鐘」和「鈴」了，但「鈴」聽起來更可愛 (
-技能標籤 🦀Rust 🦫Go ☕Java Kotlin 🌕Lua
+興趣 🦀Rust 🦫Go ☕Java Kotlin 🌕Lua
 HTML CSS JavaScript TypeScript ⚛️React.js
 SQL 🥭MongoDB 🧱Redis
-📟STM32 HAL Siemens PLC LaTeX gRPC GraphQL</description></item><item><title>Archives</title><link>https://ming.ling.moe/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/archives/</guid><description/></item><item><title>朋友</title><link>https://ming.ling.moe/links/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/links/</guid><description/></item><item><title>Search</title><link>https://ming.ling.moe/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/search/</guid><description/></item></channel></rss>
+📟STM32 HAL Siemens PLC LaTeX gRPC GraphQL
+Electron git 🪶Maven 🐘Gradle
+官話(zh-Hant) 日本語(ja) English(en-US)
+信仰 環境 🚪ArchLinux AwesomeWM ♾️Visual Studio Code JetBrains ⛏️Minecraft ㄓRIME</description></item><item><title>Archives</title><link>https://ming.ling.moe/archives/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/archives/</guid><description/></item><item><title>朋友</title><link>https://ming.ling.moe/links/</link><pubDate>Tue, 28 May 2019 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/links/</guid><description/></item><item><title>Search</title><link>https://ming.ling.moe/search/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://ming.ling.moe/search/</guid><description/></item></channel></rss>
